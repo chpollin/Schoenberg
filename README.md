@@ -1,2 +1,2 @@
 # Schoenberg
-Arbold Schönberg Briefedition - Prototyp
+Arnold Schönberg Briefedition - Prototyp
