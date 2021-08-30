@@ -5,9 +5,9 @@
         <orgName type="reg">Nationaltheater Mannheim</orgName>
         <location xml:id="xxx">
             <!-- wozu braucht man das location Element? -->
-            <!-- CP: hier erlaubt es TEI allgemeiner zu sein: location könnte jede räumliche zuordnung sein; mit den kindelementen wird dies weiter spezifiiert.  -->
+            <!-- CP: hier erlaubt es TEI allgemeiner zu sein: location könnte jede räumliche zuordnung sein; mit den kindelementen wird dies weiter spezifiiert. -->
             <address>
-                <settlement key="xxx">Mannheim</settlement><!-- key aus Ortsregister einfügen -->
+                <settlement >Mannheim</settlement><!-- key aus Ortsregister einfügen -->
                 <note>Schillerplatz</note>
             </address>
         </location>
