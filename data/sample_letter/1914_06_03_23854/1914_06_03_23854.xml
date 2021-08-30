@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Y:/data/projekte/Sch%C3%B6nberg/schema/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 
+    * was ist telota:doctype="letter avhr" ?
+    * welche xml:id ?
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
+    telota:doctype="letter avhr" xml:id="letter.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- warum @type="writingSession" ? ist das immer eine neue page? lieber mit pb die seiten? -->
+            <div type="writingSession">
+                <pb n="1" xml:id="p.1"/>
+                <!-- stamp - [Briefkopf Geidel] -->
+                <dateline>Leipzig, den 3. Juni 1914.</dateline>
+                <!-- CP: wie genau soll das "Textbild" nachgebaut werden?  -->
+                <opener> Verehrl. Universal-Edition, A.-G., Wien. </opener>
+                <!-- mit span @rend left; span @rend center; span @rend right -->
+                <opener> Verehrl.<lb/> Universal-Edition,<lb/> A.-G., Wien. </opener>
+                <p> Mit gleicher Post übersende ich Ihnen 2 Abzüge einer Probeseite aus der
+                    Orchesterpartitur Schönberg. Ich hoffe, alles nach Wunsch des Autors ausgeführt
+                    zu haben und bitte um recht baldigen Bescheid, ob ich damit weiter arbeiten
+                    lassen kann. </p>
+                <p> Ich möchte hierzu noch bemerken, dass die Einteilung des Manuskriptes es mit
+                    sich bringt, dass ich gezwungen bin, ab und zu verhältnismässig wenig Linien auf
+                    eine Platte zu bringen, um unmittelbar im Anschluss daran wieder eine Platte mit
+                    Doppelsystemen einrichten zu können. Ich bitte beim Autor anzufragen, 1. * ob in
+                    diesem <hi rendition="#u">Falle bei geeigneten Instrumenten, wo im</hi> Manuskript mehrere auf eine
+                    Linie zusammen gezogen sind, ein Auseinanderziehen in einzelnen Instrumenten
+                    vorgenommen werden kann, um zu vermeiden, dass plötzlich auf eine sehr enge
+                    Platte mit 34 Linien eine sehr weite mit 18 oder 20 Linien folgt. Umgedreht
+                    macht es sich notwendig, in einzelnen Fällen, 2. * dass 2 gleichartige
+                    Instrumentenlinien auf eine Linie zusammengezogen werden, um eine 2systemige
+                    Platte einrichten zu können und dabei die Höchstzahl der Linien, 34, nicht zu
+                    überschreiten. Einer kurzen Rückantwort hierüber sehe ich entgegen. </p>
+                <p>
+                    <hi rendition="#u">Beethoven-Schenker</hi>. Korrektur der Vorbemerkung hoffe ich
+                    im Laufe dieser Woche auszusetzen; durch die vielen Feiertage hat sich leider
+                    die Fertigstellung dieser Arbeit etwas verzögert. </p>
+                <closer>
+                    <!-- @hand xml:id von Arnold Schönberg -->
+                    <note place="left" hand="#Schönberg">Das ist eine Anmerkung
+                        am unteren Rand durch eine unbekannte
+                        Person</note>
+                    <salute>Hochachtungsvoll</salute> ppa. F. M. Geidel<lb/>
+                    <signed>Johannes Geidel</signed>
+                </closer>
+                <pb n="2" xml:id="p.2"/>
+                <!-- CP: hier darf kein <p> mehr sein... ? -->
+                <!--Ich habe geglaubt, Ihre Fragen deutlich und klar beantwortet zu haben. Nun sehe ich mit Bedauern, dass Sie meine ausführlichen Auseinandersetzungen nicht genügend beachtet haben. 
+                Ich schrieb wörtlich: 
+                „Es ist gar kein Unglück, sieht auch besser aus und ist lesbarer, wenn auf einer einsystemigen Platte nur 24 cm der ¬¬¬Höhe bedruckt sind, als wenn Ueberflüssiges dort steht. Die Partituren dienen einzig und allein praktischen Zwecken und je besser sie denen entsprechen, desto schöner sind sie. Jede andere Schönheit ist Mumpitz.“
+                Ich habe geglaubt, dass dieser Hinweis:
+                Lesbarkeit = Schönheit
+                von Ihnen zur Kenntnis genommen werden wird. 
+                Ich habe gedacht, Sie werden einsehen, dass die Partituren
+                für die Dirigenten und Musiker sind
+                und dass man denen die Mühe der Entzifferung so weit wie möglich zu erleichtern hat !!!
+                1 Deshalb ist es also durchaus nicht angebracht, durchaus falsch, 2 Stimmen die auf einer Zeile stehen können, auf 2 zu stechen !!
+                Insbesondere, da meist die Akkorde leichter zu lesen sind, wenn möglichst viel davon (2-3 Töne) in einer Zeile stehen.
+                Eine Ausnahme davon machen natürlich Zeilen, in denen zwei rhytmisch verschiedene Stimmen stehen z Bsp : Seite 3, Vcll , 2 Takt
+                [Notenbeispiel] das ist besser in 2 Zeilen: [Notenbeispiel]
+                oder: Seite 3; Takt 2 , Flöten
+                [Notenbeispiel]
+                oder Seite 4 , 2. System , 3. Takt, Fl u Pic
+                [Notenbeispiel] besser kl Fl. gr Fl. [Notenbeispiel]
+                aber Seite 8, 1. System, 4. Takt Solo Bc besser in 2 Zeilen (eventuell !!) 
+                dagegen sind folgende Stellen besser in einer Zeile als in 2:
+                Seite 6, Takt 5, die Br; | Seite 7, Takt 3, die Clar. und die Fag. | Seite 5, 1. System, Takt 1 die Ktrbsse | Seite 9, 2. Syst, 6. Takt, Ob und Klar
+                2. Zusammenziehungen nur bei Instrumenten der gleichen Gattung, die die gleiche Notierung haben !!! Schönberg 6./6. 1914
+                -->
+            </div>
+        </body>
+    </text>
+</TEI>

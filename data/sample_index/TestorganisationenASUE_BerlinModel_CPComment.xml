@@ -32,7 +32,6 @@
                             <!-- key aus Ortsregister einfügen -->
                             <note>Schillerplatz</note>
                         </address>
-                        
                     </location>
                     <!-- CP das element hier ist ja wie das <note> bei den personen; hier sollte man vereinheitlichen; <desc> erscheint mit sinnvollr. -->
                     <!--<desc>eröffnet 1777; Der Intendant Carl Hagemann konnte dort ab 1906 mit einer
@@ -89,7 +88,7 @@
                 <org xml:id="automatisch4">
                     <orgName type="reg">Staatlich genehmigte Gesellschaft der Autoren, Komponisten
                         und Musikverleger</orgName>
-                    <!-- -->
+                    <!-- CP: ja, lau TEI Guidlines passt das so, https://tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#index-egXML-d53e108203  -->
                     <!--<orgName type="acronym">AKM</orgName>-->
                     <location>
                         <address>
