@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/avh_REGISTER.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de"
+    ww:doctype="ah_personenregister">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Adressstempel:
+            Arnold Schönberg
+            Wien, XIII.
+            Hietzinger Hauptstrasse 113 -->
+            <listPlace>
+                <!-- cp: type="settlement" -->
+                <place xml:id="automatisch1">
+                    <idno type="uri">http://www.geonames.org/2761369</idno>
+                    <placeName type="reg">Wien</placeName>
+                </place>
+                <!-- CP: type="district" -->
+                <place xml:id="automatisch2">
+                    <idno type="uri">http://www.geonames.org/2776421</idno>
+                    <placeName type="reg">XIII</placeName>
+                    <placeName type="alt">Hietzing</placeName>
+                </place>
+                <place xml:id="automatisch3" type="street">
+                    <placeName type="reg">Hietzinger Hauptstrasse</placeName>
+                </place>
+                <!-- CP: type="country" -->
+                <place xml:id="automatisch4">
+                    <idno type="uri">http://www.geonames.org/2782113</idno>
+                    <placeName type="reg">Österreich</placeName>
+                </place>
+                <place xml:id="automatisch5" type="building">
+                    <placeName type="reg">Hietzinger Hauptstrasse 113</placeName>
+                    <!-- CP: überlegen, ob es wirklich gebraucht wird oder ob man es anders modellieren könnte. -->
+                    <!-- <district key="xxx">Hietzing</district>
+                    <settlement key="xxx">Wien</settlement>
+                    <country key="AT"/>-->
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
