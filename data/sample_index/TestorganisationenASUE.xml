@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listOrg>
+    <org xml:id="automatisch1" type="theatre">
+        <idno type="GND">30656-3</idno>
+        <orgName type="reg">Nationaltheater Mannheim</orgName>
+        <location xml:id="xxx">
+            <!-- wozu braucht man das location Element? -->
+            <address>
+                <settlement key="xxx">Mannheim</settlement><!-- key aus Ortsregister einfügen -->
+                <note>Schillerplatz</note>
+            </address>
+        </location>
+        <desc>eröffnet 1777; Der Intendant Carl Hagemann konnte dort ab 1906 mit einer Verjüngung
+            des Ensembles und des Repertoires Akzente setzen, eine Aufführung von Schönbergs
+            Monodram Erwartung op. 17 war geplant.</desc>
+    </org>
+    <org xml:id="automatisch2" type="ensemble">
+        <idno type="GND">5075574-2</idno>
+        <orgName type="reg">Kolisch-Quartett</orgName>
+        <orgName type="alt">Wiener Streichquartett</orgName>
+        <location xml:id="xxx">
+            <address>
+                <settlement key="xxx">Wien</settlement>
+            </address>
+        </location>
+        <desc>gegründet 1921; zunächst Wiener Streichquartett, erst ab 1931 offiziell unter dem
+            Namen Kolisch-Quartett, bestand bis 1944. Die Gründung des Streichquartetts ging aus der
+            Probenarbeit für die Konzerte des Vereins für musikalische Privataufführungen hervor, zu
+            dessen Vortragsmeistern Rudolf Kolisch gehörte. Das Quartett musizierte als erstes
+            klassische Literatur auswendig, eine Konsequenz des gemeinsamen Studiums aus Partituren,
+            und spielte Uraufführungen von Streichquartetten Schönbergs (Nr. 3 und 4), Weberns,
+            Bergs und Bartoks. Mitglieder: Violine 1: Rudolf Kolisch (1921–1944) Violine 2: Jaromir
+            Czerny (1921–1922), Gustav Kinzel (1922), Oskar Fitz (1922–1923), Fritz Rothschild
+            (1924–1927), Felix Khuner (1927–1941), Daniel Guilevitch (1941–1943), Lorna Freedman
+            (1943–1944) Viola: Othmar Steinbauer (1921–1922), Herbert Duesberg (1922–1923), Marcel
+            Dick (1924–1927), Eugen Lehner (1927–1939), Jascha Veissi (1939–1941), Kurt Frederick
+            (1941–1942), Ralph Hersh (1942–1943), Bernhard Milofsky (1943–1944) Violoncello: Erik
+            Skeel-Görling (1921–1922), Wilhelm Winkler (1922–1923), Joachim Stutschewsky
+            (1924–1927), Benar Heifetz (1927–1939), Stefan Auber (1939–1941), Fritz Magg
+            (1942–1943), Janos Scholz (1943–1944), Stefan Auber (1944)</desc>
+    </org>
+    <org xml:id="automatisch3" type="publisher">
+        <idno type="GND">106428518X</idno>
+        <orgName type="reg">Tischer &amp; Jagenberg</orgName>
+        <location xml:id="xxx">
+            <address>
+                <settlement key="xxx">Köln</settlement>
+            </address>
+        </location>
+        <desc>Musikverlag, gegründet 1909 in Köln von Gerhard Tischer mit einem Schwerpunkt auf
+            kleinbesetzter zeitgenössischer Musik. Dort erschien 1912 Schönbergs Chorstück Friede
+            auf Erden op. 13, die weitere Beziehung zwischen dem Verlag und Schönberg war geprägt
+            von einem Konflikt um fehlende bzw. falsche Abrechnungen. Es kam deshalb zu keiner
+            weiteren Zusammenarbeit.</desc>
+    </org>
+    <org xml:id="automatisch4" type="collecting society">
+        <orgName type="reg">Staatlich genehmigte Gesellschaft der Autoren, Komponisten und
+            Musikverleger</orgName>
+        <orgName type="acronym">AKM</orgName>
+        <location xml:id="xxx">
+            <address>
+                <settlement key="xxx">Wien</settlement>
+                <note>Baumannstrasse 8, 1030</note>
+            </address>
+        </location>
+        <desc>gegründet 1897; Schönberg war Mitglied von April 1910 bis Dezember 1912.</desc>
+    </org>
+    <org xml:id="automatisch5" type="agency">
+        <idno type="GND">10196512-6</idno>
+        <orgName type="reg">Konzertdirektion Hermann Wolff</orgName>
+        <location xml:id="xxx">
+            <address>
+                <settlement key="xxx">Berlin</settlement>
+            </address>
+        </location>
+        <desc>gegründet 1880 von Hermann Wolff, nach dessen Tod 1902 weitergeführt
+            von dessen Witwe Louise Wolff. Diese war involviert in die Planung der Berliner
+            Erstaufführung der Gurrelieder, die allerdings nach einem Streit zwischen Schönberg und
+            dem Dirigenten der geplanten Aufführung, Siegfried Ochs, nicht zustande kam.</desc>
+    </org>
+    <org xml:id="automatisch6" type="journal">
+        <orgName type="reg">Musikblätter des Anbruch</orgName>
+        <orgName type="alt">Anbruch</orgName>
+        <orgName type="alt">Österreichische Zeitschrift für Musik</orgName>
+        <location xml:id="xxx">
+            <address>
+                <settlement key="xxx">Wien</settlement>
+            </address>
+        </location>
+        <desc>erschienen 1919–1937 in der UE als Monats- bzw. Halbmonatsschrift (ab 1929 nur noch
+            als Anbruch, ab 1935 als Österreichische Zeitschrift für Musik). Prägend auf Seiten der
+            Redaktion waren Otto Schneider, Alfred Kalmus, Paul Amadeus Pisk und Paul Stefan;
+            führende Komponisten und Musik-Intellektuelle (Paul Bekker, Franz Schreker, Theodor W.
+            Adorno, Hans Heinz Stuckenschmidt) steuerten regelmäßig analytische, theoretische und
+            ästhetische Texte bei. Ab der Septemberausgabe 1930 wurde die andere große
+            Zeitschriftenpublikation der UE, Pult und Taktstock, mit dem Anbruch fusioniert. In den
+            1930er Jahren gerät die Zeitschrift immer mehr unter ideologischen Druck, viele Autoren
+            und Redakteure emigrieren.</desc>
+    </org>
+</listOrg>

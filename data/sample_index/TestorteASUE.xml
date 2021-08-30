@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Adressstempel:
+Arnold Schönberg
+Wien, XIII.
+Hietzinger Hauptstrasse 113 -->
+<listPlace>
+    <place xml:id="automatisch1" type="settlement">
+        <idno type="uri">http://www.geonames.org/2761369</idno>
+        <placeName type="reg">Wien</placeName>
+    </place>
+    <place xml:id="automatisch2" type="district">
+        <idno type="uri">http://www.geonames.org/2776421</idno>
+        <placeName type="reg">XIII</placeName>
+        <placeName type="alt">Hietzing</placeName>
+    </place>
+    <place xml:id="automatisch3" type="street">
+        <placeName type="reg">Hietzinger Hauptstrasse</placeName>
+    </place>
+    <place xml:id="automatisch4" type="country">
+        <idno type="uri">http://www.geonames.org/2782113</idno>
+        <placeName type="reg">Österreich</placeName>
+    </place>
+    <place xml:id="automatisch5" type="building">
+        <placeName type="reg">Hietzinger Hauptstrasse 113</placeName>
+        <district key="xxx">Hietzing</district>
+        <settlement key="xxx">Wien</settlement>
+        <country key="AT"/>
+    </place>
+</listPlace>

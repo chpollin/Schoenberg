@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter"
+    xml:id="irgendeine-ID">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><idno>Briefnummer</idno>Brieftitel</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Herausgebende Institution</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <!-- (Hier wird die Art der Textgrundlage bestimmt. Andere Optionen sind rend="notExtant", rend="concept", rend="copy", rend="print", rend="print-as-print")-->
+                    <msIdentifier>
+                        <institution>Archiv</institution>
+                        <collection>ggf. Sammlung</collection>
+                        <idno>generische Signatur</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Personen-ID">Name, Vorname vom Absender</persName>
+                    <!--<persName cert="low" key="Personen-ID">Name, Vorname vom Absender mit unsicherer Identifizierung</persName> -->
+                    <!--<orgName key="Organisation-ID">Organisationsname</orgName>-->
+                    <placeName>Schreibort</placeName>
+                    <!--<date when="1790-06-17" cert="high"/>Ich bin ein genaues Schreibdatum mit einer hohen Wahrscheinlichkeit-->
+                    <!--<date when="1790-06-17" cert="low"/>Ich bin ein genaues Schreibdatum mit einer niedrigen Wahrscheilichkeit-->
+                    <!--<date from="1790-06-17" to="1790-06-24" cert="high"/>Ich bin ein genauer Schreibzeitraum mit hocher Wahrscheinlickeit (niedrige Wahrscheinlichkeit siehe genauer Schreibzeitraum)-->
+                    <date notBefore="1790-06-16" notAfter="1790-06-21" cert="high"/> <!-- Ich in ein ungefährer Schreibzeitraum -->
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Personen-ID">Name, Vorname vom Empfänder</persName>
+                    <!--<orgName key="Organisations-ID">Organisationsname</orgName> Ich bin eine Organisation als Empfänger-->
+                    <!--<date when="1805-16-09" cert="high"/> Ich bin ein genaues Empfangsdatum mit einer hohen Wahrscheinlichkeit (niedrige Wahrscheinlichkeit siehe genauer Schreibzeitraum)-->
+                    <date notBefore="1805-07-15" notAfter="1805-07-19" cert="low"/> <!--Ich bin ein ungefähres Empfangsdatum mit einer niedrigen Wahrscheinlichkeit(Wahrscheinlichkeiten siehe genauer Schreibzeitraum)-->
+                </correspAction>
+                <correspContext>
+                    <!--<ref type="next" target="Brief-ID">Verweis auf einen vorrausgehenden Brief im Korrespondenzkontext mit internem Link</ref>-->
+                    <ref type="prev" target="Brief-ID">Verweis auf einen nachfolgender Brief im
+                        Korrespondenzkontext mit internem Link</ref>
+                    <!--<ref type="prev">Verweis auf einen vorrausgehenden Brief im Korrespondenzkontext in Textform</ref>-->
+                    <!--<ref type="next" >Verweis auf einen nachfolgenden Brief im Korrespondenzkontext
+                        in Textform</ref>-->
+                    <!--<ref type="prev"
+                        target="Das ist ein externer Link zu einem Verweis auf einen vorrausgehenden Brief im Korrespondenzkontext"
+                        >:Dies ist der Text zu einem Verweis auf einen vorrausgehenden Brief im
+                        Korrespondenzkontext</ref>-->
+                    <ref type="next"
+                        target="Das ist ein externer Link zu einem Verweis auf einen vorrausgehenden Brief im Korrespondenzkontext"
+                        >:Dies ist der Text zu einem Verweis auf einen nachfolgenden Brief im
+                        Korrespondenzkontext</ref>
+                </correspContext>
+                <note>Hallo ich bin eine Anmerkung zum Brief oder zur Datierung </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <address>
+                        <addrLine>Hier ist die Adresse zuhause.</addrLine>
+                    </address>
+                    <dateline>Ich bin die Datumszeile</dateline>
+                    <salute>Ich bin die Anrede. Meine liebe Person,</salute>
+                </opener>
+                <!-- Hier sind Beispiele zum Zeilenumbruch zuhause -->
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                    vero eos et accusam et justo duo dolores et ea rebum.
+                    <lb/><!-- <lb/> ist ein Zeilenumbruch -->Stet clita kasd gubergren, no sea
+                    takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                    consetetur sadip<lb break="no"
+                    /><!-- lb break="no" ist ein Zeilenumbruch im Wort -->scing elitr, sed diam
+                    nonumy eirmod tempor invi<g ref="#typoHyphen"/><lb break="no"
+                    /><!-- <g ref="#typoHyphen"/> setzt eine Trennzeichen und<lb break="no"> ist ein Zeilenumbruch-->dunt
+                    ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                    takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>Ich bin ein neuer Absatz.</p>
+            </div>
+            <div type="writingSession" n="2">
+                <p>
+                    <list type="bulleted">
+                        <item>
+                            <p>Das ist eine Liste</p>
+                        </item>
+                        <item>Das ist ein Listenpunkt.</item>
+                        <item>Das ist ein weiterer Listenpunkt.</item>
+                        <item>Das ist noch ein Listenpunkt.</item>
+                    </list>
+                </p>
+            </div>
+            <div type="writingSession" n="3">
+                <!-- Beispiele für Anmerkungen: --> 
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                    vero eos et accusam et justo duo dolores et ea rebum.<note place="right"
+                        hand="#author">Das ist eine Anmerkung am rechten Rand durch den Autor dieses
+                        Textes</note><!-- Anmerkungen können in den Formen: am am rechten Rand ("right"), am linken Rand ("left"), am oberen Rand ("mTop"), am unteren Rand ("mBottom" oder innerhalb einer Zeile angelegt ("inline") werden. Anmerkungen können vom Autor ("#author"), Empfänger ("#addressee"), ener Person im Register ("Personenindex") oder einer unbekannten Person ("#unknown") angelegt werden.-->
+                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                        voluptua.<note place="left" hand="#addressee">Das ist eine Anmerkung am
+                        linken Rand durch den Empfänger des Briefes</note>
+                    <!-- Für Formen der Anmerkungen siehe oben --> At vero eos et accusam et justo
+                    duo dolores et ea rebum<note place="mTop" hand="Personenindex">Das ist eine
+                        Anmerkung am oberen Rand durch eine Person aus dem
+                    Personenregister</note><!-- Für Formen der Anmerkungen siehe oben -->. Stet
+                    clita kasd gubergren<note place="mBottom" hand="#unknown">Das ist eine Anmerkung
+                        am unteren Rand durch eine unbekannte
+                    Person</note><!-- Für Formen der Anmerkungen siehe oben -->, no sea takimata
+                        sanctus<note place="inline" hand="#author">Das ist eine Anmerkung innerhalb
+                        einer Zeile durch den Autor des
+                    Textes.</note><!-- Für Formen der Anmerkungen siehe oben --> est Lorem ipsum
+                    dolor sit amet.</p>
+            </div>
+            <div type="writingSession" n="4">
+                <!-- Foliowechsel: -->
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <pb
+                        n="1"/><!-- Das ist ein Foliowechsel -->At vero eos et accusam et justo duo
+                    dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,<pb n="2"
+                        facs="URL des Digitalisats"/>
+                    <!-- Ich bin ein Foliowechsel mit der URL des Digitalisats --> consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo4<!-- Ich bin eine weitere Seiten- oder Blattzahl --> duo dolores et ea
+                    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                    sit amet.</p>
+                <!-- Unterstreichungen: -->
+                <p>Lorem <hi rendition="#u">Dieser Text ist einfach unterstrichen</hi>, consetetur
+                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                    magna aliquyam erat, sed diam voluptua. At vero eos et <hi rendition="#uu"
+                        >Dieser Text ist doppelt unterstrichen</hi> accusam et justo duo dolores et
+                    ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                    dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et <hi rendition="#mMM">Dieser Text
+                        ist am Rand angestrichen</hi> dolore magna aliquyam erat, sed diam voluptua.
+                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div type="writingSession" n="5">
+                <!-- Tilgungen: -->
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                    vero eos et accusam <del rendition="#ow">Dieser Text wurde durch Überschreibung
+                        des ursprünglichen Textes getilgt.</del> et justo duo dolores et ea rebum.
+                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod <del rendition="#s">Dieser Text wurde durchgestrichen.</del> tempor
+                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                    et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                        <del rendition="#erased">Dieser Text wurde wegradiert.</del> takimata
+                    sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div type="writingSession" n="6">
+                <!-- Hinzufügungen: -->
+                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                    dolor sit <subst>
+                        <del rendition="#ow">Dieser Text wurde durch Überschreibung des
+                            ursprünglichen Textes ersetzt.</del>
+                        <add place="superlinear">Das ist die Hinzufügung die über der Zeile
+                            eingetragen wurde.</add>
+                    </subst> amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                    et <subst>
+                        <del rendition="#ow">Dieser Text wurde durch Überschreibung des
+                            ursprünglichen Textes ersetzt.</del>
+                        <add place="sublinear">Das ist die Hinzufügung die unter der Zeile
+                            eingetragen wurde.</add>
+                    </subst> kasd gubergren, no sea takimata sanctus est Lorem ipsum <subst>
+                        <del rendition="#ow">Dieser Text wurde durch Überschreibung des
+                            ursprünglichen Textes ersetzt</del>
+                        <add place="intralinear">Das ist eine Hinzufügung die innerhalb der Zeile
+                            eingetragen wurde.</add>
+                    </subst>res et eaAt vero eos et accusam et justo duo dolores et ea rebum.<subst>
+                        <del rendition="#ow"> Dieser Text wurde durch Überschreibung des
+                            ursprünglichen Textes ersetzt.</del>
+                        <add place="across">Das ist eine Hinzufügung die über den ursprünglichen
+                            Text geschrieben wurde. </add>
+                    </subst>Ita kasdinvidunt ut labore et dolore magna aliquyam erat, sed diam
+                    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+                    kasd gubergren. <subst>
+                        <del rendition="#ow">Dieser Text wurde durch Überschreibung des
+                            ursprünglichen Textes ersetzt</del>
+                        <add place="left">Das ist eine Hinzufügung die am linken Rand eingetragen
+                            wurde </add>
+                    </subst>n, no sea sea takimata sanctus est Lorem ipsum dolor sit amet takimata<subst>
+                        <del rendition="#ow"> Dieser Text wurde durch Überschreibung des
+                            ursprünglichen Textes ersetzt</del>
+                        <add place="right">Das ist eine Hinzufügung die am rechten Rand eingetragen
+                            wurde. </add>
+                    </subst>m ipsum dolor sit amet. <subst>
+                        <del rendition="#s">Dieser Text wurde durch Streichung des ursprünglichen
+                            Textes ersetzt</del>
+                        <add place="superlinear">Das ist eine Hinzufügung die über der Zeile
+                            eingetragen wurde </add>
+                        <!-- (Für weitere Arten der Hinzufügung siehe Überschreibungsbeispiele) -->
+                    </subst>, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                    et justo duo dolores et ea rebum. <subst>
+                        <del rendition="#erased">Dieser Text wurde durch Radierung ersetzt.</del>
+                        <add place="superlinear">Das ist eine Hinzufügung die über der Zeile
+                            eingetragen wurden</add> <!-- (Für weitere Arten der Hinzufügung siehe Überschreibungsbeispiele) -->
+                    </subst> stet clita kasd gubergren, no sea takimata.</p>
+            </div>
+            <div type="writingSession" n="7">
+                <p>Lorem ipsum dolor sit amet, <add place="superlinear">Ich bin eine Hinzufügung die
+                        über der Zeile eingetragen wurde. </add>consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore<add place="sublinear"> Ich bin eine
+                        Hinzufügung die unter der Zeile eingetragen wurde.</add> et dolore magna
+                    aliquyam erat <add place="intralinear">Ich bin eine Hinzufügung die innerhalb
+                        einer Zeile eingetragen wurde</add>, sed diam voluptua. At vero eos et <add
+                        place="across">Ich bin eine Hinzufügung die über den ursprünglichen Text
+                        geschreiben wurde </add>accusam et justo duo dolores et ea rebum. Stet clita
+                        <add place="left">Ich bin eine Hinzufügung die am linken Rand eingetragen
+                        wurde. </add>kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                    sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut labore et<add place="right">Ich bin eine
+                        Hinzufügung die am rechten Rand eingetragen wurde.</add> dolore magna <add
+                        place="mTop">Ich bin eine Hinzufügung die am oberen Rand eingetragen wurde.
+                        </add>aliquyam<add place="mBottom">Ich bin eine Hinzufügung die am unteren
+                        Rand eingetragen wurde.</add> erat, sed diam voluptua.</p>
+            </div>
+            <div type="writingSession" n="8">
+                <lg type="poem">
+                    <!-- Strophen: -->
+                    <lg n="1">
+                        <l>Ich bin eine Gedichstrophe</l>
+                    </lg>
+                    <lg n="2">
+                        <l>Ich bin eine Gedichtstrophe</l>
+                    </lg>
+                </lg>
+                <milestone unit="section" rendition="#hr"/>
+                <!-- Ich bin eine horizontale Trennlinie. -->
+            </div>
+            <div type="writingSession" n="9">
+                <head type="h1">Ich bin eine Überschrift</head>
+            </div>
+            <div>
+                <head type="h1" rendition="#c">Ich bin eine zentrierte Überschrift</head>
+            </div>
+            <div type="writingSession" n="10">
+                <!-- Zeilenumbruch: -->
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                    <lb/><!-- Ich bin ein Zeilenumbruch -->sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea taki<lb
+                        break="no"/><!-- Ich bin ein Zeilenumbruch im Wort -->mata sanctus est Lorem
+                    ipsum dolor sit amet. Lorem<g ref="#typoHyphen"/><lb break="no"
+                    /><!-- Ich bin ein Zeilenumbruch mit Trennzeichen --> ipsum dolor sit amet,
+                    consetetur sadipscing elitr.</p>
+            </div>
+            <div type="writingSession" n="11">
+                <!-- Tabelle: -->
+                <table rows="3" cols="4">
+                    <head>Tabellenüberschrift</head>
+                    <row role="label">
+                        <cell>Tabellen</cell>
+                        <cell>Header 2</cell>
+                        <cell>Header 3</cell>
+                        <cell>Header 4</cell>
+                    </row>
+                    <row>
+                        <cell>So</cell>
+                        <cell>kann</cell>
+                        <cell>eine</cell>
+                        <cell>Tabelle</cell>
+                    </row>
+                    <row>
+                        <cell>ausgefüllt</cell>
+                        <cell>werden</cell>
+                        <cell>…..</cell>
+                        <cell>Bla</cell>
+                    </row>
+                    <row>
+                        <cell>Blabla</cell>
+                        <cell>bla</cell>
+                        <cell>bla</cell>
+                        <cell>bla</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="writingSession" n="12">
+                <!-- Zeichnungen: -->
+                <figure facs="Zeichnungdatei" hand="#author">
+                    <p>Bildunterschrift des Autors</p>
+                    <figDesc>Wenn das ein Bild wäre, wäre das hier die Bildbeschreibung des
+                        Bearbeiters</figDesc>
+                </figure>
+            </div>
+            <div type="writingSession" n="13">
+                <!-- Hochstellung: -->
+                <p>Lorem ipsum dolor sit <hi rendition="#sup">Ich bin eine Hochstellung</hi>,
+                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+            </div>
+            <div type="writingSession" n="14">
+                <!-- normalisierte Schreibung: -->
+                <p>Lorem ipsum dolor sit amet, c<choice>
+                        <orig/>
+                        <reg>Ich bin eine normalisierte Schreibung</reg>
+                    </choice>onsetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam.</p>
+            </div>
+            <div type="writingSession" n="15">
+                <!-- Schriftartwechsel: -->
+                <p>Lorem ipsum dolor sit amet, <hi rendition="#aq">Ich bin ein Schriftartwechsel in
+                        Antiqua bzw. lateinischer Schrift</hi> sadipscing elitr, sed diam nonumy
+                        eirmod<hi rendition="#fr">Ich bin ein Schriftartwechsel in Fraktur bzw.
+                        Kurrent</hi> tempor invidunt ut labore et dolore magna aliquyam.</p>
+            </div>
+            <div type="writingSession" n="16">
+                <!--Spalten -->
+                <p>Lorem ipsum<cb n="2"/>
+                    <!-- ich bin eine Spalte (Normal), hier ist die Spaltennummer =2 -->dolor sit
+                        amet,sadip<cb type="start" n="1"
+                    /><!-- ich der Beginn eines Spaltensatzes, Spaltennummer =1 -->scing elitr, sed
+                    diam non<cb type="end" n="3"
+                    /><!-- ich bin das Ende eines Spaltensatzes, Spaltennummer =3-->umy eirmodtempor
+                    invidunt ut labore et dolore magna aliquyam.</p>
+            </div>
+            <div type="writingSession" n="17">
+                <!-- Fußnote: -->
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <note
+                        place="foot" n="Referenzzeichen">Fußnote mit Referenzzeichen</note> eirmod
+                    tempor invidunt ut labore et dolore magna aliquyam erat, sed.</p>
+            </div>
+            <div type="writingSession" n="18">
+                <!-- handschriftliche Anmerkung: -->
+                <p>Lorem ipsum dolor sit amet, consetetur<note type="handwritten" place="right"
+                        hand="#author">Ich bin eine handschriftliche Anmerkung (Ort der Anmerkung
+                        siehe Hinzufügungen)</note> sadipscing elitr, sed diam nonumy eirmod.</p>
+            </div>
+            <div type="writingSession" n="19">
+                <!-- kursiver Text: -->
+                <p><hi rendition="#i">Ich bin ein kursiver Text</hi>.</p>
+            </div>
+            <div type="writingSession" n="20">
+                <!-- Fettdruck: -->
+                <p>
+                    <hi rendition="#b">Ich bin ein Fettdruck</hi>.</p>
+            </div>
+            <div type="writingSession" n="21">
+                <!-- gesperrter Text: -->
+                <p><hi rendition="#g"> Ich bin ein gesperrter Text. </hi></p>
+            </div>
+            <div type="writingSession" n="22">
+                <!-- Absatz, Adresse oder Wörter als vorgedruckter Text: -->
+                <p rendition="#mPrint">Dieser Absatz/diese Adresse etc. ist ein vorgedruckter Text.
+                        <hi rendition="#mPrint">Wir sind vorgedruckte Wörter.</hi></p>
+            </div>
+            <div type="writingSession" n="23">
+                <!-- Einweisungszeichen: -->
+                <p>Ich bin ein Einweisungszeihen: <metamark/></p>
+            </div>
+            <div type="writingSession" n="24">
+                <!-- Absatz am Rand angestrichen: -->
+                <p rendition="#mMM">Ich bin ein Beispielabsatz mit Randanstreichung. Ich bin ein
+                    Beispielabsatz mit Randanstreichung. Ich bin ein Beispielabsatz mit
+                    Randanstreichung. Ich bin ein Beispielabsatz mit Randanstreichung. Ich bin ein
+                    Beispielabsatz mit Randanstreichung. Ich bin ein Beispielabsatz mit
+                    Randanstreichung. Ich bin ein Beispielabsatz mit Randanstreichung. Ich bin ein
+                    Beispielabsatz mit Randanstreichung. Ich bin ein Beispielabsatz mit
+                    Randanstreichung. Ich bin ein Beispielabsatz mit Randanstreichung. Ich bin ein
+                    Beispielabsatz mit Randanstreichung. Ich bin ein Beispielabsatz mit
+                    Randanstreichung. Ich bin ein Beispielabsatz mit Randanstreichung. Ich bin ein
+                    Beispielabsatz mit Randanstreichung. Ich bin ein Beispielabsatz mit
+                    Randanstreichung. Ich bin ein Beispielabsatz mit Randanstreichung. Ich bin ein
+                    Beispielabsatz mit Randanstreichung. Ich bin ein Beispielabsatz mit
+                    Randanstreichung. Ich bin ein Beispielabsatz mit Randanstreichung. Ich bin ein
+                    Beispielabsatz mit Randanstreichung. Ich bin ein Beispielabsatz mit
+                    Randanstreichung. </p>
+            </div>
+            <div type="writingSession" n="25">
+                <!-- Absatz eingerückt: -->
+                <p rendition="#et">Ich bin ein eingerückter Absatz. Ich bin ein eingerückter Absatz.
+                    Ich bin ein eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich bin ein
+                    eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich bin ein eingerückter
+                    Absatz. Ich bin ein eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich
+                    bin ein eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich bin ein
+                    eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich bin ein eingerückter
+                    Absatz. Ich bin ein eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich
+                    bin ein eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich bin ein
+                    eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich bin ein eingerückter
+                    Absatz. Ich bin ein eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich
+                    bin ein eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich bin ein
+                    eingerückter Absatz. Ich bin ein eingerückter Absatz. Ich bin ein eingerückter
+                    Absatz. Ich bin ein eingerückter Absatz. </p>
+            </div>
+            <div type="writingSession" n="26">
+                <!-- Liste eingerückt: -->
+                <p rendition="#et">
+                    <list type="bulleted">
+                        <item>Das ist eine eingerückte Liste</item>
+                        <item>Das ist eine eingerückte Liste</item>
+                        <item>Das ist eine eingerückte Liste.</item>
+                        <item>Das ist eine eingerückte Liste</item>
+                    </list>
+                </p>
+            </div>
+            <div type="writingSession" n="27">
+                <!-- Textpassage "erledigt": -->
+                <p><metamark function="used" spanTo="#umd_nn3_qpb">Diese Textpassae ist erledigt!
+                        Glückwunsch!</metamark><anchor type="used" xml:id="umd_nn3_qpb"/></p>
+            </div>
+            <div type="writingSession" n="28">
+                <!-- Tabelle implizit bzw. explizit gezeichnet: -->
+                <table rows="3" cols="4" rend="drawn">
+                    <head>Diese Tabelle wurde gezeichnet</head>
+                    <row role="label">
+                        <cell>Tabellen</cell>
+                        <cell>Header 2</cell>
+                        <cell>Header 3</cell>
+                        <cell>Header 4</cell>
+                    </row>
+                    <row>
+                        <cell>die</cell>
+                        <cell>Tabelle</cell>
+                        <cell>wird</cell>
+                        <cell>mit </cell>
+                    </row>
+                    <row>
+                        <cell>dem</cell>
+                        <cell>Attribut</cell>
+                        <cell>rend="drawn"</cell>
+                        <cell>gekennzeichnet</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="writingSession" n="29">
+                <!-- In diesem Absatz werden Stellen markiert die aus verschiedenen Gründen unleserlich sind: -->
+                <p><unclear reason="illegible" cert="low">Hier ist der Text schwer leserlich, weil
+                        die Handschrift unleserlich ist. Die Wahrscheinlichkeit, dass der Text
+                        richtig gelesen wurde ist
+                        "low"<!--"high" wahrscheinlichkeit auch möglich --></unclear>. Text, Text
+                    und <unclear reason="covered" cert="high">hier ist der Text schwer leserlich,
+                        weil er überzeichnet oder überschrieben wurde. Die Wahrscheinlichkeit wurde
+                        als "high"
+                    eingestuft<!--"low" wahrscheinlichkeit auch möglich --></unclear>. Im Falle
+                    einer Unleserlichkeit durch Streichung mit anschließender Ersetzung werden zwei
+                    ediarum-Funktionen kombiniert, z.B. ist dieser <subst>
+                        <del rendition="#s"><unclear reason="covered" cert="high">Text schwer
+                                leserlich weil er durchgestrichen wurde</unclear></del>
+                        <add place="superlinear"> und eine Ergänzung über der Zeile eingefügt
+                            wurde.</add>
+                    </subst> Weitere Beispiele für Streichungen sind unter Tilgungen/Hinzufügungen
+                    (Oben) zu finden. </p>
+            </div>
+            <div type="writingSession" n="30">
+                <!-- Bei Verluste, Leerräume oder nicht leserlicher Text: -->
+                <p>Bei Verluste im Text wird zwischen Zeichen, Wörter, Zeilen und Seiten
+                    unterschieden. In allen Fällen wird die Anzahlt Notiert. Hier gab es z.B. ein
+                    Verlust von drei Zeic<gap reason="lost" unit="chars" quantity="3"/>. Danach
+                    wurde eine ganze Zeile zerstört: <gap reason="lost" unit="lines" quantity="1"/>.
+                    Hier wird der Verlust von zwei Seiten markiert: <gap reason="lost" unit="pages"
+                        quantity="2"/>. Manchmal werden auch Wörter zerstört. Hier fehlen gleich
+                    zwei: "Hallo <gap reason="lost" unit="words" quantity="2"/>, wie geht es dir?".
+                    <lb/>Bei einem Leerraum, komplett unleserlicher Text, Überschreibungen,
+                    entzifferbarer fremdsprachlicher Text und unwichtiger Text für das Korpus wird
+                    gleich gehandelt:<lb/>Hier ist ein Leerraum <gap reason="empty" unit="chars"
+                        quantity="6"/> wo sechs Zeichen fehlen. In diesem Leerraum <gap
+                            reason="empty" unit="lines" quantity="6"/>fehlen sechs Zeilen. Hier <gap
+                                reason="empty" unit="pages" quantity="6"/> ist ein Leerraum von sechs
+                    Seiten. Zum Schluss gibt es noch einen Leerraum <gap reason="empty" unit="words"
+                        quantity="6"/>bestehend auch sechs Wörter.<lb/>Hier <gap reason="illegible"
+                            unit="chars" quantity="4"/> sind vier komplett unleserliche Zeichen. Jetzt
+                    sind es vier unlerserliche Zeilen <gap reason="illegible" unit="lines"
+                        quantity="4"/>. Hier sind vier unleserliche Seiten 1,2,<gap
+                            reason="illegible" unit="pages" quantity="4"/>,7,8,9. Zum Schluss gibt es
+                    noch vier unleserliche <gap reason="illegible" unit="words" quantity="4"
+                    />Wörter.<lb/>Hier wurden zwei Z<gap reason="covered" unit="chars" quantity="2"
+                    />chen überschrieben. Hier die zwei Zeilen <gap reason="covered" unit="lines"
+                        quantity="2"/> die überschrieben wurden. Nur zwei Seiten wurden
+                    überschrieben 1,2,3, <gap reason="covered" unit="pages" quantity="2"/>,6,7.
+                    Wörter wurden auch überschrieben, <gap reason="covered" unit="words"
+                        quantity="2"/>zwei stück.<lb/>Bei Fremdsprachen kann es auch vorkommen, dass
+                    drei Zeichen <gap reason="fm" unit="chars" quantity="3"/>, vier Zeilen <gap
+                        reason="fm" unit="lines" quantity="4"/>, fünf Seiten <gap reason="fm"
+                            unit="pages" quantity="5"/>, oder sechs Wörter <gap reason="fm" unit="words"
+                                quantity="6"/> unleserlich sind. <lb/>Hier sind sechs Zeichen <gap
+                                    reason="insignificant" unit="chars" quantity="6"/> die für das Korpus
+                    unwichtig sind. An dieser Stelle <gap reason="insignificant" unit="lines"
+                        quantity="5"/> sich fünf Zeilen unwichtig. Hier sind wiederum zwei Seiten
+                    1,2,3,<gap reason="insignificant" unit="pages" quantity="2"/>,6 für das
+                    Korpus unwichtig. Zum Schluss gibt es drei Wörter <gap reason="insignificant"
+                        unit="words" quantity="3"/> die nicht wichtig sind. <lb/>Wenn eine
+                    Durchstreichung die Ursache für unleserlicher Text ist wird angegeben wie viele
+                    Wörter nicht entzifferbar sind. Das Resultat sieht so <del rendition="#s"><gap
+                        reason="illegible" quantity="7" unit="words"/></del> aus. </p>
+            </div>
+            <div type="writingSession" n="31">
+                <!-- Ergänzungen des Herausgebers: -->
+                <p>Bei abgekürzten Wörtern gibt es zwei mögliche Vorgehensweisen. Die Erste ist die
+                    Abkürzung zu ergänzen. So wird Jan. zu Jan<ex>uar</ex>, Feb. zu Feb<ex>ruar</ex>
+                    etc.</p>
+            </div>
+            <div type="writingSession" n="32">
+                <!-- Fehlende Wörter, Buchstaben oder Satzzeichen: -->
+                <p>Wenn ein fehlendes Wort, Buchstabe oder Satzzeichen ergänzt wird muss die
+                    Wahrscheinlichkeit, dass die Ergänzung zutrifft ausgewählt werden. Ich bin
+                    <supplied cert="high">eine Ergenzung mit hoher Wahrscheinlichkein</supplied>
+                    . Im Vergleich ist er <supplied cert="low">eine Ergenzung mit niedriger
+                        Wahrscheinlichkeit</supplied>. </p>
+            </div>
+            <div type="writingSession" n="33">
+                <!-- Streichungen durch den Herausgeber: -->
+                <p>Ohje, in diesem Abschritt gibt <choice>
+                    <sic>gibt</sic>
+                    <corr type="deleted"/>
+                </choice> es viele <choice>
+                    <sic>viele viele</sic>
+                    <corr type="deleted"/>
+                </choice> überflüssige Wörter <choice>
+                    <sic>Wörter</sic>
+                    <corr type="deleted"/>
+                    <corr>,</corr>
+                </choice> die von den HerausgeberInnen gelöscht <choice>
+                    <sic>gelöscht gelöscht gelöscht</sic>
+                    <corr type="deleted"/>
+                </choice> werden müssen.</p>
+            </div>
+            <div type="writingSession" n="34">
+                <!-- Korrekturen durch den Herausgeber: -->
+                <p>Jeder macht Fehler. <choice>
+                        <sic>Ic bin ei Fehle</sic>
+                        <corr cert="high">Ich bin ein Fehler (Korrigiert mit hoher
+                            Wahrscheinlichkeit)</corr>
+                    </choice>. Du bist ein<choice>
+                        <sic> Felr</sic>
+                        <corr cert="medium">Fehler</corr>
+                    </choice> mit mittlerer Wahrscheinlichkein. Dann gibt es noch die richt <choice>
+                        <sic>grß eFlr</sic>
+                        <corr cert="low">großen Fehler</corr>
+                    </choice> mit niedriger Wahrscheinlichkeit.<lb/>Zusätzlich gibt es auch die
+                    Option Orginaltext in Normalisierter Schreibung wiederzugeben. <choice>
+                        <orig>Ich bín der Orginaltext</orig>
+                        <reg>Du die normalisierte Schreibung!</reg>
+                    </choice></p>
+            </div>
+            <div type="writingSession" n="35">
+                <head><!-- Sachanmerkung: --><lb/>Eine Sachanmerkung bezieht sich auf eine einzelne
+                    Passage des Textes, typischerweise einen oder mehrere Sätze. <seg type="comment">
+                        <orig>Ich bin die auserwählte Passage im Orginaltext</orig>
+                        <note xml:id="nc41_321_ppb"> und du bist meine Sachanmerkung!</note>
+                    </seg>
+                </head>
+            </div>
+            <div type="writingSession" n="36">
+                <!-- Verweise: -->
+                <p><anchor type="target" xml:id="start_ylj_yd1_ppb"/>Das ist der Anfang und mein
+                    Verweisziel<anchor type="target" xml:id="stop_ylj_yd1_ppb"/> sit amet,
+                    consectetur adipiscing elit. Nulla feugiat nisi nulla, eu efficitur lectus
+                    congue in. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                    fames ac turpis egestas. In scelerisque erat vel tempus lacinia. Vivamus
+                    condimentum, est vel blandit volutpat, risus ex placerat massa, in ultrices
+                    augue turpis id eros. <ref target="null">Hier will ich auf ein Brief
+                        verweisen!</ref> Duis quis egestas elit. Etiam mollis condimentum bibendum.
+                    Phasellus quis est id nisi imperdiet semper. Nulla quis gravida orci. Nulla
+                    facilisi. Aenean sodales, urna eu sollicitudin aliquam, enim ipsum aliquet
+                    augue, a facilisis erat dui sed ante. Integer placerat, mauris sit
+                    ametvestibulum,nibh mi pulvinar nisl, sed ullamcorper mauris quam nec dolor.
+                    <ref target="beispiel_document/#start_ylj_yd1_ppb">An dieser Stelle will ich
+                        auf den Anfang verweisen...</ref> es ac turpis egestas. In scelerisque erat
+                    vel tempus lacinia. Vivamus condimentum, est vel blandit volutpat, risus ex
+                    placerat massa, in ultrices augue turpis id eros. Duis quis egestas elit. <ref
+                        target="beispiel_document/#nc41_321_ppb">Hier Verweise ich auf eine
+                        Sachanmerkung.</ref> Etiam mollis condimentum bibendum. Phasellus quis est
+                    id nis.</p>
+            </div>
+            <div type="writingSession" n="37">
+                <!-- Datumsangaben: -->
+                <p>Hier kommte viel Text. Sit amet, consectetur adipiscing elit. Nulla feugiat nisi
+                    nulla, eu efficitur lectus congue in. Pellentesque habitant morbi tristique
+                    senectus et netus et malesuada fames ac turpis egestas. In scelerisque erat vel
+                    tempus lacinia. Vivamus condimentum, est vel blandit volutpat, risus ex placerat
+                    massa, in ultrices augue turpis id eros. An dieser Stelle geben wir ein genaues
+                    Datum an, Erst Gregorianisch: <date when="1809-04-23" calendar="#Gregorian"/> ,
+                    dann Julianisch: <date when="1809-05-28" calendar="#Julian"/>. Duis quis egestas
+                    elit. Etiam mollis condimentum bibendum. <date from="1805-12-12" to="1805-12-14"
+                        cert="high" calendar="#Gregorian"
+                    /><!-- ->Ich bin ein genauer Zeitraum mit hoher Wahrscheinlichkeit. Ich richte mich nach dem Gregorianischen Kalender.-->Phasellus
+                    quis est id nisi <date from="1805-12-13" to="1805-12-17" cert="low"
+                        calendar="#Gregorian"
+                    /><!-- ->Ich bin ein genauer Zeitraum mit niedriger Wahrscheinlichkeit. Ich richte mich nach dem Gregorianischen Kalender.-->imperdiet
+                    semper. Nulla quis gravida orci. Nulla facilisi. Aenean sodales, urna eu
+                    sollicitudin aliquam, enim ipsum aliquet augue, a facilisis erat dui sed ante.
+                    Integer placerat, mauris sit amet feugiat vestibulum, nibh mi pulvinar nisl, sed
+                    ullamcorper mauris quam nec dolo. Onsectetur adipiscing elit. Nulla feugiat nisi
+                    nulla, eu efficitur lectus congue in. Pellentesque habitant morbi tristique
+                    senectus et netus et malesuada fames ac turpis egestas. In scelerisque erat vel
+                    tempus lacinia. Vivamus condimentum, est vel blandit volutpat, risus ex placerat
+                    massa, in ultrices augue turpis id. <date from="1804-10-12" to="1804-10-15"
+                        cert="high" calendar="#Julian"/>
+                    <!-- ->Ich bin ein genauer Zeitraum mit hoher Wahrscheinlichkeit. Ich richte mich nach dem Julianischen Kalender.-->.
+                    Nulla quis gravida orci. Nulla facilisi. Aenean sodales, urna eu sollicitudin
+                    aliquam,<date from="1804-10-14" to="1804-10-16" cert="low"
+                        calendar="#Julian"/>
+                    <!-- ->Ich bin ein genauer Zeitraum mit niedriger Wahrscheinlichkeit. Ich richte mich nach dem Julianischen Kalender.-->
+                    enim ipsum aliquet augue, a facilisis erat dui sed ante. Onsectetur adipiscing
+                    elit. Nulla feugiat nisi nulla, eu efficitur lectus congue in. Pellentesque
+                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    In scelerisque erat vel tempus lacinia. Vivamus condimentum, est vel blandit
+                    volutpat, risus ex placerat massa, in ultrices augue turpis id. Onsectetur
+                    adipiscing elit. Nulla feugiat nisi nulla, eu efficitur lectus congue in.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                    turpis egestas. In scelerisque erat vel tempus lacinia. Vivamus condimentum, est
+                    vel blandit volutpat, risus ex placerat massa, in ultrices augue turpis id.
+                    Integer placerat, mauris sit<date notBefore="1807-10" notAfter="1807-12"
+                        cert="high" calendar="#Gregorian"
+                    /><!-- ->Ich bin ein ungefährer Zeitraum mit hoher Wahrscheinlichkeit. Ich richte mich nach dem Gregorianischen Kalender.-->
+                    amet feugiat vestibulum, nibh mi pulvinar nisl, sed ullam<date
+                        notBefore="1807-02-10" notAfter="1807-03-10" cert="low"
+                        calendar="#Gregorian"
+                    /><!-- ->Ich bin ein ungefährer Zeitraum mit niedriger Wahrscheinlichkeit. Ich richte mich nach dem Gregorianischen Kalender.-->corper
+                    mauris quam nec dolo. Onsectetur adipiscing elit. Nulla feugiat nisi nulla, eu
+                    efficitur lectus congue in. Pellentesque habitant morbi tristique senectus et
+                    netus et malesuada fames ac turpis egestas. In scelerisque erat vel tempus
+                    lacinia. Vivamus condimentum, est vel blandit volutpat, risus ex placerat massa,
+                    in ultrices augue turpis id. Onsectetur adipiscing elit. Nulla feugiat nisi
+                    nulla, eu efficitur lectus congue in. Pellentesque<date notBefore="1809-04"
+                        notAfter="1809-05" cert="high" calendar="#Julian"/>
+                    <!-- ->Ich bin ein ungefährer Zeitraum mit hoher Wahrscheinlichkeit. Ich richte mich nach dem Julianischen Kalender.-->
+                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                    turpis egestas. In scelerisque erat vel tempus lacinia. Vivamus condimentum, est
+                    vel blandit volutpat, risus ex placerat massa, in ultrices augue turpis id eros.
+                    In scelerisque erat vel tempus lacinia. Vivamus condimentum, est vel blandit
+                    volutpat, risus ex placerat massa, in ultrices augue <date
+                        notBefore="1810-06-11" notAfter="1810-07-23" cert="low" calendar="#Julian"/>
+                    <!-- ->Ich bin ein ungefährer Zeitraum mit niedriger Wahrscheinlichkeit. Ich richte mich nach dem Julianischen Kalender.-->turpis
+                    id.Onsectetur adipiscing elit. Nulla feugiat nisi nulla, eu efficitur lectus
+                    congue in. </p>
+            </div>
+            <div type="writingSession" n="38">
+                <!-- Fremdsprachiger Text: -->
+                <p>Bla bla bla bla bla bla bla bla a bla bla bla bla, a bla bla bla bla bla bla bla
+                    bla a bla bla bla bla. <foreign xml:lang="deu">Ich bin deutscher Text.</foreign>
+                    Bla bla bla bla bla bla bla bla a bla bla bla bla, a bla bla bla <foreign
+                        xml:lang="grc">ich bin griechischer Text</foreign> bla bla bla bla bla a bla
+                    bla bla bla.Bla bla bla bla bla bla bla <foreign xml:lang="Lat">du bist auf
+                        Latein</foreign> bla a bla bla bla bla, a bla bla bla bla bla bla bla bla a
+                    bla bla bla bla.Bla bla bla bla bla bla bla bla a bla bla bla bla, <foreign
+                        xml:lang="heb">er ist hebräischer Text</foreign> a bla bla bla bla bla bla
+                    bla bla a bla bla bla bla. <hi rendition="#aq">Hier ändert sich die Schrift zur
+                        lateinischen Schrift.</hi> Bla bla bla bla bla bla bla bla a bla bla bla
+                    bla, <foreign xml:lang="fra">dieser Abschnit ist auf Französisch!</foreign> a
+                    bla bla bla bla bla bla bla bla a bla bla bla bla. <foreign xml:lang="eng">I am
+                        written in English</foreign> Bla bla bla bla bla bla bla bla a bla bla bla
+                    bla, a bla bla bla bla bla bla bla bla a bla bla bla bla. <foreign
+                        xml:lang="rus">Ich bin auf Russsich geschrieben</foreign> Bla bla bla bla
+                    bla bla bla bla a bla bla bla bla, <hi rendition="#fr">An dieser Stelle wird zu
+                        Fraktur bzw. Kurrent gewächselt</hi> a bla bla bla bla bla bla bla bla a bla
+                    bla bla <foreign xml:lang="spa">dieser Text ist auf Spanisch </foreign>bla. Bla
+                    bla bla bla bla bla bla bla a bla bla bla bla, a bla bla bla bla bla bla bla bla
+                    a bla bla bla bla. </p>
+            </div>
+            <div type="writingSession" n="39">
+                <!-- Personen, Orte und Institutionen: -->
+                <p>Hier kommte viel Text. Sit amet, consrices augue turpis id eros. Nulla quis, eine
+                    Person wird mit <persName key="persons_id">Vorname Nachname</persName> gennant,
+                    gravida orci. Nulla facilisi. <persName key="persons_id">Max
+                        Mustermann</persName>, urna eu sollicitudin aliquam, enim ipsum aliquet
+                    augue, a flvinar nisl, sed ullamcorper mauris quam nec dolo. Onsectetur
+                    adipiscing elit. Der Ort ist <placeName key="place_id">Berlin!</placeName> Nulla
+                    feugiat nisi nulla, eu efficitur lectus congue in. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas. In scelerisque
+                    erat vel tempus lacinia. Vivamus condimentum, <persName key="ed_ehr_cyy_4pb"
+                        >Noch ein Name </persName>andit volutpat, risus ex placerat massa, <orgName
+                            key="organization_id">So heißt die Organisation</orgName> in ultrices augue
+                    turpis id. Wir sind die. Nulla quis gravida orci. Nulla facilisi. Aenean
+                    sodales, urna eu sollicitudin aliquam, enim ipsum aliquet augue, a facilisis
+                    erat dui sed ante. Integer placerat, mauris sit amet feugiat vestibulum, nibh mi
+                    pulvinar nisl, sed ullamcorper mauris quam nec dolo. Onsectetur adipiscing elit.
+                    Nulla feugiat nisi nulla, eu <bibl xmlns="http://www.tei-c.org/ns/1.0"
+                        sameAs="werk_id">Ich bin ein Werk!</bibl>efficitur lectus congue in. <bibl
+                            sameAs="ed_tjn_xkz_4pb">Hier ist noch ein Werk</bibl>. Pellentesque habitant
+                    morbi tristique <rs type="term" key="ed_eqm_wkz_4pb">!! ich bin ein Sachbegriff
+                        !!</rs>t netus et malesuada fames ac turpis egestas. In scelerisque erat vel
+                    tempus lacinia. Vivamus condimentum, est vel blandit volutpat, risus ex placerat
+                    massa, in ultrices augue turpis id. Nulla quis gravida orci. Nulla facilisi.
+                </p>
+            </div>
+            <div type="writingSession" n="40">
+                <!-- Textstellen indizieren: -->
+                <p>Wenn du auf <index spanTo="#iu31_lh1_ppb"
+                    indexName="persons" corresp="ed_ehr_cyy_4pb">
+                    <term>Name, Vorname (1-1)</term>
+                </index>ein Person in Index-Eintrag verweisen<anchor type="index"
+                    xml:id="iu31_lh1_ppb"/> willst sieht das so aus. Bei einem <index
+                        spanTo="#iplt_4h1_ppb" indexName="places" corresp="ed_l4y_tkz_4pb">
+                        <term>Berlin</term>
+                    </index>Verweis auf dem Ort-Index<anchor xml:id="iplt_4h1_ppb" type="index"/>
+                    oder einem <index spanTo="#inkw_rh1_ppb" indexName="bibl"
+                        corresp="ed_tjn_xkz_4pb">
+                        <term>Nachname des Autors, Titel der Publikation</term>
+                    </index>Verweis auf dem Werk-index<anchor type="index" xml:id="inkw_rh1_ppb"/>
+                    sieht es ähnlich aus... </p>
+            </div>
+            <div type="writingSession" n="41">
+                <!-- Symbole: -->
+                <p>Jetzt sind die Symbole dran!<lb/>Erst die Buchstaben: &#x00E3;, &#0230;, &#0198;,
+                    &#x00E7;, &#x00C7;, &#x229;, &#x00EB;, &#x00EF;, &#x0142;, &#x0141;, &#x144;,
+                    &#x00F1;, &#x00F8;, &#0339;, &#0338;, &#x0161;, &#x0160; <lb/>Hier sind die
+                    Bruchzahlen: ¼, ,½, ¾, ⅐, ⅑, ⅒, ⅓, ⅔, ⅕, ⅖, ⅖, ⅗, ⅘⅙, ⅚, ⅛, ⅜, ⅝, ⅞
+                    <!-- die Bruchzahlen 1/7, 1/9 und 1/10 werden nicht angezeigt --><lb/>Nun die
+                    Einheitenzeichen: &#x00A3;, &#x2032;, &#x2033;, &#x2034;<lb/>Es gibt nur vier
+                    einfache Symbole: &#x2609;, &#x263E;, &#x263D;, &#x25A1;<lb/>Das ist ein
+                    Kürzungsstrich: &#x0305;<lb/>Hier der Halbgeviertstrich &#8211; und der
+                    Geviertstrich &#8212;. Ganz zum Schluss noch die Auslassungspunkte
+                    &#8230;<lb/><lb/></p>
+            </div>
+            <div type="writingSession" n="42">
+                <!-- Anapher: -->
+                <p><rs type="person">Anapher einer Person, z.B. der Bundeskanzler</rs><lb/>
+                    <rs type="place">Ortsanapher</rs><lb/>
+                    <rs type="org">Anapher einer Institution</rs><lb/>
+                    <rs type="term">Anapher eines Sachbegriffs</rs><lb/>
+                    <rs type="bibl-zotero">Anapher eines Literaturtitels (Zotero)</rs><lb/>
+                    <rs type="bibl">Anapher eines Literaturtitels</rs>
+                </p>
+            </div>
+            <closer>
+                <!-- Das ist der closer des Briefs:-->
+                <dateline>Ich bin die Datumszeile im Briefschluss.</dateline>
+                <salute>Ich bin der Gruss. Liebe Grüße!</salute>
+                <dateline>Ich bin die Datumszeile im closer.</dateline>
+                <signed>signiert dein TELOTA Team</signed>
+            </closer>
+            <postscript>
+                <p>Ich bin ein Portskriptum. Hier könnte ich dir z.B. sagen, dass meine sicherste
+                    Adresse die BBAW ist. </p>
+            </postscript>
+        </body>
+    </text>
+</TEI>
