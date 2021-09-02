@@ -18,6 +18,32 @@
    </teiHeader>
    <text>
       <body>
+         <listOrg>
+            <org xml:id="automatisch1" type="theatre">
+               <idno type="uri">http://d-nb.info/gnd/30656-3</idno>
+               <orgName type="reg">Nationaltheater Mannheim</orgName>
+               <location xml:id="xxx">
+                  <address>
+                     <settlement key="">Mannheim</settlement>
+                     <note>Schillerplatz</note>
+                  </address>
+               </location>
+               <desc>eröffnet 1777; Der Intendant Carl Hagemann konnte dort ab 1906 mit einer
+                        Verjüngung des Ensembles und des Repertoires Akzente setzen, eine Aufführung
+                        von Schönbergs Monodram Erwartung op. 17 war geplant.</desc>
+               
+            </org>
+         </listOrg>
+         <listPerson>
+            <person>
+               <death>
+                  <date when="1990-01-01">1.1.1991</date>
+                  <placeName ref="#">Graz</placeName>
+               </death>
+               <occupation role="#intendant">Indendantin</occupation>
+               <occupation role="#intendant">Indendant</occupation>
+            </person>
+         </listPerson>
          <div type="writingSession">
             <pb n="1" xml:id="p.1"/>
             <opener>

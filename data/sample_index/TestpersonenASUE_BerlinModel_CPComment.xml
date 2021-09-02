@@ -51,11 +51,11 @@
                     </persName>
                     <persName type="alt"><surname>Hagemann</surname>
                         <forename>Carl</forename></persName>
-                    <birth>
+                    <birth />
                         <!-- CP: hier muss man zum schema date und placename zu birth|death hinzufügen -->
                         <!--<date when="1871-09-22">22. September 1871</date>-->
                         <!--<placeName key="???">Harburg an der Elbe</placeName>--><!-- key aus Ortsregister eintragen -->
-                    </birth>
+                    
                     <death>
                         <!--<date when="1945-12-24">24. Dezember 1945</date>
                         <placeName key="???">Wiesbaden</placeName>-->
