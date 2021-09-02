@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list type="stampList">
+            <item>
+               <stamp xml:id="stamp.1">
+                  <persName key="#">Arnold Schönberg</persName><lb/>
+                  Berlin-Südende<lb/>
+                  <location><placeName key="#">Berlinerstr. 17a, I.</placeName></location><lb/>
+                  Tel.: Tempelhof 174<lb/>  
+               </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.2">
+                  <orgName key="#">Universal-Edition-A. G.</orgName>
+                  <location><placeName>WIEN. I. KARLSPLATZ 6a</placeName></location>
+                  Musikvereinsgebäude / Tel. U 47-5-85
+                  LEIPZIG. KARLSTRASSE 10b
+               </stamp>
+            </item>
+         </list>
+      </body>
+  </text>
+</TEI>
