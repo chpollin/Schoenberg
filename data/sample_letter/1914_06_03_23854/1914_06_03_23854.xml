@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/Y:/data/projekte/Sch%C3%B6nberg/schema/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- 
     * was ist telota:doctype="letter avhr" ?
     * welche xml:id ?
 -->
+<?xml-model href="file:/Z:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
     telota:doctype="letter avhr" xml:id="letter.1">
     <teiHeader>
@@ -20,70 +20,169 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="person_id">Johannes Geidel</persName>
+                    <orgName key="organisation_id">F. M. Geidel</orgName>
+                    <placeName key="place_id">Leipzig</placeName>
+                    <date when="1914-06-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="xxx">Universal-Edition</orgName>
+                    <placeName key="xxx">Wien</placeName>
+                </correspAction>
+                <note>Dokument enthält auch den Antwortbrief von Arnold Schönberg an F. M. Geidel,
+                    6. Juni 1914</note>
+                <correspContext>
+                    <ref type="next" target="https://bit.ly/3BTGCex">Brief vom 6. Juni 1914</ref>
+                    <ref type="next"
+                        target="http://213.185.182.231/search_show_letter.php?ID_Number=7534"/>
+                    <!--ASUE target links testhalber -->
+                    <!--ASUE: jeweils mehrere Bezüge sinnvoll möglich? -->
+                    <ref type="prev">Brief vom 14. Mai 1914</ref>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <!-- ASUE laut basemanual ist das ein Unterelement von profiledesc...? -->
+            <change when="2021-09-07" who="PK"> test </change>
+            <!-- ASUE ausserdem attribut: "who" -->
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <!-- warum @type="writingSession" ? ist das immer eine neue page? lieber mit pb die seiten? -->
-            <div type="writingSession">
+            <div type="letter">
                 <pb n="1" xml:id="p.1"/>
-                <!-- stamp - [Briefkopf Geidel] -->
-                <dateline>Leipzig, den 3. Juni 1914.</dateline>
                 <!-- CP: wie genau soll das "Textbild" nachgebaut werden?  -->
-                <opener> Verehrl. Universal-Edition, A.-G., Wien. </opener>
-                <!-- mit span @rend left; span @rend center; span @rend right -->
-                <opener> Verehrl.<lb/> Universal-Edition,<lb/> A.-G., Wien. </opener>
-                <p> Mit gleicher Post übersende ich Ihnen 2 Abzüge einer Probeseite aus der
-                    Orchesterpartitur Schönberg. Ich hoffe, alles nach Wunsch des Autors ausgeführt
-                    zu haben und bitte um recht baldigen Bescheid, ob ich damit weiter arbeiten
-                    lassen kann. </p>
-                <p> Ich möchte hierzu noch bemerken, dass die Einteilung des Manuskriptes es mit
-                    sich bringt, dass ich gezwungen bin, ab und zu verhältnismässig wenig Linien auf
-                    eine Platte zu bringen, um unmittelbar im Anschluss daran wieder eine Platte mit
-                    Doppelsystemen einrichten zu können. Ich bitte beim Autor anzufragen, 1. * ob in
-                    diesem <hi rendition="#u">Falle bei geeigneten Instrumenten, wo im</hi> Manuskript mehrere auf eine
-                    Linie zusammen gezogen sind, ein Auseinanderziehen in einzelnen Instrumenten
-                    vorgenommen werden kann, um zu vermeiden, dass plötzlich auf eine sehr enge
-                    Platte mit 34 Linien eine sehr weite mit 18 oder 20 Linien folgt. Umgedreht
-                    macht es sich notwendig, in einzelnen Fällen, 2. * dass 2 gleichartige
-                    Instrumentenlinien auf eine Linie zusammengezogen werden, um eine 2systemige
-                    Platte einrichten zu können und dabei die Höchstzahl der Linien, 34, nicht zu
-                    überschreiten. Einer kurzen Rückantwort hierüber sehe ich entgegen. </p>
-                <p>
-                    <hi rendition="#u">Beethoven-Schenker</hi>. Korrektur der Vorbemerkung hoffe ich
-                    im Laufe dieser Woche auszusetzen; durch die vielen Feiertage hat sich leider
-                    die Fertigstellung dieser Arbeit etwas verzögert. </p>
+                <opener>
+                    <!--  ASUE: <fw type="letterhead"><hi rendition="#mPrint"><orgName key="organisation-id">F. M. GEIDEL</orgName>, LEIPZIG<lb/>
+                Anstalt für <lb/>
+                Notenstich, Notendruck und Anastatischen Druck <lb/>
+                Stein= und Buchdruckerei, Notensatz, Stereotypie <lb/>
+                Lithographie, Autographie und Buchbinderei <lb/>
+                Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co., <placeName key="place_id">Leipzig</placeName></fw> -->
+                    <dateline rendition="#right"><hi rendition="mPrint"><placeName key="place_id"
+                                >Leipzig</placeName>, den</hi> 3. Juni <hi rendition="#mPrint"
+                            >191</hi>4.<lb/><placeName key="place_id"><hi rendition="mPrint"
+                                >Wittenbergerstraße 23</hi></placeName></dateline>
+                    <!-- ASUE: #mPrint in der dateline nicht zulässig, kommt dort aber am häufigsten vor-->
+                    <address>
+                        <addrLine>Verehrl. <orgName key="organisation_id"
+                                >Universal-Edition</orgName>, A.-G., <placeName key="place_id"
+                                >Wien</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
+                        <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
+                        <note xml:id="automatisch"><ref target="https://bit.ly/3BQVTfQ"
+                                >Korrekturabzug (Probeseite) von S, 4 (T. 5-12) des
+                                Partiturdrucks</ref></note>
+                        <!--ASUE: der link ist provisorisch; kann man so eine externe, kommentarrelevante Quelle einbinden und wie wird die dann angezeigt? -->
+                    </seg> aus der Orchesterpartitur <!-- Musikalisches Werk --> Schönberg. Ich
+                    hoffe, alles nach Wunsch <lb/>des Autors ausgeführt zu haben und bitte um recht
+                    baldigen Bescheid, da<g ref="#typoHyphen"/><lb break="no"/>mit ich weiter
+                    arbeiten lassen kann.</p>
+                <p> Ich möchte hierzu noch bemerken, dass die Einteilung des Manuskriptes <lb/>es
+                    mit sich bringt, dass ich gezwungen bin, <add place="superlinear" hand="author"
+                        >ab und zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu
+                    bringen, um unmittelbar im Anschluss daran <lb/>wieder eine Platte mit
+                    Doppelsystemen einrichten zu können. Ich bitte, <lb/>beim Autor anzufragen, <add
+                        place="left" xml:id="Schönberg"><metamark>1. X</metamark></add><add
+                        place="intralinear" hand="#Schönberg"
+                            ><!-- ASUE xml:id_"Schönberg" ist hier nicht zulässig, daher hand="Schönberg" - warum? --><metamark>X</metamark></add>ob
+                    in diesem <hi rendition="#u">Falle <add place="superlinear" hand="author"
+                            >bei</add> geeignete<add place="intralinear" hand="author">n</add>
+                            Instrumente<add place="intralinear" hand="author">n</add>, wo
+                    im</hi><lb/> Manuskript mehrere auf eine Linie zusammen gezogen sind, ein
+                        Auseinander<g ref="#typoHyphen"/><lb break="no"/>ziehen in einzelnen
+                    Instrumenten vorgenommen werden kann, um zu vermeiden, <lb/>dass plötzlich auf
+                    eine sehr enge Platte mit 34 Linien eine sehr weite <lb/>mit 18 oder 20 Linien
+                    folgt. Umgedreht macht es sich notwendig, in ein<g ref="#typoHyphen"/><lb
+                        break="no"/>zelnen Fällen, <add place="left" hand="#Schönberg">
+                        <metamark>2. X</metamark><!-- ASUE: Einkreisung des X? -->--</add><add
+                        place="intralinear" hand="#Schönberg">
+                        <metamark>X</metamark></add> dass 2 gleichartige Instrumentenlinien auf eine
+                    Linie zu<g ref="#typoHyphen"/><lb break="no"/>sammengezogen werden, um eine
+                    2systemige Platte einrichten zu können <lb/>und dabei die Höchstzahl der Linien,
+                    34, nicht zu überschreiten. Einer <lb/>kurzen Rückantwort hierüber sehe ich
+                    entgegen. </p>
+                <p><hi rendition="#u">Beethoven-Schenker.</hi><!-- Musikalisches Werk -->
+                    Korrektur der Vorbemerkung hoffe ich im Laufe dieser <lb/>Woche auszusetzen;
+                    durch die vielen Feiertage hat sich leider die Fertig<g ref="#typoHyphen"/><lb
+                        break="no"/>stellung dieser Arbeit etwas verzögert. </p>
                 <closer>
-                    <!-- @hand xml:id von Arnold Schönberg -->
-                    <note place="left" hand="#Schönberg">Das ist eine Anmerkung
-                        am unteren Rand durch eine unbekannte
-                        Person</note>
-                    <salute>Hochachtungsvoll</salute> ppa. F. M. Geidel<lb/>
-                    <signed>Johannes Geidel</signed>
+                    <salute>Hochachtungsvoll</salute><!--ASUE: fw type="stamp" -->ppa. F. M. Geidel<lb/>
+                    <signed xml:id="Geidel">Johannes Geidel</signed>
                 </closer>
+                <!-- CP: hier darf kein <p> mehr sein... ? ASUE <note> + neue <div> stattdessen?-->
+                <note place="left" hand="#Schönberg">Warum wurde kein <hi rendition="#u">breiteres
+                        Papier</hi> genommen? <seg type="comment">
+                        <orig>Ich schrieb doch deswegen auch!!!</orig>
+                        <note>Brief vom </note>
+                        <!-- ASUE: Verweis auf den entsprechenden Brief, wie? ev (auch in <correspContext>? -->
+                    </seg></note>
+                <!-- ASUE Vordruck "In Leipzig...statt": Werbetexte werden nicht transkribiert -->
+            </div>
+            <div type="letter">
                 <pb n="2" xml:id="p.2"/>
-                <!-- CP: hier darf kein <p> mehr sein... ? -->
-                <!--Ich habe geglaubt, Ihre Fragen deutlich und klar beantwortet zu haben. Nun sehe ich mit Bedauern, dass Sie meine ausführlichen Auseinandersetzungen nicht genügend beachtet haben. 
-                Ich schrieb wörtlich: 
-                „Es ist gar kein Unglück, sieht auch besser aus und ist lesbarer, wenn auf einer einsystemigen Platte nur 24 cm der ¬¬¬Höhe bedruckt sind, als wenn Ueberflüssiges dort steht. Die Partituren dienen einzig und allein praktischen Zwecken und je besser sie denen entsprechen, desto schöner sind sie. Jede andere Schönheit ist Mumpitz.“
-                Ich habe geglaubt, dass dieser Hinweis:
-                Lesbarkeit = Schönheit
-                von Ihnen zur Kenntnis genommen werden wird. 
-                Ich habe gedacht, Sie werden einsehen, dass die Partituren
-                für die Dirigenten und Musiker sind
-                und dass man denen die Mühe der Entzifferung so weit wie möglich zu erleichtern hat !!!
-                1 Deshalb ist es also durchaus nicht angebracht, durchaus falsch, 2 Stimmen die auf einer Zeile stehen können, auf 2 zu stechen !!
-                Insbesondere, da meist die Akkorde leichter zu lesen sind, wenn möglichst viel davon (2-3 Töne) in einer Zeile stehen.
-                Eine Ausnahme davon machen natürlich Zeilen, in denen zwei rhytmisch verschiedene Stimmen stehen z Bsp : Seite 3, Vcll , 2 Takt
-                [Notenbeispiel] das ist besser in 2 Zeilen: [Notenbeispiel]
-                oder: Seite 3; Takt 2 , Flöten
-                [Notenbeispiel]
-                oder Seite 4 , 2. System , 3. Takt, Fl u Pic
-                [Notenbeispiel] besser kl Fl. gr Fl. [Notenbeispiel]
-                aber Seite 8, 1. System, 4. Takt Solo Bc besser in 2 Zeilen (eventuell !!) 
-                dagegen sind folgende Stellen besser in einer Zeile als in 2:
-                Seite 6, Takt 5, die Br; | Seite 7, Takt 3, die Clar. und die Fag. | Seite 5, 1. System, Takt 1 die Ktrbsse | Seite 9, 2. Syst, 6. Takt, Ob und Klar
-                2. Zusammenziehungen nur bei Instrumenten der gleichen Gattung, die die gleiche Notierung haben !!! Schönberg 6./6. 1914
-                -->
+                <p>Ich habe geglaubt, Ihre Fragen deutlich und klar beantwortet zu <lb/>haben. Nun
+                    sehe ich mit Bedauern, dass Sie meine ausführlichen <lb/>Auseinandersetzungen
+                    nicht genügend beachtet haben.</p>
+                <p>Ich schrieb wörtlich:</p>
+                <p rendition="#mMM">„Es ist gar kein Unglück, sieht auch besser aus und ist
+                    <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm der <lb/>Höhe
+                    bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die Partituren dienen
+                    einzig und allein <hi rendition="#u">praktischen</hi> Zwecken und je besser sie
+                    denen entsprechen, desto schöner <lb/>sind sie. Jede andere Schönheit ist
+                    Mumpitz.“</p>
+                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rendition="#u">Lesbarkeit</hi> =
+                        <hi rendition="#u">Schönheit</hi>
+                    <lb/>von Ihnen zur Kenntnis genommen werden wird.</p>
+                <p>Ich habe gedacht, Sie werden einsehen, dass die <lb/>Partituren <lb/>für die <hi
+                        rendition="#u">Dirigenten</hi> und <hi rendition="#u">Musiker</hi> sind<lb/>
+                    und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich zu
+                    erleichtern hat !!!</p>
+                <p rendition="#mMM">1 Deshalb ist es also durchaus nicht an<g ref="#typoHyphen"/><lb
+                        break="no"/>gebracht, durchaus <hi rendition="#uu">falsch</hi>, 2 Stimmen
+                    die auf <lb/>einer Zeile stehen können, auf 2 zu stechen !! <lb/>Insbesondere,
+                    da meist die Akkorde leichter zu lesen <lb/>sind, wenn möglichst viel davon (2-3
+                    Töne) in einer Zeile stehen.</p>
+                <p>Eine <hi rendition="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in
+                    denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
+                        rendition="#sup"><hi rendition="#uu">cll</hi></hi> , 2 Takt:</p>
+                <p><figure facs="NBDatei1" hand="#Schönberg">
+                        <figDesc>Notenbeispiel</figDesc>
+                    </figure>das ist besser als <lb/>2 Zeilen: <figure facs="NBDatei2"
+                        hand="#Schönberg">
+                        <figDesc>Notenbeispiel</figDesc>
+                    </figure></p>
+                <p>oder: seite 3: Takt 2, Flöten <figure facs="NBDatei3" hand="#Schönberg">
+                        <figDesc>Notenbeispiel</figDesc>
+                    </figure>besser: <figure facs="NBDatei4" hand="#Schönberg">
+                        <figDesc>Notenbeispiel</figDesc>
+                    </figure></p>
+                <p>oder Seite 4, 2. System, 3. Takt, Fl u Pic<figure facs="NBDatei5"
+                        hand="#Schönberg">
+                        <figDesc>Notenbeispiel</figDesc>
+                    </figure> besser: <figure facs="NBDatei6" hand="#Schönberg">
+                        <figDesc>Notenbeispiel</figDesc>
+                    </figure></p>
+                <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rendition="#sup"><hi rendition="#u"
+                            >r</hi></hi>
+                    <lb/>besser in 2 Zeilen (eventuell !!) </p>
+                <p>dagegen sind folgende Stellen <hi rendition="#uu">besser</hi> in <hi
+                        rendition="#uu">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die B<hi
+                        rendition="#sup"><hi rendition="#uu">r</hi></hi>; | Seite 7, Takt 3, die
+                    Clar. und die Fag. | <lb/>Seite 5, 1. System, Takt 1 die
+                        K<ex>on</ex>tr<ex>a</ex>b<ex>ä</ex>sse | Seite 9, 2. Syst, 6. Takt, Ob und
+                    Klar</p>
+                <p>2. Zusammenziehungen nur bei Instrumenten der gleichen Gattung, die die
+                    <lb/>gleiche Notierung haben !!!</p>
+                <closer rendition="#right">
+                    <signed>Schönberg</signed>
+                    <dateline>6./6. 1914</dateline>
+                </closer>
             </div>
         </body>
     </text>
