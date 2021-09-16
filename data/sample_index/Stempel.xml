@@ -6,7 +6,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Stempelindex</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -23,16 +23,31 @@
                <stamp xml:id="stamp.1">
                   <persName key="#">Arnold Schönberg</persName><lb/>
                   Berlin-Südende<lb/>
-                  <location><placeName key="#">Berlinerstr. 17a, I.</placeName></location><lb/>
-                  Tel.: Tempelhof 174<lb/>  
+                  <location>
+                     <placeName key="#place.2.1.1">Berlinerstr. 17a, I.</placeName>
+                  </location><lb/>
+                  Tel.: Tempelhof 174  
                </stamp>
             </item>
             <item>
                <stamp xml:id="stamp.2">
-                  <orgName key="#">Universal-Edition-A. G.</orgName>
-                  <location><placeName>WIEN. I. KARLSPLATZ 6a</placeName></location>
-                  Musikvereinsgebäude / Tel. U 47-5-85
-                  LEIPZIG. KARLSTRASSE 10b
+                  <orgName key="#">Universal-Edition-A. G.</orgName><lb/>
+                  <location>
+                     <placeName key="#place.1.1.2.1">WIEN. I. KARLSPLATZ 6a</placeName>
+                  </location><lb/>
+                  Musikvereinsgebäude / Tel. U 47-5-85<lb/>
+                  <location>
+                     <placeName key="#place.n">LEIPZIG. KARLSTRASSE 10b</placeName>
+                  </location>
+               </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.3">
+                  <persName key="#">Arnold Schönberg</persName><lb/>
+                  --- Wien ---<lb/>
+                  <location>
+                     <placeName key="#place.1.1.3.1">IX. Liechtensteinstrasse 63/70</placeName>
+                  </location>
                </stamp>
             </item>
          </list>
