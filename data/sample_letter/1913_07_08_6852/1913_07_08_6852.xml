@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/Y:/data/projekte/Sch%C3%B6nberg/schema/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- 
-    * was ist telota:doctype="letter avhr" ?
-    * welche xml:id ?
--->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
-    telota:doctype="letter avhr" xml:id="letter.1">
+<?xml-model href="file:/X:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de" ww:doctype="letter avhr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,73 +16,155 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="xxx">Arnold Schönberg</persName>
+                    <placeName key="xxx">Gautzsch bei Leipzig</placeName>
+                    <date when="1913-07-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="xxx">Universal-Edition</orgName>
+                    <persName key="xxx">Emil Hertzka</persName>
+                    <placeName key="xxx">Wien</placeName>
+                </correspAction>
+                <note/>
+                <correspContext>
+                    <ref type="prev" target="linkzumletzten Brief"/>
+                    <ref type="next" target="linkzumnächsten Brief"/>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-09-20" who="PK">Kodierung</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <!-- warum @type="writingSession" ? ist das immer eine neue page? lieber mit pb die seiten? -->
-            <div type="writingSession">
+            <div type="letter">
                 <pb n="1" xml:id="p.1"/>
-                <!-- stamp ? -->
-                <!--
-                <fw type="stamp">Arnold Schönberg<lb/>
-                    Berlin-Südende<lb/>
-                    Berlinerstr. 17a, I.<lb/>
-                    Tel.: Tempelhof 174<lb/>
-                </fw>
-                -->
-                <dateline>8/7. 1913</dateline>
-                <fw type="folNum">I</fw>
-                <opener>
+                <opener><metamark>I</metamark>
+                    <stamp sameAs="#stamp.1"><!-- übernommen aus dem Github issue -->
+                        <persName ref="#">Arnold Schönberg</persName><lb/>Berlin-Südende<lb/>
+                        <location>
+                            <placeName ref="#">Berlinerstr. 17a, I.</placeName>
+                        </location><lb/> Tel.: Tempelhof 174<lb/>
+                    </stamp>
+                    <dateline rend="right">8/7.1913</dateline>
                     <address>
-                        <addrLine>z. Z. Gautzsch bei Leipzig, Charlottenstr. 18<lb/> per Adr. Dr F.
-                            Zehme</addrLine>
-                    </address>
-                </opener>
-                <salute>Lieber Herr Direktor </salute>
-                <p>I. ich habe bereits an Polnauer geschrieben wegen der
-                    „Bläser-Partituren-Stimmen“. Ich bin im Ganzen dafür, denn es hat den Vorteil,
-                    dass die Bläser einander gegenseitig als Stichwort dienen. Immerhin sollte man
-                    noch einige Orchestermitglieder befragen. Wenn man es aber macht, dann meine
-                    ich: immer eine ganze Gruppe zusammen; also alle 10 Hörner, alle 6 Trp, alle 8
-                    Posaunen; Nur wenn das geht, hat es Zweck. Man muss eben Stichproben machen.</p>
-                <p>Meines Erachtens dürften sobald alle 10 (resp 8 oder 6) Instrumente gleichzeitig
-                    beschäftigt […] sind, mehrere unisono spielen, wodurch für diese
-                    unisonospielenden stets eine Zeile genügte, so dass die Partitur im Durchschnitt
-                    höchstens 6-8 Zeilen […] und das an nicht allzu vielen Stellen […] erreichen
-                    dürfte. Allerdings: jede Stimme muss (jedes einzelne Instrument!!) muss wenden
-                    können. Ob das geht kann ich nicht beurteilen.</p>
-                <p>[…] Sollten Sie sich aber doch dafür entscheiden, nicht alle Hörner in eine
-                    Partitur zu geben, dann</p>
-                <pb n="2" xml:id="p.2"/>
-                <p>ist es besser, die I. (1. 3 u. 5.) und die II. (2. 4. u. 6) in je eine Partitur
-                    zu bringen und für 7. 8. 9. 10 eine 3 Partitur anzulegen.</p>
-                <p>Bei den Trompeten müßte man 1.2. 3 4 und 5. 6. und Bss Trompete teilen.</p>
+                        <addrLine>z.Z. <placeName><hi rendition="#u">Gautzsch</hi> bei Leipzig,
+                                Charlottenstr. 18</placeName></addrLine>
+                        <addrLine>per Adr. <persName>D. F. Zehme</persName></addrLine>
+                    </address><salute>Lieber Herr Direktor</salute></opener>
+                <p>I. ich habe bereits an <persName key="polnauer">Polnauer</persName><lb/> geschrieben wegen der
+                        „<hi rendition="#u">Bläser-Partituren-Stimmen</hi>“.<lb/> Ich bin im Ganzen
+                    dafür, denn es hat den Vorteil,<lb/> dass die Bläser einander gegenseitig als
+                    Stichwort dienen.<lb/>
+                    <hi rendition="#u">Immerhin sollte man noch einige Orchestermitglieder
+                        <lb/>befragen</hi>. Wenn man es aber macht, dann meine<lb/> ich: immer eine
+                    ganze Gruppe zusammen; also<lb/> alle 10 Hörner, alle 6 Trp, alle 8 Posaunen;
+                    Nur<lb/> wenn das geht, hat es Zweck. Man muss eben<lb/> Stichproben machen.
+                    Meines Erachtens dürften sobald <add place="superlinear">alle</add> 10 (resp
+                    8<lb/> oder 6) Instrumente gleichzeitig beschäftigt<lb/>
+                    <del rendition="#s">I</del> sind, mehrere unisono spielen, wodurch für diese
+                        unisono<g ref="#typoHyphen"/><lb break="no"/>spielenden stets <hi
+                        rendition="#u">eine</hi> Zeile genügte, so dass die Partitur<lb/> im
+                    Durchschnitt höchstens 6-8 Zeilen <del rendition="#s"><gap reason="illegible"
+                            quantity="2" unit="chars"/></del> und das an nicht allzu<lb/> vielen
+                    Stellen <del rendition="#s">!</del> erreichen dürfte. Allerdings: <hi
+                        rendition="#uu"> jede</hi> Stimme<lb/> muss (<hi rendition="#u">jedes</hi>
+                    <hi rendition="#uu">einzelne</hi> Instrument!!) muss wenden können.<lb/> Ob das
+                    geht kann ich nicht beurteilen.</p>
+                <p>
+                    <del rendition="#s">II</del> Sollten Sie sich aber doch dafür entscheiden,<lb/>
+                    nicht alle Hörner in <hi rendition="#u">eine</hi> Partitur zu geben, dann <pb
+                        n="2" xml:id="p.2"/> ist es besser, die I. (1. 3 u. 5.) und die II. (2. 4.
+                    u. 6)<lb/> in je eine Partitur zu bringen und für 7. 8. 9. 10 eine<lb/> 3
+                    Partitur anzulegen.</p>
+                <p>Bei den Trompeten müßte man <hi rendition="kasten"
+                        ><!-- ggf ein eigener value für kästen im Unterschied zu einkreisungen?... -->1.2.</hi>
+                    3 4 und 5. 6. <add place="superlinear">und Bss Trompete</add> teilen.</p>
                 <p>Bei den Posaunen: Alt, I. II. III. IV u Bss Pos in Es Ctrbss Pos u CtrbssTa</p>
                 <p>Bei den Clarinetten: 1.2 Es Cl 1.2.3. A (B) Cl 1.2. Bss Cl</p>
                 <p>Bei den Flöten 1. 2. 3. 4 gr. 1. 2. 3. 4 kl</p>
                 <p>" " Oboen l. 2 3 Ob 1. 2 EH</p>
                 <p>" " Fagotten 1. 2 3 Fg 1. 2 Ctr Fg</p>
-                <p>II. Ich nehme mir jetzt die Gurre Partitur vor um etwaige Änderungen noch
-                    rechtzeitig zu nennen. Ich hoffe diese Arbeit in cirka 6-8 Tagen erledigt zu
-                    haben.</p>
-                <p>III. Bitte senden Sie mir eine Pelleas Partitur; ich will auch hier einige
-                    Änderungen eintragen (für mein Material)</p>
-                <p>IV. Das Cello-Konzert von Monn scheinen Sie nicht erwerben zu wollen. Wenn</p>
-                <pb n="3" xml:id="p.3"/>
-                <p>das so ist[,] dann bitte ich um Nachricht, da ich es leicht Peters oder Eulenburg
-                    geben kann.</p>
-                <p>V.</p>
-                <p>Nun muss ich Ihnen noch etwas sehr Wichtiges sagen. Nämlich: es sind nun 3 ¾
-                    Jahre verflossen seit wir unseren Vertrag abgeschlossen haben und 3 Jahre ist er
-                    in Kraft und eben so lange bin ich verpflichtet gewesen zu warten, ob Sie meine
-                    Werke herausgeben. Das Autorengesetz bestimmt nun, dass wenn ein Werk innerhalb
-                    3 Jahren nicht gedruckt wird, der Autor frei wird und die gezahlten
-                    Vorschussbeträge zu seinen Gunsten verfallen. Ehe ich nun von diesem Recht
-                    Gebrauch mache, möchte ich Ihnen noch Gelegenheit geben Ihrer Druckverpflichtung
-                    nachzukommen und bin geneigt die Ausübung meines Rechtes solange
-                    hinauszuschieben damit ich innerhalb 8 Tagen bis ich von Ihnen die Zusicherung
-                    habe, dass Sie außer den freigewordenen Werken auch diejenigen sofort drucken,
-                    die noch nicht frei sind.</p>
+                <p>II. Ich nehme mir jetzt die Gurre<!-- musikalisches Werk --><lb/> Partitur vor
+                        <hi rendition="#u">um etwaige Änderungen noch</hi><lb/> rechtzeitig zu
+                    nennen. Ich hoffe diese Arbeit<lb/> in cirka 6-8 Tagen erledigt zu haben.</p>
+                <p>III. Bitte senden Sie mir eine <hi rendition="#u"
+                        >Pelleas</hi><!-- musikalisches Werk --><g ref="#typoHyphen"/><lb break="no"
+                        /><hi rendition="#u">Partitur</hi>; ich will auch hier einige
+                    Änderungen<lb/> eintragen (für mein Material)</p>
+                <p>IV. Das Cello-Konzert <!-- musikalisches Werk --> von Monn<lb/> scheinen Sie nicht erwerben zu wollen.
+                        Wenn<pb n="3" xml:id="p.3"/>das so ist[,] dann bitte ich um Nachricht, da
+                    ich es<lb/> leicht <orgName key="peters">Peters</orgName> oder <orgName key="eulenburg">Eulenburg</orgName> geben kann.</p>
+                <p>V. Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun
+                    3 ¾ Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen seit wir unseren
+                    Vertrag abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft und eben so lange
+                    bin<lb/> ich verpflichtet gewesen zu warten, ob Sie meine<lb/> Werke
+                    herausgeben. Das Autorengesetz bestimmt<lb/> nun, dass wenn ein Werk innerhalb 3
+                    Jahren<lb/> nicht gedruckt wird, der Autor frei wird und<lb/> die gezahlten
+                    Vorschussbeträge zu seinen Gunsten<lb/> verfallen. Ehe ich nun von diesem Recht
+                    Gebrauch<lb/> mache, möchte ich Ihnen noch Gelegenheit geben<lb/> Ihrer
+                    Druckverpflichtung nachzukommen und<lb/> bin geneigt die Ausübung meines Rechtes
+                        <del rendition="#s">solange</del><lb/> hinauszuschieben <add
+                        place="superlinear">damit ich innerhalb 8 Tagen</add>
+                    <del rendition="#s">bis ich</del> von Ihnen die Zusicherung<lb/> habe, dass Sie
+                    außer den freigewordenen Werken<lb/> auch diejenigen sofort drucken, die noch
+                    nicht<lb/> frei sind.</p>
+                <p> Es sind frei:</p>
+                <p><list>
+                        <item>I. Das Monodram „Glückliche Hand“</item>
+                        <pb n="4" xml:id="p.4"/>
+                        <item>II. Die George Lieder</item>
+                        <item>III. Die 2 Balladen</item>
+                        <item>IV. Ein Heft Lieder</item>
+                    </list></p>
+                <p>Noch nicht frei dagegen</p>
+                <p>
+                    <list>
+                        <item>I. 6 Klavierstücke</item>
+                        <item>II. Lied für Harm. Celesta u. Harfe</item>
+                        <item>III. Pierrot lunaire.</item>
+                    </list></p>
+                <p>Ich bitte Sie mir in<add place="sublinear">nerhalb</add> 8 Tagen mitzuteilen, ob
+                    Sie bereit sind auf diese Bedingungen einzugehen:</p>
+                <p>a) I. Monodram Partitur und Klavierauszug</p>
+                <!-- hier versuchshalber ohne "list", was ist besser? -->
+                <p> II. George Lieder</p>
+                <p> III. Pierrot lunaire</p>
+                <p> IV. 6 Klavierstücke</p>
+                <p> V. Partituren der 6 Orchesterlieder</p>
+                <p> sofort in Druck zu geben und dafür zu sorgen, dass<lb/> sie in längstens 2
+                    Monaten zur I. Korrektur und<lb/> in längstens 4 Monaten <add
+                        place="superlinear">von heute</add> zum Verkauf fertig sind.</p>
+                <p>b).1) die 2 Balladen<lb/> 2) das Heft Lieder<lb/> 3) das Harm.-Cel.-Harfe-Lied in
+                    5 Monaten<lb/> zur I. Korrektur und in 7 Monaten von heute zum<lb/>
+                    <del rendition="#s">Ausgab</del> Verkauf fertig sind.</p>
+                <p> Sollten Sie auf diese Bedingungen nicht<lb/> eingehen können, so müsste ich mein
+                        gesetzliches<pb n="5" xml:id="p.5"/> Recht benutzen.</p>
+                <p><metamark>II.</metamark> Es täte mir das sehr leid. Vor allem weil ich<lb/>
+                    darauf halte, dass meine Sachen möglichst<lb/> in einem Verlag bleiben.
+                    Insbesondere aber,<lb/> weil ich um jeden Preis eine Trübung unseres<lb/>
+                    freundschaftlichen Verhältnisses vermeiden<lb/>
+                    <gap reason="lost" quantity="2" unit="chars"/><supplied cert="high"
+                        >mö</supplied>chte.</p>
+                <p> Aber, da es für mich klar ist, dass meine<lb/> Noten für mich nicht eher einen
+                    Ertrag ab<g ref="#typoHyphen"/><lb break="no"/>liefern können, als alles
+                    gedruckt ist und<lb/> !! da ich ja gar keine Beträge ausbezahlt<lb/> bekommen
+                    kann, solange Werke mit<lb/> Vorschuss belastet sind, die weil sie nicht<lb/>
+                    gedruckt sind, nicht verkauft werden können!!<lb/> So muss ich so vorgehen.</p>
+                <p> Ich hoffe, Sie sehen das selbst ein und sind<lb/> mir nicht böse. Ich kann es
+                    sehr gut verstehen,<lb/> dass Sie infolge andrer Verpflichtungen (gegen<lb/>
+                    jüngere und wahrscheinlich bedeutendere Autoren<lb/> als ich) nicht imstande
+                    sind meinen Werken<lb/> genügend Arbeit zu widmen. Aber ich muss nun<pb n="6"
+                        xml:id="p.6"/> endlich von meinen Werken <subst>
+                        <del rendition="#s">das</del>
+                        <add place="superlinear">etwas</add>
+                    </subst> haben, und da<lb/> kann ich nicht länger warten.</p>
+                <closer> Ich hoffe bald Nachricht zu haben und empfehle<lb/> mich Ihnen mit besten
+                    Grüßen <salute>Ihr ergebener Arnold Schönberg</salute></closer>
             </div>
         </body>
     </text>
