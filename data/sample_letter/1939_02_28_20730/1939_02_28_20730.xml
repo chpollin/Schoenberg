@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/X:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de" ww:doctype="letter avhr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="xxx">Universal-Edition</orgName>
+                    <persName key="xxx">Betti Rothe</persName>
+                    <persName>illeg.</persName>
+                    <placeName key="xxx">Wien</placeName>
+                    <date when="1939-02-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="xxx">Arnold Schönberg</persName>
+                    <placeName key="xxx">Los Angeles</placeName>
+                </correspAction>
+                <note>Auf der Rückseite findet sich der Entwurf eines Antwortbriefes in der Hand von
+                    Richard Hoffmann</note>
+                <correspContext>
+                    <ref type="prev" target="linkzumletzten Brief"/>
+                    <ref type="next" target="linkzumnächsten Brief"/>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-09-07" who="PK"> test </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="printed_letterhead">
+                <!-- value letterhead nicht im schema -->
+                <p>
+                    <orgName>Universal-Edition-A.G.</orgName><lb/>
+                    <placeName><hi rendition="#u" hand="#Hoffmann">WIEN. I. KARLSPLATZ
+                        6</hi><lb/>Musikvereinsgebäude</placeName> / Tel. U 47-5-85<lb/>
+                    <placeName>LEIPZIG. KARLSTRASSE 10</placeName></p>
+            </div>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline rend="left"><persName>R</persName>/<persName>No.</persName></dateline>
+                    <dateline rend="right">Wien, am 28. Feber 1939.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine><persName>Prof. Arnold Schönberg</persName></addrLine>
+                        <addrLine><placeName>116 North Rockingham Avenue</placeName></addrLine>
+                        <addrLine><placeName>Brentwood Park</placeName></addrLine>
+                        <addrLine><placeName>Los Angeles, Calif.</placeName></addrLine>
+                    </address>
+                    <milestone unit="section" rendition="#hr"/>
+                    <stamp>APR221939</stamp><salute>Sehr geehrter Herr Professor!</salute></opener>
+                <!-- element stamp ist nicht im schema -->
+                <p>Wir entsprechen gerne einem Wunsche des Komponisten <persName key="Krenek">Ernst
+                        Krenek</persName> und lassen Ihnen gleichzeitig einen Klavierauszug seiner
+                    Oper "Karl V."<!-- musikalisches Werk --> als Ehrenexemplar zugehen.</p>
+                <p>Eben trifft auch <ref type="prev"
+                        target="Das ist ein interner Link zu einem Verweis auf einen vorrausgehenden Brief im Korrespondenzkontext"
+                        >Ihr Schreiben</ref> vom 3o.v.M. ein und wir danken Ihnen für die Einsendung
+                    der unterfertigten Copyrights-Formulare.</p>
+                <p>Wir stehen mit einer unserer ausländischen Vertretungen in weitgehenden
+                    Verhandlungen bezüglich Uebernahme der in unserem Verlag erschienenen Werke
+                    nichtarischer Komponisten, deren Abschluss den Komponisten die Gewähr auf
+                    ungestörten Vertrieb und Propagierung dieser Werke bietet. Wir wären Ihnen zu
+                    Dank verpflichtet, wenn Sie uns mit ein paar Zeilen Ihr Einverständnis zu einer
+                    derartigen Transaktion im Prinzip geben würden und werden Sie von dem
+                    Zustandekommen derselben sogleich verständigen. Wir glauben, dass Sie diesem
+                    Vorschlag zustimmen werden, da ja diese Aktion <subst>
+                        <del rendition="#s">ganz</del>
+                        <add place="superlinear" hand="unknown">auch</add>
+                    </subst> im Interesse der nichtarischen Komponisten liegt.</p>
+                <closer>Wir begrüssen Sie<lb/>
+                    <salute rend="right">in vorzüglicher Hochachtung<lb/>
+                        <orgName>UNIVERSAL-EDITION A.G.</orgName></salute>
+                    <signed><gap reason="illegible" unit="words" quantity="1"/><persName>B.
+                            Rothe</persName></signed></closer>
+                <note rendition="#u" place="right">over</note>
+            </div>
+            <pb n="2" xml:id="p.2"/>
+            <div>
+                <p>Gentlemen,</p>
+                <p>Excuse for writing in English, I am to busy to write myself.</p>
+                <p>I have not yet got your answer about my royalties from records and whether you
+                    have paid (as I asked you previously.) The monthly amount to my son <persName
+                        key="georg">Georg<del rendition="#s">e</del> Sch.</persName> Would you be
+                    kind enough to do this as soon as possible. </p>
+                <p><metamark/> Today I must <add place="superlinear" hand="#Hoffmann">at first</add>
+                    to thank you for sending me the music I ordered. But I think a number of the
+                    packages must be delayed, and I hope they will arrive soon.</p>
+                <p>From the bills I saw, I observed to my astonishment that you charge me for my own
+                    works. It was an agreement with <persName key="Hertzka">Mr. Herzka</persName>
+                    that I get copies without <add place="superlinear">any</add> charge.</p>
+                <p>As I am not selling them, it would be awkward to me to pay for them. The reason
+                    why I need them is that I was persuaded by requirements of students to make
+                    donations of my works to a number of public libraries. On account of the present
+                    depression here, the public libraries are not in a position to buy modern music.
+                    But they assure me that it would stimulate musicians to buy my scores if some of
+                    them are available in libraries. As a proof of this, I send you the enclosed
+                    newspaper clipping!</p>
+                <note rendition="eingekreist" place="right">over</note>
+                <!-- für Einkreisungen brauchen wir noch einen value -->
+                <p>
+                    <metamark/>By the way, you even charge me for my opera „VON HEUTE AUF
+                    MORGEN“<!-- musikalisches Werk -->, that is my property for that I paid not only
+                    the printing expenses, but also that of the lawsuit I lost. Please kindly
+                    rectify this matter. Very truly yours,</p>
+            </div>
+        </body>
+    </text>
+</TEI>
