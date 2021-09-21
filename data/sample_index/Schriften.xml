@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Das Schriftenregister lehnt sich an das Arnold Schönberg Schriften Verzeichnis (ASSV) an, das in gedruckter Form vorliegt, und bezieht von dort Systematik und Inhalt (Auswahl):
+Autor
+Titel / Entstehungsjahr
+Schriftenverzeichnis-Nr.
+Auflistung der Drucke im Korrespondenzzeitraum
+ -->
+<listBibl>
+    <bibl xml:id="sss">
+        <author>
+            <persName>
+                <surname>Schönberg</surname>
+                <forename>Arnold</forename>
+            </persName>
+        </author>
+        <title>Harmonielehre (1911)</title>
+        <idno>ASSV 2.1.1.</idno>
+        <!-- im avh-Schema nicht vorhanden -->
+        <note>
+            <imprint>Vorabdruck des Kapitels "Über Oktaven- und Quintenparallelen" in: Die Musik 10,
+                Nr. 2, zweites Oktoberheft 1910/1911), S. 96-105.</imprint>
+            <imprint> Vorabdruck einer Textauswahl aus dem Kapitel "Über Oktaven- und
+                Quintparallelen" [übersetzt von Wassily Kandinsky] im Katalog zur Internationalen
+                Kunstausstellung "Salon 2" in Odessa (1919/1911), S. 16–18.</imprint>
+            <imprint>Erstdruck: Arnold Schönberg: Harmonielehre, Leipzig – Wien: Universal-Edition
+                1911.</imprint>
+            <imprint>Erstdruck der ersten englischen Teilübersetzung: Arnold Schoenberg: Theory of
+                Harmony: Translated by Robert D. W. Adam, New York: Philosophical Library
+                1948.</imprint>
+            <!-- <imprint> geeignet zur Strukturierung der Einträge? -->
+        </note>
+    </bibl>
+    <bibl>
+        <author>
+            <persName>
+                <surname>Schönberg</surname>
+                <forename>Arnold</forename>
+            </persName>
+        </author>
+        <title>Die glückliche Hand (1910–1913)</title>
+        <idno>ASSV 1.1.2.2.</idno>
+        <note>
+            <imprint>Erstdruck in: Der Merker 2, Heft 17 (Juni 1911), S. 718–721.</imprint>
+            <imprint>Die glückliche Hand. Drama mit Musik von Arnold Schönberg Wien – Leipzig:
+                Universal-Edition 1917.
+                <!-- Link zu "Glückliche Hand" im Werkregister für musikalische Werke -->
+            </imprint>
+        </note>
+    </bibl>
+    <bibl>
+        <author>
+            <persName>
+                <surname>Schönberg</surname>
+                <forename>Arnold</forename>
+            </persName>
+        </author>
+        <title>Versuch eines Nachrufs für Herzka (1932)</title>
+        <idno>ASSV 5.3.9.50.</idno>
+        <!-- "note" leer, unveröffentlicht -->
+    </bibl>
+    <bibl>
+        <author>
+            <persName>
+                <surname>Berg</surname>
+                <forename>Alban</forename>
+            </persName>
+        </author>
+        <title>Arnold Schönberg: Gurrelieder. Führer von Alban Berg. Kleine Ausgabe. (1914)</title>
+        <!-- "idno" leer, kein Schönberg-Werk -->
+        <note>
+            <imprint>Leipzig – Wien, Universal-Edition A.G. 1914.</imprint>
+        </note>
+    </bibl>
+</listBibl>
