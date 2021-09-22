@@ -53,13 +53,12 @@
                         <placeName>Deutschland</placeName>
                         <place xml:id="place.2.1" type="settlement">
                             <placeName>Berlin</placeName>
-                            <place type="district">
+                            <place  xml:id="place.2.1.1" type="district">
                                 <placeName>Berlin-Südende</placeName>
-                                <place xml:id="place.2.1.1" type="building">
+                                <place xml:id="place.2.1.1.1" type="building">
                                     <placeName>Berlinerstr. 17a, I.</placeName>
                                 </place>
                             </place>
-                           
                         </place>
                     </place>
                 </place>

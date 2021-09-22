@@ -34,23 +34,39 @@
                             <note>Schillerplatz</note>
                         </address>
                     </location>
-                    <!-- CP das element hier ist ja wie das <note> bei den personen; hier sollte man vereinheitlichen; <desc> erscheint mit sinnvollr. -->
-                    <!--<desc>eröffnet 1777; Der Intendant Carl Hagemann konnte dort ab 1906 mit einer
+                    <event type="foundation" when="1777">
+                        <ab>eröffnet 1777</ab>
+                    </event>
+                    <note>eröffnet 1777; Der Intendant Carl Hagemann konnte dort ab 1906 mit einer
                         Verjüngung des Ensembles und des Repertoires Akzente setzen, eine Aufführung
-                        von Schönbergs Monodram Erwartung op. 17 war geplant.</desc>-->
+                        von Schönbergs Monodram Erwartung op. 17 war geplant.</note>
                 </org>
-                <!-- type="ensemble" -->
-                <org xml:id="automatisch2">
+                <org xml:id="automatisch2" type="ensemble">
                     <idno type="uri">http://d-nb.info/gnd/5075574-2</idno>
                     <orgName type="reg">Kolisch-Quartett</orgName>
                     <orgName type="alt">Wiener Streichquartett</orgName>
-                    <!-- CP braucht die location eine xml:id ? -->
-                    <location xml:id="location.1">
+                    <location>
                         <address>
                             <settlement key="xxx">Wien</settlement>
                         </address>
                     </location>
-                    <!--<desc>gegründet 1921; zunächst Wiener Streichquartett, erst ab 1931 offiziell
+                    <event type="foundation" when="1921">
+                        <ab>gegründet 1921</ab>
+                    </event>
+                    <event type="dissolution">
+                        <ab>gegründet</ab>
+                    </event>
+                    <listEvent type="membership">
+                        <!-- jede mitgliedschaft ist ein event -->
+                        <event from="1921" to="1944">
+                            <ab>
+                                <persName key="#"><forename>Rudolf</forename><surname>Kolisch</surname></persName>
+                            </ab>
+                        </event>
+                        <!-- ... -->
+                    </listEvent>
+                    <note>
+                        gegründet 1921; zunächst Wiener Streichquartett, erst ab 1931 offiziell
                         unter dem Namen Kolisch-Quartett, bestand bis 1944. Die Gründung des
                         Streichquartetts ging aus der Probenarbeit für die Konzerte des Vereins für
                         musikalische Privataufführungen hervor, zu dessen Vortragsmeistern Rudolf
@@ -58,7 +74,7 @@
                         auswendig, eine Konsequenz des gemeinsamen Studiums aus Partituren, und
                         spielte Uraufführungen von Streichquartetten Schönbergs (Nr. 3 und 4),
                         Weberns, Bergs und Bartoks. Mitglieder: Violine 1: Rudolf Kolisch
-                        (1921–1944) Violine 2: Jaromir Czerny (1921–1922), Gustav Kinzel (1922),
+                        (1921–) Violine 2: Jaromir Czerny (1921–), Gustav Kinzel (1922),
                         Oskar Fitz (1922–1923), Fritz Rothschild (1924–1927), Felix Khuner
                         (1927–1941), Daniel Guilevitch (1941–1943), Lorna Freedman (1943–1944)
                         Viola: Othmar Steinbauer (1921–1922), Herbert Duesberg (1922–1923), Marcel
@@ -67,10 +83,9 @@
                         (1943–1944) Violoncello: Erik Skeel-Görling (1921–1922), Wilhelm Winkler
                         (1922–1923), Joachim Stutschewsky (1924–1927), Benar Heifetz (1927–1939),
                         Stefan Auber (1939–1941), Fritz Magg (1942–1943), Janos Scholz (1943–1944),
-                        Stefan Auber (1944)</desc>-->
+                        Stefan Auber (1944)</note>
                 </org>
-                <!-- type="publisher" -->
-                <org xml:id="automatisch3" >
+                <org xml:id="automatisch3" type="publisher">
                     <idno type="uri">http://d-nb.info/gnd/106428518X</idno>
                     <orgName type="reg">Tischer &amp; Jagenberg</orgName>
                     <location>
@@ -78,30 +93,36 @@
                             <settlement key="xxx">Köln</settlement>
                         </address>
                     </location>
-                    <!--<desc>Musikverlag, gegründet 1909 in Köln von Gerhard Tischer mit einem
+                    <event type="foundation" when="1921">
+                        <ab>gegründet 1909 in <placeName key="#">Köln</placeName></ab>
+                    </event>
+                    <note>Musikverlag, gegründet 1909 in Köln von Gerhard Tischer mit einem
                         Schwerpunkt auf kleinbesetzter zeitgenössischer Musik. Dort erschien 1912
                         Schönbergs Chorstück Friede auf Erden op. 13, die weitere Beziehung zwischen
                         dem Verlag und Schönberg war geprägt von einem Konflikt um fehlende bzw.
                         falsche Abrechnungen. Es kam deshalb zu keiner weiteren
-                        Zusammenarbeit.</desc>-->
+                        Zusammenarbeit.</note>
                 </org>
-                <!-- type="collecting society" -->
-                <org xml:id="automatisch4">
-                    <orgName type="reg">Staatlich genehmigte Gesellschaft der Autoren, Komponisten
+                <org xml:id="automatisch4" type="collectingsociety">
+                    <orgName>Staatlich genehmigte Gesellschaft der Autoren, Komponisten
                         und Musikverleger</orgName>
-                    <!-- CP: ja, lau TEI Guidlines passt das so, https://tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#index-egXML-d53e108203  -->
-                    <!--<orgName type="acronym">AKM</orgName>-->
+                    <orgName type="acronym">AKM</orgName>
                     <location>
                         <address>
                             <settlement key="xxx">Wien</settlement>
                             <note>Baumannstrasse 8, 1030</note>
                         </address>
                     </location>
-                    <!--<desc>gegründet 1897; Schönberg war Mitglied von April 1910 bis Dezember
-                        1912.</desc>-->
+                    <event type="foundation" when="1897">
+                        <ab>gegründet 1897</ab>
+                    </event>
+                    <event type="membership" from="1910-04" to="1912-12">
+                        <ab><persName key="#person.1">Schönberg</persName> war Mitglied von April 1910 bis Dezember 1912</ab>
+                    </event>
+                    <note>gegründet 1897; Schönberg war Mitglied von April 1910 bis Dezember
+                        1912.</note>
                 </org>
-                <!-- type="agency" -->
-                <org xml:id="automatisch5" >
+                <org xml:id="automatisch5" type="agency">
                     <idno type="uri">http://d-nb.info/gnd/10196512-6</idno>
                     <orgName type="reg">Konzertdirektion Hermann Wolff</orgName>
                     <location>
@@ -109,14 +130,13 @@
                             <settlement key="xxx">Berlin</settlement>
                         </address>
                     </location>
-                    <!--<desc>gegründet 1880 von Hermann Wolff, nach dessen Tod 1902 weitergeführt von
+                    <note>gegründet 1880 von Hermann Wolff, nach dessen Tod 1902 weitergeführt von
                         dessen Witwe Louise Wolff. Diese war involviert in die Planung der Berliner
                         Erstaufführung der Gurrelieder, die allerdings nach einem Streit zwischen
                         Schönberg und dem Dirigenten der geplanten Aufführung, Siegfried Ochs, nicht
-                        zustande kam.</desc>-->
+                        zustande kam.</note>
                 </org>
-                <!-- type="agency" -->
-                <org xml:id="automatisch6">
+                <org xml:id="automatisch6" type="agency">
                     <orgName type="reg">Musikblätter des Anbruch</orgName>
                     <orgName type="alt">Anbruch</orgName>
                     <orgName type="alt">Österreichische Zeitschrift für Musik</orgName>
@@ -125,7 +145,7 @@
                             <settlement key="xxx">Wien</settlement>
                         </address>
                     </location>
-                    <!--<desc>erschienen 1919–1937 in der UE als Monats- bzw. Halbmonatsschrift (ab 1929
+                    <note>erschienen 1919–1937 in der UE als Monats- bzw. Halbmonatsschrift (ab 1929
                         nur noch als Anbruch, ab 1935 als Österreichische Zeitschrift für Musik).
                         Prägend auf Seiten der Redaktion waren Otto Schneider, Alfred Kalmus, Paul
                         Amadeus Pisk und Paul Stefan; führende Komponisten und Musik-Intellektuelle
@@ -134,7 +154,7 @@
                         der Septemberausgabe 1930 wurde die andere große Zeitschriftenpublikation
                         der UE, Pult und Taktstock, mit dem Anbruch fusioniert. In den 1930er Jahren
                         gerät die Zeitschrift immer mehr unter ideologischen Druck, viele Autoren
-                        und Redakteure emigrieren.</desc>-->
+                        und Redakteure emigrieren.</note>
                 </org>
             </listOrg>
         </body>
