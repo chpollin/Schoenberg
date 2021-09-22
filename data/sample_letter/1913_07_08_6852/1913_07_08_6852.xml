@@ -58,7 +58,7 @@
             <div type="letter">
                 <pb n="1" xml:id="page.1"/>
                 <opener>
-                    <metamark>I</metamark>
+                    <metamark rend="right">I</metamark>
                     <stamp sameAs="#stamp.1">
                         <persName ref="#person.1">Arnold Schönberg</persName><lb/>Berlin-Südende<lb/>
                         <location>

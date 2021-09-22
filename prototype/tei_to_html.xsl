@@ -29,6 +29,14 @@
                     <main>
                         <div class="container">
                             <div class="row">
+                                <p>
+                                    msDesc: <xsl:value-of select="//*:teiHeader/*:sourceDesc/*:msDesc"/>
+                                </p>
+                                <p>
+                                    correspDesc: <xsl:value-of select="//*:teiHeader/*:profileDesc/*:correspDesc"/>
+                                </p>
+                            </div>
+                            <div class="row">
                                 <div class="col-8">
                                     <xsl:apply-templates select="//*:body"/>
                                 </div>
@@ -60,10 +68,37 @@
         </html>
     </xsl:template>
 
+    <!-- OPENER -->
     <xsl:template match="*:opener">
         <div class="row">
             <xsl:apply-templates/>
         </div>
+    </xsl:template>
+    
+    <xsl:template match="*:address">
+        <div>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="*:addrLine">
+        <div class="row">
+            <span>
+                <xsl:apply-templates/>
+            </span>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="*:closer">
+        <div class="row">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="*:salute">
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     
    <xsl:template match="*:stamp">
@@ -152,6 +187,28 @@
         <li>
             <xsl:apply-templates/>
         </li>
+    </xsl:template>
+    
+    <xsl:template match="*:supplied">
+        <span title="{@cert}">
+            <xsl:text>[ </xsl:text>
+                <xsl:apply-templates/>
+            <xsl:text>] </xsl:text>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="*:gap">
+        <span title="{@reason}" class="{concat('p-', @quantity)}"/>
+    </xsl:template>
+    
+    <!-- NAMES -->
+    <xsl:template match="*:persName | *:orgName | *:placeName">
+        <a href="#">
+            <xsl:attribute name="title">
+                <xsl:value-of select="@key"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </a>
     </xsl:template>
 
 </xsl:stylesheet>
