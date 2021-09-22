@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/X:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de" ww:doctype="letter avhr">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="file:/X:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+
+<!--  ww:doctype="letter avhr" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,21 +17,30 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    <msIdentifier/>
+                    <msIdentifier>
+                        <repository>todo</repository>
+                        <idno>sig</idno>
+                    </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="xxx">Arnold Schönberg</persName>
+                    <persName key="#person.1">
+                        <forename>Arnold</forename>
+                        <surname>Schönberg</surname>
+                    </persName>
                     <placeName key="xxx">Gautzsch bei Leipzig</placeName>
                     <date when="1913-07-08"/>
                 </correspAction>
                 <correspAction type="received">
-                    <orgName key="xxx">Universal-Edition</orgName>
-                    <persName key="xxx">Emil Hertzka</persName>
-                    <placeName key="xxx">Wien</placeName>
+                    <orgName key="#org.1">Universal-Edition</orgName>
+                    <persName key="#person.2">
+                        <forename>Emil</forename>
+                        <surname>Hertzka</surname>
+                    </persName>
+                    <placeName key="#place.1.1">Wien</placeName>
                 </correspAction>
                 <note/>
                 <correspContext>
@@ -42,63 +56,69 @@
     <text>
         <body>
             <div type="letter">
-                <pb n="1" xml:id="p.1"/>
-                <opener><metamark>I</metamark>
-                    <stamp sameAs="#stamp.1"><!-- übernommen aus dem Github issue -->
-                        <persName ref="#">Arnold Schönberg</persName><lb/>Berlin-Südende<lb/>
+                <pb n="1" xml:id="page.1"/>
+                <opener>
+                    <metamark>I</metamark>
+                    <stamp sameAs="#stamp.1">
+                        <persName ref="#person.1">Arnold Schönberg</persName><lb/>Berlin-Südende<lb/>
                         <location>
-                            <placeName ref="#">Berlinerstr. 17a, I.</placeName>
+                            <placeName ref="#place.2.1.1.1">Berlinerstr. 17a, I.</placeName>
                         </location><lb/> Tel.: Tempelhof 174<lb/>
                     </stamp>
                     <dateline rend="right">8/7.1913</dateline>
                     <address>
-                        <addrLine>z.Z. <placeName><hi rendition="#u">Gautzsch</hi> bei Leipzig,
+                        <addrLine>z.Z. <placeName>
+                            <!-- CP: besser ein <hi rend="underline">  -->
+                            <hi rend="underline">Gautzsch</hi> bei Leipzig,
                                 Charlottenstr. 18</placeName></addrLine>
                         <addrLine>per Adr. <persName>D. F. Zehme</persName></addrLine>
-                    </address><salute>Lieber Herr Direktor</salute></opener>
-                <p>I. ich habe bereits an <persName key="polnauer">Polnauer</persName><lb/> geschrieben wegen der
-                        „<hi rendition="#u">Bläser-Partituren-Stimmen</hi>“.<lb/> Ich bin im Ganzen
-                    dafür, denn es hat den Vorteil,<lb/> dass die Bläser einander gegenseitig als
-                    Stichwort dienen.<lb/>
-                    <hi rendition="#u">Immerhin sollte man noch einige Orchestermitglieder
+                    </address>
+                    <salute>Lieber Herr Direktor</salute>
+                </opener>
+                <p>I. ich habe bereits an <persName key="polnauer">Polnauer</persName><lb/>
+                    geschrieben wegen der „<hi rend="underline">Bläser-Partituren-Stimmen</hi>“.<lb/>
+                    Ich bin im Ganzen dafür, denn es hat den Vorteil,<lb/> dass die Bläser einander
+                    gegenseitig als Stichwort dienen.<lb/>
+                    <hi rend="underline">Immerhin sollte man noch einige Orchestermitglieder
                         <lb/>befragen</hi>. Wenn man es aber macht, dann meine<lb/> ich: immer eine
                     ganze Gruppe zusammen; also<lb/> alle 10 Hörner, alle 6 Trp, alle 8 Posaunen;
                     Nur<lb/> wenn das geht, hat es Zweck. Man muss eben<lb/> Stichproben machen.
-                    Meines Erachtens dürften sobald <add place="superlinear">alle</add> 10 (resp
+                    Meines Erachtens dürften sobald <add place="above">alle</add> 10 (resp
                     8<lb/> oder 6) Instrumente gleichzeitig beschäftigt<lb/>
-                    <del rendition="#s">I</del> sind, mehrere unisono spielen, wodurch für diese
+                    <del rend="strikethrough">I</del> sind, mehrere unisono spielen, wodurch für diese
                         unisono<g ref="#typoHyphen"/><lb break="no"/>spielenden stets <hi
-                        rendition="#u">eine</hi> Zeile genügte, so dass die Partitur<lb/> im
-                    Durchschnitt höchstens 6-8 Zeilen <del rendition="#s"><gap reason="illegible"
+                        rend="underline">eine</hi> Zeile genügte, so dass die Partitur<lb/> im
+                    Durchschnitt höchstens 6-8 Zeilen <del rend="strikethrough"><gap reason="illegible"
                             quantity="2" unit="chars"/></del> und das an nicht allzu<lb/> vielen
-                    Stellen <del rendition="#s">!</del> erreichen dürfte. Allerdings: <hi
-                        rendition="#uu"> jede</hi> Stimme<lb/> muss (<hi rendition="#u">jedes</hi>
+                    Stellen <del rend="strikethrough">!</del> erreichen dürfte. Allerdings: <hi
+                        rendition="#uu"> jede</hi> Stimme<lb/> muss (<hi rend="underline">jedes</hi>
                     <hi rendition="#uu">einzelne</hi> Instrument!!) muss wenden können.<lb/> Ob das
                     geht kann ich nicht beurteilen.</p>
                 <p>
-                    <del rendition="#s">II</del> Sollten Sie sich aber doch dafür entscheiden,<lb/>
-                    nicht alle Hörner in <hi rendition="#u">eine</hi> Partitur zu geben, dann <pb
-                        n="2" xml:id="p.2"/> ist es besser, die I. (1. 3 u. 5.) und die II. (2. 4.
+                    <del rend="strikethrough">II</del> Sollten Sie sich aber doch dafür entscheiden,<lb/>
+                    nicht alle Hörner in <hi rend="underline">eine</hi> Partitur zu geben, dann <pb
+                        n="2" xml:id="page.2"/> ist es besser, die I. (1. 3 u. 5.) und die II. (2. 4.
                     u. 6)<lb/> in je eine Partitur zu bringen und für 7. 8. 9. 10 eine<lb/> 3
                     Partitur anzulegen.</p>
-                <p>Bei den Trompeten müßte man <hi rendition="kasten"
-                        ><!-- ggf ein eigener value für kästen im Unterschied zu einkreisungen?... -->1.2.</hi>
-                    3 4 und 5. 6. <add place="superlinear">und Bss Trompete</add> teilen.</p>
+                <p>Bei den Trompeten müßte man <hi rend="rectangle"
+                        ><!-- ggf ein eigener value für kästen im Unterschied zu einkreisungen?... -->1. 2. </hi>
+                    3 4 und 5. 6. <add place="above">und Bss Trompete</add> teilen.</p>
                 <p>Bei den Posaunen: Alt, I. II. III. IV u Bss Pos in Es Ctrbss Pos u CtrbssTa</p>
                 <p>Bei den Clarinetten: 1.2 Es Cl 1.2.3. A (B) Cl 1.2. Bss Cl</p>
                 <p>Bei den Flöten 1. 2. 3. 4 gr. 1. 2. 3. 4 kl</p>
                 <p>" " Oboen l. 2 3 Ob 1. 2 EH</p>
                 <p>" " Fagotten 1. 2 3 Fg 1. 2 Ctr Fg</p>
                 <p>II. Ich nehme mir jetzt die Gurre<!-- musikalisches Werk --><lb/> Partitur vor
-                        <hi rendition="#u">um etwaige Änderungen noch</hi><lb/> rechtzeitig zu
+                        <hi rend="underline">um etwaige Änderungen noch</hi><lb/> rechtzeitig zu
                     nennen. Ich hoffe diese Arbeit<lb/> in cirka 6-8 Tagen erledigt zu haben.</p>
-                <p>III. Bitte senden Sie mir eine <hi rendition="#u"
+                <p>III. Bitte senden Sie mir eine <hi rend="underline"
                         >Pelleas</hi><!-- musikalisches Werk --><g ref="#typoHyphen"/><lb break="no"
-                        /><hi rendition="#u">Partitur</hi>; ich will auch hier einige
+                        /><hi rend="underline">Partitur</hi>; ich will auch hier einige
                     Änderungen<lb/> eintragen (für mein Material)</p>
-                <p>IV. Das Cello-Konzert <!-- musikalisches Werk --> von Monn<lb/> scheinen Sie nicht erwerben zu wollen.
-                        Wenn<pb n="3" xml:id="p.3"/>das so ist[,] dann bitte ich um Nachricht, da
-                    ich es<lb/> leicht <orgName key="peters">Peters</orgName> oder <orgName key="eulenburg">Eulenburg</orgName> geben kann.</p>
+                <p>IV. Das Cello-Konzert <!-- musikalisches Werk --> von Monn<lb/> scheinen Sie
+                    nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist[,] dann bitte
+                    ich um Nachricht, da ich es<lb/> leicht <orgName key="peters">Peters</orgName>
+                    oder <orgName key="eulenburg">Eulenburg</orgName> geben kann.</p>
                 <p>V. Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun
                     3 ¾ Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen seit wir unseren
                     Vertrag abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft und eben so lange
@@ -108,26 +128,29 @@
                     Vorschussbeträge zu seinen Gunsten<lb/> verfallen. Ehe ich nun von diesem Recht
                     Gebrauch<lb/> mache, möchte ich Ihnen noch Gelegenheit geben<lb/> Ihrer
                     Druckverpflichtung nachzukommen und<lb/> bin geneigt die Ausübung meines Rechtes
-                        <del rendition="#s">solange</del><lb/> hinauszuschieben <add
-                        place="superlinear">damit ich innerhalb 8 Tagen</add>
-                    <del rendition="#s">bis ich</del> von Ihnen die Zusicherung<lb/> habe, dass Sie
+                        <del rend="strikethrough">solange</del><lb/> hinauszuschieben <add
+                        place="above">damit ich innerhalb 8 Tagen</add>
+                    <del rend="strikethrough">bis ich</del> von Ihnen die Zusicherung<lb/> habe, dass Sie
                     außer den freigewordenen Werken<lb/> auch diejenigen sofort drucken, die noch
                     nicht<lb/> frei sind.</p>
                 <p> Es sind frei:</p>
-                <p><list>
+                <p>
+                    <list>
                         <item>I. Das Monodram „Glückliche Hand“</item>
-                        <pb n="4" xml:id="p.4"/>
+                        <pb n="4" xml:id="page.4"/>
                         <item>II. Die George Lieder</item>
                         <item>III. Die 2 Balladen</item>
                         <item>IV. Ein Heft Lieder</item>
-                    </list></p>
+                    </list>
+                </p>
                 <p>Noch nicht frei dagegen</p>
                 <p>
                     <list>
                         <item>I. 6 Klavierstücke</item>
                         <item>II. Lied für Harm. Celesta u. Harfe</item>
                         <item>III. Pierrot lunaire.</item>
-                    </list></p>
+                    </list>
+                </p>
                 <p>Ich bitte Sie mir in<add place="sublinear">nerhalb</add> 8 Tagen mitzuteilen, ob
                     Sie bereit sind auf diese Bedingungen einzugehen:</p>
                 <p>a) I. Monodram Partitur und Klavierauszug</p>
@@ -138,12 +161,12 @@
                 <p> V. Partituren der 6 Orchesterlieder</p>
                 <p> sofort in Druck zu geben und dafür zu sorgen, dass<lb/> sie in längstens 2
                     Monaten zur I. Korrektur und<lb/> in längstens 4 Monaten <add
-                        place="superlinear">von heute</add> zum Verkauf fertig sind.</p>
+                        place="above">von heute</add> zum Verkauf fertig sind.</p>
                 <p>b).1) die 2 Balladen<lb/> 2) das Heft Lieder<lb/> 3) das Harm.-Cel.-Harfe-Lied in
                     5 Monaten<lb/> zur I. Korrektur und in 7 Monaten von heute zum<lb/>
-                    <del rendition="#s">Ausgab</del> Verkauf fertig sind.</p>
+                    <del rend="strikethrough">Ausgab</del> Verkauf fertig sind.</p>
                 <p> Sollten Sie auf diese Bedingungen nicht<lb/> eingehen können, so müsste ich mein
-                        gesetzliches<pb n="5" xml:id="p.5"/> Recht benutzen.</p>
+                        gesetzliches<pb n="5" xml:id="page.5"/> Recht benutzen.</p>
                 <p><metamark>II.</metamark> Es täte mir das sehr leid. Vor allem weil ich<lb/>
                     darauf halte, dass meine Sachen möglichst<lb/> in einem Verlag bleiben.
                     Insbesondere aber,<lb/> weil ich um jeden Preis eine Trübung unseres<lb/>
@@ -159,13 +182,30 @@
                     sehr gut verstehen,<lb/> dass Sie infolge andrer Verpflichtungen (gegen<lb/>
                     jüngere und wahrscheinlich bedeutendere Autoren<lb/> als ich) nicht imstande
                     sind meinen Werken<lb/> genügend Arbeit zu widmen. Aber ich muss nun<pb n="6"
-                        xml:id="p.6"/> endlich von meinen Werken <subst>
-                        <del rendition="#s">das</del>
-                        <add place="superlinear">etwas</add>
+                        xml:id="page.6"/> endlich von meinen Werken <subst>
+                        <del rend="strikethrough">das</del>
+                        <add place="above">etwas</add>
                     </subst> haben, und da<lb/> kann ich nicht länger warten.</p>
                 <closer> Ich hoffe bald Nachricht zu haben und empfehle<lb/> mich Ihnen mit besten
                     Grüßen <salute>Ihr ergebener Arnold Schönberg</salute></closer>
             </div>
         </body>
     </text>
+    <facsimile>
+        <surface start="#page.1">
+            <graphic url="1913_07_08_6852_1.jpg" xml:id="IMG.1"/>
+        </surface>
+        <surface start="#page.2">
+            <graphic url="1913_07_08_6852_2.jpg" xml:id="IMG.2"/>
+        </surface>
+        <surface start="#page.3">
+            <graphic url="1913_07_08_6852_3.jpg" xml:id="IMG.3"/>
+        </surface>
+        <surface start="#page.4">
+            <graphic url="1913_07_08_6852_4.jpg" xml:id="IMG.4"/>
+        </surface>
+        <surface start="#page.5">
+            <graphic url="1913_07_08_6852_5.jpg" xml:id="IMG.5"/>
+        </surface>
+    </facsimile>
 </TEI>

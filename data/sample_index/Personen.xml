@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema/avh_REGISTER.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de"
-    ww:doctype="ah_personenregister">
+<!--<?xml-model href="../../schema/avh_REGISTER.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- ww:doctype="ah_personenregister" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,6 +21,19 @@
     <text>
         <body>
             <listPerson>
+                <person xml:id="person.1">
+                    <persName>
+                        <forename>Arnold</forename>
+                        <surname>Schönberg</surname>
+                    </persName>
+                </person>
+                <person xml:id="person.2">
+                    <persName>
+                        <forename>Emil</forename>
+                        <surname>Hertzka</surname>
+                    </persName>
+                </person>
+                
                 <person xml:id="automatisch1">
                     <!-- CP: 
                         * type="alt" heißt?

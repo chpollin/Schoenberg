@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema/avh_REGISTER.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de"
-    ww:doctype="ah_personenregister">
+<!--<?xml-model href="../../schema/avh_REGISTER.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- ww:doctype="ah_personenregister" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de" >
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,18 +21,16 @@
     <text>
         <body>
             <listOrg>
-                <!-- CP: type="theatre" -->
-                <org xml:id="automatisch1" >
-                    <!-- CP: Geschmacksache, aber ich find auch die ganze URI besser :) -->
+                <org xml:id="org.1">
+                    <idno type="uri">http://d-nb.info/gnd/2045143-X</idno>
+                    <orgName>Universal-Edition</orgName>
+                </org>
+                <org xml:id="automatisch1" type="theatre">
                     <idno type="uri">http://d-nb.info/gnd/30656-3</idno>
                     <orgName type="reg">Nationaltheater Mannheim</orgName>
                     <location xml:id="xxx">
-                        <!-- wozu braucht man das location Element? -->
-                        <!-- CP: hier erlaubt es TEI allgemeiner zu sein: location könnte jede räumliche zuordnung sein; mit den kindelementen wird dies weiter spezifiiert. -->
                         <address>
-                            <!-- CP:  braucht einen key -->
                             <settlement key="">Mannheim</settlement>
-                            <!-- key aus Ortsregister einfügen -->
                             <note>Schillerplatz</note>
                         </address>
                     </location>
