@@ -92,7 +92,8 @@
                     Stellen <del rend="strikethrough">!</del> erreichen dürfte. Allerdings: <hi
                         rendition="#uu"> jede</hi> Stimme<lb/> muss (<hi rend="underline">jedes</hi>
                     <hi rendition="#uu">einzelne</hi> Instrument!!) muss wenden können.<lb/> Ob das
-                    geht kann ich nicht beurteilen.</p>
+                    geht kann ich nicht beurteilen. 
+                </p>
                 <p>
                     <del rend="strikethrough">II</del> Sollten Sie sich aber doch dafür entscheiden,<lb/>
                     nicht alle Hörner in <hi rend="underline">eine</hi> Partitur zu geben, dann <pb
@@ -103,7 +104,7 @@
                         ><!-- ggf ein eigener value für kästen im Unterschied zu einkreisungen?... -->1. 2. </hi>
                     3 4 und 5. 6. <add place="above">und Bss Trompete</add> teilen.</p>
                 <p>Bei den Posaunen: Alt, I. II. III. IV u Bss Pos in Es Ctrbss Pos u CtrbssTa</p>
-                <p>Bei den Clarinetten: 1.2 Es Cl 1.2.3. A (B) Cl 1.2. Bss Cl</p>
+                <p>Bei den <choice><orig>C</orig><corr>K</corr></choice>larinetten: 1.2 Es Cl 1.2.3. A (B) Cl 1.2. Bss Cl</p>
                 <p>Bei den Flöten 1. 2. 3. 4 gr. 1. 2. 3. 4 kl</p>
                 <p>" " Oboen l. 2 3 Ob 1. 2 EH</p>
                 <p>" " Fagotten 1. 2 3 Fg 1. 2 Ctr Fg</p>
@@ -170,7 +171,7 @@
                     darauf halte, dass meine Sachen möglichst<lb/> in einem Verlag bleiben.
                     Insbesondere aber,<lb/> weil ich um jeden Preis eine Trübung unseres<lb/>
                     freundschaftlichen Verhältnisses vermeiden<lb/>
-                    <gap reason="lost" quantity="2" unit="chars"/><supplied cert="high"
+                    <supplied cert="high"
                         >mö</supplied>chte.</p>
                 <p> Aber, da es für mich klar ist, dass meine<lb/> Noten für mich nicht eher einen
                     Ertrag ab<g ref="#typoHyphen"/><lb break="no"/>liefern können, als alles
