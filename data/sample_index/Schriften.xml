@@ -13,22 +13,19 @@ Auflistung der Drucke im Korrespondenzzeitraum
                 <forename>Arnold</forename>
             </persName>
         </author>
-        <title>Harmonielehre (1911)</title>
+        <title>Harmonielehre (<date when="1911">1911</date>)</title>
         <idno>ASSV 2.1.1.</idno>
         <!-- im avh-Schema nicht vorhanden -->
-        <note>
-            <imprint>Vorabdruck des Kapitels "Über Oktaven- und Quintenparallelen" in: Die Musik 10,
-                Nr. 2, zweites Oktoberheft 1910/1911), S. 96-105.</imprint>
-            <imprint> Vorabdruck einer Textauswahl aus dem Kapitel "Über Oktaven- und
-                Quintparallelen" [übersetzt von Wassily Kandinsky] im Katalog zur Internationalen
-                Kunstausstellung "Salon 2" in Odessa (1919/1911), S. 16–18.</imprint>
-            <imprint>Erstdruck: Arnold Schönberg: Harmonielehre, Leipzig – Wien: Universal-Edition
-                1911.</imprint>
-            <imprint>Erstdruck der ersten englischen Teilübersetzung: Arnold Schoenberg: Theory of
-                Harmony: Translated by Robert D. W. Adam, New York: Philosophical Library
-                1948.</imprint>
-            <!-- <imprint> geeignet zur Strukturierung der Einträge? -->
-        </note>
+        <bibl>Vorabdruck des Kapitels "Über Oktaven- und Quintenparallelen" in: Die Musik 10,
+            Nr. 2, zweites Oktoberheft 1910/1911), S. 96-105.</bibl>
+        <bibl> Vorabdruck einer Textauswahl aus dem Kapitel "Über Oktaven- und
+            Quintparallelen" [übersetzt von Wassily Kandinsky] im Katalog zur Internationalen
+            Kunstausstellung "Salon 2" in Odessa (1919/1911), S. 16–18.</bibl>
+        <bibl>Erstdruck: Arnold Schönberg: Harmonielehre, Leipzig – Wien: Universal-Edition
+            1911.</bibl>
+        <bibl>Erstdruck der ersten englischen Teilübersetzung: Arnold Schoenberg: Theory of
+            Harmony: Translated by Robert D. W. Adam, New York: Philosophical Library
+            1948.</bibl>
     </bibl>
     <bibl>
         <author>
