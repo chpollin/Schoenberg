@@ -70,7 +70,7 @@
                         <addrLine>z.Z. <placeName>
                             <hi rend="underline">Gautzsch</hi> bei Leipzig,
                                 Charlottenstr. 18</placeName></addrLine>
-                        <addrLine>per Adr. <persName>D. F. Zehme</persName></addrLine>
+                        <addrLine>per Adr. <persName>D. F. Zehme</persName></addrLine><!-- "Gautzsch", "Leipzig, Charlottenstr." und "Dr F. Zehme" sind in lateinischer Schrift geschrieben -->
                     </address>
                     <salute>Lieber Herr Direktor</salute>
                 </opener>
@@ -140,7 +140,7 @@
                         <pb n="4" xml:id="page.4"/>
                         <item>II. Die George Lieder</item>
                         <item>III. Die 2 Balladen</item>
-                        <item>IV. Ein Heft Lieder</item>
+                        <item>IV. Ein Heft Lieder</item><!-- die 4 items sind ebenfalls in lateinischer Schrift -->
                     </list>
                 </p>
                 <p>Noch nicht frei dagegen</p>
