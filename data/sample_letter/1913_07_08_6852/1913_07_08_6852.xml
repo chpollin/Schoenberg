@@ -103,8 +103,8 @@
                 <p>Bei den Trompeten müßte man <hi rend="rectangle"
                         ><!-- ggf ein eigener value für kästen im Unterschied zu einkreisungen?... -->1. 2. </hi>
                     3 4 und 5. 6. <add place="above">und Bss Trompete</add> teilen.</p>
-                <p>Bei den Posaunen: Alt, I. II. III. IV u Bss Pos in Es Ctrbss Pos u CtrbssTa</p>
-                <p>Bei den <choice><orig>C</orig><corr>K</corr></choice>larinetten: 1.2 Es Cl 1.2.3. A (B) Cl 1.2. Bss Cl</p>
+                <p>Bei den Posaunen: Alt, I. II. III. IV u Bss Pos in Es <choice><abbr>Ctrbss</abbr><expan>Contrabass</expan></choice> Pos u CtrbssTa</p>
+                <p>Bei den <choice><orig>C</orig><reg>K</reg></choice>larinetten: <!-- <choice><sic>C</sic><corr>K</corr></choice>larinetten: im Falle eines Scheibfehlers --> 1.2 Es Cl 1.2.3. A (B) Cl 1.2. Bss Cl</p>
                 <p>Bei den Flöten 1. 2. 3. 4 gr. 1. 2. 3. 4 kl</p>
                 <p>" " Oboen l. 2 3 Ob 1. 2 EH</p>
                 <p>" " Fagotten 1. 2 3 Fg 1. 2 Ctr Fg</p>
