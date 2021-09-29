@@ -64,115 +64,141 @@
                         <location>
                             <placeName ref="#place.2.1.1.1">Berlinerstr. 17a, I.</placeName>
                         </location><lb/> Tel.: Tempelhof 174<lb/>
-                    </stamp>
+                    </stamp><!-- Absendername und Ort müssen im Stamp nicht referenziert werden, da dies ja im Header geschieht -->
                     <dateline rend="right">8/7.1913</dateline>
                     <address>
                         <addrLine>z.Z. <placeName>
-                            <hi rend="underline">Gautzsch</hi> bei Leipzig,
-                                Charlottenstr. 18</placeName></addrLine>
-                        <addrLine>per Adr. <persName>D. F. Zehme</persName></addrLine><!-- "Gautzsch", "Leipzig, Charlottenstr." und "Dr F. Zehme" sind in lateinischer Schrift geschrieben -->
-                    </address>
-                    <salute>Lieber Herr Direktor</salute>
+                                <hi rend="underline">Gautzsch</hi> bei Leipzig, Charlottenstr.
+                                18</placeName></addrLine>
+                        <addrLine>per Adr. <persName>D<hi rend="superscript"><hi rend="underline"
+                                        >r</hi></hi> F. Zehme</persName></addrLine>
+                    </address><!-- "Gautzsch", "Leipzig, Charlottenstr." und "Dr F. Zehme" sind in lateinischer Schrift geschrieben --><!-- hinfällig, weil wir nun doch entschieden haben, auf die Auszeichnung von lateinischer Schrift in Kurrent-Briefen zu verzichten -->
+                    <salute>Lieber Herr
+                    Direktor</salute><!-- Wir hätten gerne die Möglichkeit "salute" hier und am Briefende entsprechend dem Original anzuordnen, d.h. hier in die erste Zeile inkludiert -->
                 </opener>
                 <p>I. ich habe bereits an <persName key="polnauer">Polnauer</persName><lb/>
-                    geschrieben wegen der „<hi rend="underline">Bläser-Partituren-Stimmen</hi>“.<lb/>
-                    Ich bin im Ganzen dafür, denn es hat den Vorteil,<lb/> dass die Bläser einander
-                    gegenseitig als Stichwort dienen.<lb/>
-                    <hi rend="underline">Immerhin sollte man noch einige Orchestermitglieder
-                        <lb/>befragen</hi>. Wenn man es aber macht, dann meine<lb/> ich: immer eine
-                    ganze Gruppe zusammen; also<lb/> alle 10 Hörner, alle 6 Trp, alle 8 Posaunen;
-                    Nur<lb/> wenn das geht, hat es Zweck. Man muss eben<lb/> Stichproben machen.
-                    Meines Erachtens dürften sobald <add place="above">alle</add> 10 (resp
-                    8<lb/> oder 6) Instrumente gleichzeitig beschäftigt<lb/>
-                    <del rend="strikethrough">I</del> sind, mehrere unisono spielen, wodurch für diese
-                        unisono<g ref="#typoHyphen"/><lb break="no"/>spielenden stets <hi
+                    geschrieben wegen der „<hi rend="underline"
+                    >Bläser-Partituren-Stimmen</hi>“.<lb/> Ich bin im Ganzen dafür, denn es hat den
+                    Vorteil,<lb/> dass die Bläser einander gegenseitig als Stichwort dienen.<lb/>
+                    <hi rend="underline">Immerhin sollte man noch einige Orchestermitglieder<lb/>
+                        befragen</hi>. Wenn man es aber macht, dann meine<lb/> ich: immer eine ganze
+                    Gruppe zusammen; also<lb/> alle 10 Hörner, alle 6 Trp, alle 8 Posaunen; Nur<lb/>
+                    wenn das geht, hat es Zweck. Man muss eben<lb/> Stichproben machen. Meines
+                    Erachtens dürften sobald <add place="above">alle</add> 10 (resp 8<lb/> oder 6)
+                    Instrumente gleichzeitig beschäftigt<lb/>
+                    <del rend="strikethrough">I</del> sind, mehrere unisono spielen, wodurch für
+                    diese unisono<g ref="#typoHyphen"/><lb break="no"/>spielenden stets <hi
                         rend="underline">eine</hi> Zeile genügte, so dass die Partitur<lb/> im
-                    Durchschnitt höchstens 6-8 Zeilen <del rend="strikethrough"><gap reason="illegible"
-                            quantity="2" unit="chars"/></del> und das an nicht allzu<lb/> vielen
-                    Stellen <del rend="strikethrough">!</del> erreichen dürfte. Allerdings: <hi
-                        rendition="#uu"> jede</hi> Stimme<lb/> muss (<hi rend="underline">jedes</hi>
+                    Durchschnitt höchstens 6-8 Zeilen <del rend="strikethrough"><gap
+                            reason="illegible" quantity="2" unit="chars"
+                    /></del><!-- Gibt hier eine bessere Lösung, ein durchgestrichenes, aber nicht mehr entzifferbares Wort auszuzeichnen? z.B. <supplied>[...]</supplied>? -->
+                    und das an nicht allzu<lb/> vielen Stellen <del rend="strikethrough">!</del>
+                    erreichen dürfte. Allerdings: <hi rendition="#uu"> jede</hi> Stimme<lb/>
+                    <del rend="strikethrough">muss</del> (<hi rend="underline">jedes</hi>
                     <hi rendition="#uu">einzelne</hi> Instrument!!) muss wenden können.<lb/> Ob das
-                    geht kann ich nicht beurteilen. 
-                </p>
+                    geht kann ich nicht beurteilen. </p>
                 <p>
-                    <del rend="strikethrough">II</del> Sollten Sie sich aber doch dafür entscheiden,<lb/>
-                    nicht alle Hörner in <hi rend="underline">eine</hi> Partitur zu geben, dann <pb
-                        n="2" xml:id="page.2"/> ist es besser, die I. (1. 3 u. 5.) und die II. (2. 4.
-                    u. 6)<lb/> in je eine Partitur zu bringen und für 7. 8. 9. 10 eine<lb/> 3
-                    Partitur anzulegen.</p>
-                <p>Bei den Trompeten müßte man <hi rend="rectangle"
-                        ><!-- ggf ein eigener value für kästen im Unterschied zu einkreisungen?... -->1. 2. </hi>
-                    3 4 und 5. 6. <add place="above">und Bss Trompete</add> teilen.</p>
-                <p>Bei den Posaunen: Alt, I. II. III. IV u Bss Pos in Es <choice><abbr>Ctrbss</abbr><expan>Contrabass</expan></choice> Pos u CtrbssTa</p>
-                <p>Bei den <choice><orig>C</orig><reg>K</reg></choice>larinetten: <!-- <choice><sic>C</sic><corr>K</corr></choice>larinetten: im Falle eines Scheibfehlers --> 1.2 Es Cl 1.2.3. A (B) Cl 1.2. Bss Cl</p>
-                <p>Bei den Flöten 1. 2. 3. 4 gr. 1. 2. 3. 4 kl</p>
-                <p>" " Oboen l. 2 3 Ob 1. 2 EH</p>
-                <p>" " Fagotten 1. 2 3 Fg 1. 2 Ctr Fg</p>
+                    <del rend="strikethrough">II</del> Sollten Sie sich aber doch dafür
+                    entscheiden,<lb/> nicht alle Hörner in <hi rend="underline">eine</hi> Partitur
+                    zu geben, dann <pb n="2" xml:id="page.2"/> ist es besser, die I. (1. 3 u. 5.)
+                    und die II. (2. 4. u. 6)<lb/> in je eine Partitur zu bringen und für 7. 8. 9. 10
+                    eine<lb/> 3 Partitur anzulegen.</p>
+                <p>Bei den Trompeten müßte man <hi rend="rectangle">1. 2. </hi>
+                    <hi rend="rectangle">3 4</hi><lb/> und <hi rend="rectangle">5. 6.</hi>
+                    <add place="above">und Bss Trompete</add> teilen.</p>
+                <p>Bei den Posaunen: <hi rend="rectangle">Alt, I. II.</hi>
+                    <hi rend="rectangle">III. IV u Bss Pos in Es</hi>
+                    <hi rend="rectangle"><choice>
+                            <abbr>Ctrbss</abbr>
+                            <expan>Contrabass</expan>
+                            <!-- kann man hier auch noch <reg>Kontrabass<reg/> hinzufügen, d.h. verschiedene choice-Elemente miteinander kombinieren? -->
+                        </choice> Pos u CtrbssTa</hi></p>
+                <p>Bei den <choice>
+                        <orig>C</orig>
+                        <reg>K</reg>
+                    </choice>larinetten: <!-- <choice><sic>C</sic><corr>K</corr></choice>larinetten: im Falle eines Scheibfehlers -->
+                    <hi rend="rectangle">1.2 Es Cl</hi>
+                    <hi rend="rectangle">1.2.3. A (B) Cl</hi>
+                    <hi rend="rectangle">1.2. Bss Cl</hi></p>
+                <p>Bei den Flöten <hi rend="rectangle">1. 2. 3. 4 <add rend="below"
+                            ><metamark/>gr.</add></hi>
+                    <hi rend="rectangle">1. 2. 3. 4 kl</hi></p>
+                <p>" " <!-- Unterführungszeichen mit <reg>Bei den</reg> auflösen? -->Oboen <hi
+                        rend="rectangle">l. 2 3 Ob</hi>
+                    <hi rend="rectangle">1. 2 EH</hi></p>
+                <p>" " Fagotten <hi rend="rectangle">1. 2 3 Fg</hi>
+                    <hi rend="rectangle">1. 2 Ctr Fg</hi></p>
                 <p>II. Ich nehme mir jetzt die Gurre<!-- musikalisches Werk --><lb/> Partitur vor
                         <hi rend="underline">um etwaige Änderungen noch</hi><lb/> rechtzeitig zu
                     nennen. Ich hoffe diese Arbeit<lb/> in cirka 6-8 Tagen erledigt zu haben.</p>
                 <p>III. Bitte senden Sie mir eine <hi rend="underline"
-                        >Pelleas</hi><!-- musikalisches Werk --><g ref="#typoHyphen"/><lb break="no"
-                        /><hi rend="underline">Partitur</hi>; ich will auch hier einige
-                    Änderungen<lb/> eintragen (für mein Material)</p>
+                        >Pelleas-</hi><!-- musikalisches Werk --><lb/><hi rend="underline"
+                        >Partitur</hi>; ich will auch hier einige Änderungen<lb/> eintragen (für
+                    mein Material)</p>
                 <p>IV. Das Cello-Konzert <!-- musikalisches Werk --> von Monn<lb/> scheinen Sie
-                    nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist[,] dann bitte
-                    ich um Nachricht, da ich es<lb/> leicht <orgName key="peters">Peters</orgName>
-                    oder <orgName key="eulenburg">Eulenburg</orgName> geben kann.</p>
-                <p>V. Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun
-                    3 ¾ Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen seit wir unseren
-                    Vertrag abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft und eben so lange
-                    bin<lb/> ich verpflichtet gewesen zu warten, ob Sie meine<lb/> Werke
-                    herausgeben. Das Autorengesetz bestimmt<lb/> nun, dass wenn ein Werk innerhalb 3
-                    Jahren<lb/> nicht gedruckt wird, der Autor frei wird und<lb/> die gezahlten
-                    Vorschussbeträge zu seinen Gunsten<lb/> verfallen. Ehe ich nun von diesem Recht
-                    Gebrauch<lb/> mache, möchte ich Ihnen noch Gelegenheit geben<lb/> Ihrer
-                    Druckverpflichtung nachzukommen und<lb/> bin geneigt die Ausübung meines Rechtes
-                        <del rend="strikethrough">solange</del><lb/> hinauszuschieben <add
+                    nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist <supplied
+                        cert="high">,</supplied> dann bitte ich um Nachricht, da ich es<lb/> leicht
+                        <orgName key="peters">Peters</orgName> oder <orgName key="eulenburg"
+                        >Eulenburg</orgName> geben kann.</p>
+                <p>V.</p>
+                <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
+                    Jahre ver<g ref="#typoHyphen"/><lb break="no"
+                    /><!-- damit soll ein Abtrennungszeichen beim Zeilenumbruch eingefügt werden -->flossen
+                    seit wir unseren Vertrag abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft
+                    und eben so lange bin<lb/> ich verpflichtet gewesen zu warten, ob Sie meine<lb/>
+                    Werke herausgeben. Das Autorengesetz bestimmt<lb/> nun, dass wenn ein Werk
+                    innerhalb 3 Jahren<lb/> nicht gedruckt wird, der Autor frei wird und<lb/> die
+                    gezahlten Vorschussbeträge zu seinen Gunsten<lb/> verfallen. Ehe ich nun von
+                    diesem Recht Gebrauch<lb/> mache, möchte ich Ihnen noch Gelegenheit geben<lb/>
+                    Ihrer Druckverpflichtung nachzukommen und<lb/> bin geneigt die Ausübung meines
+                    Rechtes <del rend="strikethrough">solange</del><lb/> hinauszuschieben <add
                         place="above">damit ich innerhalb 8 Tagen</add>
-                    <del rend="strikethrough">bis ich</del> von Ihnen die Zusicherung<lb/> habe, dass Sie
-                    außer den freigewordenen Werken<lb/> auch diejenigen sofort drucken, die noch
-                    nicht<lb/> frei sind.</p>
+                    <del rend="strikethrough">bis ich</del> von Ihnen die Zusicherung<lb/> habe,
+                    dass Sie außer den freigewordenen Werken<lb/> auch diejenigen sofort drucken,
+                    die noch nicht<lb/> frei sind.</p>
                 <p> Es sind frei:</p>
+                <!-- Um das originale Textbild besser abzubilden, dies in das erste item der Liste integrieren? -->
                 <p>
-                    <list>
+                    <list rend="simple">
                         <item>I. Das Monodram „Glückliche Hand“</item>
                         <pb n="4" xml:id="page.4"/>
                         <item>II. Die George Lieder</item>
                         <item>III. Die 2 Balladen</item>
-                        <item>IV. Ein Heft Lieder</item><!-- die 4 items sind ebenfalls in lateinischer Schrift -->
+                        <item>IV. Ein Heft Lieder</item>
                     </list>
                 </p>
                 <p>Noch nicht frei dagegen</p>
                 <p>
-                    <list>
+                    <list rend="simple">
                         <item>I. 6 Klavierstücke</item>
                         <item>II. Lied für Harm. Celesta u. Harfe</item>
                         <item>III. Pierrot lunaire.</item>
                     </list>
                 </p>
-                <p>Ich bitte Sie mir in<add place="sublinear">nerhalb</add> 8 Tagen mitzuteilen, ob
-                    Sie bereit sind auf diese Bedingungen einzugehen:</p>
-                <p>a) I. Monodram Partitur und Klavierauszug</p>
-                <!-- hier versuchshalber ohne "list", was ist besser? -->
-                <p> II. George Lieder</p>
-                <p> III. Pierrot lunaire</p>
-                <p> IV. 6 Klavierstücke</p>
-                <p> V. Partituren der 6 Orchesterlieder</p>
+                <p>Ich bitte Sie mir in<add place="below">nerhalb</add> 8 Tagen mitzuteilen, ob Sie
+                    bereit sind auf diese Bedingungen einzugehen:</p>
+                <p><list rend="simple">
+                        <item>a) I. Monodram Partitur und Klavierauszug</item>
+                        <item>II. George Lieder</item>
+                        <item>III. Pierrot lunaire</item>
+                        <item>IV. 6 Klavierstücke</item>
+                        <item>V. Partituren der 6 Orchesterlieder</item>
+                    </list></p>
                 <p> sofort in Druck zu geben und dafür zu sorgen, dass<lb/> sie in längstens 2
-                    Monaten zur I. Korrektur und<lb/> in längstens 4 Monaten <add
-                        place="above">von heute</add> zum Verkauf fertig sind.</p>
-                <p>b).1) die 2 Balladen<lb/> 2) das Heft Lieder<lb/> 3) das Harm.-Cel.-Harfe-Lied in
-                    5 Monaten<lb/> zur I. Korrektur und in 7 Monaten von heute zum<lb/>
+                    Monaten zur I. Korrektur und<lb/> in längstens 4 Monaten <add place="above">von
+                        heute</add> zum Verkauf fertig sind.</p>
+                <p><list rend="simple">
+                        <item>b)1) die 2 Balladen</item>
+                        <item>2) das Heft Lieder</item>
+                        <item>3) das Harm.-Cel.-Harfe-Lied in 5 Monaten</item>
+                    </list> zur I. Korrektur und in 7 Monaten von heute zum<lb/>
                     <del rend="strikethrough">Ausgab</del> Verkauf fertig sind.</p>
                 <p> Sollten Sie auf diese Bedingungen nicht<lb/> eingehen können, so müsste ich mein
                         gesetzliches<pb n="5" xml:id="page.5"/> Recht benutzen.</p>
-                <p><metamark>II.</metamark> Es täte mir das sehr leid. Vor allem weil ich<lb/>
-                    darauf halte, dass meine Sachen möglichst<lb/> in einem Verlag bleiben.
-                    Insbesondere aber,<lb/> weil ich um jeden Preis eine Trübung unseres<lb/>
-                    freundschaftlichen Verhältnisses vermeiden<lb/>
-                    <supplied cert="high"
-                        >mö</supplied>chte.</p>
+                <p> Es täte mir das sehr leid. Vor allem weil ich<lb/> darauf halte, dass meine
+                    Sachen möglichst<lb/> in einem Verlag bleiben. Insbesondere aber,<lb/> weil ich
+                    um jeden Preis eine Trübung unseres<lb/> freundschaftlichen Verhältnisses vermeiden<lb/>
+                    <supplied cert="high">mö</supplied>chte.</p>
                 <p> Aber, da es für mich klar ist, dass meine<lb/> Noten für mich nicht eher einen
                     Ertrag ab<g ref="#typoHyphen"/><lb break="no"/>liefern können, als alles
                     gedruckt ist und<lb/> !! da ich ja gar keine Beträge ausbezahlt<lb/> bekommen
@@ -187,7 +213,8 @@
                         <add place="above">etwas</add>
                     </subst> haben, und da<lb/> kann ich nicht länger warten.</p>
                 <closer> Ich hoffe bald Nachricht zu haben und empfehle<lb/> mich Ihnen mit besten
-                    Grüßen <salute>Ihr ergebener Arnold Schönberg</salute></closer>
+                    Grüßen <salute>Ihr ergebener Arnold
+                    Schönberg</salute><!-- "salute" ebenfalls in die Zeile eingliedern --></closer>
             </div>
         </body>
     </text>
