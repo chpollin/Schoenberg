@@ -57,18 +57,26 @@
                 <!-- CP: wie genau soll das "Textbild" nachgebaut werden?  -->
                 <opener>
                     <stamp sameAs="#stamp.3">
-                        <orgName>F. M. GEIDEL</orgName>LEIPZIG<lb/>Anstalt für<lb/>Notenstich, Notendruck und Anastatischen Druck<lb/>Stein- und Buchdruckerei, Notensatz, Stereotype<lb/>Lithographie, Autographie und Buchbinderei<lb/>Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co<lb/>
+                        <orgName>F. M. GEIDEL</orgName>, LEIPZIG<lb/>Anstalt für<lb/>Notenstich,
+                        Notendruck und Anastatischen Druck<lb/>Stein- und Buchdruckerei, Notensatz,
+                        Stereotype<lb/>Lithographie, Autographie und Buchbinderei<lb/>Fernsprecher
+                        36 ···· Bank-Konto: Frege &amp; Co<lb/>
                         <location>
                             <placeName>Leipzig</placeName>
                         </location>
                     </stamp>
-                    <dateline rend="right"><hi rend="preprint"><placeName>Leipzig</placeName>, den</hi> 3. Juni <hi rend="preprint"
-                            >191</hi>4.<lb/><placeName><hi rend="preprint"
-                                >Wittenbergerstraße 23</hi></placeName></dateline>
+                    <dateline rend="right"><hi rend="preprint"><placeName><hi rend="italic"
+                                    >Leipzig</hi></placeName>, <hi rend="italic">den</hi></hi> 3.
+                        Juni <hi rend="preprint"><hi rend="italic"
+                                >191</hi></hi>4.<lb/><placeName><hi rend="preprint"><hi
+                                    rend="italic">Wittenbergerstraße
+                        23</hi></hi></placeName></dateline>
                     <!-- @rend="preprint" korrekt?-->
                     <address>
-                        <addrLine>Verehrl. <orgName>Universal-Edition</orgName>, A.-G., <placeName>Wien</placeName>.</addrLine>
-                    </address><milestone unit="section" rend="#hr"/> <!-- horizontale, gestrichelte Linie -->
+                        <addrLine>Verehrl. <orgName>Universal-Edition</orgName>, A.-G.,
+                                <placeName>Wien</placeName>.</addrLine>
+                    </address><milestone unit="section" rend="#hr"/>
+                    <!-- horizontale, gestrichelte Linie -->
                 </opener>
                 <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
                         <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig><!-- Zeilenumbruch mit Abtrennungszeichen -->
@@ -80,14 +88,14 @@
                     hoffe, alles nach Wunsch <lb/>des Autors ausgeführt zu haben und bitte um recht
                     baldigen Bescheid, da<g ref="#typoHyphen"/><lb break="no"/>mit ich weiter
                     arbeiten lassen kann.</p>
-                <p> Ich möchte hierzu noch bemerken, dass die Einteilung des Manuskriptes <lb/>es
-                    mit sich bringt, dass ich gezwungen bin, <add place="superlinear" hand="author"
+                <p> Ich möchte hierzu noch bemerken, dass die Einteilung des <lb/>Manuskriptes es
+                    mit sich bringt, dass ich gezwungen bin, <add place="above" hand="author"
                         >ab und zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu
                     bringen, um unmittelbar im Anschluss daran <lb/>wieder eine Platte mit
                     Doppelsystemen einrichten zu können. Ich bitte, <lb/>beim Autor anzufragen, <add
-                        place="left" hand="Schönberg"><metamark>1. X</metamark></add><add
-                        place="intralinear" hand="#Schönberg"
-                            ><metamark>X</metamark></add>ob
+                        place="left" hand="#Schönberg"><metamark>1. <hi rend="circle">X</hi></metamark></add><add
+                        place="inline" hand="#Schönberg"
+                            ><metamark><hi rend="circle">X</hi></metamark></add>ob
                     in diesem <hi rend="underline">Falle <add place="superlinear" hand="author"
                             >bei</add> geeignete<add place="intralinear" hand="author">n</add>
                             Instrumente<add place="intralinear" hand="author">n</add>, wo
@@ -97,9 +105,9 @@
                     eine sehr enge Platte mit 34 Linien eine sehr weite <lb/>mit 18 oder 20 Linien
                     folgt. Umgedreht macht es sich notwendig, in ein<g ref="#typoHyphen"/><lb
                         break="no"/>zelnen Fällen, <add place="left" hand="#Schönberg">
-                        <metamark>2. X</metamark><!-- ASUE: Einkreisung des X? -->--</add><add
-                        place="intralinear" hand="#Schönberg">
-                        <metamark>X</metamark></add> dass 2 gleichartige Instrumentenlinien auf eine
+                            <metamark>2. <hi rend="circle">X</hi></metamark></add><add
+                        place="inline" hand="#Schönberg">
+                                <metamark><hi rend="circle">X</hi></metamark></add> dass 2 gleichartige Instrumentenlinien auf eine
                     Linie zu<g ref="#typoHyphen"/><lb break="no"/>sammengezogen werden, um eine
                     2systemige Platte einrichten zu können <lb/>und dabei die Höchstzahl der Linien,
                     34, nicht zu überschreiten. Einer <lb/>kurzen Rückantwort hierüber sehe ich
@@ -108,12 +116,11 @@
                     Korrektur der Vorbemerkung hoffe ich im Laufe dieser <lb/>Woche auszusetzen;
                     durch die vielen Feiertage hat sich leider die Fertig<g ref="#typoHyphen"/><lb
                         break="no"/>stellung dieser Arbeit etwas verzögert. </p>
-                <closer>
+                <closer rend="right">
                     <salute>Hochachtungsvoll<lb/><stamp>ppa. F. M. Geidel</stamp></salute>
                     <signed xml:id="Geidel">Johannes Geidel</signed>
                 </closer>
-                <!-- CP: hier darf kein <p> mehr sein... ? ASUE <note> + neue <div> stattdessen?-->
-                <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
+                      <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
                         Papier</hi> genommen? <seg type="comment">
                         <orig>Ich schrieb doch deswegen auch!!!</orig>
                         <note>Brief vom </note>
@@ -130,7 +137,7 @@
                 <p rend="#mMM"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht auch besser aus und ist
                     <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm der <lb/>Höhe
                     bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die Partituren dienen
-                    einzig und allein <hi rend="underline">praktischen</hi> Zwecken und je besser sie
+                    einzig und allein <hi rend="underline">praktischen</hi> <lb/>Zwecken und je besser sie
                     denen entsprechen, desto schöner <lb/>sind sie. Jede andere Schönheit ist
                     Mumpitz.“</p>
                 <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rend="underline">Lesbarkeit</hi> =
@@ -140,11 +147,12 @@
                     rend="underline">Dirigenten</hi> und <hi rend="underline">Musiker</hi> sind<lb/>
                     und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich zu
                     erleichtern hat !!!</p>
-                <p rend="underline">1 Deshalb ist es also durchaus nicht an<g ref="#typoHyphen"/><lb
-                        break="no"/>gebracht, durchaus <hi rend="#uu"><!-- doppelte Unterstreichung --> falsch</hi>, 2 Stimmen
-                    die auf <lb/>einer Zeile stehen können, auf 2 zu stechen !! <lb/>Insbesondere,
-                    da meist die Akkorde leichter zu lesen <lb/>sind, wenn möglichst viel davon (2-3
-                    Töne) in einer Zeile stehen.</p>
+                <p rend="#mMM"><hi rend="circle">1</hi> Deshalb ist es also durchaus nicht an<g
+                        ref="#typoHyphen"/><lb break="no"/>gebracht, durchaus <hi rend="#uu"
+                        ><!-- doppelte Unterstreichung --> falsch</hi>, 2 Stimmen die auf <lb/>einer
+                    Zeile stehen können, auf 2 zu stechen !! <lb/>Insbesondere, da meist die Akkorde
+                    leichter zu lesen <lb/>sind, wenn möglichst viel davon (2 - 3 Töne) in einer 
+                    <lb/>Zeile stehen.</p>
                 <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in
                     denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
                         rend="superscript"><hi rend="#uu">cll</hi></hi> , 2 Takt:</p>
@@ -154,7 +162,7 @@
                         hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure></p>
-                <p>oder: seite 3: Takt 2, Flöten <figure facs="NBDatei3" hand="#Schönberg">
+                <p>oder: Seite 3: Takt 2, Flöten <figure facs="NBDatei3" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure>besser: <figure facs="NBDatei4" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
@@ -174,7 +182,7 @@
                     Clar. und die Fag. | <lb/>Seite 5, 1. System, Takt 1 die
                         K<ex>on</ex>tr<ex>a</ex>b<ex>ä</ex>sse | Seite 9, 2. Syst, 6. Takt, Ob und
                     Klar</p>
-                <p>2. Zusammenziehungen nur bei Instrumenten der gleichen Gattung, die die
+                <p><hi rend="circle">2.</hi> Zusammenziehungen nur bei Instrumenten der gleichen Gattung, die die
                     <lb/>gleiche Notierung haben !!!</p>
                 <closer rend="right">
                     <signed>Schönberg</signed>
