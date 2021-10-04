@@ -79,7 +79,8 @@
                     <!-- horizontale, gestrichelte Linie -->
                 </opener>
                 <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
-                        <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig><!-- Zeilenumbruch mit Abtrennungszeichen -->
+                        <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
+                        <!-- Zeilenumbruch mit Abtrennungszeichen -->
                         <note xml:id="automatisch"><ref target="https://bit.ly/3BQVTfQ"
                                 >Korrekturabzug (Probeseite) von S, 4 (T. 5-12) des
                                 Partiturdrucks</ref></note>
@@ -89,29 +90,29 @@
                     baldigen Bescheid, da<g ref="#typoHyphen"/><lb break="no"/>mit ich weiter
                     arbeiten lassen kann.</p>
                 <p> Ich möchte hierzu noch bemerken, dass die Einteilung des <lb/>Manuskriptes es
-                    mit sich bringt, dass ich gezwungen bin, <add place="above" hand="author"
-                        >ab und zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu
-                    bringen, um unmittelbar im Anschluss daran <lb/>wieder eine Platte mit
-                    Doppelsystemen einrichten zu können. Ich bitte, <lb/>beim Autor anzufragen, <add
-                        place="left" hand="#Schönberg"><metamark>1. <hi rend="circle">X</hi></metamark></add><add
-                        place="inline" hand="#Schönberg"
-                            ><metamark><hi rend="circle">X</hi></metamark></add>ob
-                    in diesem <hi rend="underline">Falle <add place="superlinear" hand="author"
-                            >bei</add> geeignete<add place="intralinear" hand="author">n</add>
-                            Instrumente<add place="intralinear" hand="author">n</add>, wo
-                    im</hi><lb/> Manuskript mehrere auf eine Linie zusammen gezogen sind, ein
-                        Auseinander<g ref="#typoHyphen"/><lb break="no"/>ziehen in einzelnen
-                    Instrumenten vorgenommen werden kann, um zu vermeiden, <lb/>dass plötzlich auf
-                    eine sehr enge Platte mit 34 Linien eine sehr weite <lb/>mit 18 oder 20 Linien
-                    folgt. Umgedreht macht es sich notwendig, in ein<g ref="#typoHyphen"/><lb
-                        break="no"/>zelnen Fällen, <add place="left" hand="#Schönberg">
-                            <metamark>2. <hi rend="circle">X</hi></metamark></add><add
-                        place="inline" hand="#Schönberg">
-                                <metamark><hi rend="circle">X</hi></metamark></add> dass 2 gleichartige Instrumentenlinien auf eine
-                    Linie zu<g ref="#typoHyphen"/><lb break="no"/>sammengezogen werden, um eine
-                    2systemige Platte einrichten zu können <lb/>und dabei die Höchstzahl der Linien,
-                    34, nicht zu überschreiten. Einer <lb/>kurzen Rückantwort hierüber sehe ich
-                    entgegen. </p>
+                    mit sich bringt, dass ich gezwungen bin, <add place="above" hand="author">ab und
+                        zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu bringen, um
+                    unmittelbar im Anschluss daran <lb/>wieder eine Platte mit Doppelsystemen
+                    einrichten zu können. Ich bitte, <lb/>beim Autor anzufragen, <add place="left"
+                        hand="#Schönberg"><metamark>1. <hi rend="circle">X</hi></metamark></add><add
+                        place="inline" hand="#Schönberg"><metamark><hi rend="circle"
+                            >X</hi></metamark></add>ob in diesem <hi rend="underline">Falle <add
+                            place="above" hand="author">bei</add> geeignete<add place="intralinear"
+                            hand="author">n</add> Instrumente<add place="inline" hand="author"
+                            >n</add>, wo im</hi><lb/> Manuskript mehrere auf eine Linie zusammen
+                    gezogen sind, ein Auseinander<g ref="#typoHyphen"/><lb break="no"/>ziehen in
+                    einzelnen Instrumenten vorgenommen werden kann, um zu vermeiden, <lb/>dass
+                    plötzlich auf eine sehr enge Platte mit 34 Linien eine sehr weite <lb/>mit 18
+                    oder 20 Linien folgt. Umgedreht macht es sich notwendig, in ein<g
+                        ref="#typoHyphen"/><lb break="no"/>zelnen Fällen, <add place="left"
+                        hand="#Schönberg">
+                        <metamark>2. <hi rend="circle">X</hi></metamark></add><add place="inline"
+                        hand="#Schönberg">
+                        <metamark><hi rend="circle">X</hi></metamark></add> dass 2 gleichartige
+                    Instrumentenlinien auf eine Linie zu<g ref="#typoHyphen"/><lb break="no"
+                    />sammengezogen werden, um eine 2systemige Platte einrichten zu können <lb/>und
+                    dabei die Höchstzahl der Linien, 34, nicht zu überschreiten. Einer <lb/>kurzen
+                    Rückantwort hierüber sehe ich entgegen. </p>
                 <p><hi rend="underline">Beethoven-Schenker.</hi><!-- Musikalisches Werk -->
                     Korrektur der Vorbemerkung hoffe ich im Laufe dieser <lb/>Woche auszusetzen;
                     durch die vielen Feiertage hat sich leider die Fertig<g ref="#typoHyphen"/><lb
@@ -120,7 +121,7 @@
                     <salute>Hochachtungsvoll<lb/><stamp>ppa. F. M. Geidel</stamp></salute>
                     <signed xml:id="Geidel">Johannes Geidel</signed>
                 </closer>
-                      <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
+                <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
                         Papier</hi> genommen? <seg type="comment">
                         <orig>Ich schrieb doch deswegen auch!!!</orig>
                         <note>Brief vom </note>
@@ -134,27 +135,27 @@
                     sehe ich mit Bedauern, dass Sie meine ausführlichen <lb/>Auseinandersetzungen
                     nicht genügend beachtet haben.</p>
                 <p>Ich schrieb wörtlich:</p>
-                <p rend="#mMM"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht auch besser aus und ist
-                    <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm der <lb/>Höhe
-                    bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die Partituren dienen
-                    einzig und allein <hi rend="underline">praktischen</hi> <lb/>Zwecken und je besser sie
-                    denen entsprechen, desto schöner <lb/>sind sie. Jede andere Schönheit ist
-                    Mumpitz.“</p>
-                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rend="underline">Lesbarkeit</hi> =
-                    <hi rend="underline">Schönheit</hi>
+                <p rend="#mMM"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht auch
+                    besser aus und ist <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm
+                    der <lb/>Höhe bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die
+                    Partituren dienen einzig und allein <hi rend="underline">praktischen</hi>
+                    <lb/>Zwecken und je besser sie denen entsprechen, desto schöner <lb/>sind sie.
+                    Jede andere Schönheit ist Mumpitz.“</p>
+                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rend="underline">Lesbarkeit</hi>
+                    = <hi rend="underline">Schönheit</hi>
                     <lb/>von Ihnen zur Kenntnis genommen werden wird.</p>
                 <p>Ich habe gedacht, Sie werden einsehen, dass die <lb/>Partituren <lb/>für die <hi
-                    rend="underline">Dirigenten</hi> und <hi rend="underline">Musiker</hi> sind<lb/>
-                    und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich zu
-                    erleichtern hat !!!</p>
+                        rend="underline">Dirigenten</hi> und <hi rend="underline">Musiker</hi>
+                    sind<lb/> und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich
+                    zu erleichtern hat !!!</p>
                 <p rend="#mMM"><hi rend="circle">1</hi> Deshalb ist es also durchaus nicht an<g
                         ref="#typoHyphen"/><lb break="no"/>gebracht, durchaus <hi rend="#uu"
                         ><!-- doppelte Unterstreichung --> falsch</hi>, 2 Stimmen die auf <lb/>einer
                     Zeile stehen können, auf 2 zu stechen !! <lb/>Insbesondere, da meist die Akkorde
-                    leichter zu lesen <lb/>sind, wenn möglichst viel davon (2 - 3 Töne) in einer 
+                    leichter zu lesen <lb/>sind, wenn möglichst viel davon (2 - 3 Töne) in einer
                     <lb/>Zeile stehen.</p>
-                <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in
-                    denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
+                <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in denen
+                    zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
                         rend="superscript"><hi rend="#uu">cll</hi></hi> , 2 Takt:</p>
                 <p><figure facs="NBDatei1" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
@@ -173,17 +174,28 @@
                     </figure> besser: <figure facs="NBDatei6" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure></p>
-                <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rend="superscript"><hi rend="underline"
-                            >r</hi></hi>
+                <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rend="superscript"><hi
+                            rend="underline">r</hi></hi>
                     <lb/>besser in 2 Zeilen (eventuell !!) </p>
-                <p>dagegen sind folgende Stellen <hi rend="#uu">besser</hi> in <hi
-                        rend="#uu">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die B<hi
-                            rend="superscript"><hi rend="#uu">r</hi></hi>; | Seite 7, Takt 3, die
-                    Clar. und die Fag. | <lb/>Seite 5, 1. System, Takt 1 die
-                        K<ex>on</ex>tr<ex>a</ex>b<ex>ä</ex>sse | Seite 9, 2. Syst, 6. Takt, Ob und
-                    Klar</p>
-                <p><hi rend="circle">2.</hi> Zusammenziehungen nur bei Instrumenten der gleichen Gattung, die die
-                    <lb/>gleiche Notierung haben !!!</p>
+                <p>dagegen sind folgende Stellen <hi rend="#uu">besser</hi> in <hi rend="#uu"
+                        >einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
+                        <abbr>B<hi rend="superscript"><hi rend="#uu">r</hi></hi></abbr>
+                        <expan>Bratsche</expan>
+                        <reg>Viola</reg>
+                    </choice>; | Seite 7, Takt 3, die <choice>
+                        <abbr>Clar.</abbr>
+                        <expan>Clarinette</expan>
+                        <reg>Klarinette</reg>
+                    </choice> und die Fag. | <lb/>Seite 5, 1. System, Takt 1 die <choice>
+                        <abbr>Ktrbsse</abbr>
+                        <expan>Kontrabässe</expan>
+                    </choice><!-- Bedarf in diesem Fall des Plural einer Auszeichnung, damit dies unter "Kontrabass" gefunden werden kann? -->
+                    | Seite 9, 2. Syst, 6. Takt, Ob und <choice>
+                        <abbr>Klar</abbr>
+                        <expan>Klarinette</expan>
+                    </choice></p>
+                <p><hi rend="circle">2.</hi> Zusammenziehungen nur bei Instrumenten der gleichen
+                    Gattung, die die <lb/>gleiche Notierung haben !!!</p>
                 <closer rend="right">
                     <signed>Schönberg</signed>
                     <dateline>6./6. 1914</dateline>
