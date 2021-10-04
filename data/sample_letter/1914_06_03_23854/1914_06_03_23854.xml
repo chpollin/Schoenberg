@@ -56,25 +56,22 @@
                 <pb n="1" xml:id="p.1"/>
                 <!-- CP: wie genau soll das "Textbild" nachgebaut werden?  -->
                 <opener>
-                    <!--  ASUE: <fw type="letterhead"><hi rendition="#mPrint"><orgName key="organisation-id">F. M. GEIDEL</orgName>, LEIPZIG<lb/>
-                Anstalt für <lb/>
-                Notenstich, Notendruck und Anastatischen Druck <lb/>
-                Stein= und Buchdruckerei, Notensatz, Stereotypie <lb/>
-                Lithographie, Autographie und Buchbinderei <lb/>
-                Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co., <placeName key="place_id">Leipzig</placeName></fw> -->
-                    <dateline rendition="#right"><hi rendition="mPrint"><placeName key="place_id"
-                                >Leipzig</placeName>, den</hi> 3. Juni <hi rendition="#mPrint"
-                            >191</hi>4.<lb/><placeName key="place_id"><hi rendition="mPrint"
+                    <stamp sameAs="#stamp.3">
+                        <orgName>F. M. GEIDEL</orgName>LEIPZIG<lb/>Anstalt für<lb/>Notenstich, Notendruck und Anastatischen Druck<lb/>Stein- und Buchdruckerei, Notensatz, Stereotype<lb/>Lithographie, Autographie und Buchbinderei<lb/>Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co<lb/>
+                        <location>
+                            <placeName>Leipzig</placeName>
+                        </location>
+                    </stamp>
+                    <dateline rend="right"><hi rend="preprint"><placeName>Leipzig</placeName>, den</hi> 3. Juni <hi rend="preprint"
+                            >191</hi>4.<lb/><placeName><hi rend="preprint"
                                 >Wittenbergerstraße 23</hi></placeName></dateline>
-                    <!-- ASUE: #mPrint in der dateline nicht zulässig, kommt dort aber am häufigsten vor-->
+                    <!-- @rend="preprint" korrekt?-->
                     <address>
-                        <addrLine>Verehrl. <orgName key="organisation_id"
-                                >Universal-Edition</orgName>, A.-G., <placeName key="place_id"
-                                >Wien</placeName>.</addrLine>
-                    </address>
+                        <addrLine>Verehrl. <orgName>Universal-Edition</orgName>, A.-G., <placeName>Wien</placeName>.</addrLine>
+                    </address><milestone unit="section" rend="#hr"/> <!-- horizontale, gestrichelte Linie -->
                 </opener>
                 <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
-                        <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
+                        <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig><!-- Zeilenumbruch mit Abtrennungszeichen -->
                         <note xml:id="automatisch"><ref target="https://bit.ly/3BQVTfQ"
                                 >Korrekturabzug (Probeseite) von S, 4 (T. 5-12) des
                                 Partiturdrucks</ref></note>
@@ -88,10 +85,10 @@
                         >ab und zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu
                     bringen, um unmittelbar im Anschluss daran <lb/>wieder eine Platte mit
                     Doppelsystemen einrichten zu können. Ich bitte, <lb/>beim Autor anzufragen, <add
-                        place="left" xml:id="Schönberg"><metamark>1. X</metamark></add><add
+                        place="left" hand="Schönberg"><metamark>1. X</metamark></add><add
                         place="intralinear" hand="#Schönberg"
-                            ><!-- ASUE xml:id_"Schönberg" ist hier nicht zulässig, daher hand="Schönberg" - warum? --><metamark>X</metamark></add>ob
-                    in diesem <hi rendition="#u">Falle <add place="superlinear" hand="author"
+                            ><metamark>X</metamark></add>ob
+                    in diesem <hi rend="underline">Falle <add place="superlinear" hand="author"
                             >bei</add> geeignete<add place="intralinear" hand="author">n</add>
                             Instrumente<add place="intralinear" hand="author">n</add>, wo
                     im</hi><lb/> Manuskript mehrere auf eine Linie zusammen gezogen sind, ein
@@ -107,16 +104,16 @@
                     2systemige Platte einrichten zu können <lb/>und dabei die Höchstzahl der Linien,
                     34, nicht zu überschreiten. Einer <lb/>kurzen Rückantwort hierüber sehe ich
                     entgegen. </p>
-                <p><hi rendition="#u">Beethoven-Schenker.</hi><!-- Musikalisches Werk -->
+                <p><hi rend="underline">Beethoven-Schenker.</hi><!-- Musikalisches Werk -->
                     Korrektur der Vorbemerkung hoffe ich im Laufe dieser <lb/>Woche auszusetzen;
                     durch die vielen Feiertage hat sich leider die Fertig<g ref="#typoHyphen"/><lb
                         break="no"/>stellung dieser Arbeit etwas verzögert. </p>
                 <closer>
-                    <salute>Hochachtungsvoll</salute><!--ASUE: fw type="stamp" -->ppa. F. M. Geidel<lb/>
+                    <salute>Hochachtungsvoll<lb/><stamp>ppa. F. M. Geidel</stamp></salute>
                     <signed xml:id="Geidel">Johannes Geidel</signed>
                 </closer>
                 <!-- CP: hier darf kein <p> mehr sein... ? ASUE <note> + neue <div> stattdessen?-->
-                <note place="left" hand="#Schönberg">Warum wurde kein <hi rendition="#u">breiteres
+                <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
                         Papier</hi> genommen? <seg type="comment">
                         <orig>Ich schrieb doch deswegen auch!!!</orig>
                         <note>Brief vom </note>
@@ -130,27 +127,27 @@
                     sehe ich mit Bedauern, dass Sie meine ausführlichen <lb/>Auseinandersetzungen
                     nicht genügend beachtet haben.</p>
                 <p>Ich schrieb wörtlich:</p>
-                <p rendition="#mMM">„Es ist gar kein Unglück, sieht auch besser aus und ist
+                <p rend="#mMM"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht auch besser aus und ist
                     <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm der <lb/>Höhe
                     bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die Partituren dienen
-                    einzig und allein <hi rendition="#u">praktischen</hi> Zwecken und je besser sie
+                    einzig und allein <hi rend="underline">praktischen</hi> Zwecken und je besser sie
                     denen entsprechen, desto schöner <lb/>sind sie. Jede andere Schönheit ist
                     Mumpitz.“</p>
-                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rendition="#u">Lesbarkeit</hi> =
-                        <hi rendition="#u">Schönheit</hi>
+                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rend="underline">Lesbarkeit</hi> =
+                    <hi rend="underline">Schönheit</hi>
                     <lb/>von Ihnen zur Kenntnis genommen werden wird.</p>
                 <p>Ich habe gedacht, Sie werden einsehen, dass die <lb/>Partituren <lb/>für die <hi
-                        rendition="#u">Dirigenten</hi> und <hi rendition="#u">Musiker</hi> sind<lb/>
+                    rend="underline">Dirigenten</hi> und <hi rend="underline">Musiker</hi> sind<lb/>
                     und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich zu
                     erleichtern hat !!!</p>
-                <p rendition="#mMM">1 Deshalb ist es also durchaus nicht an<g ref="#typoHyphen"/><lb
-                        break="no"/>gebracht, durchaus <hi rendition="#uu">falsch</hi>, 2 Stimmen
+                <p rend="underline">1 Deshalb ist es also durchaus nicht an<g ref="#typoHyphen"/><lb
+                        break="no"/>gebracht, durchaus <hi rend="#uu"><!-- doppelte Unterstreichung --> falsch</hi>, 2 Stimmen
                     die auf <lb/>einer Zeile stehen können, auf 2 zu stechen !! <lb/>Insbesondere,
                     da meist die Akkorde leichter zu lesen <lb/>sind, wenn möglichst viel davon (2-3
                     Töne) in einer Zeile stehen.</p>
-                <p>Eine <hi rendition="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in
+                <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in
                     denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
-                        rendition="#sup"><hi rendition="#uu">cll</hi></hi> , 2 Takt:</p>
+                        rend="superscript"><hi rend="#uu">cll</hi></hi> , 2 Takt:</p>
                 <p><figure facs="NBDatei1" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure>das ist besser als <lb/>2 Zeilen: <figure facs="NBDatei2"
@@ -168,18 +165,18 @@
                     </figure> besser: <figure facs="NBDatei6" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure></p>
-                <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rendition="#sup"><hi rendition="#u"
+                <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rend="superscript"><hi rend="underline"
                             >r</hi></hi>
                     <lb/>besser in 2 Zeilen (eventuell !!) </p>
-                <p>dagegen sind folgende Stellen <hi rendition="#uu">besser</hi> in <hi
-                        rendition="#uu">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die B<hi
-                        rendition="#sup"><hi rendition="#uu">r</hi></hi>; | Seite 7, Takt 3, die
+                <p>dagegen sind folgende Stellen <hi rend="#uu">besser</hi> in <hi
+                        rend="#uu">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die B<hi
+                            rend="superscript"><hi rend="#uu">r</hi></hi>; | Seite 7, Takt 3, die
                     Clar. und die Fag. | <lb/>Seite 5, 1. System, Takt 1 die
                         K<ex>on</ex>tr<ex>a</ex>b<ex>ä</ex>sse | Seite 9, 2. Syst, 6. Takt, Ob und
                     Klar</p>
                 <p>2. Zusammenziehungen nur bei Instrumenten der gleichen Gattung, die die
                     <lb/>gleiche Notierung haben !!!</p>
-                <closer rendition="#right">
+                <closer rend="right">
                     <signed>Schönberg</signed>
                     <dateline>6./6. 1914</dateline>
                 </closer>
