@@ -12,16 +12,50 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Universal-Edition an Arnold Schönberg, 28. Februar 1939</title>
+                <respStmt>
+                    <persName>Katharina Bleier</persName>
+                    <resp>
+                        <note type="remarkResponsibility">Kommentar, Kodierung</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Philipp Kehrer</persName>
+                    <resp>
+                        <note type="remarkResponsibility">Transkription</note>
+                    </resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher/>
+                <publisher>Arnold Schönberg Center</publisher>
+                <pubPlace>Wien</pubPlace>
+                <publisher>Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der
+                    Universität für Musik und darstellende Kunst Wien</publisher>
+                <pubPlace>Wien</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
+                </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence between Arnold Schönberg and his Publishers
+                    Universal-Edition and Verlag Dreililien. A Critical Hybrid Edition</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
             <sourceDesc>
-                <msDesc>
+                <msDesc type="Brief">
+                    <!-- @type z.B. Brief, Telegramm, Ansichtskarte, Postkarte, Visitenkarte, Vertrag, Prospekt, Rechnungsdokument, Liste @rend Kopie, Entwurf-->
                     <msIdentifier>
-                        <repository><!-- todo? --></repository>
-                        <idno><!-- sig? --></idno>
+                        <institution>Arnold Schönberg Center</institution>
+                        <placeName>Wien</placeName>
+                        <repository></repository>
+                        <collection>SatCollS4 Corr. "Universal Edition"</collection>
+                        <altIdentifier>
+                            <institution>Arnold Schönberg Center</institution>
+                            <placeName>Wien</placeName>
+                            <idno>ASCC ID 20730</idno>
+                        </altIdentifier>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -29,8 +63,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <orgName key="xxx">Universal-Edition</orgName>
-                    <persName key="xxx">Betti Rothe</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <persName key="person.4">Betti Rothe</persName>
                     <persName>illeg.</persName>
                     <placeName key="xxx">Wien</placeName>
                     <date when="1939-02-28"/>
@@ -49,7 +83,6 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
         </profileDesc>
         <revisionDesc>
             <change when="2021-09-07" who="PK"> test </change>
-            <change when="2021-10-04" who="PK">update</change>
         </revisionDesc>
     </teiHeader>
     <text>
