@@ -9,45 +9,98 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>F. M. Geidel an Universal-Edition, 3. Juni 1914</title>
+                <respStmt>
+                    <persName>Philipp Kehrer</persName>
+                    <resp>
+                        <note type="remarkResponsibility">Kommentar, Kodierung</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Katharina Bleier</persName>
+                    <resp>
+                        <note type="remarkResponsibility">Transkription</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <orgName xml:id="OSTV"> Österreichischer Verband für Stenografie und
+                        Textverarbeitung </orgName>
+                    <resp>
+                        <note type="remarkResponsibility">Transkription Stenographie</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <!-- soll hier das ZIM/C. Pollin genannt werden? wie korrekt?-->
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher/>
+                <publisher>Arnold Schönberg Center</publisher>
+                <pubPlace>Wien</pubPlace>
+                <publisher>Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der
+                    Universität für Musik und darstellende Kunst Wien</publisher>
+                <pubPlace>Wien</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
+                </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence between Arnold Schönberg and his Publishers
+                    Universal-Edition and Verlag Dreililien. A Critical Hybrid Edition</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier/>
+                <msDesc type="Brief" rend="Durchschlag">
+                    <!-- @type z.B. Brief, Telegramm, Ansichtskarte, Postkarte, Visitenkarte, Vertrag, Prospekt, Rechnungsdokument, Liste; @rend (optional) Kopie, Entwurf -->
+                    <msIdentifier>
+                        <institution>The Library of Congress</institution>
+                        <placeName>Washington, D.C.</placeName>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <institution>Arnold Schönberg Center</institution>
+                            <placeName>Wien</placeName>
+                            <idno>ASCC ID 23854</idno>
+                        </altIdentifier>
+                    </msIdentifier>
                 </msDesc>
+                <listWit>
+                    <witness><bibl>Katalog Sotheby's London, Juni 2002, Lot 704</bibl></witness>
+                </listWit>
+                <bibl>Arnold Schönberg: Sämtliche Werke. Abteilung III: Bühnenwerke. Reihe B, Band 6, Teil 2. Bühnenwerke I. Erwartung op. 17. Herausgegeben von Ullrich Scheideler. Mainz, Wien 2005.
+                    <!-- Bibliographie referenzieren --></bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="person_id">Johannes Geidel</persName>
-                    <orgName key="organisation_id">F. M. Geidel</orgName>
-                    <placeName key="place_id">Leipzig</placeName>
+                    <persName key="person.2"
+                        ><forename>Johannes</forename><surname>Geidel</surname></persName>
+                    <orgName key="org.2">F. M. Geidel</orgName>
+                    <placeName key="xxx">Leipzig</placeName>
                     <date when="1914-06-03"/>
                 </correspAction>
                 <correspAction type="received">
-                    <orgName key="xxx">Universal-Edition</orgName>
+                    <orgName key="org.1">Universal-Edition</orgName>
                     <placeName key="xxx">Wien</placeName>
                 </correspAction>
                 <note>Dokument enthält auch den Antwortbrief von Arnold Schönberg an F. M. Geidel,
                     6. Juni 1914</note>
                 <correspContext>
+                    <!-- wie benutzt man diese Funktion am sinnvollsten? Dient sie nur zum "Weiterblättern" innerhalb der Edition, oder kann man sie auch "nonlinear" benutzen? -->
                     <ref type="next" target="https://bit.ly/3BTGCex">Brief vom 6. Juni 1914</ref>
                     <ref type="next"
                         target="http://213.185.182.231/search_show_letter.php?ID_Number=7534"/>
-                    <!--ASUE target links testhalber -->
+                    <!--ASUE target nur testhalber -->
                     <!--ASUE: jeweils mehrere Bezüge sinnvoll möglich? -->
                     <ref type="prev">Brief vom 14. Mai 1914</ref>
                 </correspContext>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <!-- ASUE laut basemanual ist das ein Unterelement von profiledesc...? -->
             <change when="2021-09-07" who="PK"> test </change>
-            <!-- ASUE ausserdem attribut: "who" -->
+            <!-- Verwendung nach Veröffentlichung für nachträgliche Änderungen -->
         </revisionDesc>
     </teiHeader>
     <text>
@@ -156,8 +209,9 @@
                     <lb/>Zeile stehen.</p>
                 <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in denen
                     zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
-                        rend="superscript"><hi rend="#uu">cll</hi></hi> , 2 Takt:</p>
-                <p><figure facs="NBDatei1" hand="#Schönberg">
+                        rend="superscript"><hi rend="#uu">cll</hi></hi> , 2
+                Takt:</p><!-- Macht es Sinn diesen Abschnitt mittels Tabellen näherungsweise nachzubilden) -->
+                --> <p><figure facs="NBDatei1" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure>das ist besser als <lb/>2 Zeilen: <figure facs="NBDatei2"
                         hand="#Schönberg">
