@@ -10,18 +10,60 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Arnold Schönberg an Universal-Edition, 8. Juli 1913</title>
+                <respStmt>
+                    <persName>Philipp Kehrer</persName>
+                    <resp>
+                        <note type="remarkResponsibility">Transkription</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Christopher Pollin</persName>
+                    <resp>
+                        <note type="remarkResponsibility">Kodierung, Datenmodell
+                            <!-- wie wäre es korrekt? --></note>
+                    </resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher/>
+                <publisher>Arnold Schönberg Center</publisher>
+                <pubPlace>Wien</pubPlace>
+                <publisher>Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der
+                    Universität für Musik und darstellende Kunst Wien</publisher>
+                <pubPlace>Wien</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
+                </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence between Arnold Schönberg and his Publishers
+                    Universal-Edition and Verlag Dreililien. A Critical Hybrid Edition</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
             <sourceDesc>
-                <msDesc>
+                <msDesc type="Brief">
                     <msIdentifier>
-                        <repository>todo</repository>
-                        <idno>sig</idno>
+                        <institution>Arnold Schönberg Center</institution>
+                        <collection>Universal Edition Collection</collection>
+                        <placeName>Wien</placeName>
+                        <altIdentifier>
+                            <institution>Arnold Schönberg Center</institution>
+                            <placeName>Wien</placeName>
+                            <idno>ASCC ID 6852</idno>
+                        </altIdentifier>
                     </msIdentifier>
                 </msDesc>
+                <listBibl>
+                    <bibl>Arnold Schönberg: Sämtliche Werke. Abteilung V: Chorwerke. Reihe B, Band
+                        16, Teil 3. Gurre-Lieder. Entstehungs- und Werkgeschichte, Dokumente.
+                        Herausgegeben von Ulrich Krämer. Mainz, Wien 2008.
+                        <!-- Bibliographie referenzieren --></bibl>
+                    <bibl>Arnold Schönberg: Sämtliche Werke. Abteilung III: Bühnenwerke. Reihe B,
+                        Band 6, Teil 2. Bühnenwerke I. Erwartung op. 17. Herausgegeben von Ullrich
+                        Scheideler. Mainz, Wien 2005. <!-- Bibliographie referenzieren --></bibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -51,6 +93,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-09-20" who="PK">Kodierung</change>
+            <!-- Verwendung nach Veröffentlichung für nachträgliche Änderungen -->
         </revisionDesc>
     </teiHeader>
     <text>

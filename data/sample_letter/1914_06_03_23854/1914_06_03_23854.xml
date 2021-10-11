@@ -9,45 +9,98 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>F. M. Geidel an Universal-Edition, 3. Juni 1914</title>
+                <respStmt>
+                    <persName>Philipp Kehrer</persName>
+                    <resp>
+                        <note type="remarkResponsibility">Kommentar, Kodierung</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Katharina Bleier</persName>
+                    <resp>
+                        <note type="remarkResponsibility">Transkription</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <orgName xml:id="OSTV"> Österreichischer Verband für Stenografie und
+                        Textverarbeitung </orgName>
+                    <resp>
+                        <note type="remarkResponsibility">Transkription Stenographie</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <!-- soll hier das ZIM/C. Pollin genannt werden? wie korrekt?-->
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher/>
+                <publisher>Arnold Schönberg Center</publisher>
+                <pubPlace>Wien</pubPlace>
+                <publisher>Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der
+                    Universität für Musik und darstellende Kunst Wien</publisher>
+                <pubPlace>Wien</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
+                </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence between Arnold Schönberg and his Publishers
+                    Universal-Edition and Verlag Dreililien. A Critical Hybrid Edition</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier/>
+                <msDesc type="Brief" rend="Durchschlag">
+                    <!-- @type z.B. Brief, Telegramm, Ansichtskarte, Postkarte, Visitenkarte, Vertrag, Prospekt, Rechnungsdokument, Liste; @rend (optional) Kopie, Entwurf -->
+                    <msIdentifier>
+                        <institution>The Library of Congress</institution>
+                        <placeName>Washington, D.C.</placeName>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <institution>Arnold Schönberg Center</institution>
+                            <placeName>Wien</placeName>
+                            <idno>ASCC ID 23854</idno>
+                        </altIdentifier>
+                    </msIdentifier>
                 </msDesc>
+                <listWit>
+                    <witness><bibl>Katalog Sotheby's London, Juni 2002, Lot 704</bibl></witness>
+                </listWit>
+                <bibl>Arnold Schönberg: Sämtliche Werke. Abteilung III: Bühnenwerke. Reihe B, Band 6, Teil 2. Bühnenwerke I. Erwartung op. 17. Herausgegeben von Ullrich Scheideler. Mainz, Wien 2005.
+                    <!-- Bibliographie referenzieren --></bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="person_id">Johannes Geidel</persName>
-                    <orgName key="organisation_id">F. M. Geidel</orgName>
-                    <placeName key="place_id">Leipzig</placeName>
+                    <persName key="person.2"
+                        ><forename>Johannes</forename><surname>Geidel</surname></persName>
+                    <orgName key="org.2">F. M. Geidel</orgName>
+                    <placeName key="xxx">Leipzig</placeName>
                     <date when="1914-06-03"/>
                 </correspAction>
                 <correspAction type="received">
-                    <orgName key="xxx">Universal-Edition</orgName>
+                    <orgName key="org.1">Universal-Edition</orgName>
                     <placeName key="xxx">Wien</placeName>
                 </correspAction>
                 <note>Dokument enthält auch den Antwortbrief von Arnold Schönberg an F. M. Geidel,
                     6. Juni 1914</note>
                 <correspContext>
+                    <!-- wie benutzt man diese Funktion am sinnvollsten? Dient sie nur zum "Weiterblättern" innerhalb der Edition, oder kann man sie auch "nonlinear" benutzen? -->
                     <ref type="next" target="https://bit.ly/3BTGCex">Brief vom 6. Juni 1914</ref>
                     <ref type="next"
                         target="http://213.185.182.231/search_show_letter.php?ID_Number=7534"/>
-                    <!--ASUE target links testhalber -->
+                    <!--ASUE target nur testhalber -->
                     <!--ASUE: jeweils mehrere Bezüge sinnvoll möglich? -->
                     <ref type="prev">Brief vom 14. Mai 1914</ref>
                 </correspContext>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <!-- ASUE laut basemanual ist das ein Unterelement von profiledesc...? -->
             <change when="2021-09-07" who="PK"> test </change>
-            <!-- ASUE ausserdem attribut: "who" -->
+            <!-- Verwendung nach Veröffentlichung für nachträgliche Änderungen -->
         </revisionDesc>
     </teiHeader>
     <text>
@@ -79,7 +132,8 @@
                     <!-- horizontale, gestrichelte Linie -->
                 </opener>
                 <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
-                        <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig><!-- Zeilenumbruch mit Abtrennungszeichen -->
+                        <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
+                        <!-- Zeilenumbruch mit Abtrennungszeichen -->
                         <note xml:id="automatisch"><ref target="https://bit.ly/3BQVTfQ"
                                 >Korrekturabzug (Probeseite) von S, 4 (T. 5-12) des
                                 Partiturdrucks</ref></note>
@@ -89,29 +143,29 @@
                     baldigen Bescheid, da<g ref="#typoHyphen"/><lb break="no"/>mit ich weiter
                     arbeiten lassen kann.</p>
                 <p> Ich möchte hierzu noch bemerken, dass die Einteilung des <lb/>Manuskriptes es
-                    mit sich bringt, dass ich gezwungen bin, <add place="above" hand="author"
-                        >ab und zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu
-                    bringen, um unmittelbar im Anschluss daran <lb/>wieder eine Platte mit
-                    Doppelsystemen einrichten zu können. Ich bitte, <lb/>beim Autor anzufragen, <add
-                        place="left" hand="#Schönberg"><metamark>1. <hi rend="circle">X</hi></metamark></add><add
-                        place="inline" hand="#Schönberg"
-                            ><metamark><hi rend="circle">X</hi></metamark></add>ob
-                    in diesem <hi rend="underline">Falle <add place="superlinear" hand="author"
-                            >bei</add> geeignete<add place="intralinear" hand="author">n</add>
-                            Instrumente<add place="intralinear" hand="author">n</add>, wo
-                    im</hi><lb/> Manuskript mehrere auf eine Linie zusammen gezogen sind, ein
-                        Auseinander<g ref="#typoHyphen"/><lb break="no"/>ziehen in einzelnen
-                    Instrumenten vorgenommen werden kann, um zu vermeiden, <lb/>dass plötzlich auf
-                    eine sehr enge Platte mit 34 Linien eine sehr weite <lb/>mit 18 oder 20 Linien
-                    folgt. Umgedreht macht es sich notwendig, in ein<g ref="#typoHyphen"/><lb
-                        break="no"/>zelnen Fällen, <add place="left" hand="#Schönberg">
-                            <metamark>2. <hi rend="circle">X</hi></metamark></add><add
-                        place="inline" hand="#Schönberg">
-                                <metamark><hi rend="circle">X</hi></metamark></add> dass 2 gleichartige Instrumentenlinien auf eine
-                    Linie zu<g ref="#typoHyphen"/><lb break="no"/>sammengezogen werden, um eine
-                    2systemige Platte einrichten zu können <lb/>und dabei die Höchstzahl der Linien,
-                    34, nicht zu überschreiten. Einer <lb/>kurzen Rückantwort hierüber sehe ich
-                    entgegen. </p>
+                    mit sich bringt, dass ich gezwungen bin, <add place="above" hand="author">ab und
+                        zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu bringen, um
+                    unmittelbar im Anschluss daran <lb/>wieder eine Platte mit Doppelsystemen
+                    einrichten zu können. Ich bitte, <lb/>beim Autor anzufragen, <add place="left"
+                        hand="#Schönberg"><metamark>1. <hi rend="circle">X</hi></metamark></add><add
+                        place="inline" hand="#Schönberg"><metamark><hi rend="circle"
+                            >X</hi></metamark></add>ob in diesem <hi rend="underline">Falle <add
+                            place="above" hand="author">bei</add> geeignete<add place="intralinear"
+                            hand="author">n</add> Instrumente<add place="inline" hand="author"
+                            >n</add>, wo im</hi><lb/> Manuskript mehrere auf eine Linie zusammen
+                    gezogen sind, ein Auseinander<g ref="#typoHyphen"/><lb break="no"/>ziehen in
+                    einzelnen Instrumenten vorgenommen werden kann, um zu vermeiden, <lb/>dass
+                    plötzlich auf eine sehr enge Platte mit 34 Linien eine sehr weite <lb/>mit 18
+                    oder 20 Linien folgt. Umgedreht macht es sich notwendig, in ein<g
+                        ref="#typoHyphen"/><lb break="no"/>zelnen Fällen, <add place="left"
+                        hand="#Schönberg">
+                        <metamark>2. <hi rend="circle">X</hi></metamark></add><add place="inline"
+                        hand="#Schönberg">
+                        <metamark><hi rend="circle">X</hi></metamark></add> dass 2 gleichartige
+                    Instrumentenlinien auf eine Linie zu<g ref="#typoHyphen"/><lb break="no"
+                    />sammengezogen werden, um eine 2systemige Platte einrichten zu können <lb/>und
+                    dabei die Höchstzahl der Linien, 34, nicht zu überschreiten. Einer <lb/>kurzen
+                    Rückantwort hierüber sehe ich entgegen. </p>
                 <p><hi rend="underline">Beethoven-Schenker.</hi><!-- Musikalisches Werk -->
                     Korrektur der Vorbemerkung hoffe ich im Laufe dieser <lb/>Woche auszusetzen;
                     durch die vielen Feiertage hat sich leider die Fertig<g ref="#typoHyphen"/><lb
@@ -120,7 +174,7 @@
                     <salute>Hochachtungsvoll<lb/><stamp>ppa. F. M. Geidel</stamp></salute>
                     <signed xml:id="Geidel">Johannes Geidel</signed>
                 </closer>
-                      <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
+                <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
                         Papier</hi> genommen? <seg type="comment">
                         <orig>Ich schrieb doch deswegen auch!!!</orig>
                         <note>Brief vom </note>
@@ -134,29 +188,30 @@
                     sehe ich mit Bedauern, dass Sie meine ausführlichen <lb/>Auseinandersetzungen
                     nicht genügend beachtet haben.</p>
                 <p>Ich schrieb wörtlich:</p>
-                <p rend="#mMM"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht auch besser aus und ist
-                    <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm der <lb/>Höhe
-                    bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die Partituren dienen
-                    einzig und allein <hi rend="underline">praktischen</hi> <lb/>Zwecken und je besser sie
-                    denen entsprechen, desto schöner <lb/>sind sie. Jede andere Schönheit ist
-                    Mumpitz.“</p>
-                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rend="underline">Lesbarkeit</hi> =
-                    <hi rend="underline">Schönheit</hi>
+                <p rend="#mMM"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht auch
+                    besser aus und ist <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm
+                    der <lb/>Höhe bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die
+                    Partituren dienen einzig und allein <hi rend="underline">praktischen</hi>
+                    <lb/>Zwecken und je besser sie denen entsprechen, desto schöner <lb/>sind sie.
+                    Jede andere Schönheit ist Mumpitz.“</p>
+                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rend="underline">Lesbarkeit</hi>
+                    = <hi rend="underline">Schönheit</hi>
                     <lb/>von Ihnen zur Kenntnis genommen werden wird.</p>
                 <p>Ich habe gedacht, Sie werden einsehen, dass die <lb/>Partituren <lb/>für die <hi
-                    rend="underline">Dirigenten</hi> und <hi rend="underline">Musiker</hi> sind<lb/>
-                    und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich zu
-                    erleichtern hat !!!</p>
+                        rend="underline">Dirigenten</hi> und <hi rend="underline">Musiker</hi>
+                    sind<lb/> und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich
+                    zu erleichtern hat !!!</p>
                 <p rend="#mMM"><hi rend="circle">1</hi> Deshalb ist es also durchaus nicht an<g
                         ref="#typoHyphen"/><lb break="no"/>gebracht, durchaus <hi rend="#uu"
                         ><!-- doppelte Unterstreichung --> falsch</hi>, 2 Stimmen die auf <lb/>einer
                     Zeile stehen können, auf 2 zu stechen !! <lb/>Insbesondere, da meist die Akkorde
-                    leichter zu lesen <lb/>sind, wenn möglichst viel davon (2 - 3 Töne) in einer 
+                    leichter zu lesen <lb/>sind, wenn möglichst viel davon (2 - 3 Töne) in einer
                     <lb/>Zeile stehen.</p>
-                <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in
-                    denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
-                        rend="superscript"><hi rend="#uu">cll</hi></hi> , 2 Takt:</p>
-                <p><figure facs="NBDatei1" hand="#Schönberg">
+                <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in denen
+                    zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
+                        rend="superscript"><hi rend="#uu">cll</hi></hi> , 2
+                Takt:</p><!-- Macht es Sinn diesen Abschnitt mittels Tabellen näherungsweise nachzubilden) -->
+                --> <p><figure facs="NBDatei1" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure>das ist besser als <lb/>2 Zeilen: <figure facs="NBDatei2"
                         hand="#Schönberg">
@@ -173,17 +228,28 @@
                     </figure> besser: <figure facs="NBDatei6" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure></p>
-                <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rend="superscript"><hi rend="underline"
-                            >r</hi></hi>
+                <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rend="superscript"><hi
+                            rend="underline">r</hi></hi>
                     <lb/>besser in 2 Zeilen (eventuell !!) </p>
-                <p>dagegen sind folgende Stellen <hi rend="#uu">besser</hi> in <hi
-                        rend="#uu">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die B<hi
-                            rend="superscript"><hi rend="#uu">r</hi></hi>; | Seite 7, Takt 3, die
-                    Clar. und die Fag. | <lb/>Seite 5, 1. System, Takt 1 die
-                        K<ex>on</ex>tr<ex>a</ex>b<ex>ä</ex>sse | Seite 9, 2. Syst, 6. Takt, Ob und
-                    Klar</p>
-                <p><hi rend="circle">2.</hi> Zusammenziehungen nur bei Instrumenten der gleichen Gattung, die die
-                    <lb/>gleiche Notierung haben !!!</p>
+                <p>dagegen sind folgende Stellen <hi rend="#uu">besser</hi> in <hi rend="#uu"
+                        >einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
+                        <abbr>B<hi rend="superscript"><hi rend="#uu">r</hi></hi></abbr>
+                        <expan>Bratsche</expan>
+                        <reg>Viola</reg>
+                    </choice>; | Seite 7, Takt 3, die <choice>
+                        <abbr>Clar.</abbr>
+                        <expan>Clarinette</expan>
+                        <reg>Klarinette</reg>
+                    </choice> und die Fag. | <lb/>Seite 5, 1. System, Takt 1 die <choice>
+                        <abbr>Ktrbsse</abbr>
+                        <expan>Kontrabässe</expan>
+                    </choice><!-- Bedarf in diesem Fall des Plural einer Auszeichnung, damit dies unter "Kontrabass" gefunden werden kann? -->
+                    | Seite 9, 2. Syst, 6. Takt, Ob und <choice>
+                        <abbr>Klar</abbr>
+                        <expan>Klarinette</expan>
+                    </choice></p>
+                <p><hi rend="circle">2.</hi> Zusammenziehungen nur bei Instrumenten der gleichen
+                    Gattung, die die <lb/>gleiche Notierung haben !!!</p>
                 <closer rend="right">
                     <signed>Schönberg</signed>
                     <dateline>6./6. 1914</dateline>
