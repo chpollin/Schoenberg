@@ -109,7 +109,7 @@
     </div>
     </xsl:template>
     
-    <xsl:template match="*[@rend]">
+    <xsl:template match="*[@rend = 'right', 'left']">
         <span>
          <xsl:choose>
              <xsl:when test="@rend = 'right'">
@@ -189,6 +189,33 @@
         </li>
     </xsl:template>
     
+    <xsl:template match="*:choice">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    
+    <xsl:template match="*:choice/*:abbr">
+        <span style="background-color: coral;">
+            <xsl:if test="../*:expan">
+                <xsl:attribute name="title">
+                    <xsl:choose>
+                        <xsl:when test="../*:expan/*:reg">
+                            <xsl:text>[</xsl:text>
+                            <xsl:value-of select="../*:expan/*:reg"/>
+                            <xsl:text>]</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="../*:expan"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="*:choice/*:expan"/>
+    
     <xsl:template match="*:supplied">
         <span title="{@cert}">
             <xsl:text>[ </xsl:text>
@@ -198,7 +225,16 @@
     </xsl:template>
     
     <xsl:template match="*:gap">
-        <span title="{@reason}" class="{concat('p-', @quantity)}"/>
+        <span class="{concat('p-', @quantity)}">
+            <xsl:choose>
+                <xsl:when test="@rend|@reason">
+                    <xsl:attribute name="title">
+                        <xsl:value-of select="@rend|@reason"/>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
+        </span>
     </xsl:template>
     
     <!-- NAMES -->
