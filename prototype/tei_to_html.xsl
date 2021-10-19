@@ -70,7 +70,7 @@
 
     <!-- OPENER -->
     <xsl:template match="*:opener">
-        <div class="row">
+        <div class="row my-3">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -90,15 +90,13 @@
     </xsl:template>
     
     <xsl:template match="*:closer">
-        <div class="row">
+        <div title="closer">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     
     <xsl:template match="*:salute">
-        <p>
             <xsl:apply-templates/>
-        </p>
     </xsl:template>
     
    <xsl:template match="*:stamp">
@@ -179,6 +177,14 @@
 
     <xsl:template match="*:list">
         <ul>
+            <xsl:choose>
+                <xsl:when test="@rend = 'simple'">
+                    <xsl:attribute name="class">
+                        <xsl:text>list-unstyled m-3</xsl:text>
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
             <xsl:apply-templates/>
         </ul>
     </xsl:template>
@@ -193,7 +199,19 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <xsl:template match="*:g[@ref='#typoHyphen']">
+        <span style="background-color: lightblue;"><xsl:text>-</xsl:text></span>
+    </xsl:template>
     
+    <xsl:template match="*:term">
+        <span style="background-color: green;">
+            <xsl:if test="@type">
+                <xsl:attribute name="title" select="@type"/>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+       
     <xsl:template match="*:choice/*:abbr">
         <span style="background-color: coral;">
             <xsl:if test="../*:expan">

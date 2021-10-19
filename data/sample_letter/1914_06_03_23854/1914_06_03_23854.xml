@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-    * was ist telota:doctype="letter avhr" ?
-    * welche xml:id ?
--->
+
 <!--<?xml-model href="file:/Z:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de"
-    telota:doctype="letter avhr" xml:id="letter.1">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>F. M. Geidel an Universal-Edition, 3. Juni 1914</title>
                 <respStmt>
-                    <persName>Philipp Kehrer</persName>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
                     <resp>
-                        <note type="remarkResponsibility">Kommentar, Kodierung</note>
+                        <term>Transkription</term>
+                        <term>Annotation</term>
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName>Katharina Bleier</persName>
+                    <persName><forename>Katharina</forename>
+                        <surname>Bleier</surname></persName>
                     <resp>
-                        <note type="remarkResponsibility">Transkription</note>
+                        <term>Transkription</term>
+                        <term>Annotation</term>
                     </resp>
                 </respStmt>
+                <respStmt>
+                    <persName><forename>Christopher</forename>
+                        <surname>Pollin</surname></persName>
+                    <resp>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <!--<respStmt>
+                    <persName><forename>a</forename><surname>b</surname></persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                    </resp>
+                </respStmt>-->
                 <respStmt>
                     <orgName xml:id="OSTV"> Österreichischer Verband für Stenografie und
                         Textverarbeitung </orgName>
@@ -29,16 +44,13 @@
                         <note type="remarkResponsibility">Transkription Stenographie</note>
                     </resp>
                 </respStmt>
-                <respStmt>
-                    <!-- soll hier das ZIM/C. Pollin genannt werden? wie korrekt?-->
-                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher>Arnold Schönberg Center</publisher>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
                 <pubPlace>Wien</pubPlace>
-                <publisher>Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der
-                    Universität für Musik und darstellende Kunst Wien</publisher>
-                <pubPlace>Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
                         >Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
@@ -51,25 +63,28 @@
                 <editor>Katharina Bleier</editor>
             </seriesStmt>
             <sourceDesc>
+                <!-- CP: siehe <textClass> -->
                 <msDesc type="Brief" rend="Durchschlag">
                     <!-- @type z.B. Brief, Telegramm, Ansichtskarte, Postkarte, Visitenkarte, Vertrag, Prospekt, Rechnungsdokument, Liste; @rend (optional) Kopie, Entwurf -->
                     <msIdentifier>
-                        <institution>The Library of Congress</institution>
-                        <placeName>Washington, D.C.</placeName>
+                        <settlement><placeName key="#">Washington, D.C.</placeName></settlement>
+                        <institution ref="http://d-nb.info/gnd/35626-8">The Library of
+                            Congress</institution>
                         <repository>Music Division</repository>
                         <collection>Arnold Schoenberg Collection</collection>
                         <altIdentifier>
+                            <settlement key="#"><placeName>Wien</placeName></settlement>
                             <institution>Arnold Schönberg Center</institution>
-                            <placeName>Wien</placeName>
-                            <idno>ASCC ID 23854</idno>
+                            <idno type="signature">ASCC ID 23854</idno>
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
                 <listWit>
                     <witness><bibl>Katalog Sotheby's London, Juni 2002, Lot 704</bibl></witness>
                 </listWit>
-                <bibl>Arnold Schönberg: Sämtliche Werke. Abteilung III: Bühnenwerke. Reihe B, Band 6, Teil 2. Bühnenwerke I. Erwartung op. 17. Herausgegeben von Ullrich Scheideler. Mainz, Wien 2005.
-                    <!-- Bibliographie referenzieren --></bibl>
+                <bibl>Arnold Schönberg: Sämtliche Werke. Abteilung III: Bühnenwerke. Reihe B, Band
+                    6, Teil 2. Bühnenwerke I. Erwartung op. 17. Herausgegeben von Ullrich
+                    Scheideler. Mainz, Wien 2005. <!-- Bibliographie referenzieren --></bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -97,6 +112,13 @@
                     <ref type="prev">Brief vom 14. Mai 1914</ref>
                 </correspContext>
             </correspDesc>
+            <!-- CP: so könnte man alle kategorien beschreiben. term könnte mit einem ref auch noch auf die GND etc. referenzieren, um zu normalisieren -->
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Durchschlag</term>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-09-07" who="PK"> test </change>
@@ -107,7 +129,6 @@
         <body>
             <div type="letter">
                 <pb n="1" xml:id="p.1"/>
-                <!-- CP: wie genau soll das "Textbild" nachgebaut werden?  -->
                 <opener>
                     <stamp sameAs="#stamp.3">
                         <orgName>F. M. GEIDEL</orgName>, LEIPZIG<lb/>Anstalt für<lb/>Notenstich,
@@ -209,9 +230,9 @@
                     <lb/>Zeile stehen.</p>
                 <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in denen
                     zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
-                        rend="superscript"><hi rend="#uu">cll</hi></hi> , 2
-                Takt:</p><!-- Macht es Sinn diesen Abschnitt mittels Tabellen näherungsweise nachzubilden) -->
-                --> <p><figure facs="NBDatei1" hand="#Schönberg">
+                        rend="superscript"><hi rend="#uu">cll</hi></hi> , 2 Takt:</p>
+                <!-- Macht es Sinn diesen Abschnitt mittels Tabellen näherungsweise nachzubilden) -->
+                <p><figure facs="NBDatei1" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure>das ist besser als <lb/>2 Zeilen: <figure facs="NBDatei2"
                         hand="#Schönberg">

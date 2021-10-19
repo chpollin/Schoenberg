@@ -10,16 +10,27 @@
                 <!-- CP: hier kann man am besten immer das gesamte projektteam abbilden -->
                 <respStmt>
                     <persName>
-                        <forename>Philipp</forename> <surname>Kehrer</surname>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
                     </persName>
                     <resp>
                         <term>Transkription</term>
+                        <term>Annotation</term>
                         <!-- CP: <note> würde eine notiz zur responsibilty ausdrücken. -->
                         <!--<note type="remarkResponsibility"></note>-->
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName><forename>Christopher</forename> <surname>Pollin</surname></persName>
+                    <persName><forename>Katharina</forename>
+                        <surname>Bleier</surname></persName>
+                    <resp>
+                        <term>Transkription</term>
+                        <term>Annotation</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>Christopher</forename>
+                        <surname>Pollin</surname></persName>
                     <resp>
                         <term>Datenmodellierung</term>
                     </resp>
@@ -35,8 +46,9 @@
                 <!-- CP: hier könnte man noch normalisierungen machen mit GND-ID -->
                 <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
                 <pubPlace>Wien</pubPlace>
-                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der
-                    Universität für Musik und darstellende Kunst </publisher>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst </publisher>
                 <!-- das zweite <pubPlace>Wien</pubPlace> weg -->
                 <!--<pubPlace>Wien</pubPlace>-->
                 <availability>
@@ -55,11 +67,11 @@
                 <msDesc type="letter">
                     <msIdentifier>
                         <!-- CP: das  <placeName> muss in das  <settlement> -->
-                        <settlement><placeName>Wien</placeName></settlement>
+                        <settlement><placeName key="#">Wien</placeName></settlement>
                         <institution>Arnold Schönberg Center</institution>
                         <collection>Universal Edition Collection</collection>
                         <altIdentifier>
-                            <settlement><placeName>Wien</placeName></settlement>
+                            <settlement><placeName key="#">Wien</placeName></settlement>
                             <institution>Arnold Schönberg Center</institution>
                             <!-- hier vl noch spezifischer mit @type -->
                             <idno type="signature">ASCC ID 6852</idno>
@@ -129,13 +141,17 @@
                         <addrLine>per Adr. <persName>D<hi rend="superscript"><hi rend="underline"
                                         >r</hi></hi> F. Zehme</persName></addrLine>
                     </address><!-- "Gautzsch", "Leipzig, Charlottenstr." und "Dr F. Zehme" sind in lateinischer Schrift geschrieben --><!-- hinfällig, weil wir nun doch entschieden haben, auf die Auszeichnung von lateinischer Schrift in Kurrent-Briefen zu verzichten -->
-                    <salute>Lieber Herr
-                    Direktor</salute><!-- Wir hätten gerne die Möglichkeit "salute" hier und am Briefende entsprechend dem Original anzuordnen, d.h. hier in die erste Zeile inkludiert -->
+                    <!--<salute>Lieber Herr
+                    Direktor</salute>-->
+                    <!-- CP: das ist ein problem mit XML bzw. TEI. salute ist nur im opener erlaubt und nicht in p. eine lösung wäre einfach auf das salute in diesem fall zu versichten, und "Lieber Herr Direktor"
+                    in das nächste <p> aufzunehmen... aber das ist nicht wirklich eine saubere lösung... -->
+                    <!-- Wir hätten gerne die Möglichkeit "salute" hier und am Briefende entsprechend dem Original anzuordnen, d.h. hier in die erste Zeile inkludiert -->
                 </opener>
-                <p>I. ich habe bereits an <persName key="polnauer">Polnauer</persName><lb/>
-                    geschrieben wegen der „<hi rend="underline"
-                    >Bläser-Partituren-Stimmen</hi>“.<lb/> Ich bin im Ganzen dafür, denn es hat den
-                    Vorteil,<lb/> dass die Bläser einander gegenseitig als Stichwort dienen.<lb/>
+                <p><span type="salute">Lieber Herr Direktor</span> I. ich habe bereits an <persName
+                        key="polnauer">Polnauer</persName><lb/> geschrieben wegen der „<hi
+                        rend="underline">Bläser-Partituren-Stimmen</hi>“.<lb/> Ich bin im Ganzen
+                    dafür, denn es hat den Vorteil,<lb/> dass die Bläser einander gegenseitig als
+                    Stichwort dienen.<lb/>
                     <hi rend="underline">Immerhin sollte man noch einige Orchestermitglieder<lb/>
                         befragen</hi>. Wenn man es aber macht, dann meine<lb/> ich: immer eine ganze
                     Gruppe zusammen; also<lb/> alle 10 Hörner, alle 6 Trp, alle 8 Posaunen; Nur<lb/>
@@ -145,15 +161,14 @@
                     <del rend="strikethrough">I</del> sind, mehrere unisono spielen, wodurch für
                     diese unisono<g ref="#typoHyphen"/><lb break="no"/>spielenden stets <hi
                         rend="underline">eine</hi> Zeile genügte, so dass die Partitur<lb/> im
-                    Durchschnitt höchstens 6-8 Zeilen
-                    <!--<del rend="strikethrough"><gap
+                    Durchschnitt höchstens 6-8 Zeilen <!--<del rend="strikethrough"><gap
                             reason="illegible" quantity="2" unit="chars"
                     /></del>-->
                     <!-- CP: ohne das <del> einfach. -->
                     <!-- Gibt hier eine bessere Lösung, ein durchgestrichenes, aber nicht mehr entzifferbares Wort auszuzeichnen? z.B. <supplied>[...]</supplied>? -->
-                    <gap rend="strikethrough" reason="illegible" quantity="2" unit="chars"></gap>
-                    und das an nicht allzu<lb/> vielen Stellen <del rend="strikethrough">!</del>
-                    erreichen dürfte. Allerdings: <hi rendition="#uu"> jede</hi> Stimme<lb/>
+                    <gap rend="strikethrough" reason="illegible" quantity="2" unit="chars"/> und das
+                    an nicht allzu<lb/> vielen Stellen <del rend="strikethrough">!</del> erreichen
+                    dürfte. Allerdings: <hi rendition="#uu"> jede</hi> Stimme<lb/>
                     <del rend="strikethrough">muss</del> (<hi rend="underline">jedes</hi>
                     <hi rendition="#uu">einzelne</hi> Instrument!!) muss wenden können.<lb/> Ob das
                     geht kann ich nicht beurteilen. </p>
@@ -187,30 +202,37 @@
                 <p>Bei den Flöten <hi rend="rectangle">1. 2. 3. 4 <add rend="below"
                             ><metamark/>gr.</add></hi>
                     <hi rend="rectangle">1. 2. 3. 4 kl</hi></p>
-                <p>" " <!-- Unterführungszeichen mit <reg>Bei den</reg> auflösen? -->Oboen <hi
+                <p>
+                    <choice>
+                        <orig>" "</orig>
+                        <reg>Bei den Flöten</reg>
+                    </choice>
+                    <!-- CP: ja, das klingt gut. idealerweise noch mit einem choice, dann kann man original und normalisierung direkt adressieren. -->
+                    <!-- Unterführungszeichen mit <reg>Bei den</reg> auflösen? -->Oboen <hi
                         rend="rectangle">l. 2 3 Ob</hi>
                     <hi rend="rectangle">1. 2 EH</hi></p>
                 <p>" " Fagotten <hi rend="rectangle">1. 2 3 Fg</hi>
                     <hi rend="rectangle">1. 2 Ctr Fg</hi></p>
-                <p>II. Ich nehme mir jetzt die Gurre<!-- musikalisches Werk --><lb/> Partitur vor
-                        <hi rend="underline">um etwaige Änderungen noch</hi><lb/> rechtzeitig zu
-                    nennen. Ich hoffe diese Arbeit<lb/> in cirka 6-8 Tagen erledigt zu haben.</p>
-                <p>III. Bitte senden Sie mir eine <hi rend="underline"
-                        >Pelleas-</hi><!-- musikalisches Werk --><lb/><hi rend="underline"
+                <p>II. Ich nehme mir jetzt die <term key="#werkindex" type="musical_work"
+                        >Gurre</term><!-- musikalisches Werk --><lb/> Partitur vor <hi
+                        rend="underline">um etwaige Änderungen noch</hi><lb/> rechtzeitig zu nennen.
+                    Ich hoffe diese Arbeit<lb/> in cirka 6-8 Tagen erledigt zu haben.</p>
+                <p>III. Bitte senden Sie mir eine <hi rend="underline"><term key="#werkindex"
+                            type="musical_work"
+                        >Pelleas</term>-</hi><!-- musikalisches Werk --><lb/><hi rend="underline"
                         >Partitur</hi>; ich will auch hier einige Änderungen<lb/> eintragen (für
                     mein Material)</p>
-                <p>IV. Das 
-                    <!-- musikalisches Werk -->
+                <p>IV. Das <!-- musikalisches Werk -->
                     <!-- CP: mit <term>, @key und @type kann man das ausdrücken. -->
-                    <term key="#id aus werkid" type="music_work">Cello-Konzert von Monn</term><lb/> scheinen Sie
-                    nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist <supplied
-                        cert="high">,</supplied> dann bitte ich um Nachricht, da ich es<lb/> leicht
-                        <orgName key="peters">Peters</orgName> oder <orgName key="eulenburg"
-                        >Eulenburg</orgName> geben kann.</p>
+                    <term key="#werkindex" type="musical_work">Cello-Konzert von Monn</term><lb/>
+                    scheinen Sie nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist
+                        <supplied cert="high">,</supplied> dann bitte ich um Nachricht, da ich
+                    es<lb/> leicht <orgName key="peters">Peters</orgName> oder <orgName
+                        key="eulenburg">Eulenburg</orgName> geben kann.</p>
                 <p>V.</p>
                 <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
-                    Jahre ver<g ref="#typoHyphen"/><lb break="no"
-                    /><!-- damit soll ein Abtrennungszeichen beim Zeilenumbruch eingefügt werden -->flossen
+                    Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen <!-- CP: also ver-[NEUE ZEILE] flossen? break="no" um auszudrücken, dass man mitten im wort ist?-->
+                    <!-- damit soll ein Abtrennungszeichen beim Zeilenumbruch eingefügt werden -->
                     seit wir unseren Vertrag abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft
                     und eben so lange bin<lb/> ich verpflichtet gewesen zu warten, ob Sie meine<lb/>
                     Werke herausgeben. Das Autorengesetz bestimmt<lb/> nun, dass wenn ein Werk
@@ -223,11 +245,11 @@
                     <del rend="strikethrough">bis ich</del> von Ihnen die Zusicherung<lb/> habe,
                     dass Sie außer den freigewordenen Werken<lb/> auch diejenigen sofort drucken,
                     die noch nicht<lb/> frei sind.</p>
-                <p> Es sind frei:</p>
+                <!-- CP: ja, das würde passen -->
                 <!-- Um das originale Textbild besser abzubilden, dies in das erste item der Liste integrieren? -->
                 <p>
                     <list rend="simple">
-                        <item>I. Das Monodram „Glückliche Hand“</item>
+                        <item>Es sind frei: I. Das Monodram „Glückliche Hand“</item>
                         <pb n="4" xml:id="page.4"/>
                         <item>II. Die George Lieder</item>
                         <item>III. Die 2 Balladen</item>
@@ -278,11 +300,11 @@
                         xml:id="page.6"/> endlich von meinen Werken <subst>
                         <del rend="strikethrough">das</del>
                         <add place="above">etwas</add>
-                    </subst> haben, und da<lb/> kann ich nicht länger warten.
-                </p>
+                    </subst> haben, und da<lb/> kann ich nicht länger warten. </p>
                 <closer> Ich hoffe bald Nachricht zu haben und empfehle<lb/> mich Ihnen mit besten
-                    Grüßen <salute>Ihr ergebener Arnold
-                    Schönberg</salute><!-- "salute" ebenfalls in die Zeile eingliedern --></closer>
+                    Grüßen <salute>Ihr ergebener Arnold Schönberg</salute>
+                    <!-- CP: dann passt die annotation so, ich hatte ein <p> gesetzt in der verarbeitung -->
+                    <!-- "salute" ebenfalls in die Zeile eingliedern --></closer>
             </div>
         </body>
     </text>
