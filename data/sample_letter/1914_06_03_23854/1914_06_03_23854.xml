@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--<?xml-model href="file:/Z:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.1">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -103,6 +103,8 @@
                 <note>Dokument enthält auch den Antwortbrief von Arnold Schönberg an F. M. Geidel,
                     6. Juni 1914</note>
                 <correspContext>
+                    <!-- CP: ja, mit  <correspContext> wird previous bzw. next abgebildet; aber man kann auch andere dinge ausdrücken damit, gesteuert über type="prev"; 
+                        wenn es aber nonlinear wird, könnte es auch komplex werden. aber ist möglich -->
                     <!-- wie benutzt man diese Funktion am sinnvollsten? Dient sie nur zum "Weiterblättern" innerhalb der Edition, oder kann man sie auch "nonlinear" benutzen? -->
                     <ref type="next" target="https://bit.ly/3BTGCex">Brief vom 6. Juni 1914</ref>
                     <ref type="next"
@@ -145,19 +147,23 @@
                                 >191</hi></hi>4.<lb/><placeName><hi rend="preprint"><hi
                                     rend="italic">Wittenbergerstraße
                         23</hi></hi></placeName></dateline>
+                    <!-- ja, das passt! -->
                     <!-- @rend="preprint" korrekt?-->
                     <address>
-                        <addrLine>Verehrl. <orgName>Universal-Edition</orgName>, A.-G.,
-                                <placeName>Wien</placeName>.</addrLine>
-                    </address><milestone unit="section" rend="#hr"/>
+                        <addrLine>Verehrl. <orgName>Universal-Edition</orgName>, A.-G., <hi
+                                rend="underline dotted"><placeName>Wien</placeName>.</hi></addrLine>
+                    </address>
+                    <!--<milestone unit="section" rend="#hr"/>-->
+                    <!-- ich glaube milestone ist nicht das richtige element? ich würde hier dem "Wien." ein @rend geben. um zu sagen, dass es unterstichen ist, mit dem zusatz dotted eben.  -->
                     <!-- horizontale, gestrichelte Linie -->
                 </opener>
                 <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
                         <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
                         <!-- Zeilenumbruch mit Abtrennungszeichen -->
-                        <note xml:id="automatisch"><ref target="https://bit.ly/3BQVTfQ"
-                                >Korrekturabzug (Probeseite) von S, 4 (T. 5-12) des
-                                Partiturdrucks</ref></note>
+                        <note type="footnote" xml:id="automatisch"><ref
+                                target="https://bit.ly/3BQVTfQ">Korrekturabzug (Probeseite) von S, 4
+                                (T. 5-12) des Partiturdrucks</ref></note>
+                        <!-- CP: man könnte aus jedem note eine fußnote machen und unten einen amerkungsapparat anzeigen. sort dann hyperlink setzen. siehe prototyp_1914_06_03_23854.html -->
                         <!--ASUE: der link ist provisorisch; kann man so eine externe, kommentarrelevante Quelle einbinden und wie wird die dann angezeigt? -->
                     </seg> aus der Orchesterpartitur <!-- Musikalisches Werk --> Schönberg. Ich
                     hoffe, alles nach Wunsch <lb/>des Autors ausgeführt zu haben und bitte um recht
@@ -198,7 +204,8 @@
                 <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
                         Papier</hi> genommen? <seg type="comment">
                         <orig>Ich schrieb doch deswegen auch!!!</orig>
-                        <note>Brief vom </note>
+                        <note type="footnote">Brief vom </note>
+                        <!-- mit einem <note type=footnote> also als fussnote; und/oder in <correspContext> ein  <ref type="related" target="">Brief vom ...</ref>   -->
                         <!-- ASUE: Verweis auf den entsprechenden Brief, wie? ev (auch in <correspContext>? -->
                     </seg></note>
                 <!-- ASUE Vordruck "In Leipzig...statt": Werbetexte werden nicht transkribiert -->
@@ -209,9 +216,11 @@
                     sehe ich mit Bedauern, dass Sie meine ausführlichen <lb/>Auseinandersetzungen
                     nicht genügend beachtet haben.</p>
                 <p>Ich schrieb wörtlich:</p>
-                <p rend="#mMM"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht auch
-                    besser aus und ist <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm
-                    der <lb/>Höhe bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die
+                <!-- CP: @rend="line" um auszudrücken, dass es eine anstreichung gibt, und dann mit leerzeichen getrennt right|left|top|bottom; vl etwas anderes als "line"  -->
+                <!-- <xsl:text>[</xsl:text> -->
+                <p rend="line left"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht
+                    auch besser aus und ist <lb/>lesbarer, wenn auf einer einsystemigen Platte nur
+                    24 cm der <lb/>Höhe bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die
                     Partituren dienen einzig und allein <hi rend="underline">praktischen</hi>
                     <lb/>Zwecken und je besser sie denen entsprechen, desto schöner <lb/>sind sie.
                     Jede andere Schönheit ist Mumpitz.“</p>
@@ -223,16 +232,76 @@
                     sind<lb/> und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich
                     zu erleichtern hat !!!</p>
                 <p rend="#mMM"><hi rend="circle">1</hi> Deshalb ist es also durchaus nicht an<g
-                        ref="#typoHyphen"/><lb break="no"/>gebracht, durchaus <hi rend="#uu"
-                        ><!-- doppelte Unterstreichung --> falsch</hi>, 2 Stimmen die auf <lb/>einer
-                    Zeile stehen können, auf 2 zu stechen !! <lb/>Insbesondere, da meist die Akkorde
-                    leichter zu lesen <lb/>sind, wenn möglichst viel davon (2 - 3 Töne) in einer
-                    <lb/>Zeile stehen.</p>
-                <p>Eine <hi rend="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in denen
-                    zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
-                        rend="superscript"><hi rend="#uu">cll</hi></hi> , 2 Takt:</p>
+                        ref="#typoHyphen"/><lb break="no"/>gebracht, durchaus <!-- CP: rend="underline double" -> dann kann man auch für andere sachen steuern, dass sie gedoppelt sind: doppelte anstreichung links-->
+                    <hi rend="underline double"><!-- doppelte Unterstreichung --> falsch</hi>, 2
+                    Stimmen die auf <lb/>einer Zeile stehen können, auf 2 zu stechen !!
+                    <lb/>Insbesondere, da meist die Akkorde leichter zu lesen <lb/>sind, wenn
+                    möglichst viel davon (2 - 3 Töne) in einer <lb/>Zeile stehen.</p>
+                <p>Eine <hi rend="underline double">Ausnahme</hi> davon machen natürlich
+                    <lb/>Zeilen, in denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp :
+                    Seite 3, V<hi rend="superscript"><hi rend="underline double">cll</hi></hi> , 2
+                    Takt:</p>
                 <!-- Macht es Sinn diesen Abschnitt mittels Tabellen näherungsweise nachzubilden) -->
-                <p><figure facs="NBDatei1" hand="#Schönberg">
+                <!-- CP: <notatedMusic> encodes the presence of music notation in a text -->
+                <notatedMusic>
+                    <!-- CP: dann kann man mit einzelne zeilen ausdrücken. darin die seg bilden dann die "spalten" -->
+                    <seg type="row">
+                        <seg type="column">
+                            <figure hand="#Schönberg">
+                                <graphic url="1914_06_03_23854/note_example/note_example1.jpg"/>
+                                <figDesc>Notenbeispiel</figDesc>
+                            </figure>
+                        </seg>
+                        <seg type="column">das ist besser als <lb/>2 Zeilen:</seg>
+                        <seg type="column">
+                            <figure hand="#Schönberg">
+                                <graphic url="1914_06_03_23854/note_example/note_example2.jpg"/>
+                                <figDesc>Notenbeispiel</figDesc>
+                            </figure>
+                        </seg>
+                    </seg>
+                    <seg type="row">
+                        <seg>oder: Seite 3: Takt 2, Flöten</seg>
+                        <seg type="row">
+                            <seg type="column">
+                                <figure hand="#Schönberg">
+                                    <graphic url="1914_06_03_23854/note_example/note_example3.jpg"/>
+                                    <figDesc>Notenbeispiel</figDesc>
+                                </figure>
+                            </seg>
+                            <seg type="column"> besser: </seg>
+                            <seg type="column">
+                                <figure hand="#Schönberg">
+                                    <graphic url="1914_06_03_23854/note_example/note_example4.jpg"/>
+                                    <figDesc>Notenbeispiel</figDesc>
+                                </figure>
+                            </seg>
+                        </seg>
+                        <seg>oder Seite 4, 2. System, 3. Takt, Fl u Pic</seg>
+                        <seg type="row">
+                            <seg type="column">
+                                <figure hand="#Schönberg">
+                                    <graphic url="1914_06_03_23854/note_example/note_example5.jpg"/>
+                                    <figDesc>Notenbeispiel</figDesc>
+                                </figure>
+                            </seg>
+                            <seg type="column"> besser: </seg>
+                            <seg type="column"><figure hand="#Schönberg">
+                                    <graphic url="1914_06_03_23854/note_example/note_example6.jpg"/>
+                                    <figDesc>Notenbeispiel</figDesc>
+                                </figure>
+                            </seg>
+                        </seg>
+                    </seg>
+                    <seg type="row">aber Seite 8, 1. System, 4. Takt Solo B
+                        <!-- CP zwei hi ist nicht ideal, besser mehrer werte in das @rend -->
+                        <!--<hi rend="superscript">-->
+                            <hi rend="superscript underline">r</hi>
+                            <!--</hi>-->
+                        <lb/>besser in 2 Zeilen (eventuell !!)</seg>
+                </notatedMusic>
+
+                <!--<p><figure facs="NBDatei1" hand="#Schönberg">
                         <figDesc>Notenbeispiel</figDesc>
                     </figure>das ist besser als <lb/>2 Zeilen: <figure facs="NBDatei2"
                         hand="#Schönberg">
@@ -251,10 +320,10 @@
                     </figure></p>
                 <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rend="superscript"><hi
                             rend="underline">r</hi></hi>
-                    <lb/>besser in 2 Zeilen (eventuell !!) </p>
-                <p>dagegen sind folgende Stellen <hi rend="#uu">besser</hi> in <hi rend="#uu"
-                        >einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
-                        <abbr>B<hi rend="superscript"><hi rend="#uu">r</hi></hi></abbr>
+                    <lb/>besser in 2 Zeilen (eventuell !!) </p>-->
+                <p>dagegen sind folgende Stellen <hi rend="underline double">besser</hi> in <hi
+                        rend="underline double">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
+                        <abbr>B<hi rend="superscript"><hi rend="underline double">r</hi></hi></abbr>
                         <expan>Bratsche</expan>
                         <reg>Viola</reg>
                     </choice>; | Seite 7, Takt 3, die <choice>
@@ -263,8 +332,10 @@
                         <reg>Klarinette</reg>
                     </choice> und die Fag. | <lb/>Seite 5, 1. System, Takt 1 die <choice>
                         <abbr>Ktrbsse</abbr>
-                        <expan>Kontrabässe</expan>
-                    </choice><!-- Bedarf in diesem Fall des Plural einer Auszeichnung, damit dies unter "Kontrabass" gefunden werden kann? -->
+                        <expan><term ref="http://d-nb.info/gnd/4032300-6">Kontrabässe</term></expan>
+                    </choice>
+                    <!-- CP es macht wahrscheinlich sinn hier noch einen normalisierungs layer einzuführen und zwar über GND IDs. -->
+                    <!-- Bedarf in diesem Fall des Plural einer Auszeichnung, damit dies unter "Kontrabass" gefunden werden kann? -->
                     | Seite 9, 2. Syst, 6. Takt, Ob und <choice>
                         <abbr>Klar</abbr>
                         <expan>Klarinette</expan>

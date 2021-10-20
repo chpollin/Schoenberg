@@ -1,30 +1,42 @@
-<?xml-model
-href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<?xml-model
-href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-?>
-<!--
-<?xml-model href="file:/X:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
--->
-<!--  ww:doctype="letter avhr" -->
-<TEI>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Universal-Edition an Arnold Schönberg, 28. Februar 1939</title>
                 <respStmt>
-                    <persName>Katharina Bleier</persName>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
                     <resp>
-                        <note type="remarkResponsibility">Kommentar, Kodierung</note>
+                        <term>Transkription</term>
+                        <term>Annotation</term>
+                        <!-- CP: <note> würde eine notiz zur responsibilty ausdrücken. -->
+                        <!--<note type="remarkResponsibility"></note>-->
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName>Philipp Kehrer</persName>
+                    <persName><forename>Katharina</forename>
+                        <surname>Bleier</surname></persName>
                     <resp>
-                        <note type="remarkResponsibility">Transkription</note>
+                        <term>Transkription</term>
+                        <term>Annotation</term>
                     </resp>
                 </respStmt>
+                <respStmt>
+                    <persName><forename>Christopher</forename>
+                        <surname>Pollin</surname></persName>
+                    <resp>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <!--<respStmt>
+                    <persName><forename>a</forename><surname>b</surname></persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                    </resp>
+                </respStmt>-->
             </titleStmt>
             <publicationStmt>
                 <publisher>Arnold Schönberg Center</publisher>
@@ -47,14 +59,16 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
                 <msDesc type="Brief">
                     <!-- @type z.B. Brief, Telegramm, Ansichtskarte, Postkarte, Visitenkarte, Vertrag, Prospekt, Rechnungsdokument, Liste @rend Kopie, Entwurf-->
                     <msIdentifier>
-                        <institution>Arnold Schönberg Center</institution>
-                        <placeName>Wien</placeName>
-                        <repository></repository>
+                        <settlement><placeName key="#">Wien</placeName></settlement>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository/>
                         <collection>SatCollS4 Corr. "Universal Edition"</collection>
                         <altIdentifier>
-                            <institution>Arnold Schönberg Center</institution>
-                            <placeName>Wien</placeName>
-                            <idno>ASCC ID 20730</idno>
+                            <settlement><placeName key="#">Wien</placeName></settlement>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                                Center</institution>
+                            <idno type="signature">ASCC ID 20730</idno>
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
@@ -90,32 +104,38 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
             <div type="letter">
                 <pb n="1" xml:id="page.1"/>
                 <opener>
-                    <stamp sameAs="#stamp.2">
-                        <orgName>Universal-Edition-A.G.</orgName><lb/>
-                        <placeName><hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
-                            6</hi><lb/>Musikvereinsgebäude</placeName> / Tel. U 47-5-85<lb/>
-                        <placeName>LEIPZIG. KARLSTRASSE 10</placeName></stamp>
+                    <!-- CP <hi rend="center"> -->
+                    <hi rend="center"><stamp sameAs="#stamp.2" rend="center">
+                            <orgName>Universal-Edition-A.G.</orgName><lb/>
+                            <placeName><hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
+                                    6</hi><lb/>Musikvereinsgebäude</placeName> / Tel. U 47-5-85<lb/>
+                            <placeName>LEIPZIG. KARLSTRASSE 10</placeName></stamp></hi>
                     <add rend="right" hand="unknown">Ostmark Germany</add>
-                    <dateline rend="left"><persName>R</persName>/<persName>No.</persName></dateline>
+                    <dateline rend="left">
+                        <persName>R</persName>/<persName>No.</persName></dateline>
                     <dateline rend="right">Wien, am 28. Feber 1939.</dateline>
-                    <address>
-                        <addrLine>Herrn</addrLine>
-                        <addrLine>
-                            <persName>Prof. Arnold Schönberg</persName>
-                        </addrLine>
-                        <addrLine>
-                            <placeName>116 North Rockingham Avenue</placeName>
-                        </addrLine>
-                        <addrLine>
-                            <placeName>Brentwood Park</placeName>
-                        </addrLine>
-                        <addrLine>
-                            <placeName>Los Angeles, Calif.</placeName>
-                        </addrLine>
-                    </address>
-                    <milestone unit="section" rend="#hr"/>
+                    <hi rend="underline dotted">
+                        <address>
+                            <addrLine>Herrn</addrLine>
+                            <addrLine>
+                                <persName>Prof. Arnold Schönberg</persName>
+                            </addrLine>
+                            <addrLine>
+                                <placeName>116 North Rockingham Avenue</placeName>
+                            </addrLine>
+                            <addrLine>
+                                <placeName>Brentwood Park</placeName>
+                            </addrLine>
+                            <addrLine>
+                                <placeName>Los Angeles, Calif.</placeName>
+                            </addrLine>
+                        </address>
+                    </hi>
+                    <!-- CP: besser der adress ein @rend geben -->
+                    <!--<milestone unit="section" rend="#hr"/>-->
                     <!-- eine horizontale Linie -->
-                    <stamp>APR221939</stamp>
+                    <!-- CP: rend="right"  -->
+                    <stamp rend="right">APR221939</stamp>
                     <salute>Sehr geehrter Herr Professor!</salute>
                 </opener>
                 <p>Wir entsprechen gerne einem Wunsche des Komponisten<lb/>
@@ -137,8 +157,9 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
                     verständigen. Wir glauben, dass Sie diesem Vorschlag zustimmen<lb/> werden, da
                     ja diese Aktion <subst>
                         <del rend="strikethrough">ganz</del>
-                        <add place="above" hand="author"
-                        >auch</add><!-- im wiki werden @place="above" und @place="superlinear" beide verwendet. sollten wir uns nicht für eine Version entscheiden? -->
+                        <add place="above" hand="author">auch</add>
+                        <!-- CP: absolut. ich denke above ist besser -->
+                        <!-- im wiki werden @place="above" und @place="superlinear" beide verwendet. sollten wir uns nicht für eine Version entscheiden? -->
                     </subst> im Interesse der nichtarischen Kompo<g ref="#typoHyphen"/><lb
                         break="no"/>nisten liegt.</p>
                 <closer>Wir begrüssen Sie<lb/>
@@ -151,9 +172,13 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
             </div>
             <pb n="2" xml:id="page.2"/>
             <div type="letter">
-                <p>
+                <opener>
                     <salute>Gentlemen,</salute>
-                </p>
+                </opener>
+                <!-- CP: <salute> muss immer in einem <opener> oder <closer> sein. -->
+                <!--<p>
+                    <salute>Gentlemen,</salute> 
+                </p>-->
                 <p>Excuse for writing in English, I am to<lb/> busy to write myself.</p>
                 <p>I have not yet got your answer about<lb/> my royalties from records and whether
                     you have<lb/> paid (as I asked you previously.) the monthly<lb/> amount to my
@@ -179,7 +204,12 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ty
                     <metamark/>By the way, you even charge me for my opera<lb/> „VON HEUTE AUF
                     MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
                     only the printing expenses, but also<lb/> that of the lawsuit I lost.<lb/>
-                    Please kindly rectify this matter. <salute>Very truly yours,</salute></p>
+                    Please kindly rectify this matter.
+                    <salute>Very truly yours,</salute><span type="salute">Very truly yours,</span></p>
+                <!-- CP: <salute> muss immer in einem <opener> oder <closer> sein. -->
+                <!--<closer>
+                    <salute>Very truly yours,</salute>
+                </closer>-->
             </div>
         </body>
     </text>

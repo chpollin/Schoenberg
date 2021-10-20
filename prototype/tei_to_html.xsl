@@ -37,10 +37,10 @@
                                 </p>
                             </div>
                             <div class="row">
-                                <div class="col-8">
+                                <div class="col-10">
                                     <xsl:apply-templates select="//*:body"/>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-2">
                                     <!-- just one img -->
                                     <xsl:for-each select="//*:facsimile/*:surface[1]">
                                         <div class="row mt-5">
@@ -58,6 +58,19 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="container">
+                            <div class="row my-5">
+                                <h2>Anmerkungen</h2>
+                                <ol>
+                                    <xsl:for-each select="//*:body//*:note[@type='footnote']">
+                                        <li>
+                                            <xsl:apply-templates/>
+                                        </li>
+                                    </xsl:for-each>
+                                </ol>
+                            </div>
+                            
+                        </div>
 
                     </main>
                     <!-- footer -->
@@ -66,6 +79,27 @@
 
             </body>
         </html>
+    </xsl:template>
+    
+    <xsl:template match="*:note[@type='footnote']">
+        <sup style="background-color: #FFEBCD;">
+            <!-- -1 because in teiHeader is a note...needs to be fixed. -->
+            <xsl:value-of select="count(preceding::*:note) - 1"/>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="*:note">
+        <span style="background-color: #DEB887;">
+            <xsl:text>[</xsl:text>
+            <xsl:apply-templates/>
+            <xsl:text>]</xsl:text>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="*:ref[@target]">
+        <a href="{@target}">
+            <xsl:apply-templates/>
+        </a>
     </xsl:template>
 
     <!-- OPENER -->
@@ -100,7 +134,7 @@
     </xsl:template>
     
    <xsl:template match="*:stamp">
-    <div title="stamp" class="lead">
+       <div title="stamp" class="lead" style="font-size: 1rem;">
         <p>
             <xsl:apply-templates/>
         </p>
@@ -124,7 +158,7 @@
         <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
     <xsl:template match="*:lb">
         <br/>
     </xsl:template>
@@ -142,14 +176,55 @@
 
     <xsl:template match="*:p">
         <p>
+            <xsl:if test="*[contains(@rend, 'line')]">
+                <xsl:choose>
+                    <xsl:when test="*[contains(@rend, 'right')]">
+                        <xsl:attribute name="style">
+                            <xsl:text>border-right: 1px solid;</xsl:text>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when test="@rend = 'line left'">
+                        <xsl:attribute name="style">
+                            <xsl:text>border-left: 1px solid;</xsl:text>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:otherwise/>
+                </xsl:choose>
+            </xsl:if>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
 
-    <xsl:template match="*:hi[@rend = 'underline']">
-        <span class="text-decoration-underline">
+    <xsl:template match="*:hi[contains(@rend, 'underline')]">
+        <span>
+            <xsl:choose>
+                <xsl:when test="contains(@rend, 'double')">
+                    <xsl:attribute name="style" select="' text-decoration-line: underline; text-decoration-style: double;'"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="style" select="' text-decoration-line: underline;'"/>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:apply-templates/>
         </span>
+    </xsl:template>
+    
+    <xsl:template match="*:hi[@rend = 'underline dotted']">
+        <span style="text-decoration:underline; text-decoration-style: dotted;">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="*:hi[@rend = 'superscript']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="*:hi[@rend = 'center']">
+        <div class="text-center">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     
     <xsl:template match="*:hi[@rend = 'rectangle']">
@@ -160,6 +235,12 @@
 
     <xsl:template match="*:del[@rend = 'strikethrough']">
         <span class="text-decoration-line-through">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="*:hi[@rend = 'preprint']">
+        <span style="font-family: 'Lucida Console';">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -257,12 +338,41 @@
     
     <!-- NAMES -->
     <xsl:template match="*:persName | *:orgName | *:placeName">
-        <a href="#">
+        <span style="background-color: #FAEBD7;">
             <xsl:attribute name="title">
                 <xsl:value-of select="@key"/>
             </xsl:attribute>
             <xsl:apply-templates/>
-        </a>
+        </span>
     </xsl:template>
+    
+    <xsl:template match="*:notatedMusic">
+        <div class="container m-3">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="*:seg">
+        <div>
+            <xsl:choose>
+                <xsl:when test="@type = 'row'">
+                    <xsl:attribute name="class" select="'row'"/>
+                </xsl:when>
+                <xsl:when test="@type = 'column'">
+                    <xsl:attribute name="class" select="'col'"/>
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
+            <p>
+                <xsl:apply-templates/>
+            </p>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="*:figure">
+        <img  class="mx-auto d-block" src="{concat('../data/sample_letter/', *:graphic/@url)}" width="50%"/>
+    </xsl:template>
+    
+ 
 
 </xsl:stylesheet>

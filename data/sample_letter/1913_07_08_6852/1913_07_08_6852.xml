@@ -68,11 +68,11 @@
                     <msIdentifier>
                         <!-- CP: das  <placeName> muss in das  <settlement> -->
                         <settlement><placeName key="#">Wien</placeName></settlement>
-                        <institution>Arnold Schönberg Center</institution>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
                         <collection>Universal Edition Collection</collection>
                         <altIdentifier>
                             <settlement><placeName key="#">Wien</placeName></settlement>
-                            <institution>Arnold Schönberg Center</institution>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
                             <!-- hier vl noch spezifischer mit @type -->
                             <idno type="signature">ASCC ID 6852</idno>
                         </altIdentifier>
@@ -310,19 +310,19 @@
     </text>
     <facsimile>
         <surface start="#page.1">
-            <graphic url="1913_07_08_6852_1.jpg" xml:id="IMG.1"/>
+            <graphic url="1913_07_08_6852/1913_07_08_6852_1.jpg" xml:id="IMG.1"/>
         </surface>
         <surface start="#page.2">
-            <graphic url="1913_07_08_6852_2.jpg" xml:id="IMG.2"/>
+            <graphic url="1913_07_08_6852/1913_07_08_6852_2.jpg" xml:id="IMG.2"/>
         </surface>
         <surface start="#page.3">
-            <graphic url="1913_07_08_6852_3.jpg" xml:id="IMG.3"/>
+            <graphic url="1913_07_08_6852/1913_07_08_6852_3.jpg" xml:id="IMG.3"/>
         </surface>
         <surface start="#page.4">
-            <graphic url="1913_07_08_6852_4.jpg" xml:id="IMG.4"/>
+            <graphic url="1913_07_08_6852/1913_07_08_6852_4.jpg" xml:id="IMG.4"/>
         </surface>
         <surface start="#page.5">
-            <graphic url="1913_07_08_6852_5.jpg" xml:id="IMG.5"/>
+            <graphic url="1913_07_08_6852/1913_07_08_6852_5.jpg" xml:id="IMG.5"/>
         </surface>
     </facsimile>
 </TEI>
