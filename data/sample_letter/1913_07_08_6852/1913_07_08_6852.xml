@@ -10,22 +10,19 @@
                 <!-- CP: hier kann man am besten immer das gesamte projektteam abbilden -->
                 <respStmt>
                     <persName>
-                        <forename>Philipp</forename>
-                        <surname>Kehrer</surname>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
                     </persName>
                     <resp>
-                        <term>Transkription</term>
-                        <term>Annotation</term>
-                        <!-- CP: <note> würde eine notiz zur responsibilty ausdrücken. -->
-                        <!--<note type="remarkResponsibility"></note>-->
-                    </resp>
+                        <term>Projektleitung</term>
+                        <term>Herausgeberschaft</term></resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>Katharina</forename>
                         <surname>Bleier</surname></persName>
                     <resp>
-                        <term>Transkription</term>
-                        <term>Annotation</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                        <term>Herausgeberschaft</term>
                     </resp>
                 </respStmt>
                 <respStmt>
@@ -35,22 +32,31 @@
                         <term>Datenmodellierung</term>
                     </resp>
                 </respStmt>
-                <!--<respStmt>
-                    <persName><forename>a</forename><surname>b</surname></persName>
+                <respStmt>
+                    <persName><forename>Philipp</forename><surname>Kehrer</surname></persName>
                     <resp>
-                        <term>Projektleitung</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
                     </resp>
-                </respStmt>-->
+                </respStmt>
+                <respStmt>
+                    <persName><forename>N.</forename><surname>N.</surname></persName>
+                    <resp>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>N.</forename><surname>N.</surname></persName>
+                    <resp>
+                        <term>Studentische Mitarbeit</term>
+                    </resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <!-- CP: hier könnte man noch normalisierungen machen mit GND-ID -->
                 <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
                 <pubPlace>Wien</pubPlace>
                 <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
                     Schönberg und die Wiener Schule an der Universität für Musik und darstellende
-                    Kunst </publisher>
-                <!-- das zweite <pubPlace>Wien</pubPlace> weg -->
-                <!--<pubPlace>Wien</pubPlace>-->
+                    Kunst Wien</publisher>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
                         >Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
@@ -63,7 +69,8 @@
                 <editor>Katharina Bleier</editor>
             </seriesStmt>
             <sourceDesc>
-                <!-- ich wprde vorschlagen alle @type klein und auf englisch type="Brief" -->
+                <!-- ich würde vorschlagen alle @type klein und auf englisch type="Brief" -->
+                <!-- ASUE die Textart wird (wie im 1914 Brief besprochen) unten im <textClass> element angegeben -->
                 <msDesc type="letter">
                     <msIdentifier>
                         <!-- CP: das  <placeName> muss in das  <settlement> -->
@@ -113,6 +120,11 @@
                     <ref type="next" target="linkzumnächsten Brief"/>
                 </correspContext>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-09-20" who="PK">Kodierung</change>
@@ -140,12 +152,12 @@
                                 18</placeName></addrLine>
                         <addrLine>per Adr. <persName>D<hi rend="superscript"><hi rend="underline"
                                         >r</hi></hi> F. Zehme</persName></addrLine>
-                    </address><!-- "Gautzsch", "Leipzig, Charlottenstr." und "Dr F. Zehme" sind in lateinischer Schrift geschrieben --><!-- hinfällig, weil wir nun doch entschieden haben, auf die Auszeichnung von lateinischer Schrift in Kurrent-Briefen zu verzichten -->
+                    </address>
                     <!--<salute>Lieber Herr
                     Direktor</salute>-->
                     <!-- CP: das ist ein problem mit XML bzw. TEI. salute ist nur im opener erlaubt und nicht in p. eine lösung wäre einfach auf das salute in diesem fall zu versichten, und "Lieber Herr Direktor"
                     in das nächste <p> aufzunehmen... aber das ist nicht wirklich eine saubere lösung... -->
-                    <!-- Wir hätten gerne die Möglichkeit "salute" hier und am Briefende entsprechend dem Original anzuordnen, d.h. hier in die erste Zeile inkludiert -->
+                    <!-- ASUE dann nehmen wir die Variante mit <span> element (?) -->
                 </opener>
                 <p><span type="salute">Lieber Herr Direktor</span> I. ich habe bereits an <persName
                         key="polnauer">Polnauer</persName><lb/> geschrieben wegen der „<hi
@@ -165,7 +177,7 @@
                             reason="illegible" quantity="2" unit="chars"
                     /></del>-->
                     <!-- CP: ohne das <del> einfach. -->
-                    <!-- Gibt hier eine bessere Lösung, ein durchgestrichenes, aber nicht mehr entzifferbares Wort auszuzeichnen? z.B. <supplied>[...]</supplied>? -->
+                    <!-- ASUE in Ordnung, uns wäre nur wichtig, dass anstelle eines weißen Lochs im Text irgendein Platzhalter für die gestrichene Stelle steht, z.b. "[...]" -->
                     <gap rend="strikethrough" reason="illegible" quantity="2" unit="chars"/> und das
                     an nicht allzu<lb/> vielen Stellen <del rend="strikethrough">!</del> erreichen
                     dürfte. Allerdings: <hi rendition="#uu"> jede</hi> Stimme<lb/>
@@ -205,9 +217,8 @@
                 <p>
                     <choice>
                         <orig>" "</orig>
-                        <reg>Bei den Flöten</reg>
-                    </choice>
-                    <!-- CP: ja, das klingt gut. idealerweise noch mit einem choice, dann kann man original und normalisierung direkt adressieren. -->
+                        <reg>Bei den</reg>
+                    </choice> Flöten<!-- CP: ja, das klingt gut. idealerweise noch mit einem choice, dann kann man original und normalisierung direkt adressieren. -->
                     <!-- Unterführungszeichen mit <reg>Bei den</reg> auflösen? -->Oboen <hi
                         rend="rectangle">l. 2 3 Ob</hi>
                     <hi rend="rectangle">1. 2 EH</hi></p>
@@ -232,7 +243,7 @@
                 <p>V.</p>
                 <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
                     Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen <!-- CP: also ver-[NEUE ZEILE] flossen? break="no" um auszudrücken, dass man mitten im wort ist?-->
-                    <!-- damit soll ein Abtrennungszeichen beim Zeilenumbruch eingefügt werden -->
+                    <!-- ASUE genau, so haben wir das gemeint (siehe Beispielbrief Berlin) -->
                     seit wir unseren Vertrag abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft
                     und eben so lange bin<lb/> ich verpflichtet gewesen zu warten, ob Sie meine<lb/>
                     Werke herausgeben. Das Autorengesetz bestimmt<lb/> nun, dass wenn ein Werk
@@ -267,6 +278,7 @@
                 <p>Ich bitte Sie mir in<add place="below">nerhalb</add> 8 Tagen mitzuteilen, ob Sie
                     bereit sind auf diese Bedingungen einzugehen:</p>
                 <p><list rend="simple">
+                    <!-- ASUE Einrückungen: die römischen Ziffern stehen untereinander, das "a)" steht davor. -->
                         <item>a) I. Monodram Partitur und Klavierauszug</item>
                         <item>II. George Lieder</item>
                         <item>III. Pierrot lunaire</item>
