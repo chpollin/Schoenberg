@@ -333,9 +333,10 @@
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
+            <xsl:text>[...]</xsl:text>
         </span>
     </xsl:template>
-    
+
     <!-- NAMES -->
     <xsl:template match="*:persName | *:orgName | *:placeName">
         <span style="background-color: #FAEBD7;">

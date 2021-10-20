@@ -70,7 +70,7 @@
             </seriesStmt>
             <sourceDesc>
                 <!-- ich würde vorschlagen alle @type klein und auf englisch type="Brief" -->
-                <!-- ASUE die Textart wird (wie im 1914 Brief besprochen) unten im <textClass> element angegeben -->
+                <!-- ASUE die Textart wird (wie im 1914 Brief besprochen) unten im <textClass> element angegeben; CP ++ -->
                 <msDesc type="letter">
                     <msIdentifier>
                         <!-- CP: das  <placeName> muss in das  <settlement> -->
@@ -158,8 +158,9 @@
                     <!-- CP: das ist ein problem mit XML bzw. TEI. salute ist nur im opener erlaubt und nicht in p. eine lösung wäre einfach auf das salute in diesem fall zu versichten, und "Lieber Herr Direktor"
                     in das nächste <p> aufzunehmen... aber das ist nicht wirklich eine saubere lösung... -->
                     <!-- ASUE dann nehmen wir die Variante mit <span> element (?) -->
+                    <!-- unsere TEI Experten sagen, dass <seg> (und nicht <span>) mit einem @type="salute" okay ist. :)-->
                 </opener>
-                <p><span type="salute">Lieber Herr Direktor</span> I. ich habe bereits an <persName
+                <p><seg type="salute">Lieber Herr Direktor</seg> I. ich habe bereits an <persName
                         key="polnauer">Polnauer</persName><lb/> geschrieben wegen der „<hi
                         rend="underline">Bläser-Partituren-Stimmen</hi>“.<lb/> Ich bin im Ganzen
                     dafür, denn es hat den Vorteil,<lb/> dass die Bläser einander gegenseitig als
@@ -177,7 +178,7 @@
                             reason="illegible" quantity="2" unit="chars"
                     /></del>-->
                     <!-- CP: ohne das <del> einfach. -->
-                    <!-- ASUE in Ordnung, uns wäre nur wichtig, dass anstelle eines weißen Lochs im Text irgendein Platzhalter für die gestrichene Stelle steht, z.b. "[...]" -->
+                    <!-- ASUE in Ordnung, uns wäre nur wichtig, dass anstelle eines weißen Lochs im Text irgendein Platzhalter für die gestrichene Stelle steht, z.b. "[...]"; CP++ -->
                     <gap rend="strikethrough" reason="illegible" quantity="2" unit="chars"/> und das
                     an nicht allzu<lb/> vielen Stellen <del rend="strikethrough">!</del> erreichen
                     dürfte. Allerdings: <hi rendition="#uu"> jede</hi> Stimme<lb/>
@@ -243,7 +244,7 @@
                 <p>V.</p>
                 <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
                     Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen <!-- CP: also ver-[NEUE ZEILE] flossen? break="no" um auszudrücken, dass man mitten im wort ist?-->
-                    <!-- ASUE genau, so haben wir das gemeint (siehe Beispielbrief Berlin) -->
+                    <!-- ASUE genau, so haben wir das gemeint (siehe Beispielbrief Berlin); CP++ -->
                     seit wir unseren Vertrag abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft
                     und eben so lange bin<lb/> ich verpflichtet gewesen zu warten, ob Sie meine<lb/>
                     Werke herausgeben. Das Autorengesetz bestimmt<lb/> nun, dass wenn ein Werk
@@ -277,9 +278,12 @@
                 </p>
                 <p>Ich bitte Sie mir in<add place="below">nerhalb</add> 8 Tagen mitzuteilen, ob Sie
                     bereit sind auf diese Bedingungen einzugehen:</p>
-                <p><list rend="simple">
-                    <!-- ASUE Einrückungen: die römischen Ziffern stehen untereinander, das "a)" steht davor. -->
-                        <item>a) I. Monodram Partitur und Klavierauszug</item>
+                <p>
+                    <list rend="simple">
+                        <!-- CP: das "a)" markiert ja die erste liste, das "b)" die zweite liste... es ist also semantisch sicher nicht teil des ersten <item>...
+                            muss ich noch überlegen..  -->
+                        <head><hi rend="left">a)</hi></head>
+                        <item>I. Monodram Partitur und Klavierauszug</item>
                         <item>II. George Lieder</item>
                         <item>III. Pierrot lunaire</item>
                         <item>IV. 6 Klavierstücke</item>
@@ -289,7 +293,8 @@
                     Monaten zur I. Korrektur und<lb/> in längstens 4 Monaten <add place="above">von
                         heute</add> zum Verkauf fertig sind.</p>
                 <p><list rend="simple">
-                        <item>b)1) die 2 Balladen</item>
+                    <head><hi rend="left">b)</hi></head>
+                        <item>1) die 2 Balladen</item>
                         <item>2) das Heft Lieder</item>
                         <item>3) das Harm.-Cel.-Harfe-Lied in 5 Monaten</item>
                     </list> zur I. Korrektur und in 7 Monaten von heute zum<lb/>
