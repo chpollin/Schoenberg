@@ -205,12 +205,16 @@
                     MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
                     only the printing expenses, but also<lb/> that of the lawsuit I lost.<lb/>
                     Please kindly rectify this matter.
-                    <salute>Very truly yours,</salute><span type="salute">Very truly yours,</span></p>
-                <!-- CP: <salute> muss immer in einem <opener> oder <closer> sein. -->
-                <!--<closer>
-                    <salute>Very truly yours,</salute>
-                </closer>-->
+                    <!--<salute>Very truly yours,</salute>--><span type="salute">Very truly yours,</span></p>
             </div>
         </body>
     </text>
+    <facsimile>
+        <surface start="#page.1">
+            <graphic url="1939_02_28_20730_1/1939_02_28_20730_1.jpg" xml:id="IMG.1"/>
+        </surface>
+        <surface start="#page.1">
+            <graphic url="1939_02_28_20730_1/1939_02_28_20730_2.jpg" xml:id="IMG.2"/>
+        </surface>
+    </facsimile>
 </TEI>

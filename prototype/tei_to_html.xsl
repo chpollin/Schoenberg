@@ -30,10 +30,10 @@
                         <div class="container">
                             <div class="row">
                                 <p>
-                                    msDesc: <xsl:value-of select="//*:teiHeader/*:sourceDesc/*:msDesc"/>
+                                    msDesc: <xsl:value-of select="//*:msDesc"/>
                                 </p>
                                 <p>
-                                    correspDesc: <xsl:value-of select="//*:teiHeader/*:profileDesc/*:correspDesc"/>
+                                    correspDesc: <xsl:value-of select="//*:correspDesc"/>
                                 </p>
                             </div>
                             <div class="row">
@@ -46,7 +46,7 @@
                                         <div class="row mt-5">
                                             <figure class="figure">
                                                 <!-- folder name -->
-                                                <img src="{concat('../data/sample_letter/1913_07_08_6852/', *:graphic/@url)}" class="figure-img img-fluid" alt="{@start}"/>
+                                                <img src="{concat('../data/sample_letter/', *:graphic/@url)}" class="figure-img img-fluid" alt="{@start}"/>
                                                 <figcaption class="figure-caption">
                                                     <xsl:value-of select="*:graphic/@url"/>
                                                     <xsl:text>, </xsl:text>

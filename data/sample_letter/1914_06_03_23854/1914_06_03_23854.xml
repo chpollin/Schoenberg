@@ -349,4 +349,9 @@
             </div>
         </body>
     </text>
+    <facsimile>
+        <surface start="#page.1">
+            <graphic url="1914_06_03_23854/1914_06_03_23854.jpg" xml:id="IMG.1"/>
+        </surface>
+    </facsimile>
 </TEI>
