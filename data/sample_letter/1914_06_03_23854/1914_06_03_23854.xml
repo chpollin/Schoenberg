@@ -147,8 +147,7 @@
                                 >191</hi></hi>4.<lb/><placeName><hi rend="preprint"><hi
                                     rend="italic">Wittenbergerstraße
                         23</hi></hi></placeName></dateline>
-                    <!-- ja, das passt! -->
-                    <!-- @rend="preprint" korrekt?-->
+                    <!-- wäre es sinnvoll, hier statt "preprint" auch stamp-Elemente zu verwenden, entsprechend jenen Stempeln, die überall im Brief vorkommen können (z.B. Eingangstempel, erledigt etc.)? -->
                     <address>
                         <addrLine>Verehrl. <orgName>Universal-Edition</orgName>, A.-G., <hi
                                 rend="underline dotted"><placeName>Wien</placeName>.</hi></addrLine>
@@ -164,7 +163,7 @@
                                 target="https://bit.ly/3BQVTfQ">Korrekturabzug (Probeseite) von S, 4
                                 (T. 5-12) des Partiturdrucks</ref></note>
                         <!-- CP: man könnte aus jedem note eine fußnote machen und unten einen amerkungsapparat anzeigen. sort dann hyperlink setzen. siehe prototyp_1914_06_03_23854.html -->
-                        <!--ASUE: der link ist provisorisch; kann man so eine externe, kommentarrelevante Quelle einbinden und wie wird die dann angezeigt? -->
+                        <!-- ASUE: uns ist wichtig, auf kürzestem Weg von der Brieftextstelle zur verlinkten Quelle zu kommnen, also über Popups an Ort und Stelle. Frage: bedarf es einer Systematik bei den note-elementen? brauchen sie alle einen @type??  -->
                     </seg> aus der Orchesterpartitur <!-- Musikalisches Werk --> Schönberg. Ich
                     hoffe, alles nach Wunsch <lb/>des Autors ausgeführt zu haben und bitte um recht
                     baldigen Bescheid, da<g ref="#typoHyphen"/><lb break="no"/>mit ich weiter
@@ -177,7 +176,7 @@
                         hand="#Schönberg"><metamark>1. <hi rend="circle">X</hi></metamark></add><add
                         place="inline" hand="#Schönberg"><metamark><hi rend="circle"
                             >X</hi></metamark></add>ob in diesem <hi rend="underline">Falle <add
-                            place="above" hand="author">bei</add> geeignete<add place="intralinear"
+                            place="above" hand="author">bei</add> geeignete<add place="inline"
                             hand="author">n</add> Instrumente<add place="inline" hand="author"
                             >n</add>, wo im</hi><lb/> Manuskript mehrere auf eine Linie zusammen
                     gezogen sind, ein Auseinander<g ref="#typoHyphen"/><lb break="no"/>ziehen in
@@ -204,9 +203,9 @@
                 <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
                         Papier</hi> genommen? <seg type="comment">
                         <orig>Ich schrieb doch deswegen auch!!!</orig>
-                        <note type="footnote">Brief vom </note>
+                            <note type="footnote"><ref target="linkIntern">Brief vom x.y.</ref></note>
                         <!-- mit einem <note type=footnote> also als fussnote; und/oder in <correspContext> ein  <ref type="related" target="">Brief vom ...</ref>   -->
-                        <!-- ASUE: Verweis auf den entsprechenden Brief, wie? ev (auch in <correspContext>? -->
+                        <!-- ASUE: siehe oben -->
                     </seg></note>
                 <!-- ASUE Vordruck "In Leipzig...statt": Werbetexte werden nicht transkribiert -->
             </div>
@@ -217,7 +216,7 @@
                     nicht genügend beachtet haben.</p>
                 <p>Ich schrieb wörtlich:</p>
                 <!-- CP: @rend="line" um auszudrücken, dass es eine anstreichung gibt, und dann mit leerzeichen getrennt right|left|top|bottom; vl etwas anderes als "line"  -->
-                <!-- <xsl:text>[</xsl:text> -->
+                <!-- <xsl:text>[</xsl:text> --><!-- ASUE Was bedeutet das? -->
                 <p rend="line left"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht
                     auch besser aus und ist <lb/>lesbarer, wenn auf einer einsystemigen Platte nur
                     24 cm der <lb/>Höhe bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die
@@ -294,10 +293,9 @@
                         </seg>
                     </seg>
                     <seg type="row">aber Seite 8, 1. System, 4. Takt Solo B
-                        <!-- CP zwei hi ist nicht ideal, besser mehrer werte in das @rend -->
-                        <!--<hi rend="superscript">-->
+                        
                             <hi rend="superscript underline">r</hi>
-                            <!--</hi>-->
+                           
                         <lb/>besser in 2 Zeilen (eventuell !!)</seg>
                 </notatedMusic>
 
@@ -323,7 +321,7 @@
                     <lb/>besser in 2 Zeilen (eventuell !!) </p>-->
                 <p>dagegen sind folgende Stellen <hi rend="underline double">besser</hi> in <hi
                         rend="underline double">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
-                        <abbr>B<hi rend="superscript"><hi rend="underline double">r</hi></hi></abbr>
+                        <abbr>B<hi rend="superscript"><hi rend="underline double">r</hi></hi><!-- kann man hier die Werte auch zusammenfassen? siehe oben "superscript underline" --></abbr>
                         <expan>Bratsche</expan>
                         <reg>Viola</reg>
                     </choice>; | Seite 7, Takt 3, die <choice>

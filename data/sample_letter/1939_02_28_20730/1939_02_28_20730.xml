@@ -56,8 +56,8 @@
                 <editor>Katharina Bleier</editor>
             </seriesStmt>
             <sourceDesc>
-                <msDesc type="Brief">
-                    <!-- @type z.B. Brief, Telegramm, Ansichtskarte, Postkarte, Visitenkarte, Vertrag, Prospekt, Rechnungsdokument, Liste @rend Kopie, Entwurf-->
+                <msDesc>
+
                     <msIdentifier>
                         <settlement><placeName key="#">Wien</placeName></settlement>
                         <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
@@ -94,6 +94,11 @@
                     <ref type="next" target="linkzumnächsten Brief"/>
                 </correspContext>
             </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-09-07" who="PK"> test </change>
@@ -104,7 +109,7 @@
             <div type="letter">
                 <pb n="1" xml:id="page.1"/>
                 <opener>
-                    <!-- CP <hi rend="center"> -->
+                    <!-- CP <hi rend="center"> --><!-- "rend center" im <stamp> Element und in <hi> ? -->
                     <hi rend="center"><stamp sameAs="#stamp.2" rend="center">
                             <orgName>Universal-Edition-A.G.</orgName><lb/>
                             <placeName><hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
@@ -158,8 +163,6 @@
                     ja diese Aktion <subst>
                         <del rend="strikethrough">ganz</del>
                         <add place="above" hand="author">auch</add>
-                        <!-- CP: absolut. ich denke above ist besser -->
-                        <!-- im wiki werden @place="above" und @place="superlinear" beide verwendet. sollten wir uns nicht für eine Version entscheiden? -->
                     </subst> im Interesse der nichtarischen Kompo<g ref="#typoHyphen"/><lb
                         break="no"/>nisten liegt.</p>
                 <closer>Wir begrüssen Sie<lb/>
@@ -205,7 +208,8 @@
                     MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
                     only the printing expenses, but also<lb/> that of the lawsuit I lost.<lb/>
                     Please kindly rectify this matter.
-                    <!--<salute>Very truly yours,</salute>--><span type="salute">Very truly yours,</span></p>
+                        <!--<salute>Very truly yours,</salute>--><!--  <span type="salute">Very truly
+                        yours,</span>--></p><closer><salute>Very truly yours,</salute></closer>
             </div>
         </body>
     </text>

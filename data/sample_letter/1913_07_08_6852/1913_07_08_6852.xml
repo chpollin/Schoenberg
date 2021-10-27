@@ -150,8 +150,7 @@
                         <addrLine>z.Z. <placeName>
                                 <hi rend="underline">Gautzsch</hi> bei Leipzig, Charlottenstr.
                                 18</placeName></addrLine>
-                        <addrLine>per Adr. <persName>D<hi rend="superscript"><hi rend="underline"
-                                        >r</hi></hi> F. Zehme</persName></addrLine>
+                        <addrLine>per Adr. <persName>D<hi rend="superscript underline">r</hi> F. Zehme</persName></addrLine>
                     </address>
                     <!--<salute>Lieber Herr
                     Direktor</salute>-->
