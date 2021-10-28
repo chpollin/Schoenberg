@@ -57,7 +57,6 @@
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
-
                     <msIdentifier>
                         <settlement><placeName key="#">Wien</placeName></settlement>
                         <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
@@ -109,15 +108,14 @@
             <div type="letter">
                 <pb n="1" xml:id="page.1"/>
                 <opener>
-                    <!-- CP <hi rend="center"> --><!-- "rend center" im <stamp> Element und in <hi> ? -->
-                    <hi rend="center"><stamp sameAs="#stamp.2" rend="center">
-                            <orgName>Universal-Edition-A.G.</orgName><lb/>
-                            <placeName><hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
-                                    6</hi><lb/>Musikvereinsgebäude</placeName> / Tel. U 47-5-85<lb/>
-                            <placeName>LEIPZIG. KARLSTRASSE 10</placeName></stamp></hi>
+                    <!-- CP <hi rend="center"> --><!-- ASUE "rend center" im <stamp> Element und in <hi> ? -->
+                    <hi rend="center"><stamp sameAs="#stamp.2" rend="center"> Universal-Edition-A.G.<lb/>
+                            <hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
+                            6</hi><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG. KARLSTRASSE
+                            10</stamp></hi>
                     <add rend="right" hand="unknown">Ostmark Germany</add>
                     <dateline rend="left">
-                        <persName>R</persName>/<persName>No.</persName></dateline>
+                        <persName>R</persName>/<persName>No.</persName></dateline><!-- ASUE Kürzel in einer Zeile R/No.-->
                     <dateline rend="right">Wien, am 28. Feber 1939.</dateline>
                     <hi rend="underline dotted">
                         <address>
@@ -136,10 +134,6 @@
                             </addrLine>
                         </address>
                     </hi>
-                    <!-- CP: besser der adress ein @rend geben -->
-                    <!--<milestone unit="section" rend="#hr"/>-->
-                    <!-- eine horizontale Linie -->
-                    <!-- CP: rend="right"  -->
                     <stamp rend="right">APR221939</stamp>
                     <salute>Sehr geehrter Herr Professor!</salute>
                 </opener>
@@ -154,8 +148,8 @@
                     />mulare.</p>
                 <p>Wir stehen mit einer unserer ausländischen Vertretungen in<lb/> weitgehenden
                     Verhandlungen bezüglich Uebernahme der in unserem Verlag<lb/> erschienenen Werke
-                    nichtarischer Kom<g ref="#typoHyphen"/><lb break="no"/>ponisten, deren Abschluss
-                    den Komponisten die Gewähr auf ungestörten Vertrieb und Propagierung dieser<lb/>
+                    nichtarischer Komponisten, deren Abschluss
+                    den Kom<g ref="#typoHyphen"/><lb break="no"/>ponisten die Gewähr auf ungestörten Vertrieb und Propagierung dieser<lb/>
                     Werke bietet. Wir wären Ihnen zu Dank verpflichtet, wenn Sie uns mit<lb/> ein
                     paar Zeilen Ihr Einverständnis zu einer derartigen Transaktion im<lb/> Prinzip
                     geben würden und werden Sie von dem Zustandekommen derselben<lb/> sogleich
@@ -182,12 +176,12 @@
                 <!--<p>
                     <salute>Gentlemen,</salute> 
                 </p>-->
-                <p>Excuse for writing in English, I am to<lb/> busy to write myself.</p>
+                <p>Excuse for writing in English, I am <choice><orig>to</orig><corr>too</corr></choice><lb/> busy to write myself.</p>
                 <p>I have not yet got your answer about<lb/> my royalties from records and whether
                     you have<lb/> paid (as I asked you previously.) the monthly<lb/> amount to my
                     son <persName key="georg">Georg<del rend="strikethrough">e</del> Sch.</persName>
                     Would you be<lb/> kind enough to do this as soon as possible. </p>
-                <p><metamark/> Today I must <add place="above" hand="#Hoffmann">at first</add> to
+                <p><metamark/> Today I want <add place="above" hand="#Hoffmann">at first</add> to
                     thank you for sending me<lb/> the music I ordered. But I think a number<lb/> of
                     the packages must be delayed, and I hope<lb/> they will arrive soon.</p>
                 <p>From the bills I saw, I observed to<lb/> my astonishment that you charge me for
@@ -208,8 +202,9 @@
                     MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
                     only the printing expenses, but also<lb/> that of the lawsuit I lost.<lb/>
                     Please kindly rectify this matter.
-                        <!--<salute>Very truly yours,</salute>--><!--  <span type="salute">Very truly
-                        yours,</span>--></p><closer><salute>Very truly yours,</salute></closer>
+                    <!--<salute>Very truly yours,</salute>--><!--  <span type="salute">Very truly
+                        yours,</span>--></p>
+                <closer><salute>Very truly yours,</salute></closer>
             </div>
         </body>
     </text>

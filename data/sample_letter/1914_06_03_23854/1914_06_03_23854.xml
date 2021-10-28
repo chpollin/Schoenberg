@@ -63,9 +63,7 @@
                 <editor>Katharina Bleier</editor>
             </seriesStmt>
             <sourceDesc>
-                <!-- CP: siehe <textClass> -->
-                <msDesc type="Brief" rend="Durchschlag">
-                    <!-- @type z.B. Brief, Telegramm, Ansichtskarte, Postkarte, Visitenkarte, Vertrag, Prospekt, Rechnungsdokument, Liste; @rend (optional) Kopie, Entwurf -->
+                <msDesc>
                     <msIdentifier>
                         <settlement><placeName key="#">Washington, D.C.</placeName></settlement>
                         <institution ref="http://d-nb.info/gnd/35626-8">The Library of
@@ -132,15 +130,10 @@
             <div type="letter">
                 <pb n="1" xml:id="p.1"/>
                 <opener>
-                    <stamp sameAs="#stamp.3">
-                        <orgName>F. M. GEIDEL</orgName>, LEIPZIG<lb/>Anstalt für<lb/>Notenstich,
+                    <stamp sameAs="#stamp.3"> F. M. GEIDEL, LEIPZIG<lb/>Anstalt für<lb/>Notenstich,
                         Notendruck und Anastatischen Druck<lb/>Stein- und Buchdruckerei, Notensatz,
                         Stereotype<lb/>Lithographie, Autographie und Buchbinderei<lb/>Fernsprecher
-                        36 ···· Bank-Konto: Frege &amp; Co<lb/>
-                        <location>
-                            <placeName>Leipzig</placeName>
-                        </location>
-                    </stamp>
+                        36 ···· Bank-Konto: Frege &amp; Co<lb/> Leipzig </stamp>
                     <dateline rend="right"><hi rend="preprint"><placeName><hi rend="italic"
                                     >Leipzig</hi></placeName>, <hi rend="italic">den</hi></hi> 3.
                         Juni <hi rend="preprint"><hi rend="italic"
@@ -172,7 +165,7 @@
                     mit sich bringt, dass ich gezwungen bin, <add place="above" hand="author">ab und
                         zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu bringen, um
                     unmittelbar im Anschluss daran <lb/>wieder eine Platte mit Doppelsystemen
-                    einrichten zu können. Ich bitte, <lb/>beim Autor anzufragen, <add place="left"
+                    einrichten zu können. <!-- ASUE Hier ist die Metamark-Situation etwas kompliziert, da das X die Position im Brieftext hier meint, die Zahl aber auf die entsprechende Zahl im angklebten handschriftlichen Brief verweist "1.XX" an einer Stelle ist nicht verständlich -->  Ich bitte, <lb/>beim Autor anzufragen, <add place="left"
                         hand="#Schönberg"><metamark>1. <hi rend="circle">X</hi></metamark></add><add
                         place="inline" hand="#Schönberg"><metamark><hi rend="circle"
                             >X</hi></metamark></add>ob in diesem <hi rend="underline">Falle <add
@@ -199,11 +192,11 @@
                 <closer rend="right">
                     <salute>Hochachtungsvoll<lb/><stamp>ppa. F. M. Geidel</stamp></salute>
                     <signed xml:id="Geidel">Johannes Geidel</signed>
-                </closer>
+                </closer><!-- ASUE hier gehört "Johannes Geidel" rechts unten unter <stamp> und die Anmerkung von Schönberg links (ohne eckige Klammer, oder?)-->
                 <note place="left" hand="#Schönberg">Warum wurde kein <hi rend="underline">breiteres
                         Papier</hi> genommen? <seg type="comment">
                         <orig>Ich schrieb doch deswegen auch!!!</orig>
-                            <note type="footnote"><ref target="linkIntern">Brief vom x.y.</ref></note>
+                        <note type="footnote"><ref target="linkIntern">Brief vom x.y.</ref></note>
                         <!-- mit einem <note type=footnote> also als fussnote; und/oder in <correspContext> ein  <ref type="related" target="">Brief vom ...</ref>   -->
                         <!-- ASUE: siehe oben -->
                     </seg></note>
@@ -216,7 +209,8 @@
                     nicht genügend beachtet haben.</p>
                 <p>Ich schrieb wörtlich:</p>
                 <!-- CP: @rend="line" um auszudrücken, dass es eine anstreichung gibt, und dann mit leerzeichen getrennt right|left|top|bottom; vl etwas anderes als "line"  -->
-                <!-- <xsl:text>[</xsl:text> --><!-- ASUE Was bedeutet das? -->
+                <!-- <xsl:text>[</xsl:text> -->
+                <!-- ASUE Was bedeutet das? -->
                 <p rend="line left"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück, sieht
                     auch besser aus und ist <lb/>lesbarer, wenn auf einer einsystemigen Platte nur
                     24 cm der <lb/>Höhe bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die
@@ -230,9 +224,9 @@
                         rend="underline">Dirigenten</hi> und <hi rend="underline">Musiker</hi>
                     sind<lb/> und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich
                     zu erleichtern hat !!!</p>
-                <p rend="#mMM"><hi rend="circle">1</hi> Deshalb ist es also durchaus nicht an<g
+                <p rend="#mMM"><!--ASUE hier ist die Randanstreichung auf beiden Seiten und mehrfach (Anzeige doppelt würde reichen) --><hi rend="circle">1</hi> Deshalb ist es also durchaus nicht an<g
                         ref="#typoHyphen"/><lb break="no"/>gebracht, durchaus <!-- CP: rend="underline double" -> dann kann man auch für andere sachen steuern, dass sie gedoppelt sind: doppelte anstreichung links-->
-                    <hi rend="underline double"><!-- doppelte Unterstreichung --> falsch</hi>, 2
+                    <hi rend="underline double">falsch</hi>, 2
                     Stimmen die auf <lb/>einer Zeile stehen können, auf 2 zu stechen !!
                     <lb/>Insbesondere, da meist die Akkorde leichter zu lesen <lb/>sind, wenn
                     möglichst viel davon (2 - 3 Töne) in einer <lb/>Zeile stehen.</p>
@@ -243,7 +237,7 @@
                 <!-- Macht es Sinn diesen Abschnitt mittels Tabellen näherungsweise nachzubilden) -->
                 <!-- CP: <notatedMusic> encodes the presence of music notation in a text -->
                 <notatedMusic>
-                    <!-- CP: dann kann man mit einzelne zeilen ausdrücken. darin die seg bilden dann die "spalten" -->
+                    <!-- CP: dann kann man mit einzelne zeilen ausdrücken. darin die seg bilden dann die "spalten" ASUE ja, gut-->
                     <seg type="row">
                         <seg type="column">
                             <figure hand="#Schönberg">
@@ -292,10 +286,8 @@
                             </seg>
                         </seg>
                     </seg>
-                    <seg type="row">aber Seite 8, 1. System, 4. Takt Solo B
-                        
-                            <hi rend="superscript underline">r</hi>
-                           
+                    <seg type="row">aber Seite 8, 1. System, 4. Takt Solo B <hi
+                            rend="superscript underline">r</hi>
                         <lb/>besser in 2 Zeilen (eventuell !!)</seg>
                 </notatedMusic>
 
@@ -321,7 +313,8 @@
                     <lb/>besser in 2 Zeilen (eventuell !!) </p>-->
                 <p>dagegen sind folgende Stellen <hi rend="underline double">besser</hi> in <hi
                         rend="underline double">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
-                        <abbr>B<hi rend="superscript"><hi rend="underline double">r</hi></hi><!-- kann man hier die Werte auch zusammenfassen? siehe oben "superscript underline" --></abbr>
+                        <abbr>B<hi rend="superscript"><hi rend="underline double"
+                            >r</hi></hi><!-- kann man hier die Werte auch zusammenfassen? siehe oben "superscript underline" --></abbr>
                         <expan>Bratsche</expan>
                         <reg>Viola</reg>
                     </choice>; | Seite 7, Takt 3, die <choice>
@@ -333,7 +326,7 @@
                         <expan><term ref="http://d-nb.info/gnd/4032300-6">Kontrabässe</term></expan>
                     </choice>
                     <!-- CP es macht wahrscheinlich sinn hier noch einen normalisierungs layer einzuführen und zwar über GND IDs. -->
-                    <!-- Bedarf in diesem Fall des Plural einer Auszeichnung, damit dies unter "Kontrabass" gefunden werden kann? -->
+                    <!-- ASUE ok, siehe auch "Contrabass" Brief 1913 -->
                     | Seite 9, 2. Syst, 6. Takt, Ob und <choice>
                         <abbr>Klar</abbr>
                         <expan>Klarinette</expan>
@@ -342,7 +335,7 @@
                     Gattung, die die <lb/>gleiche Notierung haben !!!</p>
                 <closer rend="right">
                     <signed>Schönberg</signed>
-                    <dateline>6./6. 1914</dateline>
+                    <dateline>6./6. 1914</dateline> <!-- ASUE Schönberg und Datum rechts -->
                 </closer>
             </div>
         </body>

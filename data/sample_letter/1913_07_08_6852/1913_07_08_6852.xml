@@ -7,7 +7,6 @@
         <fileDesc>
             <titleStmt>
                 <title>Arnold Schönberg an Universal-Edition, 8. Juli 1913</title>
-                <!-- CP: hier kann man am besten immer das gesamte projektteam abbilden -->
                 <respStmt>
                     <persName>
                         <forename>Therese</forename>
@@ -69,17 +68,17 @@
                 <editor>Katharina Bleier</editor>
             </seriesStmt>
             <sourceDesc>
-                <!-- ich würde vorschlagen alle @type klein und auf englisch type="Brief" -->
-                <!-- ASUE die Textart wird (wie im 1914 Brief besprochen) unten im <textClass> element angegeben; CP ++ -->
-                <msDesc type="letter">
+                <msDesc>
                     <msIdentifier>
                         <!-- CP: das  <placeName> muss in das  <settlement> -->
                         <settlement><placeName key="#">Wien</placeName></settlement>
-                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
                         <collection>Universal Edition Collection</collection>
                         <altIdentifier>
                             <settlement><placeName key="#">Wien</placeName></settlement>
-                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                                Center</institution>
                             <!-- hier vl noch spezifischer mit @type -->
                             <idno type="signature">ASCC ID 6852</idno>
                         </altIdentifier>
@@ -137,27 +136,17 @@
                 <pb n="1" xml:id="page.1"/>
                 <opener>
                     <metamark rend="right">I</metamark>
-                    <stamp sameAs="#stamp.1">
-                        <persName ref="#person.1">Arnold Schönberg</persName><lb/>Berlin-Südende<lb/>
-                        <location>
-                            <placeName ref="#place.2.1.1.1">Berlinerstr. 17a, I.</placeName>
-                        </location><lb/> Tel.: Tempelhof 174<lb/>
+                    <stamp sameAs="#stamp.1"> Arnold Schönberg<lb/>Berlin-Südende<lb/> Berlinerstr.
+                        17a, I. <lb/> Tel.: Tempelhof 174<lb/>
                     </stamp>
-                    <!-- Absendername und Ort müssen im Stamp nicht referenziert werden, da dies ja im Header geschieht -->
-                    <!-- CP: ja, klingt vernünftig. -->
                     <dateline rend="right">8/7.1913</dateline>
                     <address>
                         <addrLine>z.Z. <placeName>
                                 <hi rend="underline">Gautzsch</hi> bei Leipzig, Charlottenstr.
                                 18</placeName></addrLine>
-                        <addrLine>per Adr. <persName>D<hi rend="superscript underline">r</hi> F. Zehme</persName></addrLine>
+                        <addrLine>per Adr. <persName>D<hi rend="superscript underline">r</hi> F.
+                                Zehme</persName></addrLine>
                     </address>
-                    <!--<salute>Lieber Herr
-                    Direktor</salute>-->
-                    <!-- CP: das ist ein problem mit XML bzw. TEI. salute ist nur im opener erlaubt und nicht in p. eine lösung wäre einfach auf das salute in diesem fall zu versichten, und "Lieber Herr Direktor"
-                    in das nächste <p> aufzunehmen... aber das ist nicht wirklich eine saubere lösung... -->
-                    <!-- ASUE dann nehmen wir die Variante mit <span> element (?) -->
-                    <!-- unsere TEI Experten sagen, dass <seg> (und nicht <span>) mit einem @type="salute" okay ist. :)-->
                 </opener>
                 <p><seg type="salute">Lieber Herr Direktor</seg> I. ich habe bereits an <persName
                         key="polnauer">Polnauer</persName><lb/> geschrieben wegen der „<hi
@@ -177,13 +166,13 @@
                             reason="illegible" quantity="2" unit="chars"
                     /></del>-->
                     <!-- CP: ohne das <del> einfach. -->
-                    <!-- ASUE in Ordnung, uns wäre nur wichtig, dass anstelle eines weißen Lochs im Text irgendein Platzhalter für die gestrichene Stelle steht, z.b. "[...]"; CP++ -->
+                    <!-- ASUE in Ordnung, uns wäre nur wichtig, dass anstelle eines weißen Lochs im Text irgendein Platzhalter für die gestrichene Stelle steht, z.b. "[...]"; CP++ --><!-- ASUE Im Prototyp ist das [...] jetzt drinnen, d.h. dass <gap> als [...] angezeigt wird? -->
                     <gap rend="strikethrough" reason="illegible" quantity="2" unit="chars"/> und das
                     an nicht allzu<lb/> vielen Stellen <del rend="strikethrough">!</del> erreichen
-                    dürfte. Allerdings: <hi rendition="#uu"> jede</hi> Stimme<lb/>
+                    dürfte. Allerdings: <hi rend="underline double"> jede</hi> Stimme<lb/>
                     <del rend="strikethrough">muss</del> (<hi rend="underline">jedes</hi>
-                    <hi rendition="#uu">einzelne</hi> Instrument!!) muss wenden können.<lb/> Ob das
-                    geht kann ich nicht beurteilen. </p>
+                    <hi rend="underline double">einzelne</hi> Instrument!!) muss wenden können.<lb/>
+                    Ob das geht kann ich nicht beurteilen. </p>
                 <p>
                     <del rend="strikethrough">II</del> Sollten Sie sich aber doch dafür
                     entscheiden,<lb/> nicht alle Hörner in <hi rend="underline">eine</hi> Partitur
@@ -201,9 +190,9 @@
                             <expan>
                                 <reg>Kontrabass</reg>
                             </expan>
-                            <!-- CP: ja, man kann einfach ein zweites expan hinzufügen. mit <reg> in einem <expan> wäre das auch eindeutig ausgedrückt -->
-                            <!-- kann man hier auch noch <reg>Kontrabass<reg/> hinzufügen, d.h. verschiedene choice-Elemente miteinander kombinieren? -->
                         </choice> Pos u CtrbssTa</hi></p>
+                <!-- wenn wir im Fall der Musikinstrumente auf eine Auflösung der Abkürzung in der "Contrabass"-Schreibweise verzichten wollen und nur die Normalisierung vornehmen, wie sähe das dann aus? so? <term ref="http://d-nb.info/gnd/4032300-6">Ctrbss</term> oder <choice><orig>Ctrbss</orig>                                                      <expan>
+                                <reg><term ref="http://d-nb.info/gnd/4032300-6">Kontrabass</term></reg></choice> -->
                 <p>Bei den <choice>
                         <orig>C</orig>
                         <reg>K</reg>
@@ -218,11 +207,12 @@
                     <choice>
                         <orig>" "</orig>
                         <reg>Bei den</reg>
-                    </choice> Flöten<!-- CP: ja, das klingt gut. idealerweise noch mit einem choice, dann kann man original und normalisierung direkt adressieren. -->
-                    <!-- Unterführungszeichen mit <reg>Bei den</reg> auflösen? -->Oboen <hi
-                        rend="rectangle">l. 2 3 Ob</hi>
+                    </choice>Oboen <hi rend="rectangle">l. 2 3 Ob</hi>
                     <hi rend="rectangle">1. 2 EH</hi></p>
-                <p>" " Fagotten <hi rend="rectangle">1. 2 3 Fg</hi>
+                <p><choice>
+                        <orig>" "</orig>
+                        <reg>Bei den</reg>
+                    </choice>Fagotten <hi rend="rectangle">1. 2 3 Fg</hi>
                     <hi rend="rectangle">1. 2 Ctr Fg</hi></p>
                 <p>II. Ich nehme mir jetzt die <term key="#werkindex" type="musical_work"
                         >Gurre</term><!-- musikalisches Werk --><lb/> Partitur vor <hi
@@ -240,7 +230,7 @@
                         <supplied cert="high">,</supplied> dann bitte ich um Nachricht, da ich
                     es<lb/> leicht <orgName key="peters">Peters</orgName> oder <orgName
                         key="eulenburg">Eulenburg</orgName> geben kann.</p>
-                <p>V.</p>
+                <p rend="center">V.</p>
                 <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
                     Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen <!-- CP: also ver-[NEUE ZEILE] flossen? break="no" um auszudrücken, dass man mitten im wort ist?-->
                     <!-- ASUE genau, so haben wir das gemeint (siehe Beispielbrief Berlin); CP++ -->
@@ -256,8 +246,6 @@
                     <del rend="strikethrough">bis ich</del> von Ihnen die Zusicherung<lb/> habe,
                     dass Sie außer den freigewordenen Werken<lb/> auch diejenigen sofort drucken,
                     die noch nicht<lb/> frei sind.</p>
-                <!-- CP: ja, das würde passen -->
-                <!-- Um das originale Textbild besser abzubilden, dies in das erste item der Liste integrieren? -->
                 <p>
                     <list rend="simple">
                         <item>Es sind frei: I. Das Monodram „Glückliche Hand“</item>
@@ -292,14 +280,15 @@
                     Monaten zur I. Korrektur und<lb/> in längstens 4 Monaten <add place="above">von
                         heute</add> zum Verkauf fertig sind.</p>
                 <p><list rend="simple">
-                    <head><hi rend="left">b)</hi></head>
+                        <head><hi rend="left">b)</hi></head>
                         <item>1) die 2 Balladen</item>
                         <item>2) das Heft Lieder</item>
                         <item>3) das Harm.-Cel.-Harfe-Lied in 5 Monaten</item>
                     </list> zur I. Korrektur und in 7 Monaten von heute zum<lb/>
                     <del rend="strikethrough">Ausgab</del> Verkauf fertig sind.</p>
                 <p> Sollten Sie auf diese Bedingungen nicht<lb/> eingehen können, so müsste ich mein
-                        gesetzliches<pb n="5" xml:id="page.5"/> Recht benutzen.</p>
+                        gesetzliches<pb n="5" xml:id="page.5"/><metamark rend="right">II.</metamark>
+                    Recht benutzen.</p>
                 <p> Es täte mir das sehr leid. Vor allem weil ich<lb/> darauf halte, dass meine
                     Sachen möglichst<lb/> in einem Verlag bleiben. Insbesondere aber,<lb/> weil ich
                     um jeden Preis eine Trübung unseres<lb/> freundschaftlichen Verhältnisses vermeiden<lb/>
@@ -319,8 +308,7 @@
                     </subst> haben, und da<lb/> kann ich nicht länger warten. </p>
                 <closer> Ich hoffe bald Nachricht zu haben und empfehle<lb/> mich Ihnen mit besten
                     Grüßen <salute>Ihr ergebener Arnold Schönberg</salute>
-                    <!-- CP: dann passt die annotation so, ich hatte ein <p> gesetzt in der verarbeitung -->
-                    <!-- "salute" ebenfalls in die Zeile eingliedern --></closer>
+                </closer>
             </div>
         </body>
     </text>
