@@ -70,7 +70,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <!-- CP: das  <placeName> muss in das  <settlement> -->
+                        <!-- CP: das  <placeName> muss in das  <settlement> --><!-- ASUE funktioniert das hier anders als sonst, oder überall so wie hier? im Ortsregister haben wir einen Attributwert "settlement" <place xml:id="place.x.1" type="settlement"><placeName type="reg">Washington, D.C.</placeName>-->
                         <settlement><placeName key="#">Wien</placeName></settlement>
                         <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
                             Center</institution>

@@ -33,6 +33,7 @@
                                 <placeName type="reg">Hietzinger Hauptstrasse</placeName>
                                 <place xml:id="automatisch5" type="building">
                                     <placeName type="reg">Hietzinger Hauptstrasse 113</placeName>
+                                    <!-- wie werden die hierfür nötigen Koordinaten kodiert? -->
                                 </place>
                             </place>
                         </place>

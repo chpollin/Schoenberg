@@ -29,7 +29,7 @@
                     <idno type="uri">http://d-nb.info/gnd/30656-3</idno>
                     <orgName type="reg">Nationaltheater Mannheim</orgName>
                     <location xml:id="xxx">
-                        <address>
+                        <address><!-- ASUE: Adresse entsprechend der Ortsregister-Struktur anpassen? -->
                             <settlement key="">Mannheim</settlement>
                             <note>Schillerplatz</note>
                         </address>
@@ -57,7 +57,7 @@
                         <ab>gegründet</ab>
                     </event>
                     <listEvent type="membership">
-                        <!-- jede mitgliedschaft ist ein event -->
+                        <!-- jede mitgliedschaft ist ein event --><!-- ASUE Da wir im Personenregister ein affiliation-Element haben, das die Personen mit Organisationen verknüpft, kann man die Mitgliedschaft streichen, oder? -->
                         <event from="1921" to="1944">
                             <ab>
                                 <persName key="#"><forename>Rudolf</forename><surname>Kolisch</surname></persName>
