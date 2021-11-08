@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listArtworkMusic>
+                <!-- 2 Lieder mit verschiedenen Textdichtern -->
+                <artwork xml:id="XXX">
+                    <author role="composition">
+                        <persName key="XX">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vier Lieder op. 2</title>
+                    <idno type="ASW">ASW 2</idno>
+                    <note>1. <ref target="https://bit.ly/399WHR1">Erwartung</ref> (09.08.1899) Text:
+                            <persName key="xxx">Richard Dehmel</persName>; 2. <ref
+                            target="https://bit.ly/3AgEUDj">Schenk mir deinen goldenen Kamm (Jesus
+                            bettelt)</ref> (09.1899-12.1899) Text: <persName key="xxx">Richard
+                            Dehmel</persName>; 3. <ref target="url">Erhebung</ref> (16.11.1899)
+                        Text: <persName key="xxx">Richard Dehmel</persName>; 4. <ref target="url"
+                            >Waldsonne</ref> (1900) Text: <persName key="xxx">Johannes
+                            Schlaf</persName>
+                        <bibl>Verlag Dreililien Berlin 1903. Plattennummer 237</bibl>
+                        <bibl>Verlag Dreililien Berlin 1903. Plattennummer 238</bibl>
+                        <bibl>Verlag Dreililien Berlin 1903. Plattennummer 239</bibl><bibl>Verlag
+                            Dreililien Berlin 1903. Plattennummer 240</bibl></note>
+                </artwork>
+                <!-- 2 Fassungen Kammersymphonie -->
+                <artwork xml:id="XXX">
+                    <author role="composition">
+                        <persName key="XX">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Kammersymphonie für 15 Solo-Instrumente op.9</title>
+                    <idno>ASW 9</idno>
+                    <note>
+                        <ref target="url">Originalfassung</ref> (1906) <bibl>Erstdruck.
+                            Universal-Edition A.G. Wien-Leipzig, 1912. U.E. 3667</bibl>
+                        <bibl>Gedruckte Stimmen zum Erstdruck. U.E. 3668</bibl>
+                        <bibl>Verbesserte Ausgabe. Revidierter Nachdruck nach den selben,
+                            korrigierten Stichplatten. U.E. 3667</bibl>
+                        <bibl>Korrigierte Stimmen. Universal-Edition A.G. 1920. U.E. 3668</bibl>
+                        <bibl>Studienpartitur. Universal-Edition A.G. / Wiener Philharmonischer
+                            Verlag 1923 bzw. 1924. U.E. 7147 W.Ph.V. 225</bibl>
+                    </note>
+                </artwork>
+                <artwork xml:id="XXX" subtype="arrangement">
+                    <author role="composition">
+                        <persName key="XX">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Kammersymphonie op.9b</title>
+                    <idno>ASW 9<hi rendition="superscript">4</hi></idno>
+                    <note><ref target="url">Bearbeitung für großes Orchester</ref>
+                            (1935)<bibl>Verlag G. Schirmer, Inc. New York, 1936 (Nr.
+                        37402)</bibl></note>
+                </artwork>
+                <!-- Bearbeitung fremder Werke-->
+                <artwork xml:id="XXX" subtype="arrangement">
+                    <author role="composition">
+                        <persName key="bb">
+                            <surname>Brahms</surname>
+                            <forename>Johannes</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="XX">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                        <title>Piano Quartet op. 25</title>
+                        <idno>ASW xx<hi rendition="#sup">Arr</hi></idno>
+                    </author>
+                    <note><ref target="url">Bearbeitung für großes Orchester</ref> (1937)<bibl>G. Schirmer, Inc. New York 1937</bibl></note>
+                </artwork>
+            </listArtworkMusic>
+        </body>
+    </text>
+</TEI>
