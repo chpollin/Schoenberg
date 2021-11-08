@@ -184,19 +184,11 @@
                     <add place="above">und Bss Trompete</add> teilen.</p>
                 <p>Bei den Posaunen: <hi rend="rectangle">Alt, I. II.</hi>
                     <hi rend="rectangle">III. IV u Bss Pos in Es</hi>
-                    <hi rend="rectangle"><choice>
-                            <abbr>Ctrbss</abbr>
-                            <expan>Contrabass</expan>
-                            <expan>
-                                <reg>Kontrabass</reg>
-                            </expan>
-                        </choice> Pos u CtrbssTa</hi></p>
-                <!-- wenn wir im Fall der Musikinstrumente auf eine Auflösung der Abkürzung in der "Contrabass"-Schreibweise verzichten wollen und nur die Normalisierung vornehmen, wie sähe das dann aus? so? <term ref="http://d-nb.info/gnd/4032300-6">Ctrbss</term> oder <choice><orig>Ctrbss</orig>                                                      <expan>
-                                <reg><term ref="http://d-nb.info/gnd/4032300-6">Kontrabass</term></reg></choice> -->
-                <p>Bei den <choice>
-                        <orig>C</orig>
-                        <reg>K</reg>
-                    </choice>larinetten: <!-- <choice><sic>C</sic><corr>K</corr></choice>larinetten: im Falle eines Scheibfehlers -->
+                    <hi rend="rectangle">
+                        <ref target="http://d-nb.info/gnd/4032300-6">Ctrbss</ref>
+                            </hi></p>
+                <!-- ASUE wie besprochen verzichten wir bei Instrumenten auf Abkürzungsauflösung und nützen nur die Normalisierung, die Funktion der Auflösung für nicht allgemein gebräuchliche Abkürzungen brauchen wir aber dennoch, siehe wiki -->
+                <p>Bei den <ref target="https://d-nb.info/gnd/4030938-1">Clarinetten</ref>: 
                     <hi rend="rectangle">1.2 Es Cl</hi>
                     <hi rend="rectangle">1.2.3. A (B) Cl</hi>
                     <hi rend="rectangle">1.2. Bss Cl</hi></p>

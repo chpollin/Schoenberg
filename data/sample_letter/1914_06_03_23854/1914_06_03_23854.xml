@@ -152,11 +152,11 @@
                 <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
                         <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
                         <!-- Zeilenumbruch mit Abtrennungszeichen -->
-                        <note type="footnote" xml:id="automatisch"><ref
+                        <note xml:id="automatisch"><ref
                                 target="https://bit.ly/3BQVTfQ">Korrekturabzug (Probeseite) von S, 4
                                 (T. 5-12) des Partiturdrucks</ref></note>
                         <!-- CP: man könnte aus jedem note eine fußnote machen und unten einen amerkungsapparat anzeigen. sort dann hyperlink setzen. siehe prototyp_1914_06_03_23854.html -->
-                        <!-- ASUE: uns ist wichtig, auf kürzestem Weg von der Brieftextstelle zur verlinkten Quelle zu kommnen, also über Popups an Ort und Stelle. Frage: bedarf es einer Systematik bei den note-elementen? brauchen sie alle einen @type??  -->
+                        <!-- ASUE: wie besprochen ohne @type, da die Funktion bereits durch <seg type="comment"> ausgedrückt wird -->
                     </seg> aus der Orchesterpartitur <!-- Musikalisches Werk --> Schönberg. Ich
                     hoffe, alles nach Wunsch <lb/>des Autors ausgeführt zu haben und bitte um recht
                     baldigen Bescheid, da<g ref="#typoHyphen"/><lb break="no"/>mit ich weiter
