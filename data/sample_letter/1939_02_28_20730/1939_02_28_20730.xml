@@ -108,11 +108,13 @@
             <div type="letter">
                 <pb n="1" xml:id="page.1"/>
                 <opener>
-                    <!-- CP <hi rend="center"> --><!-- ASUE "rend center" im <stamp> Element und in <hi> ? -->
-                    <hi rend="center"><stamp sameAs="#stamp.2" rend="center"> Universal-Edition-A.G.<lb/>
+                    <!-- ASUE "rend center" im <stamp> Element und in <hi> ? -->
+                    <!-- CP: es ginge sowohl <hi rend="center"> als elternelement, oder rend in stamp.
+                    einfacher ist es sicher, wenn man zu jedem element ein @rend ohne hi hinzufügen kann. -->
+                    <stamp sameAs="#stamp.2" rend="center"> Universal-Edition-A.G.<lb/>
                             <hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
                             6</hi><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG. KARLSTRASSE
-                            10</stamp></hi>
+                            10</stamp>
                     <add rend="right" hand="unknown">Ostmark Germany</add>
                     <dateline rend="left">
                         <persName>R</persName>/<persName>No.</persName></dateline><!-- ASUE Kürzel in einer Zeile R/No.-->
@@ -148,13 +150,13 @@
                     />mulare.</p>
                 <p>Wir stehen mit einer unserer ausländischen Vertretungen in<lb/> weitgehenden
                     Verhandlungen bezüglich Uebernahme der in unserem Verlag<lb/> erschienenen Werke
-                    nichtarischer Komponisten, deren Abschluss
-                    den Kom<g ref="#typoHyphen"/><lb break="no"/>ponisten die Gewähr auf ungestörten Vertrieb und Propagierung dieser<lb/>
-                    Werke bietet. Wir wären Ihnen zu Dank verpflichtet, wenn Sie uns mit<lb/> ein
-                    paar Zeilen Ihr Einverständnis zu einer derartigen Transaktion im<lb/> Prinzip
-                    geben würden und werden Sie von dem Zustandekommen derselben<lb/> sogleich
-                    verständigen. Wir glauben, dass Sie diesem Vorschlag zustimmen<lb/> werden, da
-                    ja diese Aktion <subst>
+                    nichtarischer Komponisten, deren Abschluss den Kom<g ref="#typoHyphen"/><lb
+                        break="no"/>ponisten die Gewähr auf ungestörten Vertrieb und Propagierung
+                    dieser<lb/> Werke bietet. Wir wären Ihnen zu Dank verpflichtet, wenn Sie uns
+                    mit<lb/> ein paar Zeilen Ihr Einverständnis zu einer derartigen Transaktion
+                    im<lb/> Prinzip geben würden und werden Sie von dem Zustandekommen
+                    derselben<lb/> sogleich verständigen. Wir glauben, dass Sie diesem Vorschlag
+                    zustimmen<lb/> werden, da ja diese Aktion <subst>
                         <del rend="strikethrough">ganz</del>
                         <add place="above" hand="author">auch</add>
                     </subst> im Interesse der nichtarischen Kompo<g ref="#typoHyphen"/><lb
@@ -164,7 +166,9 @@
                         <orgName>UNIVERSAL-EDITION A.G.</orgName></salute>
                     <signed><gap reason="illegible" unit="words" quantity="1"/><!--
  Gibt hier eine bessere Lösung, eine nicht entzifferte Unterschrift auszuzeichnen? z.B. <supplied>[...]</supplied>? 
---><persName>B. Rothe</persName></signed></closer>
+-->
+                        <!-- CP: ich denke, dass das so passt -->
+                        <persName>B. Rothe</persName></signed></closer>
                 <note rend="underline" place="right">over</note>
             </div>
             <pb n="2" xml:id="page.2"/>
@@ -172,11 +176,10 @@
                 <opener>
                     <salute>Gentlemen,</salute>
                 </opener>
-                <!-- CP: <salute> muss immer in einem <opener> oder <closer> sein. -->
-                <!--<p>
-                    <salute>Gentlemen,</salute> 
-                </p>-->
-                <p>Excuse for writing in English, I am <choice><orig>to</orig><corr>too</corr></choice><lb/> busy to write myself.</p>
+                <p>Excuse for writing in English, I am <choice>
+                        <orig>to</orig>
+                        <corr>too</corr>
+                    </choice><lb/> busy to write myself.</p>
                 <p>I have not yet got your answer about<lb/> my royalties from records and whether
                     you have<lb/> paid (as I asked you previously.) the monthly<lb/> amount to my
                     son <persName key="georg">Georg<del rend="strikethrough">e</del> Sch.</persName>

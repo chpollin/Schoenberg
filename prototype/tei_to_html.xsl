@@ -62,7 +62,7 @@
                             <div class="row my-5">
                                 <h2>Anmerkungen</h2>
                                 <ol>
-                                    <xsl:for-each select="//*:body//*:note[@type='footnote']">
+                                    <xsl:for-each select="//*:body//*:seg[@type='comment']/*:note">
                                         <li>
                                             <xsl:apply-templates/>
                                         </li>
@@ -81,18 +81,25 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="*:note[@type='footnote']">
-        <sup style="background-color: #FFEBCD;">
-            <!-- -1 because in teiHeader is a note...needs to be fixed. -->
-            <xsl:value-of select="count(preceding::*:note) - 1"/>
-        </sup>
-    </xsl:template>
-    
     <xsl:template match="*:note">
         <span style="background-color: #DEB887;">
-            <xsl:text>[</xsl:text>
+            <xsl:if test="@place">
+                <xsl:attribute name="class">
+                    <xsl:choose>
+                        <xsl:when test="@place= 'right'">
+                            <xsl:attribute name="class">
+                                <xsl:text>text-end</xsl:text>
+                            </xsl:attribute>
+                        </xsl:when>
+                        <xsl:when test="@place= 'left'">
+                            <xsl:attribute name="class">
+                                <xsl:text>text-begin</xsl:text>
+                            </xsl:attribute>
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
-            <xsl:text>]</xsl:text>
         </span>
     </xsl:template>
 
@@ -130,18 +137,29 @@
     </xsl:template>
     
     <xsl:template match="*:salute">
+        <div class="salute">
             <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="*:signed">
+        <div class="signed">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     
    <xsl:template match="*:stamp">
        <div title="stamp" class="lead" style="font-size: 1rem;">
+           <xsl:if test="@rend = 'center'">
+               <xsl:attribute name="class" select="'lead text-center'"></xsl:attribute>
+           </xsl:if>
         <p>
             <xsl:apply-templates/>
         </p>
     </div>
     </xsl:template>
     
-    <xsl:template match="*[@rend = 'right', 'left']">
+    <xsl:template match="*[@rend = 'right', 'left', 'center']">
         <span>
          <xsl:choose>
              <xsl:when test="@rend = 'right'">
@@ -152,6 +170,11 @@
              <xsl:when test="@rend = 'left'">
                  <xsl:attribute name="class">
                      <xsl:text>text-begin</xsl:text>
+                 </xsl:attribute>
+             </xsl:when>
+             <xsl:when test="@rend = 'center'">
+                 <xsl:attribute name="class">
+                     <xsl:text>text-center</xsl:text>
                  </xsl:attribute>
              </xsl:when>
          </xsl:choose>
@@ -173,17 +196,33 @@
         </hr>
        
     </xsl:template>
+    
+    <xsl:template match="*:dateline">
+        <div>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
 
     <xsl:template match="*:p">
         <p>
-            <xsl:if test="*[contains(@rend, 'line')]">
+            <xsl:if test="contains(@rend, 'line')">
                 <xsl:choose>
-                    <xsl:when test="*[contains(@rend, 'right')]">
+                    <xsl:when test="contains(@rend, 'line double')">
+                        <xsl:attribute name="style">
+                            <xsl:text>
+                                
+                                border-right-style:double;
+                          
+                                border-left-style:double;
+                                </xsl:text>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when test="contains(@rend, 'line right')">
                         <xsl:attribute name="style">
                             <xsl:text>border-right: 1px solid;</xsl:text>
                         </xsl:attribute>
                     </xsl:when>
-                    <xsl:when test="@rend = 'line left'">
+                    <xsl:when test="contains(@rend,'line left')">
                         <xsl:attribute name="style">
                             <xsl:text>border-left: 1px solid;</xsl:text>
                         </xsl:attribute>
@@ -353,7 +392,14 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="*:seg">
+    <xsl:template match="*:seg[@type='comment']/*:note">
+        <sup style="background-color: #FFEBCD;">
+            <!-- -1 because in teiHeader is a note...needs to be fixed. -->
+            <xsl:value-of select="count(preceding::*:note) - 1"/>
+        </sup>
+    </xsl:template>
+    
+    <xsl:template match="*:seg[not(*:note)]">
         <div>
             <xsl:choose>
                 <xsl:when test="@type = 'row'">

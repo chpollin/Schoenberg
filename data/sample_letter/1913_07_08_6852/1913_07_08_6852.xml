@@ -70,7 +70,13 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <!-- CP: das  <placeName> muss in das  <settlement> --><!-- ASUE funktioniert das hier anders als sonst, oder überall so wie hier? im Ortsregister haben wir einen Attributwert "settlement" <place xml:id="place.x.1" type="settlement"><placeName type="reg">Washington, D.C.</placeName>-->
+                        <!-- CP: das  <placeName> muss in das  <settlement> -->
+                        <!-- ASUE funktioniert das hier anders als sonst, oder überall so wie hier? 
+                            im Ortsregister haben wir einen Attributwert "settlement" <place xml:id="place.x.1" type="settlement">
+                            <placeName type="reg">Washington, D.C.</placeName>-->
+                        <!-- CP: guter punkt. aber das type="settlement" hat eine andere funktion also das <settlement hier. wir wollen im ortsindex, dass alles <place>,
+                            aber um die einzelnen stufen leichter unterschieden zu können brauchen wir noch das @type. mag verwirrend klingen, aber ich denke es ist so sinnvoller. :) 
+                            im msIdentifier hat das <settlement> eben seine - durch das elternelement mitdefineirte bedeutung. -->
                         <settlement><placeName key="#">Wien</placeName></settlement>
                         <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
                             Center</institution>
@@ -79,7 +85,6 @@
                             <settlement><placeName key="#">Wien</placeName></settlement>
                             <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
                                 Center</institution>
-                            <!-- hier vl noch spezifischer mit @type -->
                             <idno type="signature">ASCC ID 6852</idno>
                         </altIdentifier>
                     </msIdentifier>
@@ -166,7 +171,9 @@
                             reason="illegible" quantity="2" unit="chars"
                     /></del>-->
                     <!-- CP: ohne das <del> einfach. -->
-                    <!-- ASUE in Ordnung, uns wäre nur wichtig, dass anstelle eines weißen Lochs im Text irgendein Platzhalter für die gestrichene Stelle steht, z.b. "[...]"; CP++ --><!-- ASUE Im Prototyp ist das [...] jetzt drinnen, d.h. dass <gap> als [...] angezeigt wird? -->
+                    <!-- ASUE in Ordnung, uns wäre nur wichtig, dass anstelle eines weißen Lochs im Text irgendein Platzhalter für die gestrichene Stelle steht, z.b. "[...]"; CP++ -->
+                    <!-- ASUE Im Prototyp ist das [...] jetzt drinnen, d.h. dass <gap> als [...] angezeigt wird? -->
+                    <!-- CP: genau, aus einem gap wird ein *:gap -->
                     <gap rend="strikethrough" reason="illegible" quantity="2" unit="chars"/> und das
                     an nicht allzu<lb/> vielen Stellen <del rend="strikethrough">!</del> erreichen
                     dürfte. Allerdings: <hi rend="underline double"> jede</hi> Stimme<lb/>
@@ -186,10 +193,11 @@
                     <hi rend="rectangle">III. IV u Bss Pos in Es</hi>
                     <hi rend="rectangle">
                         <ref target="http://d-nb.info/gnd/4032300-6">Ctrbss</ref>
-                            </hi></p>
+                    </hi></p>
                 <!-- ASUE wie besprochen verzichten wir bei Instrumenten auf Abkürzungsauflösung und nützen nur die Normalisierung, die Funktion der Auflösung für nicht allgemein gebräuchliche Abkürzungen brauchen wir aber dennoch, siehe wiki -->
-                <p>Bei den <ref target="https://d-nb.info/gnd/4030938-1">Clarinetten</ref>: 
-                    <hi rend="rectangle">1.2 Es Cl</hi>
+                <p>Bei den <!-- CP: hier besser ein <term type="instrument"> statt einem <ref>; dann kann man <ref> für beliebige Hyperlinks setzen, aber mit <term type="instrument"> expizit Instrumente normalisieren. -->
+                    <term type="instrument" target="https://d-nb.info/gnd/4030938-1"
+                        >Clarinetten</term>: <hi rend="rectangle">1.2 Es Cl</hi>
                     <hi rend="rectangle">1.2.3. A (B) Cl</hi>
                     <hi rend="rectangle">1.2. Bss Cl</hi></p>
                 <p>Bei den Flöten <hi rend="rectangle">1. 2. 3. 4 <add rend="below"
@@ -224,17 +232,16 @@
                         key="eulenburg">Eulenburg</orgName> geben kann.</p>
                 <p rend="center">V.</p>
                 <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
-                    Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen <!-- CP: also ver-[NEUE ZEILE] flossen? break="no" um auszudrücken, dass man mitten im wort ist?-->
-                    <!-- ASUE genau, so haben wir das gemeint (siehe Beispielbrief Berlin); CP++ -->
-                    seit wir unseren Vertrag abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft
-                    und eben so lange bin<lb/> ich verpflichtet gewesen zu warten, ob Sie meine<lb/>
-                    Werke herausgeben. Das Autorengesetz bestimmt<lb/> nun, dass wenn ein Werk
-                    innerhalb 3 Jahren<lb/> nicht gedruckt wird, der Autor frei wird und<lb/> die
-                    gezahlten Vorschussbeträge zu seinen Gunsten<lb/> verfallen. Ehe ich nun von
-                    diesem Recht Gebrauch<lb/> mache, möchte ich Ihnen noch Gelegenheit geben<lb/>
-                    Ihrer Druckverpflichtung nachzukommen und<lb/> bin geneigt die Ausübung meines
-                    Rechtes <del rend="strikethrough">solange</del><lb/> hinauszuschieben <add
-                        place="above">damit ich innerhalb 8 Tagen</add>
+                    Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen seit wir unseren Vertrag
+                    abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft und eben so lange bin<lb/>
+                    ich verpflichtet gewesen zu warten, ob Sie meine<lb/> Werke herausgeben. Das
+                    Autorengesetz bestimmt<lb/> nun, dass wenn ein Werk innerhalb 3 Jahren<lb/>
+                    nicht gedruckt wird, der Autor frei wird und<lb/> die gezahlten Vorschussbeträge
+                    zu seinen Gunsten<lb/> verfallen. Ehe ich nun von diesem Recht Gebrauch<lb/>
+                    mache, möchte ich Ihnen noch Gelegenheit geben<lb/> Ihrer Druckverpflichtung
+                    nachzukommen und<lb/> bin geneigt die Ausübung meines Rechtes <del
+                        rend="strikethrough">solange</del><lb/> hinauszuschieben <add place="above"
+                        >damit ich innerhalb 8 Tagen</add>
                     <del rend="strikethrough">bis ich</del> von Ihnen die Zusicherung<lb/> habe,
                     dass Sie außer den freigewordenen Werken<lb/> auch diejenigen sofort drucken,
                     die noch nicht<lb/> frei sind.</p>
