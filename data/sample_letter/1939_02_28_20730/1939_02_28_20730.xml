@@ -112,9 +112,9 @@
                     <!-- CP: es ginge sowohl <hi rend="center"> als elternelement, oder rend in stamp.
                     einfacher ist es sicher, wenn man zu jedem element ein @rend ohne hi hinzufügen kann. -->
                     <stamp sameAs="#stamp.2" rend="center"> Universal-Edition-A.G.<lb/>
-                            <hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
-                            6</hi><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG. KARLSTRASSE
-                            10</stamp>
+                        <hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
+                        6</hi><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG. KARLSTRASSE
+                        10</stamp>
                     <add rend="right" hand="unknown">Ostmark Germany</add>
                     <dateline rend="left">
                         <persName>R</persName>/<persName>No.</persName></dateline><!-- ASUE Kürzel in einer Zeile R/No.-->
@@ -163,12 +163,12 @@
                         break="no"/>nisten liegt.</p>
                 <closer>Wir begrüssen Sie<lb/>
                     <salute rend="right">in vorzüglicher Hochachtung<lb/>
-                        <orgName>UNIVERSAL-EDITION A.G.</orgName></salute>
-                    <signed><gap reason="illegible" unit="words" quantity="1"/><!--
- Gibt hier eine bessere Lösung, eine nicht entzifferte Unterschrift auszuzeichnen? z.B. <supplied>[...]</supplied>? 
--->
-                        <!-- CP: ich denke, dass das so passt -->
-                        <persName>B. Rothe</persName></signed></closer>
+                        <orgName>UNIVERSAL-EDITION A.G.</orgName>
+                    </salute>
+                    <signed>
+                        <!-- ja, supplied ist besser. warum steht hier B. Rothe? ist das die vermutung des namens der hinter der unleserlichen unterschrift steht?-->
+                        <supplied reason="illegible"><persName>B. Rothe</persName></supplied>
+                        </signed></closer>
                 <note rend="underline" place="right">over</note>
             </div>
             <pb n="2" xml:id="page.2"/>
@@ -205,8 +205,7 @@
                     MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
                     only the printing expenses, but also<lb/> that of the lawsuit I lost.<lb/>
                     Please kindly rectify this matter.
-                    <!--<salute>Very truly yours,</salute>--><!--  <span type="salute">Very truly
-                        yours,</span>--></p>
+                </p>
                 <closer><salute>Very truly yours,</salute></closer>
             </div>
         </body>

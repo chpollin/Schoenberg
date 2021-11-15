@@ -109,7 +109,7 @@
                         target="http://213.185.182.231/search_show_letter.php?ID_Number=7534"/>
                     <!--ASUE target nur testhalber -->
                     <!--ASUE: jeweils mehrere Bezüge sinnvoll möglich? -->
-                    <!-- CP: es sollte nichts dagegen sprechen hier mehrer Bezüge herzustellen. es sollten nur einheitliche werte für @type geben.  -->
+                    <!-- CP: es sollte nichts dagegen sprechen hier mehrere bezüge herzustellen. es sollten nur einheitliche werte für @type geben.  -->
                     <ref type="prev">Brief vom 14. Mai 1914</ref>
                 </correspContext>
             </correspDesc>
@@ -195,14 +195,14 @@
                     <salute>Hochachtungsvoll<lb/>
                         <stamp>ppa. F. M. Geidel</stamp>
                     </salute>
-                    <signed xml:id="Geidel">Johannes Geidel</signed>
+                    <signed hand="#Geidel">Johannes Geidel</signed>
                 </closer>
 
                 <!-- ASUE hier gehört "Johannes Geidel" rechts unten unter <stamp> und die Anmerkung von Schönberg links (ohne eckige Klammer, oder?)-->
                 <!-- CP: ich habe im note noch ein <p> eingebaut mit <lb> und "Johannes Geidel" rechts habe ich im prototyp angepasst.  -->
                 <note place="left" hand="#Schönberg">
-                    <p>Warum wurde<lb/> kein <hi rend="underline">breiteres Papier</hi> genommen?<lb/>  <seg
-                            type="comment">
+                    <p>Warum wurde<lb/> kein <hi rend="underline">breiteres Papier</hi> genommen?<lb/>
+                        <seg type="comment">
                             <orig>Ich schrieb doch deswegen auch!!!</orig>
                             <note type="footnote"><ref target="linkIntern">Brief vom
                                 x.y.</ref></note>
@@ -211,7 +211,6 @@
                         </seg>
                     </p>
                 </note>
-
                 <!-- ASUE Vordruck "In Leipzig...statt": Werbetexte werden nicht transkribiert -->
             </div>
             <div type="letter">
@@ -249,10 +248,7 @@
                     <lb/>Zeilen, in denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp :
                     Seite 3, V<hi rend="superscript"><hi rend="underline double">cll</hi></hi> , 2
                     Takt:</p>
-                <!-- Macht es Sinn diesen Abschnitt mittels Tabellen näherungsweise nachzubilden) -->
-                <!-- CP: <notatedMusic> encodes the presence of music notation in a text -->
                 <notatedMusic>
-                    <!-- CP: dann kann man mit einzelne zeilen ausdrücken. darin die seg bilden dann die "spalten" ASUE ja, gut-->
                     <seg type="row">
                         <seg type="column">
                             <figure hand="#Schönberg">
@@ -306,30 +302,12 @@
                         <lb/>besser in 2 Zeilen (eventuell !!)</seg>
                 </notatedMusic>
 
-                <!--<p><figure facs="NBDatei1" hand="#Schönberg">
-                        <figDesc>Notenbeispiel</figDesc>
-                    </figure>das ist besser als <lb/>2 Zeilen: <figure facs="NBDatei2"
-                        hand="#Schönberg">
-                        <figDesc>Notenbeispiel</figDesc>
-                    </figure></p>
-                <p>oder: Seite 3: Takt 2, Flöten <figure facs="NBDatei3" hand="#Schönberg">
-                        <figDesc>Notenbeispiel</figDesc>
-                    </figure>besser: <figure facs="NBDatei4" hand="#Schönberg">
-                        <figDesc>Notenbeispiel</figDesc>
-                    </figure></p>
-                <p>oder Seite 4, 2. System, 3. Takt, Fl u Pic<figure facs="NBDatei5"
-                        hand="#Schönberg">
-                        <figDesc>Notenbeispiel</figDesc>
-                    </figure> besser: <figure facs="NBDatei6" hand="#Schönberg">
-                        <figDesc>Notenbeispiel</figDesc>
-                    </figure></p>
-                <p>aber Seite 8, 1. System, 4. Takt Solo B<hi rend="superscript"><hi
-                            rend="underline">r</hi></hi>
-                    <lb/>besser in 2 Zeilen (eventuell !!) </p>-->
                 <p>dagegen sind folgende Stellen <hi rend="underline double">besser</hi> in <hi
                         rend="underline double">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
-                        <abbr>B<hi rend="superscript"><hi rend="underline double"
-                            >r</hi></hi><!-- kann man hier die Werte auch zusammenfassen? siehe oben "superscript underline" --></abbr>
+                        <abbr>B <hi rend="superscript underline double">r</hi>
+                            <!-- kann man hier die Werte auch zusammenfassen? siehe oben "superscript underline" -->
+                            <!-- ja. @rend erlaubt es mit leerzeichen getrennt mehrere zuordnungen umzusetzen. -->
+                        </abbr>
                         <expan>Bratsche</expan>
                         <reg>Viola</reg>
                     </choice>; | Seite 7, Takt 3, die <choice>

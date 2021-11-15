@@ -224,7 +224,6 @@
                         >Partitur</hi>; ich will auch hier einige Änderungen<lb/> eintragen (für
                     mein Material)</p>
                 <p>IV. Das <!-- musikalisches Werk -->
-                    <!-- CP: mit <term>, @key und @type kann man das ausdrücken. -->
                     <term key="#werkindex" type="musical_work">Cello-Konzert von Monn</term><lb/>
                     scheinen Sie nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist
                         <supplied cert="high">,</supplied> dann bitte ich um Nachricht, da ich
@@ -266,8 +265,6 @@
                     bereit sind auf diese Bedingungen einzugehen:</p>
                 <p>
                     <list rend="simple">
-                        <!-- CP: das "a)" markiert ja die erste liste, das "b)" die zweite liste... es ist also semantisch sicher nicht teil des ersten <item>...
-                            muss ich noch überlegen..  -->
                         <head><hi rend="left">a)</hi></head>
                         <item>I. Monodram Partitur und Klavierauszug</item>
                         <item>II. George Lieder</item>
