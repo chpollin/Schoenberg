@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.2" telota:doctype="letter">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.2"
+    telota:doctype="letter">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,31 +13,27 @@
                     <resp>
                         <term>Transkription</term>
                         <term>Annotation</term>
-                        <!-- CP: <note> würde eine notiz zur responsibilty ausdrücken. -->
-                        <!--<note type="remarkResponsibility"></note>-->
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName><forename>Katharina</forename>
-                        <surname>Bleier</surname></persName>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
                     <resp>
                         <term>Transkription</term>
                         <term>Annotation</term>
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName><forename>Christopher</forename>
-                        <surname>Pollin</surname></persName>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
                     <resp>
                         <term>Datenmodellierung</term>
                     </resp>
                 </respStmt>
-                <!--<respStmt>
-                    <persName><forename>a</forename><surname>b</surname></persName>
-                    <resp>
-                        <term>Projektleitung</term>
-                    </resp>
-                </respStmt>-->
             </titleStmt>
             <publicationStmt>
                 <publisher>Arnold Schönberg Center</publisher>
@@ -58,13 +55,17 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <settlement><placeName key="#">Wien</placeName></settlement>
+                        <settlement>
+                            <placeName key="#">Wien</placeName>
+                        </settlement>
                         <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
                             Center</institution>
                         <repository/>
                         <collection>SatCollS4 Corr. "Universal Edition"</collection>
                         <altIdentifier>
-                            <settlement><placeName key="#">Wien</placeName></settlement>
+                            <settlement>
+                                <placeName key="#">Wien</placeName>
+                            </settlement>
                             <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
                                 Center</institution>
                             <idno type="signature">ASCC ID 20730</idno>
@@ -117,7 +118,8 @@
                         10</stamp>
                     <add rend="right" hand="unknown">Ostmark Germany</add>
                     <dateline rend="left">
-                        <persName>R</persName>/<persName>No.</persName></dateline><!-- ASUE Kürzel in einer Zeile R/No.-->
+                        <persName>R</persName>/<persName>No.</persName></dateline>
+                    <!-- ASUE Kürzel in einer Zeile R/No.-->
                     <dateline rend="right">Wien, am 28. Feber 1939.</dateline>
                     <hi rend="underline dotted">
                         <address>
@@ -166,9 +168,12 @@
                         <orgName>UNIVERSAL-EDITION A.G.</orgName>
                     </salute>
                     <signed>
-                        <!-- ja, supplied ist besser. warum steht hier B. Rothe? ist das die vermutung des namens der hinter der unleserlichen unterschrift steht?--><!-- ASUE es sind zwei Unterschriften B. Rothe + eine unleserliche -->
-                        <supplied reason="illegible"><persName>B. Rothe</persName></supplied>
-                        </signed></closer>
+                        <!-- ja, supplied ist besser. warum steht hier B. Rothe? ist das die vermutung des namens der hinter der unleserlichen unterschrift steht?-->
+                        <!-- ASUE es sind zwei Unterschriften B. Rothe + eine unleserliche -->
+                        <supplied reason="illegible"/>
+                        <persName>B. Rothe</persName>
+                    </signed>
+                </closer>
                 <note rend="underline" place="right">over</note>
             </div>
             <pb n="2" xml:id="page.2"/>
@@ -204,9 +209,10 @@
                     <metamark/>By the way, you even charge me for my opera<lb/> „VON HEUTE AUF
                     MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
                     only the printing expenses, but also<lb/> that of the lawsuit I lost.<lb/>
-                    Please kindly rectify this matter.
-                </p>
-                <closer><salute>Very truly yours,</salute></closer>
+                    Please kindly rectify this matter. </p>
+                <closer>
+                    <salute>Very truly yours,</salute>
+                </closer>
             </div>
         </body>
     </text>
