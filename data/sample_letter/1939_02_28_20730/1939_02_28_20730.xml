@@ -166,7 +166,7 @@
                         <orgName>UNIVERSAL-EDITION A.G.</orgName>
                     </salute>
                     <signed>
-                        <!-- ja, supplied ist besser. warum steht hier B. Rothe? ist das die vermutung des namens der hinter der unleserlichen unterschrift steht?-->
+                        <!-- ja, supplied ist besser. warum steht hier B. Rothe? ist das die vermutung des namens der hinter der unleserlichen unterschrift steht?--><!-- ASUE es sind zwei Unterschriften B. Rothe + eine unleserliche -->
                         <supplied reason="illegible"><persName>B. Rothe</persName></supplied>
                         </signed></closer>
                 <note rend="underline" place="right">over</note>

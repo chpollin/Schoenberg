@@ -17,7 +17,8 @@
         <body>
             <listBibl>
                 <!-- 2 Lieder mit verschiedenen Textdichtern -->
-                <bibl type="artwork" xml:id="ASW.2">
+                <bibl type="artwork" xml:id="ASW.2"><!-- ASUE Diese xml:id ist de facto nicht ASW.2 sondern die automatisch zugewiesene ID, oder? und: im Beispielbrief haben wir <term key="#werkindex" type="musical_work"> "musical_work" und "artwork" vereinheitlichen? -->
+                        
                     <author role="composer">
                         <persName key="XX">
                             <surname>Schönberg</surname>
@@ -69,7 +70,7 @@
                     </author>
                     <title>Kammersymphonie op.9b</title>
                     <idno>ASW 9.4</idno>
-                    <!-- alle untergeordneten bibl wie 9.4 haben eine <ref> das auf die ID des übergeordneten refernziert. -->
+                    <!-- alle untergeordneten bibl wie 9.4 haben eine <ref> das auf die ID des übergeordneten refernziert. --><!-- ASUE Hochstellung der 2. Zahl gemäss Werkverzeichnis lässt sich nicht (gut) umsetzen? -->
                     <ref type="partOf" target="#ASW.9"/>
                     <note><ref target="url">Bearbeitung für großes Orchester</ref>
                         (1935)<bibl>Verlag G. Schirmer, Inc. New York, 1936 (Nr.

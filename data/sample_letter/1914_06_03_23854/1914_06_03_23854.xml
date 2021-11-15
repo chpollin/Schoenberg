@@ -306,7 +306,7 @@
                         rend="underline double">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
                         <abbr>B <hi rend="superscript underline double">r</hi>
                             <!-- kann man hier die Werte auch zusammenfassen? siehe oben "superscript underline" -->
-                            <!-- ja. @rend erlaubt es mit leerzeichen getrennt mehrere zuordnungen umzusetzen. -->
+                            <!-- ja. @rend erlaubt es mit leerzeichen getrennt mehrere zuordnungen umzusetzen. --><!-- das "double" bezieht sich hier aber nur auf "underline", ist das ok so? -->
                         </abbr>
                         <expan>Bratsche</expan>
                         <reg>Viola</reg>
