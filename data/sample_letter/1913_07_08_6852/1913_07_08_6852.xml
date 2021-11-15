@@ -2,7 +2,7 @@
 <!--<?xml-model href="file:/X:/Editionsrichtlinien/Tests/Graz/BerlinTelota/avh_mitHeader.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 
 <!--  ww:doctype="letter avhr" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ww="http://www.telota.de">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.1" telota:doctype="letter">
     <teiHeader>
         <fileDesc>
             <titleStmt>
