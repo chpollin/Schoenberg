@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="person" telota:doctype="register">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="person"
+    telota:doctype="register">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,6 +17,59 @@
     <text>
         <body>
             <listPerson>
+                <!-- ASUE dies ist ein aus den untenstehenden Beispielen generierter "Maximaleintrag", der alle benötigten Funktionen inkludiert -->
+                <person xml:id="person.x">
+                    <idno type="uri">http://d-nb.info/gnd/124172962</idno>
+                    <persName>
+                        <surname>Pappenheim</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <persName type="pseudonym">
+                        <surname>Heim</surname>
+                        <forename>Maria</forename>
+                    </persName>
+                    <persName type="birthname">
+                        <surname>Pappenheim</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <persName type="alternative">
+                        <surname>Frischauf</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <persName type="alternative">
+                        <name type="referencemark">P/S.</name>
+                    </persName>
+                    <birth>
+                        <date when="1882-06-04">4. Juni 1882</date>
+                        <placeName key="???">Preßburg</placeName>
+                    </birth>
+                    <death>
+                        <date when="1966-07-24">24. Juli 1966</date>
+                        <placeName key="???">Wien</placeName>
+                    </death>
+                    <!-- ASUE hier haben wir occupation und affiliation nebeneinander gestellt, d.h. affiliation nicht als kindelement von occupation, da uns das zu spezifisch für alle denkbaren Kombinationen erscheint -->
+                    <occupation><term ref="https://d-nb.info/gnd/4140665-5"
+                        >Ärztin</term></occupation>
+                    <occupation><term ref="https://d-nb.info/gnd/4053311-6"
+                        >Schriftstellerin</term></occupation>
+                    <occupation><term ref="https://d-nb.info/gnd/4683584-2"
+                        >Librettistin</term></occupation>
+                    <affiliation when="1910">
+                        <orgName key="#org.1">Universal-Edition</orgName>
+                    </affiliation>
+                    <affiliation from="1920" to="1922">
+                        <orgName key="???">Verein für musikalische Privataufführungen</orgName>
+                    </affiliation>
+                    <note type="bio"><!-- ASUE brauchen wir hier @type="bio"? -->Ärztin und
+                        Dichterin, engagierte Frauenrechtlerin. Sie kam zum Medizinstudium nach
+                        Wien, wo sie durch Alexander Zemlinsky auch Schönberg kennenlernte. 1909
+                        schrieb sie den Text zu Schönbergs Monodram Erwartung op. 17. Gedichte von
+                        ihr erschienen in der Fackel. Schönberg wollte ihr - einem Testament von
+                        1915 zufolge - für den Fall seines Todes die Herausgabe seiner Schriften und
+                        Briefwechsel anvertrauen. Emigration 1934-39 nach Frankreich, 1939-47 nach
+                        Mexiko</note>
+                </person>
+                
                 <person xml:id="person.1">
                     <persName>
                         <forename>Arnold</forename>
@@ -130,14 +184,16 @@
                     </death>
                     <occupation>
                         <term ref="http://d-nb.info/gnd/4156342-6">Geiger</term>
-                        <affiliation to="1927"><orgName key="???">Wiener Streichquartett</orgName></affiliation>
-                        <affiliation from="1927"><orgName key="???">Kolisch-Quartett</orgName></affiliation>
+                        <affiliation to="1927"><orgName key="???">Wiener
+                            Streichquartett</orgName></affiliation>
+                        <affiliation from="1927"><orgName key="???"
+                            >Kolisch-Quartett</orgName></affiliation>
                     </occupation>
                     <occupation>Komponist</occupation>
-                    <note type="bio">Geiger und Primarius des Wiener Streichquartetts, das nach verschiedenen
-                        Umbesetzungen ab 1927 auch unter dem Namen Kolisch-Quartett auftrat
-                        (Umbenennung offiziell erst 1931). Kolisch studierte Violine bei Otakar
-                        Sevcík, Komposition bei Franz Schreker und Schönberg, der 1924 seine
+                    <note type="bio">Geiger und Primarius des Wiener Streichquartetts, das nach
+                        verschiedenen Umbesetzungen ab 1927 auch unter dem Namen Kolisch-Quartett
+                        auftrat (Umbenennung offiziell erst 1931). Kolisch studierte Violine bei
+                        Otakar Sevcík, Komposition bei Franz Schreker und Schönberg, der 1924 seine
                         Schwester Gertrud heiratete. Die Gründung des Streichquartetts ging - in
                         verschiedenen Anläufen - aus der Probenarbeit für die Konzerte des Vereins
                         für musikalische Privataufführungen hervor, zu dessen Vortragsmeistern
@@ -169,8 +225,10 @@
                         <date when="1958-07-19">19. Juli 1958</date>
                         <placeName key="???">London</placeName>
                     </death>
-                    <occupation><term ref="http://d-nb.info/gnd/4012434-4">Dirigent</term></occupation>
-                    <occupation><term ref="http://d-nb.info/gnd/4176310-5">Publizist</term></occupation>
+                    <occupation><term ref="http://d-nb.info/gnd/4012434-4"
+                        >Dirigent</term></occupation>
+                    <occupation><term ref="http://d-nb.info/gnd/4176310-5"
+                        >Publizist</term></occupation>
                     <occupation>
                         <term>Leiter der Orchesterabteilung</term>
                         <term ref="http://d-nb.info/gnd/4416257-1">Lektor</term>
