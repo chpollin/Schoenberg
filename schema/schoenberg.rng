@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="TEI">
+      <attribute name="telota:doctype">
+        <data type="NCName"/>
+      </attribute>
+      <attribute>
+        <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+        <data type="NCName"/>
+      </attribute>
+      <element name="teiHeader">
+        <element name="fileDesc">
+          <element name="titleStmt">
+            <ref name="title"/>
+            <oneOrMore>
+              <element name="respStmt">
+                <choice>
+                  <ref name="orgName"/>
+                  <ref name="persName"/>
+                </choice>
+                <element name="resp">
+                  <choice>
+                    <ref name="note"/>
+                    <oneOrMore>
+                      <ref name="term"/>
+                    </oneOrMore>
+                  </choice>
+                </element>
+              </element>
+            </oneOrMore>
+          </element>
+          <element name="publicationStmt">
+            <oneOrMore>
+              <choice>
+                <element name="pubPlace">
+                  <data type="NCName"/>
+                </element>
+                <element name="publisher">
+                  <attribute name="ref">
+                    <data type="anyURI"/>
+                  </attribute>
+                  <text/>
+                </element>
+              </choice>
+            </oneOrMore>
+            <element name="availability">
+              <element name="licence">
+                <attribute name="target">
+                  <data type="anyURI"/>
+                </attribute>
+                <text/>
+              </element>
+            </element>
+          </element>
+          <element name="seriesStmt">
+            <ref name="title"/>
+            <oneOrMore>
+              <element name="editor">
+                <text/>
+              </element>
+            </oneOrMore>
+          </element>
+          <element name="sourceDesc">
+            <element name="msDesc">
+              <element name="msIdentifier">
+                <ref name="settlement"/>
+                <ref name="institution"/>
+                <element name="repository">
+                  <text/>
+                </element>
+                <element name="collection">
+                  <text/>
+                </element>
+                <element name="altIdentifier">
+                  <ref name="settlement"/>
+                  <ref name="institution"/>
+                  <element name="idno">
+                    <attribute name="type">
+                      <data type="NCName"/>
+                    </attribute>
+                    <text/>
+                  </element>
+                </element>
+              </element>
+            </element>
+            <element name="listWit">
+              <element name="witness">
+                <ref name="bibl"/>
+              </element>
+            </element>
+            <ref name="bibl"/>
+          </element>
+        </element>
+        <element name="profileDesc">
+          <element name="correspDesc">
+            <oneOrMore>
+              <element name="correspAction">
+                <attribute name="type">
+                  <data type="NCName"/>
+                </attribute>
+                <optional>
+                  <ref name="persName"/>
+                </optional>
+                <ref name="orgName"/>
+                <ref name="placeName"/>
+                <optional>
+                  <element name="date">
+                    <attribute name="when">
+                      <data type="date"/>
+                    </attribute>
+                  </element>
+                </optional>
+              </element>
+            </oneOrMore>
+            <ref name="note"/>
+            <element name="correspContext">
+              <oneOrMore>
+                <ref name="ref"/>
+              </oneOrMore>
+            </element>
+          </element>
+          <element name="textClass">
+            <element name="keywords">
+              <oneOrMore>
+                <ref name="term"/>
+              </oneOrMore>
+            </element>
+          </element>
+        </element>
+        <element name="revisionDesc">
+          <element name="change">
+            <attribute name="when">
+              <data type="date"/>
+            </attribute>
+            <attribute name="who">
+              <data type="NCName"/>
+            </attribute>
+            <data type="NCName"/>
+          </element>
+        </element>
+      </element>
+      <element name="text">
+        <element name="body">
+          <oneOrMore>
+            <element name="div">
+              <attribute name="type">
+                <data type="NCName"/>
+              </attribute>
+              <element name="pb">
+                <attribute name="n">
+                  <data type="integer"/>
+                </attribute>
+                <attribute>
+                  <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+                  <data type="NCName"/>
+                </attribute>
+              </element>
+              <optional>
+                <element name="opener">
+                  <ref name="stamp"/>
+                  <ref name="dateline"/>
+                  <element name="address">
+                    <element name="addrLine">
+                      <oneOrMore>
+                        <choice>
+                          <text/>
+                          <ref name="hi"/>
+                          <ref name="orgName"/>
+                        </choice>
+                      </oneOrMore>
+                    </element>
+                  </element>
+                </element>
+              </optional>
+              <oneOrMore>
+                <choice>
+                  <ref name="p"/>
+                  <element name="notatedMusic">
+                    <oneOrMore>
+                      <ref name="seg"/>
+                    </oneOrMore>
+                  </element>
+                </choice>
+              </oneOrMore>
+              <element name="closer">
+                <attribute name="rend">
+                  <data type="NCName"/>
+                </attribute>
+                <optional>
+                  <element name="salute">
+                    <oneOrMore>
+                      <choice>
+                        <text/>
+                        <ref name="lb"/>
+                        <ref name="stamp"/>
+                      </choice>
+                    </oneOrMore>
+                  </element>
+                </optional>
+                <element name="signed">
+                  <optional>
+                    <attribute name="hand"/>
+                  </optional>
+                  <text/>
+                </element>
+                <optional>
+                  <ref name="dateline"/>
+                </optional>
+              </element>
+              <optional>
+                <ref name="note"/>
+              </optional>
+            </element>
+          </oneOrMore>
+        </element>
+      </element>
+      <element name="facsimile">
+        <element name="surface">
+          <attribute name="start"/>
+          <ref name="graphic"/>
+        </element>
+      </element>
+    </element>
+  </start>
+  <define name="title">
+    <element name="title">
+      <text/>
+    </element>
+  </define>
+  <define name="orgName">
+    <element name="orgName">
+      <optional>
+        <attribute name="key">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  <define name="persName">
+    <element name="persName">
+      <optional>
+        <attribute name="key">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <element name="forename">
+        <data type="NCName"/>
+      </element>
+      <element name="surname">
+        <data type="NCName"/>
+      </element>
+    </element>
+  </define>
+  <define name="note">
+    <element name="note">
+      <optional>
+        <attribute name="hand"/>
+      </optional>
+      <optional>
+        <attribute name="place">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="p"/>
+          <ref name="ref"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="term">
+    <element name="term">
+      <optional>
+        <attribute name="ref">
+          <data type="anyURI"/>
+        </attribute>
+      </optional>
+      <data type="NCName"/>
+    </element>
+  </define>
+  <define name="settlement">
+    <element name="settlement">
+      <optional>
+        <attribute name="key"/>
+      </optional>
+      <ref name="placeName"/>
+    </element>
+  </define>
+  <define name="institution">
+    <element name="institution">
+      <optional>
+        <attribute name="ref">
+          <data type="anyURI"/>
+        </attribute>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  <define name="bibl">
+    <element name="bibl">
+      <text/>
+    </element>
+  </define>
+  <define name="placeName">
+    <element name="placeName">
+      <optional>
+        <attribute name="key"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="ref">
+    <element name="ref">
+      <optional>
+        <attribute name="target">
+          <data type="anyURI"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  <define name="stamp">
+    <element name="stamp">
+      <optional>
+        <attribute name="sameAs"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="lb"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="dateline">
+    <element name="dateline">
+      <optional>
+        <attribute name="rend">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="placeName"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="hi">
+    <element name="hi">
+      <attribute name="rend"/>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="add"/>
+          <ref name="hi"/>
+          <ref name="placeName"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="p">
+    <element name="p">
+      <optional>
+        <attribute name="rend"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="add"/>
+          <ref name="g"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="seg"/>
+          <element name="choice">
+            <element name="abbr">
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <ref name="hi"/>
+                </choice>
+              </oneOrMore>
+            </element>
+            <element name="expan">
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <ref name="term"/>
+                </choice>
+              </oneOrMore>
+            </element>
+            <optional>
+              <element name="reg">
+                <data type="NCName"/>
+              </element>
+            </optional>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="seg">
+    <element name="seg">
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="note"/>
+          <ref name="seg"/>
+          <element name="figure">
+            <attribute name="hand"/>
+            <ref name="graphic"/>
+            <element name="figDesc">
+              <data type="NCName"/>
+            </element>
+          </element>
+          <element name="orig">
+            <oneOrMore>
+              <choice>
+                <text/>
+                <ref name="g"/>
+                <ref name="lb"/>
+              </choice>
+            </oneOrMore>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="lb">
+    <element name="lb">
+      <optional>
+        <attribute name="break">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  <define name="graphic">
+    <element name="graphic">
+      <attribute name="url"/>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  <define name="add">
+    <element name="add">
+      <attribute name="hand"/>
+      <attribute name="place">
+        <data type="NCName"/>
+      </attribute>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <element name="metamark">
+            <oneOrMore>
+              <choice>
+                <text/>
+                <ref name="hi"/>
+              </choice>
+            </oneOrMore>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="g">
+    <element name="g">
+      <attribute name="ref"/>
+    </element>
+  </define>
+</grammar>

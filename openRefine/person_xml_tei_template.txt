@@ -1,0 +1,16 @@
+<person xml:id="person.{{rowIndex+1}}">
+ <idno type="uri">https://d-nb.info/gnd/{{cells["GND-Nummer"].value}}</idno>
+ <persName>
+   <name>{{cells["Name"].value}}</name>
+   <forename>{{cells["Vorname"].value}}</forename>
+   <surname>{{cells["Nachname"].value}}</surname>
+ </persName><birth>
+<date>{{cells["Geburtsdatum"].value}}</date>
+<placeName> {{cells["Geburtsort"].value}}</placeName>
+</birth>
+<death><date>{{cells["Sterbedatum"].value}}</date>
+<placeName>{{cells["Sterbeort"].value}}</placeName></death>
+<occupation>{{cells["Beruf oder Beschäftigung"].value}}</occupation>
+<note>{{cells["Notizen"].value}}</note>
+<affiliation>{{cells["Affiliation"].value}}</affiliation>        
+</person>
