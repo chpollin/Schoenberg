@@ -25,7 +25,7 @@
                         <xsl:for-each select="//*:tr">
                             <xsl:variable name="counter" select="count(preceding::*:tr)"/>
                             <xsl:if test="*:td[1]/text()">
-                                <person xml:id="{concat('person.', $counter)}">
+                                <person xml:id="{concat('p_', generate-id())}">
                                     <persName>
                                         <xsl:if test="*:td[5]/text()">
                                             <idno type="uri">
@@ -48,7 +48,7 @@
                                             </forename>
                                         </xsl:if>
                                     </persName>
-                                    <xsl:if test="*:td[6]/text() or *:td[8]/text()">
+                                    <xsl:if test="(*:td[6]/text() and *:td[6]/text() castable as xs:date) or *:td[8]/text()">
                                         <birth>
                                             <xsl:if
                                                 test="*:td[6]/text() and *:td[6]/text() castable as xs:date">
@@ -80,7 +80,7 @@
                                             <term>
                                                 <xsl:if test="*:td[11]/text() or *:td[11]/*:a">
                                                   <xsl:attribute name="ref">
-                                                  <xsl:value-of select="*:td[11]"/>
+                                                    <xsl:value-of select="*:td[11]"/>
                                                   </xsl:attribute>
                                                 </xsl:if>
                                                 <xsl:value-of select="*:td[10]/text()"/>
@@ -93,6 +93,15 @@
                                             <xsl:value-of select="*:td[13]/text()"/>
                                         </affiliation>
                                     </xsl:if>
+                                    <!-- note -->
+                                    <xsl:if test="*:td[15]/text() or *:td[15]/*:a">
+                                        <figure facs="{*:td[15]}"/>
+                                    </xsl:if>
+                                    <xsl:if test="*:td[16]/text()">
+                                        <note>
+                                            <xsl:value-of select="*:td[16]/text()"/>
+                                        </note>
+                                    </xsl:if>
                                     
                                     <!-- //*:tr[3]//following-sibling::tr[not(td[1]/text())][td[10]/text()] -->
                                     <xsl:variable name="next"
@@ -102,10 +111,11 @@
                                         <xsl:variable name="current" select="$ROWS[$inner_counter]"/>
                                         <xsl:if test="$current/*:td[10]/text()">
                                             <occupation>
-                                                <xsl:if test="$current/*:td[11]/text() or $current/*:td[11]/*:a">
-                                                    <xsl:attribute name="ref" select="$current/*:td[11]/text() | $current/*:td[11]/*:a"></xsl:attribute>
-                                                </xsl:if>
-                                                <term><xsl:value-of select="$current/*:td[10]/text()"/></term>
+                                                <term>
+                                                    <xsl:if test="$current/*:td[11]/text() or $current/*:td[11]/*:a">
+                                                        <xsl:attribute name="ref" select="$current/*:td[11]/text() | $current/*:td[11]/*:a"></xsl:attribute>
+                                                    </xsl:if>
+                                                    <xsl:value-of select="$current/*:td[10]/text()"/></term>
                                             </occupation>
                                         </xsl:if>
                                         
