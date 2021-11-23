@@ -15,8 +15,9 @@
     </teiHeader>
     <text>
         <body>
-            <listBibl>
-                <bibl xml:id="sss">
+            <!-- CP: das übergeordnete listBibl bekommt ein type="schriften" -->
+            <listBibl type="schriften">
+                <bibl xml:id="schriften.1">
                     <author>
                         <persName>
                             <surname>Schönberg</surname>
@@ -38,7 +39,7 @@
                         of Harmony: Translated by Robert D. W. Adam, New York: Philosophical Library
                         1948.</bibl>
                 </bibl>
-                <bibl>
+                <bibl xml:id="schriften.2">
                     <author>
                         <persName>
                             <surname>Schönberg</surname>
@@ -58,7 +59,7 @@
                         </imprint>
                     </note>-->
                 </bibl>
-                <bibl>
+                <bibl xml:id="schriften.3">
                     <author>
                         <persName>
                             <surname>Schönberg</surname>
@@ -69,7 +70,7 @@
                     <idno>ASSV 5.3.9.50.</idno>
                     <!-- "note" leer, unveröffentlicht -->
                 </bibl>
-                <bibl>
+                <bibl xml:id="schriften.4">
                     <author>
                         <persName>
                             <surname>Berg</surname>

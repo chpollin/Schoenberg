@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="werke" telota:doctype="register">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="werke"
+    telota:doctype="register">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,10 +19,10 @@
     </teiHeader>
     <text>
         <body>
-            <listBibl>
+            <!-- CP: das übergeordnete listBibl bekommt ein type="artwork" -->
+            <listBibl type="artwork">
                 <!-- 2 Lieder mit verschiedenen Textdichtern -->
-                <bibl type="artwork" xml:id="ASW.2"><!-- ASUE Diese xml:id ist de facto nicht ASW.2 sondern die automatisch zugewiesene ID, oder? und: im Beispielbrief haben wir <term key="#werkindex" type="musical_work"> "musical_work" und "artwork" vereinheitlichen? -->
-                        
+                <bibl xml:id="werke.1"><!-- ASUE Diese xml:id ist de facto nicht ASW.2 sondern die automatisch zugewiesene ID, oder? und: im Beispielbrief haben wir <term key="#werkindex" type="musical_work"> "musical_work" und "artwork" vereinheitlichen? -->
                     <author role="composer">
                         <persName key="XX">
                             <surname>Schönberg</surname>
@@ -28,20 +32,20 @@
                     <title>Vier Lieder op. 2</title>
                     <idno>ASW 2</idno>
                     <note>1. <ref target="https://bit.ly/399WHR1">Erwartung</ref> (09.08.1899) Text:
-                        <persName key="xxx">Richard Dehmel</persName>; 2. <ref
+                            <persName key="xxx">Richard Dehmel</persName>; 2. <ref
                             target="https://bit.ly/3AgEUDj">Schenk mir deinen goldenen Kamm (Jesus
                             bettelt)</ref> (09.1899-12.1899) Text: <persName key="xxx">Richard
-                                Dehmel</persName>; 3. <ref target="url">Erhebung</ref> (16.11.1899)
+                            Dehmel</persName>; 3. <ref target="url">Erhebung</ref> (16.11.1899)
                         Text: <persName key="xxx">Richard Dehmel</persName>; 4. <ref target="url"
                             >Waldsonne</ref> (1900) Text: <persName key="xxx">Johannes
-                                Schlaf</persName>
+                            Schlaf</persName>
                         <bibl>Verlag Dreililien Berlin 1903. Plattennummer 237</bibl>
                         <bibl>Verlag Dreililien Berlin 1903. Plattennummer 238</bibl>
                         <bibl>Verlag Dreililien Berlin 1903. Plattennummer 239</bibl><bibl>Verlag
                             Dreililien Berlin 1903. Plattennummer 240</bibl></note>
                 </bibl>
                 <!-- 2 Fassungen Kammersymphonie -->
-                <bibl type="artwork" xml:id="ASW.9">
+                <bibl xml:id="ASW.9">
                     <author role="composer">
                         <persName key="XX">
                             <surname>Schönberg</surname>
@@ -61,7 +65,7 @@
                             Verlag 1923 bzw. 1924. U.E. 7147 W.Ph.V. 225</bibl>
                     </note>
                 </bibl>
-                <bibl type="artwork" xml:id="ASW.9.4" subtype="arrangement">
+                <bibl xml:id="werke.2" subtype="arrangement">
                     <author role="composer">
                         <persName key="XX">
                             <surname>Schönberg</surname>
@@ -73,11 +77,11 @@
                     <!-- alle untergeordneten bibl wie 9.4 haben eine <ref> das auf die ID des übergeordneten refernziert. --><!-- ASUE Hochstellung der 2. Zahl gemäss Werkverzeichnis lässt sich nicht (gut) umsetzen? -->
                     <ref type="partOf" target="#ASW.9"/>
                     <note><ref target="url">Bearbeitung für großes Orchester</ref>
-                        (1935)<bibl>Verlag G. Schirmer, Inc. New York, 1936 (Nr.
-                            37402)</bibl></note>
+                            (1935)<bibl>Verlag G. Schirmer, Inc. New York, 1936 (Nr.
+                        37402)</bibl></note>
                 </bibl>
                 <!-- Bearbeitung fremder Werke-->
-                <bibl type="artwork" xml:id="ASW.xx.Arr" subtype="arrangement">
+                <bibl xml:id="werke.3" subtype="arrangement">
                     <author role="composer">
                         <persName key="bb">
                             <surname>Brahms</surname>
@@ -92,7 +96,8 @@
                         <title>Piano Quartet op. 25</title>
                         <idno>ASW xx Arr</idno>
                     </author>
-                    <note><ref target="url">Bearbeitung für großes Orchester</ref> (1937)<bibl>G. Schirmer, Inc. New York 1937</bibl></note>
+                    <note><ref target="url">Bearbeitung für großes Orchester</ref> (1937)<bibl>G.
+                            Schirmer, Inc. New York 1937</bibl></note>
                 </bibl>
             </listBibl>
         </body>
