@@ -20,7 +20,7 @@
                 <!-- ASUE dies ist ein aus den untenstehenden Beispielen generierter "Maximaleintrag", der alle benötigten Funktionen inkludiert -->
                 <person xml:id="person.x">
                     <idno type="uri">http://d-nb.info/gnd/124172962</idno>
-                    <persName>
+                    <persName type="reg">
                         <surname>Pappenheim</surname>
                         <forename>Marie</forename>
                     </persName>
@@ -69,15 +69,14 @@
                         Briefwechsel anvertrauen. Emigration 1934-39 nach Frankreich, 1939-47 nach
                         Mexiko</note>
                 </person>
-                
                 <person xml:id="person.1">
-                    <persName>
+                    <persName type="reg">
                         <forename>Arnold</forename>
                         <surname>Schönberg</surname>
                     </persName>
                 </person>
                 <person xml:id="person.2">
-                    <persName>
+                    <persName type="reg">
                         <forename>Emil</forename>
                         <surname>Hertzka</surname>
                     </persName>
@@ -88,7 +87,7 @@
                     </persName>
                 </person>
                 <person xml:id="automatisch2">
-                    <persName>
+                    <persName type="reg">
                         <surname>Ruppert</surname>
                         <!--<forename>[unbekannt]</forename>-->
                     </persName>
@@ -99,7 +98,7 @@
                 </person>
                 <person xml:id="automatisch3">
                     <idno type="uri">http://d-nb.info/gnd/119368277</idno>
-                    <persName>
+                    <persName type="reg">
                         <surname>Hagemann</surname>
                         <forename>Christian Carl</forename>
                     </persName>
@@ -132,9 +131,9 @@
                         Hagemanns Weggang aus Mannheim 1910 trug womöglich dazu bei, dass es zu
                         einer Uraufführung in Mannheim nicht kam.</note>
                 </person>
-                <person xml:id="automatisch4a">
+                <!--<person xml:id="automatisch4a">
                     <idno type="uri">http://d-nb.info/gnd/134611306</idno>
-                    <persName>
+                    <persName type="reg">
                         <surname>Pappenheim</surname>
                         <forename>Marie</forename>
                     </persName>
@@ -167,10 +166,10 @@
                         Testament von 1915 zufolge - für den Fall seines Todes die Herausgabe seiner
                         Schriften und Briefwechsel anvertrauen. Emigration 1934-39 nach Frankreich,
                         1939-47 nach Mexiko</note>
-                </person>
+                </person>-->
                 <person xml:id="automatisch4b">
                     <idno type="uri">http://d-nb.info/gnd/128400420</idno>
-                    <persName>
+                    <persName type="reg">
                         <surname>Kolisch</surname>
                         <forename>Rudolf</forename>
                     </persName>
@@ -210,7 +209,7 @@
                 </person>
                 <person xml:id="automatisch4c">
                     <idno type="uri">http://d-nb.info/gnd/124172962</idno>
-                    <persName>
+                    <persName type="reg">
                         <surname>Stein</surname>
                         <forename>Erwin</forename>
                     </persName>
