@@ -21,7 +21,7 @@
         <body>
             <listPerson>
                 <!-- ASUE dies ist ein aus den untenstehenden Beispielen generierter "Maximaleintrag", der alle benötigten Funktionen inkludiert -->
-                <person xml:id="person.x">
+                <person xml:id="person.0">
                     <idno type="uri">http://d-nb.info/gnd/124172962</idno>
                     <persName type="reg">
                         <surname>Pappenheim</surname>
