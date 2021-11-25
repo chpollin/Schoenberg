@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="schriften" telota:doctype="register">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="schriften"
+    telota:doctype="register">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,7 +20,7 @@
             <listBibl type="schriften">
                 <bibl xml:id="schriften.1">
                     <author>
-                        <persName>
+                        <persName key="xxx">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
                         </persName>
@@ -48,16 +49,10 @@
                     </author>
                     <title>Die glückliche Hand (1910–1913)</title>
                     <idno>ASSV 1.1.2.2.</idno>
-                   
-                    <!--<note>
-                        
-                        <imprint>Erstdruck in: Der Merker 2, Heft 17 (Juni 1911), S.
-                            718–721.</imprint>
-                        <imprint>Die glückliche Hand. Drama mit Musik von Arnold Schönberg Wien –
-                            Leipzig: Universal-Edition 1917.
-                            <!-\- Link zu "Glückliche Hand" im Werkregister für musikalische Werke -\->
-                        </imprint>
-                    </note>-->
+                    <bibl>Erstdruck in: Der Merker 2, Heft 17 (Juni 1911), S. 718–721.</bibl>
+                    <bibl>Die glückliche Hand. Drama mit Musik von Arnold Schönberg Wien – Leipzig:
+                        Universal-Edition 1917.</bibl>
+                    <!-- Link zu "Glückliche Hand" im Werkregister für musikalische Werke -->
                 </bibl>
                 <bibl xml:id="schriften.3">
                     <author>
@@ -68,7 +63,7 @@
                     </author>
                     <title>Versuch eines Nachrufs für Herzka (1932)</title>
                     <idno>ASSV 5.3.9.50.</idno>
-                    <!-- "note" leer, unveröffentlicht -->
+                    <!-- kein bibl, unveröffentlicht -->
                 </bibl>
                 <bibl xml:id="schriften.4">
                     <author>
@@ -80,9 +75,7 @@
                     <title>Arnold Schönberg: Gurrelieder. Führer von Alban Berg. Kleine Ausgabe.
                         (1914)</title>
                     <!-- "idno" leer, kein Schönberg-Werk -->
-                    <!--<note>
-                        <imprint>Leipzig – Wien, Universal-Edition A.G. 1914.</imprint>
-                    </note>-->
+                    <bibl>Leipzig – Wien, Universal-Edition A.G. 1914.</bibl>
                 </bibl>
             </listBibl>
         </body>

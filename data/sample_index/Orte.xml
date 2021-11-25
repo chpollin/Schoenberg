@@ -32,7 +32,7 @@
                             <place xml:id="place.1.1.1.1" type="street">
                                 <placeName type="reg">Hietzinger Hauptstrasse</placeName>
                                 <place xml:id="automatisch5" type="building">
-                                    <placeName type="reg">Hietzinger Hauptstrasse 113</placeName>
+                                    <placeName type="reg">Hietzinger Hauptstrasse 113</placeName><!-- ASUE Wo können wir Angaben wie z.B. Hotel Fürstenhof (Hotels gibt es relativ häufig) unterbringen, bräuchte es hierzu noch ein eigenes Element, oder könnte man das in "building" inkudieren? -->
                                     <!-- CP: Koordinaten -->
                                     <location>
                                         <geo>41.891775, 12.486137</geo>
