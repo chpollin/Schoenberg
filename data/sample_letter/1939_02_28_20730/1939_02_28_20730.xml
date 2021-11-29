@@ -113,18 +113,18 @@
                 <pb n="1" xml:id="page.1"/>
                 <opener>
                     <!-- ASUE "rend center" im <stamp> Element und in <hi> ? -->
-                    <!-- CP: es ginge sowohl <hi rend="center"> als elternelement, oder rend in stamp.
+                    <!-- CP: es ginge sowohl <hi rendition="center"> als elternelement, oder rend in stamp.
                     einfacher ist es sicher, wenn man zu jedem element ein @rend ohne hi hinzufügen kann. -->
-                    <stamp sameAs="#stamp.2" rend="center"> Universal-Edition-A.G.<lb/>
-                        <hi rend="underline" hand="#Hoffmann">WIEN. I. KARLSPLATZ
+                    <stamp sameAs="#stamp.2" rendition="center"> Universal-Edition-A.G.<lb/>
+                        <hi rendition="#u" hand="#Hoffmann">WIEN. I. KARLSPLATZ
                         6</hi><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG. KARLSTRASSE
                         10</stamp>
-                    <add rend="right" hand="unknown">Ostmark Germany</add>
-                    <dateline rend="left">
+                    <add rendition="right" hand="unknown">Ostmark Germany</add>
+                    <dateline rendition="left">
                         <persName>R</persName>/<persName>No.</persName></dateline>
                     <!-- ASUE Kürzel in einer Zeile R/No.-->
-                    <dateline rend="right">Wien, am 28. Feber 1939.</dateline>
-                    <hi rend="underline dotted">
+                    <dateline rendition="right">Wien, am 28. Feber 1939.</dateline>
+                    <hi rendition="#u dotted">
                         <address>
                             <addrLine>Herrn</addrLine>
                             <addrLine>
@@ -141,7 +141,7 @@
                             </addrLine>
                         </address>
                     </hi>
-                    <stamp rend="right">APR221939</stamp>
+                    <stamp rendition="right">APR221939</stamp>
                     <salute>Sehr geehrter Herr Professor!</salute>
                 </opener>
                 <p>Wir entsprechen gerne einem Wunsche des Komponisten<lb/>
@@ -162,12 +162,12 @@
                     im<lb/> Prinzip geben würden und werden Sie von dem Zustandekommen
                     derselben<lb/> sogleich verständigen. Wir glauben, dass Sie diesem Vorschlag
                     zustimmen<lb/> werden, da ja diese Aktion <subst>
-                        <del rend="strikethrough">ganz</del>
-                        <add place="above" hand="author">auch</add>
+                        <del rendition="#s">ganz</del>
+                        <add place="superlinear" hand="author">auch</add>
                     </subst> im Interesse der nichtarischen Kompo<g ref="#typoHyphen"/><lb
                         break="no"/>nisten liegt.</p>
                 <closer>Wir begrüssen Sie<lb/>
-                    <salute rend="right">in vorzüglicher Hochachtung<lb/>
+                    <salute rendition="right">in vorzüglicher Hochachtung<lb/>
                         <orgName>UNIVERSAL-EDITION A.G.</orgName>
                     </salute>
                     <signed>
@@ -177,7 +177,7 @@
                         <persName>B. Rothe</persName>
                     </signed>
                 </closer>
-                <note rend="underline" place="right">over</note>
+                <note rendition="#u" place="right">over</note>
             </div>
             <pb n="2" xml:id="page.2"/>
             <div type="letter">
@@ -185,19 +185,19 @@
                     <salute>Gentlemen,</salute>
                 </opener>
                 <p>Excuse for writing in English, I am <choice>
-                        <orig>to</orig>
+                        <sic>to</sic>
                         <corr>too</corr>
                     </choice><lb/> busy to write myself.</p>
                 <p>I have not yet got your answer about<lb/> my royalties from records and whether
                     you have<lb/> paid (as I asked you previously.) the monthly<lb/> amount to my
-                    son <persName key="georg">Georg<del rend="strikethrough">e</del> Sch.</persName>
+                    son <persName key="georg">Georg<del rendition="#s">e</del> Sch.</persName>
                     Would you be<lb/> kind enough to do this as soon as possible. </p>
-                <p><metamark/> Today I want <add place="above" hand="#Hoffmann">at first</add> to
+                <p><metamark/> Today I want <add place="superlinear" hand="#Hoffmann">at first</add> to
                     thank you for sending me<lb/> the music I ordered. But I think a number<lb/> of
                     the packages must be delayed, and I hope<lb/> they will arrive soon.</p>
                 <p>From the bills I saw, I observed to<lb/> my astonishment that you charge me for
                     my own<lb/> works. It was an agreement with <persName key="Hertzka">Mr.
-                        Herzka</persName><lb/> that I get copies without <add place="above"
+                        Herzka</persName><lb/> that I get copies without <add place="superlinear"
                         >any</add> charge.</p>
                 <p>As I am not selling them, it would be<lb/> awkward to me to pay for them. The
                     reason why I<lb/> need them is that I was persuaded by<lb/> requirements of
@@ -207,7 +207,7 @@
                     stimulate<lb/> musicians to buy my scores if some of them<lb/> are available in
                     libraries. As a proof of this,<lb/> I send you the enclosed newspaper
                     clipping!</p>
-                <note rend="circle" place="right">over</note>
+                <note rendition="circle" place="right">over</note>
                 <p>
                     <metamark/>By the way, you even charge me for my opera<lb/> „VON HEUTE AUF
                     MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
