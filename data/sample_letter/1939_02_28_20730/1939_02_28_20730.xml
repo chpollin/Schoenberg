@@ -119,11 +119,11 @@
                         <hi rendition="#u" hand="#Hoffmann">WIEN. I. KARLSPLATZ
                         6</hi><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG. KARLSTRASSE
                         10</stamp>
-                    <add rendition="right" hand="unknown">Ostmark Germany</add>
-                    <dateline rendition="left">
+                    <add rendition="#r" hand="unknown">Ostmark Germany</add>
+                    <dateline rendition="#l">
                         <persName>R</persName>/<persName>No.</persName></dateline>
                     <!-- ASUE Kürzel in einer Zeile R/No.-->
-                    <dateline rendition="right">Wien, am 28. Feber 1939.</dateline>
+                    <dateline rendition="#r">Wien, am 28. Feber 1939.</dateline>
                     <hi rendition="#u dotted">
                         <address>
                             <addrLine>Herrn</addrLine>
@@ -141,7 +141,7 @@
                             </addrLine>
                         </address>
                     </hi>
-                    <stamp rendition="right">APR221939</stamp>
+                    <stamp rendition="#r">APR221939</stamp>
                     <salute>Sehr geehrter Herr Professor!</salute>
                 </opener>
                 <p>Wir entsprechen gerne einem Wunsche des Komponisten<lb/>
@@ -167,7 +167,7 @@
                     </subst> im Interesse der nichtarischen Kompo<g ref="#typoHyphen"/><lb
                         break="no"/>nisten liegt.</p>
                 <closer>Wir begrüssen Sie<lb/>
-                    <salute rendition="right">in vorzüglicher Hochachtung<lb/>
+                    <salute rendition="#r">in vorzüglicher Hochachtung<lb/>
                         <orgName>UNIVERSAL-EDITION A.G.</orgName>
                     </salute>
                     <signed>

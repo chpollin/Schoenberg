@@ -140,11 +140,11 @@
             <div type="letter">
                 <pb n="1" xml:id="page.1"/>
                 <opener>
-                    <metamark rendition="right">I</metamark>
+                    <metamark rendition="#r">I</metamark>
                     <stamp sameAs="#stamp.1"> Arnold Schönberg<lb/>Berlin-Südende<lb/> Berlinerstr.
                         17a, I. <lb/> Tel.: Tempelhof 174<lb/>
                     </stamp>
-                    <dateline rendition="right">8/7.1913</dateline>
+                    <dateline rendition="#r">8/7.1913</dateline>
                     <address>
                         <addrLine>z.Z. <placeName>
                                 <hi rendition="#u">Gautzsch</hi> bei Leipzig, Charlottenstr.
@@ -245,7 +245,7 @@
                     dass Sie außer den freigewordenen Werken<lb/> auch diejenigen sofort drucken,
                     die noch nicht<lb/> frei sind.</p>
                 <p>
-                    <list rendition="simple">
+                    <list type="simple">
                         <item>Es sind frei: I. Das Monodram „Glückliche Hand“</item>
                         <pb n="4" xml:id="page.4"/>
                         <item>II. Die George Lieder</item>
@@ -255,7 +255,7 @@
                 </p>
                 <p>Noch nicht frei dagegen</p>
                 <p>
-                    <list rendition="simple">
+                    <list type="simple">
                         <item>I. 6 Klavierstücke</item>
                         <item>II. Lied für Harm. Celesta u. Harfe</item>
                         <item>III. Pierrot lunaire.</item>
@@ -264,8 +264,8 @@
                 <p>Ich bitte Sie mir in<add place="sublinear">nerhalb</add> 8 Tagen mitzuteilen, ob Sie
                     bereit sind auf diese Bedingungen einzugehen:</p>
                 <p>
-                    <list rendition="simple">
-                        <head><hi rendition="left">a)</hi></head>
+                    <list type="simple">
+                        <head><hi rendition="#l">a)</hi></head>
                         <item>I. Monodram Partitur und Klavierauszug</item>
                         <item>II. George Lieder</item>
                         <item>III. Pierrot lunaire</item>
@@ -275,15 +275,15 @@
                 <p> sofort in Druck zu geben und dafür zu sorgen, dass<lb/> sie in längstens 2
                     Monaten zur I. Korrektur und<lb/> in längstens 4 Monaten <add place="superlinear">von
                         heute</add> zum Verkauf fertig sind.</p>
-                <p><list rendition="simple">
-                        <head><hi rendition="left">b)</hi></head>
+                <p><list type="simple">
+                        <head><hi rendition="#l">b)</hi></head>
                         <item>1) die 2 Balladen</item>
                         <item>2) das Heft Lieder</item>
                         <item>3) das Harm.-Cel.-Harfe-Lied in 5 Monaten</item>
                     </list> zur I. Korrektur und in 7 Monaten von heute zum<lb/>
                     <del rendition="#s">Ausgab</del> Verkauf fertig sind.</p>
                 <p> Sollten Sie auf diese Bedingungen nicht<lb/> eingehen können, so müsste ich mein
-                        gesetzliches<pb n="5" xml:id="page.5"/><metamark rendition="right">II.</metamark>
+                        gesetzliches<pb n="5" xml:id="page.5"/><metamark rendition="#r">II.</metamark>
                     Recht benutzen.</p>
                 <p> Es täte mir das sehr leid. Vor allem weil ich<lb/> darauf halte, dass meine
                     Sachen möglichst<lb/> in einem Verlag bleiben. Insbesondere aber,<lb/> weil ich
