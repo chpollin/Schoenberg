@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="schriften"
     telota:doctype="register">
     <teiHeader>
@@ -16,7 +19,6 @@
     </teiHeader>
     <text>
         <body>
-            <!-- CP: das übergeordnete listBibl bekommt ein type="schriften" -->
             <listBibl type="schriften">
                 <bibl xml:id="schriften.1">
                     <author>
@@ -30,7 +32,7 @@
                     <!-- im avh-Schema nicht vorhanden -->
                     <bibl>Vorabdruck des Kapitels "Über Oktaven- und Quintenparallelen" in: Die
                         Musik 10, Nr. 2, zweites Oktoberheft 1910/1911), S. 96-105.</bibl>
-                    <bibl> Vorabdruck einer Textauswahl aus dem Kapitel "Über Oktaven- und
+                    <bibl>Vorabdruck einer Textauswahl aus dem Kapitel "Über Oktaven- und
                         Quintparallelen" [übersetzt von Wassily Kandinsky] im Katalog zur
                         Internationalen Kunstausstellung "Salon 2" in Odessa (1919/1911), S.
                         16–18.</bibl>

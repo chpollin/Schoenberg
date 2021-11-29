@@ -92,7 +92,6 @@
                 <person xml:id="automatisch2">
                     <persName type="reg">
                         <surname>Ruppert</surname>
-                        <!--<forename>[unbekannt]</forename>-->
                     </persName>
                     <occupation>Sekretärin</occupation>
                     <affiliation when="1910">

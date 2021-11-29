@@ -19,10 +19,9 @@
     </teiHeader>
     <text>
         <body>
-            <!-- CP: das übergeordnete listBibl bekommt ein type="artwork" -->
             <listBibl type="artwork">
                 <!-- 2 Lieder mit verschiedenen Textdichtern -->
-                <bibl xml:id="werke.1"><!-- ASUE Diese xml:id ist de facto nicht ASW.2 sondern die automatisch zugewiesene ID, oder? und: im Beispielbrief haben wir <term key="#werkindex" type="musical_work"> "musical_work" und "artwork" vereinheitlichen? -->
+                <bibl xml:id="werke.1">
                     <author role="composer">
                         <persName key="XX">
                             <surname>Schönberg</surname>
@@ -45,7 +44,7 @@
                             Dreililien Berlin 1903. Plattennummer 240</bibl></note>
                 </bibl>
                 <!-- 2 Fassungen Kammersymphonie -->
-                <bibl xml:id="ASW.9">
+                <bibl xml:id="werke.2">
                     <author role="composer">
                         <persName key="XX">
                             <surname>Schönberg</surname>
@@ -65,7 +64,7 @@
                             Verlag 1923 bzw. 1924. U.E. 7147 W.Ph.V. 225</bibl>
                     </note>
                 </bibl>
-                <bibl xml:id="werke.2" subtype="arrangement">
+                <bibl xml:id="werke.3" type="arrangement">
                     <author role="composer">
                         <persName key="XX">
                             <surname>Schönberg</surname>
@@ -74,14 +73,14 @@
                     </author>
                     <title>Kammersymphonie op.9b</title>
                     <idno>ASW 9.4</idno>
-                    <!-- alle untergeordneten bibl wie 9.4 haben eine <ref> das auf die ID des übergeordneten refernziert. --><!-- ASUE Hochstellung der 2. Zahl gemäss Werkverzeichnis lässt sich nicht (gut) umsetzen? -->
-                    <ref type="partOf" target="#ASW.9"/>
+                    <!-- alle untergeordneten bibl wie 9.4 haben eine <ref> das auf die ID des übergeordneten refernziert. -->
+                    <ref type="partOf" target="#werke.2"/>
                     <note><ref target="url">Bearbeitung für großes Orchester</ref>
                             (1935)<bibl>Verlag G. Schirmer, Inc. New York, 1936 (Nr.
                         37402)</bibl></note>
                 </bibl>
                 <!-- Bearbeitung fremder Werke-->
-                <bibl xml:id="werke.3" subtype="arrangement">
+                <bibl xml:id="werke.4" type="arrangement">
                     <author role="composer">
                         <persName key="bb">
                             <surname>Brahms</surname>

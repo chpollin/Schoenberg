@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.1" telota:doctype="letter">
     <teiHeader>
         <fileDesc>
@@ -211,17 +214,17 @@
                         <reg>Bei den</reg>
                     </choice>Fagotten <hi rend="rectangle">1. 2 3 Fg</hi>
                     <hi rend="rectangle">1. 2 Ctr Fg</hi></p>
-                <p>II. Ich nehme mir jetzt die <term key="#werkindex" type="musical_work"
+                <p>II. Ich nehme mir jetzt die <term key="#werkindex" type="artwork"
                         >Gurre</term><!-- musikalisches Werk --><lb/> Partitur vor <hi
                         rend="underline">um etwaige Änderungen noch</hi><lb/> rechtzeitig zu nennen.
                     Ich hoffe diese Arbeit<lb/> in cirka 6-8 Tagen erledigt zu haben.</p>
                 <p>III. Bitte senden Sie mir eine <hi rend="underline"><term key="#werkindex"
-                            type="musical_work"
+                            type="artwork"
                         >Pelleas</term>-</hi><!-- musikalisches Werk --><lb/><hi rend="underline"
                         >Partitur</hi>; ich will auch hier einige Änderungen<lb/> eintragen (für
                     mein Material)</p>
                 <p>IV. Das <!-- musikalisches Werk -->
-                    <term key="#werkindex" type="musical_work">Cello-Konzert von Monn</term><lb/>
+                    <term key="#werkindex" type="artwork">Cello-Konzert von Monn</term><lb/>
                     scheinen Sie nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist
                         <supplied cert="high">,</supplied> dann bitte ich um Nachricht, da ich
                     es<lb/> leicht <orgName key="peters">Peters</orgName> oder <orgName
