@@ -70,13 +70,6 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <!-- CP: das  <placeName> muss in das  <settlement> -->
-                        <!-- ASUE funktioniert das hier anders als sonst, oder überall so wie hier? 
-                            im Ortsregister haben wir einen Attributwert "settlement" <place xml:id="place.x.1" type="settlement">
-                            <placeName type="reg">Washington, D.C.</placeName>-->
-                        <!-- CP: guter punkt. aber das type="settlement" hat eine andere funktion also das <settlement hier. wir wollen im ortsindex, dass alles <place>,
-                            aber um die einzelnen stufen leichter unterschieden zu können brauchen wir noch das @type. mag verwirrend klingen, aber ich denke es ist so sinnvoller. :) 
-                            im msIdentifier hat das <settlement> eben seine - durch das elternelement mitdefineirte bedeutung. -->
                         <settlement><placeName key="#">Wien</placeName></settlement>
                         <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
                             Center</institution>
@@ -167,14 +160,7 @@
                     <del rendition="#s">I</del> sind, mehrere unisono spielen, wodurch für
                     diese unisono<g ref="#typoHyphen"/><lb break="no"/>spielenden stets <hi
                         rendition="#u">eine</hi> Zeile genügte, so dass die Partitur<lb/> im
-                    Durchschnitt höchstens 6-8 Zeilen <!--<del rendition="#s"><gap
-                            reason="illegible" quantity="2" unit="chars"
-                    /></del>-->
-                    <!-- CP: ohne das <del> einfach. -->
-                    <!-- ASUE in Ordnung, uns wäre nur wichtig, dass anstelle eines weißen Lochs im Text irgendein Platzhalter für die gestrichene Stelle steht, z.b. "[...]"; CP++ -->
-                    <!-- ASUE Im Prototyp ist das [...] jetzt drinnen, d.h. dass <gap> als [...] angezeigt wird? -->
-                    <!-- CP: genau, aus einem gap wird ein *:gap -->
-                    <gap rendition="#s" reason="illegible" quantity="2" unit="chars"/> und das
+                    Durchschnitt höchstens 6-8 Zeilen <gap rendition="#s" reason="illegible" quantity="2" unit="chars"/> und das
                     an nicht allzu<lb/> vielen Stellen <del rendition="#s">!</del> erreichen
                     dürfte. Allerdings: <hi rendition="#uu"> jede</hi> Stimme<lb/>
                     <del rendition="#s">muss</del> (<hi rendition="#u">jedes</hi>
@@ -186,34 +172,34 @@
                     zu geben, dann <pb n="2" xml:id="page.2"/> ist es besser, die I. (1. 3 u. 5.)
                     und die II. (2. 4. u. 6)<lb/> in je eine Partitur zu bringen und für 7. 8. 9. 10
                     eine<lb/> 3 Partitur anzulegen.</p>
-                <p>Bei den Trompeten müßte man <hi rendition="rectangle">1. 2. </hi>
-                    <hi rendition="rectangle">3 4</hi><lb/> und <hi rendition="rectangle">5. 6.</hi>
+                <p>Bei den Trompeten müßte man <hi rendition="#rectangle">1. 2. </hi>
+                    <hi rendition="#rectangle">3 4</hi><lb/> und <hi rendition="#rectangle">5. 6.</hi>
                     <add place="superlinear">und Bss Trompete</add> teilen.</p>
-                <p>Bei den Posaunen: <hi rendition="rectangle">Alt, I. II.</hi>
-                    <hi rendition="rectangle">III. IV u Bss Pos in Es</hi>
-                    <hi rendition="rectangle">
+                <p>Bei den Posaunen: <hi rendition="#rectangle">Alt, I. II.</hi>
+                    <hi rendition="#rectangle">III. IV u Bss Pos in Es</hi>
+                    <hi rendition="#rectangle">
                         <ref target="http://d-nb.info/gnd/4032300-6">Ctrbss</ref>
                     </hi></p>
                 <!-- ASUE wie besprochen verzichten wir bei Instrumenten auf Abkürzungsauflösung und nützen nur die Normalisierung, die Funktion der Auflösung für nicht allgemein gebräuchliche Abkürzungen brauchen wir aber dennoch, siehe wiki -->
                 <p>Bei den <!-- CP: hier besser ein <term type="instrument"> statt einem <ref>; dann kann man <ref> für beliebige Hyperlinks setzen, aber mit <term type="instrument"> expizit Instrumente normalisieren. -->
                     <term type="instrument" target="https://d-nb.info/gnd/4030938-1"
-                        >Clarinetten</term>: <hi rendition="rectangle">1.2 Es Cl</hi>
-                    <hi rendition="rectangle">1.2.3. A (B) Cl</hi>
-                    <hi rendition="rectangle">1.2. Bss Cl</hi></p>
-                <p>Bei den Flöten <hi rendition="rectangle">1. 2. 3. 4 <add place="sublinear"
+                        >Clarinetten</term>: <hi rendition="#rectangle">1.2 Es Cl</hi>
+                    <hi rendition="#rectangle">1.2.3. A (B) Cl</hi>
+                    <hi rendition="#rectangle">1.2. Bss Cl</hi></p>
+                <p>Bei den Flöten <hi rendition="#rectangle">1. 2. 3. 4 <add place="sublinear"
                             ><metamark/>gr.</add></hi>
-                    <hi rendition="rectangle">1. 2. 3. 4 kl</hi></p>
+                    <hi rendition="#rectangle">1. 2. 3. 4 kl</hi></p>
                 <p>
                     <choice>
                         <sic>" "</sic>
                         <reg>Bei den</reg>
-                    </choice>Oboen <hi rendition="rectangle">l. 2 3 Ob</hi>
-                    <hi rendition="rectangle">1. 2 EH</hi></p>
+                    </choice>Oboen <hi rendition="#rectangle">l. 2 3 Ob</hi>
+                    <hi rendition="#rectangle">1. 2 EH</hi></p>
                 <p><choice>
                         <sic>" "</sic>
                         <reg>Bei den</reg>
-                    </choice>Fagotten <hi rendition="rectangle">1. 2 3 Fg</hi>
-                    <hi rendition="rectangle">1. 2 Ctr Fg</hi></p>
+                    </choice>Fagotten <hi rendition="#rectangle">1. 2 3 Fg</hi>
+                    <hi rendition="#rectangle">1. 2 Ctr Fg</hi></p>
                 <p>II. Ich nehme mir jetzt die <term key="#werkindex" type="artwork"
                         >Gurre</term><!-- musikalisches Werk --><lb/> Partitur vor <hi
                         rendition="#u">um etwaige Änderungen noch</hi><lb/> rechtzeitig zu nennen.
@@ -229,7 +215,7 @@
                         <supplied cert="high">,</supplied> dann bitte ich um Nachricht, da ich
                     es<lb/> leicht <orgName key="peters">Peters</orgName> oder <orgName
                         key="eulenburg">Eulenburg</orgName> geben kann.</p>
-                <p rendition="center">V.</p>
+                <p rendition="#c">V.</p>
                 <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
                     Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen seit wir unseren Vertrag
                     abgeschlossen haben<lb/> und 3 Jahre ist er in Kraft und eben so lange bin<lb/>

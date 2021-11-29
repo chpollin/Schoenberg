@@ -143,9 +143,6 @@
                         <addrLine>Verehrl. <orgName>Universal-Edition</orgName>, A.-G., <hi
                                 rendition="#uu"><placeName>Wien</placeName>.</hi></addrLine>
                     </address>
-                    <!--<milestone unit="section" rendition="#hr"/>-->
-                    <!-- ich glaube milestone ist nicht das richtige element? ich würde hier dem "Wien." ein @rend geben. um zu sagen, dass es unterstichen ist, mit dem zusatz dotted eben.  -->
-                    <!-- horizontale, gestrichelte Linie -->
                 </opener>
                 <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
                         <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
@@ -164,8 +161,8 @@
                     Doppelsystemen einrichten zu können.
                     <!-- ASUE Hier ist die Metamark-Situation etwas kompliziert, da das X die Position im Brieftext hier meint, die Zahl aber auf die entsprechende Zahl im angklebten handschriftlichen Brief verweist "1.XX" an einer Stelle ist nicht verständlich -->
                     Ich bitte, <lb/>beim Autor anzufragen, <add place="left" hand="#Schönberg"
-                            ><metamark>1. <hi rendition="circle">X</hi></metamark></add><add
-                        place="intralinear" hand="#Schönberg"><metamark><hi rendition="circle"
+                            ><metamark>1. <hi rendition="#circle">X</hi></metamark></add><add
+                        place="intralinear" hand="#Schönberg"><metamark><hi rendition="#circle"
                                 >X</hi></metamark></add>ob in diesem <hi rendition="#u">Falle <add
                             place="superlinear" hand="author">bei</add> geeignete<add
                             place="intralinear" hand="author">n</add> Instrumente<add
@@ -176,9 +173,9 @@
                     Platte mit 34 Linien eine sehr weite <lb/>mit 18 oder 20 Linien folgt. Umgedreht
                     macht es sich notwendig, in ein<g ref="#typoHyphen"/><lb break="no"/>zelnen
                     Fällen, <add place="left" hand="#Schönberg">
-                        <metamark>2. <hi rendition="circle">X</hi></metamark></add><add
+                        <metamark>2. <hi rendition="#circle">X</hi></metamark></add><add
                         place="intralinear" hand="#Schönberg">
-                        <metamark><hi rendition="circle">X</hi></metamark></add> dass 2 gleichartige
+                        <metamark><hi rendition="#circle">X</hi></metamark></add> dass 2 gleichartige
                     Instrumentenlinien auf eine Linie zu<g ref="#typoHyphen"/><lb break="no"
                     />sammengezogen werden, um eine 2systemige Platte einrichten zu können <lb/>und
                     dabei die Höchstzahl der Linien, 34, nicht zu überschreiten. Einer <lb/>kurzen
@@ -208,10 +205,7 @@
                     sehe ich mit Bedauern, dass Sie meine ausführlichen <lb/>Auseinandersetzungen
                     nicht genügend beachtet haben.</p>
                 <p>Ich schrieb wörtlich:</p>
-                <!-- CP: @rendition="line" um auszudrücken, dass es eine anstreichung gibt, und dann mit leerzeichen getrennt right|left|top|bottom; vl etwas anderes als "line"  -->
-                <!-- ASUE Was bedeutet das? -->
-                <!-- CP: line left = Anstreichung am Rand links; line right = Anstreichung am Rand rechts -->
-                <p rendition="line left"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück,
+                <p rendition="#ll"><!-- Anstreichung am Rand -->„Es ist gar kein Unglück,
                     sieht auch besser aus und ist <lb/>lesbarer, wenn auf einer einsystemigen Platte
                     nur 24 cm der <lb/>Höhe bedruckt sind, als wenn Ueberflüssiges dort steht.
                     <lb/>Die Partituren dienen einzig und allein <hi rendition="#u">praktischen</hi>
@@ -225,9 +219,9 @@
                     und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich zu
                     erleichtern hat !!!</p>
                 <!-- #mMM -->
-                <p rendition="line double left right"
-                        ><!--ASUE hier ist die Randanstreichung auf beiden Seiten und mehrfach (Anzeige doppelt würde reichen) --><hi
-                        rendition="circle">1</hi> Deshalb ist es also durchaus nicht an<g
+                <p rendition="#lll #llr">
+                    <hi
+                        rendition="#circle">1</hi> Deshalb ist es also durchaus nicht an<g
                         ref="#typoHyphen"/><lb break="no"/>gebracht, durchaus <hi rendition="#uu"
                         >falsch</hi>, 2 Stimmen die auf <lb/>einer Zeile stehen können, auf 2 zu
                     stechen !! <lb/>Insbesondere, da meist die Akkorde leichter zu lesen <lb/>sind,
@@ -289,7 +283,6 @@
                             >r</hi>
                         <lb/>besser in 2 Zeilen (eventuell !!)</seg>
                 </notatedMusic>
-
                 <p>dagegen sind folgende Stellen <hi rendition="#uu">besser</hi> in <hi
                         rendition="#uu">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <choice>
                         <abbr>B <hi rendition="#sup #uu">r</hi>
@@ -304,19 +297,16 @@
                         <abbr>Ktrbsse</abbr>
                         <expan><term ref="http://d-nb.info/gnd/4032300-6">Kontrabässe</term></expan>
                     </choice>
-                    <!-- CP es macht wahrscheinlich sinn hier noch einen normalisierungs layer einzuführen und zwar über GND IDs. -->
-                    <!-- ASUE ok, siehe auch "Contrabass" Brief 1913 --> | Seite 9, 2. Syst, 6.
+                    | Seite 9, 2. Syst, 6.
                     Takt, Ob und <choice>
                         <abbr>Klar</abbr>
                         <expan>Klarinette</expan>
                     </choice></p>
-                <p><hi rendition="circle">2.</hi> Zusammenziehungen nur bei Instrumenten der
+                <p><hi rendition="#circle">2.</hi> Zusammenziehungen nur bei Instrumenten der
                     gleichen Gattung, die die <lb/>gleiche Notierung haben !!!</p>
                 <closer rendition="#r">
                     <signed>Schönberg</signed>
                     <dateline>6./6. 1914</dateline>
-                    <!-- ASUE Schönberg und Datum rechts -->
-                    <!-- CP ist jetzt auch rechts -->
                 </closer>
             </div>
         </body>

@@ -124,7 +124,7 @@
                         <persName>R</persName>/<persName>No.</persName></dateline>
                     <!-- ASUE Kürzel in einer Zeile R/No.-->
                     <dateline rendition="#r">Wien, am 28. Feber 1939.</dateline>
-                    <hi rendition="#u dotted">
+                    <hi rendition="#ud">
                         <address>
                             <addrLine>Herrn</addrLine>
                             <addrLine>
@@ -207,7 +207,7 @@
                     stimulate<lb/> musicians to buy my scores if some of them<lb/> are available in
                     libraries. As a proof of this,<lb/> I send you the enclosed newspaper
                     clipping!</p>
-                <note rendition="circle" place="right">over</note>
+                <note rendition="#circle" place="right">over</note>
                 <p>
                     <metamark/>By the way, you even charge me for my opera<lb/> „VON HEUTE AUF
                     MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
