@@ -3,7 +3,23 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
 
     <xsl:template match="/">
-        <xsl:apply-templates/>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <xsl:apply-templates select="//*:body"/>
+                </div>
+            </div>
+            <div class="row my-5">
+                <h2>Anmerkungen</h2>
+                <ol>
+                    <xsl:for-each select="//*:body//*:seg[@type = 'comment']/*:note">
+                        <li>
+                            <xsl:apply-templates/>
+                        </li>
+                    </xsl:for-each>
+                </ol>
+            </div>
+        </div>
     </xsl:template>
         
     <xsl:template match="*:note">
