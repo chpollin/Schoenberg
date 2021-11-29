@@ -4,26 +4,12 @@
 
     <xsl:template match="/">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <xsl:apply-templates select="//*:body"/>
-                </div>
-            </div>
-            <div class="row my-5">
-                <h2>Anmerkungen</h2>
-                <ol>
-                    <xsl:for-each select="//*:body//*:seg[@type = 'comment']/*:note">
-                        <li>
-                            <xsl:apply-templates/>
-                        </li>
-                    </xsl:for-each>
-                </ol>
-            </div>
+            <xsl:apply-templates select="//*:body"/>
         </div>
     </xsl:template>
         
     <xsl:template match="*:note">
-        <span style="background-color: #DEB887;">
+        <p style="background-color: #DEB887;">
             <xsl:if test="@place">
                 <xsl:attribute name="class">
                     <xsl:choose>
@@ -41,7 +27,7 @@
                 </xsl:attribute>
             </xsl:if>
             <xsl:apply-templates/>
-        </span>
+        </p>
     </xsl:template>
 
     <xsl:template match="*:ref[@target]">
@@ -52,7 +38,7 @@
 
     <!-- OPENER -->
     <xsl:template match="*:opener">
-        <div class="row my-3">
+        <div class="my-3" title="opener">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
@@ -64,7 +50,7 @@
     </xsl:template>
     
     <xsl:template match="*:addrLine">
-        <div class="row">
+        <div title="addrLine">
             <span>
                 <xsl:apply-templates/>
             </span>
@@ -90,18 +76,18 @@
     </xsl:template>
     
    <xsl:template match="*:stamp">
-       <div title="stamp" class="lead" style="font-size: 1rem;">
-           <xsl:if test="@rendition = 'center'">
+       <p title="stamp" class="lead" style="font-size: 1rem;">
+           <xsl:if test="@rendition = '#c'">
                <xsl:attribute name="class" select="'lead text-center'"></xsl:attribute>
            </xsl:if>
+       </p>
         <p>
             <xsl:apply-templates/>
         </p>
-    </div>
     </xsl:template>
     
     <xsl:template match="*[@rendition = '#r', '#l', '#c']">
-        <span>
+        <p>
          <xsl:choose>
              <xsl:when test="@rendition = '#r'">
                  <xsl:attribute name="class">
@@ -120,7 +106,7 @@
              </xsl:when>
          </xsl:choose>
         <xsl:apply-templates/>
-        </span>
+        </p>
     </xsl:template>
     
     <xsl:template match="*:lb">
@@ -334,7 +320,13 @@
         </sup>
     </xsl:template>
     
-    <xsl:template match="*:seg[not(*:note)]">
+    <xsl:template match="*:seg[@type = 'salute']">
+        <span>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="*:seg[@type = 'row']|*:seg[@type = ''column']">
         <div>
             <xsl:choose>
                 <xsl:when test="@type = 'row'">
