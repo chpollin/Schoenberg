@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listBibl xmlns="http://www.tei-c.org/ns/1.0">
+    <biblStruct type="book" xml:id="Berg2007"
+        corresp="http://zotero.org/groups/4528359/items/8L4HFS5N">
+        <monogr>
+            <title level="m">Briefwechsel Arnold Schönberg, Alban Berg</title>
+            <title type="short">Berg 2007</title>
+            <idno type="ISBN">9783795705466</idno>
+            <author><forename>Alban</forename><surname>Berg</surname></author>
+            <author><forename>Arnold</forename><surname>Schoenberg</surname></author>
+            <editor><forename>Juliane</forename><surname>Brand</surname></editor>
+            <editor><forename>Christopher</forename><surname>Hailey</surname></editor>
+            <editor><forename>Andreas</forename><surname>Meyer</surname></editor>
+            <imprint>
+                <pubPlace>Mainz ; New York</pubPlace>
+                <publisher>Schott</publisher>
+                <date>2007</date>
+            </imprint>
+        </monogr>
+        <series><title level="s">Briefwechsel der Wiener Schule</title><biblScope unit="volume">Bd.
+                3</biblScope></series>
+    </biblStruct>
+    <biblStruct type="book" xml:id="Berg1913"
+        corresp="http://zotero.org/groups/4528359/items/SZX4KSXI">
+        <monogr>
+            <title level="m">Arnold Schönberg: Gurrelieder</title>
+            <title type="short">Berg 1913</title>
+            <author><forename>Alban</forename><surname>Berg</surname></author>
+            <imprint>
+                <publisher>Leipzig : Universal-Edition</publisher>
+                <date>1913</date>
+            </imprint>
+        </monogr>
+    </biblStruct>
+    <biblStruct type="book" xml:id="Webern2020"
+        corresp="http://zotero.org/groups/4528359/items/HVUQ8Z9K">
+        <monogr>
+            <title level="m">Briefwechsel mit der Universal-Edition</title>
+            <title type="short">Webern 2020</title>
+            <idno type="ISBN">9783851511024</idno>
+            <author><forename>Anton</forename><surname>Webern</surname></author>
+            <editor><forename>Julia</forename><surname>Bungardt</surname></editor>
+            <imprint>
+                <pubPlace>Wien</pubPlace>
+                <publisher>Verlag Lafite</publisher>
+                <date>2020</date>
+            </imprint>
+        </monogr>
+        <series><title level="s">Webern-Studien</title><biblScope unit="volume">Band
+            5</biblScope></series>
+    </biblStruct>
+    <biblStruct type="book" xml:id="Brezinka2005"
+        corresp="http://zotero.org/groups/4528359/items/UEBKPDR5">
+        <monogr>
+            <title level="m">Erwin Stein: ein Musiker in Wien und London</title>
+            <title type="short">Brezinka 2005</title>
+            <idno type="ISBN">9783205773849</idno>
+            <author><forename>Thomas</forename><surname>Brezinka</surname></author>
+            <imprint>
+                <pubPlace>Wien</pubPlace>
+                <publisher>Böhlau</publisher>
+                <date>2005</date>
+            </imprint>
+        </monogr>
+        <series><title level="s">Schriften des Wissenschaftszentrums Arnold
+                Schönberg</title><biblScope unit="volume">Bd. 2</biblScope></series>
+    </biblStruct>
+</listBibl>
