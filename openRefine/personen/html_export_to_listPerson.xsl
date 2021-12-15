@@ -25,26 +25,26 @@
                         <xsl:for-each select="//*:tr">
                             <xsl:variable name="counter" select="count(preceding::*:tr)"/>
                             <xsl:if test="*:td[1]/text()">
-                                <person xml:id="{concat('p_', generate-id())}">
+                                <person xml:id="{concat('p_', position())}">
+                                    <xsl:if test="*:td[5]/text()">
+                                        <idno type="uri">
+                                            <xsl:value-of
+                                                select="concat('http://d-nb.info/gnd/', normalize-space(*:td[5]/text()))"
+                                            />
+                                        </idno>
+                                    </xsl:if>
                                     <persName>
-                                        <xsl:if test="*:td[5]/text()">
-                                            <idno type="uri">
-                                                <xsl:value-of
-                                                  select="concat('http://d-nb.info/gnd/', *:td[5]/text())"
-                                                />
-                                            </idno>
-                                        </xsl:if>
-                                        <name>
+                                        <!--<name>
                                             <xsl:value-of select="*:td[2]/text()"/>
-                                        </name>
+                                        </name>-->
                                         <xsl:if test="*:td[2]/text()">
                                             <surname>
-                                                <xsl:value-of select="*:td[2]/text()"/>
+                                                <xsl:value-of select="normalize-space(*:td[2]/text())"/>
                                             </surname>
                                         </xsl:if>
                                         <xsl:if test="*:td[3]/text()">
                                             <forename>
-                                                <xsl:value-of select="*:td[3]/text()"/>
+                                                <xsl:value-of select="normalize-space(*:td[3]/text())"/>
                                             </forename>
                                         </xsl:if>
                                     </persName>
@@ -56,7 +56,7 @@
                                             </xsl:if>
                                             <xsl:if test="*:td[8]/text()">
                                                 <placeName>
-                                                  <xsl:value-of select="*:td[8]/text()"/>
+                                                    <xsl:value-of select="normalize-space(*:td[8]/text())"/>
                                                 </placeName>
                                             </xsl:if>
                                         </birth>
@@ -69,7 +69,7 @@
                                             </xsl:if>
                                             <xsl:if test="*:td[9]/text()">
                                                 <placeName>
-                                                  <xsl:value-of select="*:td[9]/text()"/>
+                                                    <xsl:value-of select="normalize-space(*:td[9]/text())"/>
                                                 </placeName>
                                             </xsl:if>
                                         </death>
@@ -78,28 +78,38 @@
                                     <xsl:if test="*:td[10]/text()">
                                         <occupation>
                                             <term>
-                                                <xsl:if test="*:td[11]/text() or *:td[11]/*:a">
-                                                  <xsl:attribute name="ref">
-                                                    <xsl:value-of select="*:td[11]"/>
-                                                  </xsl:attribute>
+                                                <xsl:if test="*:td[11]/*:a/@href">
+                                                    <xsl:attribute name="ref" select="normalize-space(*:td[11]/*:a/@href)"/>
                                                 </xsl:if>
-                                                <xsl:value-of select="*:td[10]/text()"/>
+                                                <!--<xsl:if test="*:td[11]/text()">
+                                                  <xsl:attribute name="ref">
+                                                      <xsl:choose>
+                                                          <xsl:when test="*:td[11]/*:a/@href">
+                                                              <xsl:value-of select="normalize-space(*:td[11]/*:a/@href)"/>
+                                                          </xsl:when>
+                                                          <xsl:otherwise>
+                                                              <xsl:value-of select="normalize-space(*:td[11]/text())"/>
+                                                          </xsl:otherwise>
+                                                      </xsl:choose>
+                                                  </xsl:attribute>
+                                                </xsl:if>-->
+                                                <xsl:value-of select="normalize-space(*:td[10]/text())"/>
                                             </term>
                                         </occupation>
                                     </xsl:if>
                                     <!-- affiliation -->
                                     <xsl:if test="*:td[13]/text()">
                                         <affiliation>
-                                            <xsl:value-of select="*:td[13]/text()"/>
+                                            <xsl:value-of select="normalize-space(*:td[13]/text())"/>
                                         </affiliation>
                                     </xsl:if>
                                     <!-- note -->
-                                    <xsl:if test="*:td[15]/text() or *:td[15]/*:a">
+                                    <!--<xsl:if test="*:td[15]/text() or *:td[15]/*:a">
                                         <figure facs="{*:td[15]}"/>
-                                    </xsl:if>
+                                    </xsl:if>-->
                                     <xsl:if test="*:td[16]/text()">
                                         <note>
-                                            <xsl:value-of select="*:td[16]/text()"/>
+                                            <xsl:value-of select="normalize-space(*:td[16]/text())"/>
                                         </note>
                                     </xsl:if>
                                     
@@ -112,10 +122,10 @@
                                         <xsl:if test="$current/*:td[10]/text()">
                                             <occupation>
                                                 <term>
-                                                    <xsl:if test="$current/*:td[11]/text() or $current/*:td[11]/*:a">
-                                                        <xsl:attribute name="ref" select="$current/*:td[11]/text() | $current/*:td[11]/*:a"></xsl:attribute>
+                                                    <xsl:if test="$current/*:td[11]/*:a/@href">
+                                                        <xsl:attribute name="ref" select="$current/*:td[11]/*:a/@href"></xsl:attribute>
                                                     </xsl:if>
-                                                    <xsl:value-of select="$current/*:td[10]/text()"/></term>
+                                                    <xsl:value-of select="normalize-space($current/*:td[10]/text())"/></term>
                                             </occupation>
                                         </xsl:if>
                                         
