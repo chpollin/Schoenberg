@@ -26,13 +26,17 @@
                 <org xml:id="automatisch1" type="theatre">
                     <idno type="uri">http://d-nb.info/gnd/30656-3</idno>
                     <orgName type="reg">Nationaltheater Mannheim</orgName>
-                    <location xml:id="xxx">
+                    <!-- CP: hier dann einfach in das loacation auf die xml:id im Ortsindex referenzieren und den jeweiligen Namen angeben.  -->
+                    <location>
+                        <placeName key="#place.2.2.1">Schillerplatz</placeName>
+                    </location>
+                    <!--<location xml:id="xxx">
                         <address>
-                            <!-- ASUE: Adresse entsprechend der Ortsregister-Struktur anpassen? -->
+                            <!-\- ASUE: Adresse entsprechend der Ortsregister-Struktur anpassen? -\->
                             <settlement key="">Mannheim</settlement>
                             <note>Schillerplatz</note>
                         </address>
-                    </location>
+                    </location>-->
                     <event type="foundation" when="1777">
                         <ab>eröffnet 1777</ab>
                     </event>
@@ -100,9 +104,9 @@
                     <event type="foundation" when="1897">
                         <ab>gegründet 1897</ab>
                     </event>
-                    <event type="membership" from="1910-04" to="1912-12">
+                    <!--<event type="membership" from="1910-04" to="1912-12">
                         <ab><persName key="#person.1">Schönberg</persName> war Mitglied von April 1910 bis Dezember 1912</ab>
-                    </event>
+                    </event>-->
                     <note>gegründet 1897; Schönberg war Mitglied von April 1910 bis Dezember
                         1912.</note>
                 </org>

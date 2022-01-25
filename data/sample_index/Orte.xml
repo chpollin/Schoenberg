@@ -66,6 +66,12 @@
                             </place>
                         </place>
                     </place>
+                    <place xml:id="place.2.2" type="settlement">
+                        <placeName>Mannheim</placeName>
+                        <place xml:id="place.2.2.1" type="district">
+                            <placeName>Schillerplatz</placeName>
+                        </place>
+                    </place>
                 </place> 
             </listPlace>
         </body>

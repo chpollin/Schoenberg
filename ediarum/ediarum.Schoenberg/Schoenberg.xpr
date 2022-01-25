@@ -28,7 +28,7 @@
                                     <String>${ediarum_index_person}</String>
                                 </field>
                                 <field name="value">
-                                    <String>/oxygen/ediarum.xql?index=personen</String>
+                                    <String>/oxygen/ediarum.xql?index=persons</String>
                                 </field>
                                 <field name="shortDescription">
                                     <String></String>
@@ -62,17 +62,6 @@
                                 </field>
                                 <field name="value">
                                     <String>Schoenberg</String>
-                                </field>
-                                <field name="shortDescription">
-                                    <String></String>
-                                </field>
-                            </userEditorVariable>
-                            <userEditorVariable>
-                                <field name="name">
-                                    <String>${ediarum_index_place}</String>
-                                </field>
-                                <field name="value">
-                                    <String>/oxygen/ediarum.xql?index=orte</String>
                                 </field>
                                 <field name="shortDescription">
                                     <String></String>

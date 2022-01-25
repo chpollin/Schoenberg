@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="personen"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="persons"
     telota:doctype="register">
     <teiHeader>
         <fileDesc>
@@ -77,6 +77,8 @@
                         <forename>Arnold</forename>
                         <surname>Schönberg</surname>
                     </persName>
+                    <affiliation><orgName key="#automatisch4">Staatlich genehmigte Gesellschaft der Autoren, Komponisten
+                        und Musikverleger</orgName></affiliation>
                 </person>
                 <person xml:id="person.2">
                     <persName type="reg">
