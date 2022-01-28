@@ -30,15 +30,18 @@
                     </author>
                     <title>Vier Lieder op. 2</title>
                     <idno>ASW 2</idno>
-                    <note>1. <ref target="https://bit.ly/399WHR1">Erwartung</ref> (09.08.1899) Text:
-                            <persName key="xxx">Richard Dehmel</persName>; 2. <ref
-                            target="https://bit.ly/3AgEUDj">Schenk mir deinen goldenen Kamm (Jesus
-                            bettelt)</ref> (09.1899-12.1899) Text: <persName key="xxx">Richard
-                            Dehmel</persName>; 3. <ref target="url">Erhebung</ref> (16.11.1899)
-                        Text: <persName key="xxx">Richard Dehmel</persName>; 4. <ref target="url"
-                            >Waldsonne</ref> (1900) Text: <persName key="xxx">Johannes
-                            Schlaf</persName>
-                        <bibl>Verlag Dreililien Berlin 1903. Plattennummer 237</bibl>
+                    <note>
+                        <bibl n="1"><title ref="https://bit.ly/399WHR1">Erwartung</title>
+                            (09.08.1899) Text: <persName role="text" key="xxx">Richard
+                                Dehmel</persName></bibl>
+                        <bibl n="2"><title ref="https://bit.ly/3AgEUDj">Schenk mir deinen goldenen
+                                Kamm (Jesus bettelt)</title> (09.1899-12.1899) Text: <persName
+                                key="xxx">Richard Dehmel</persName></bibl>
+                        <bibl n="3"><title ref="url">Erhebung</title> (16.11.1899) Text: <persName
+                                key="xxx">Richard Dehmel</persName></bibl>
+                        <bibl n="4"><title ref="url">Waldsonne</title> (1900) Text: <persName
+                                key="xxx">Johannes Schlaf</persName></bibl>
+                        <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer 237</bibl>
                         <bibl>Verlag Dreililien Berlin 1903. Plattennummer 238</bibl>
                         <bibl>Verlag Dreililien Berlin 1903. Plattennummer 239</bibl><bibl>Verlag
                             Dreililien Berlin 1903. Plattennummer 240</bibl></note>
