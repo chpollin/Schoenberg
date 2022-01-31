@@ -535,6 +535,18 @@
                                 <geo>51.3595727743656, 12.386369235093754</geo>
                             </location>
                         </place>
+                        <place xml:id="place.2.20.8" type="building">
+                            <placeName>Karlstraße 10</placeName>
+                            <location>
+                                <geo>51.34272841720681, 12.386207523344185</geo>
+                            </location>
+                        </place>
+                        <place xml:id="place.2.20.9" type="building">
+                            <placeName>Sternwartenstraße 15-20</placeName>
+                            <location>
+                                <geo>51.335102535078974, 12.380465585373658</geo>
+                            </location>
+                        </place>
                     </place>
                     <place xml:id="place.2.21" type="settlement">
                         <placeName>Mainz</placeName>

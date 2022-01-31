@@ -23,7 +23,7 @@
                 <!-- 2 Lieder mit verschiedenen Textdichtern -->
                 <bibl xml:id="werke.1">
                     <author role="composer">
-                        <persName key="XX">
+                        <persName key="p_3263">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
                         </persName>
@@ -31,25 +31,28 @@
                     <title>Vier Lieder op. 2</title>
                     <idno>ASW 2</idno>
                     <note>
-                        <bibl n="1"><title ref="https://bit.ly/399WHR1">Erwartung</title>
-                            (09.08.1899) Text: <persName role="text" key="xxx">Richard
-                                Dehmel</persName></bibl>
+                        <bibl n="1"><title ref="https://bit.ly/399WHR1">Erwartung</title> (<date
+                                when="1899-08-09">09.08.1899</date>) Text: <persName role="text"
+                                key="p_842">Richard Dehmel</persName></bibl>
                         <bibl n="2"><title ref="https://bit.ly/3AgEUDj">Schenk mir deinen goldenen
-                                Kamm (Jesus bettelt)</title> (09.1899-12.1899) Text: <persName
-                                key="xxx">Richard Dehmel</persName></bibl>
-                        <bibl n="3"><title ref="url">Erhebung</title> (16.11.1899) Text: <persName
-                                key="xxx">Richard Dehmel</persName></bibl>
-                        <bibl n="4"><title ref="url">Waldsonne</title> (1900) Text: <persName
-                                key="xxx">Johannes Schlaf</persName></bibl>
+                                Kamm (Jesus bettelt)</title> (<date from="1899-09" to="1899-12"
+                                    >09.1899-12.1899</date>) Text: <persName role="text" key="p_842">Richard
+                                Dehmel</persName></bibl>
+                        <bibl n="3"><title ref="url">Erhebung</title> (<date when="1899-11-16"
+                            >16.11.1899</date>) Text: <persName role="text" key="p_842">Richard
+                                Dehmel</persName></bibl>
+                        <bibl n="4"><title ref="url">Waldsonne</title> (<date when="1900"
+                            >1900</date>) Text: <persName role="text">Johannes Schlaf</persName></bibl>
                         <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer 237</bibl>
-                        <bibl>Verlag Dreililien Berlin 1903. Plattennummer 238</bibl>
-                        <bibl>Verlag Dreililien Berlin 1903. Plattennummer 239</bibl><bibl>Verlag
-                            Dreililien Berlin 1903. Plattennummer 240</bibl></note>
+                        <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer 238</bibl>
+                        <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer
+                            239</bibl><bibl type="print">Verlag Dreililien Berlin 1903.
+                            Plattennummer 240</bibl></note>
                 </bibl>
                 <!-- 2 Fassungen Kammersymphonie -->
                 <bibl xml:id="werke.2">
                     <author role="composer">
-                        <persName key="XX">
+                        <persName key="p_3263">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
                         </persName>
@@ -57,49 +60,101 @@
                     <title>Kammersymphonie für 15 Solo-Instrumente op.9</title>
                     <idno>ASW 9</idno>
                     <note>
-                        <ref target="url">Originalfassung</ref> (1906) <bibl>Erstdruck.
-                            Universal-Edition A.G. Wien-Leipzig, 1912. U.E. 3667</bibl>
-                        <bibl>Gedruckte Stimmen zum Erstdruck. U.E. 3668</bibl>
-                        <bibl>Verbesserte Ausgabe. Revidierter Nachdruck nach den selben,
-                            korrigierten Stichplatten. U.E. 3667</bibl>
-                        <bibl>Korrigierte Stimmen. Universal-Edition A.G. 1920. U.E. 3668</bibl>
-                        <bibl>Studienpartitur. Universal-Edition A.G. / Wiener Philharmonischer
-                            Verlag 1923 bzw. 1924. U.E. 7147 W.Ph.V. 225</bibl>
+                        <!-- PHILIPP wird das jetzt auch nummeriert? oder nur bei mehrteiligen Werken? -->
+                        <bibl n="1"><title ref="url">Originalfassung</title> (<date when="1906"
+                                >1906</date>)</bibl>
+                        <bibl type="print">Erstdruck. Universal-Edition A.G. Wien-Leipzig, 1912. U.E. 3667</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Erstdruck. U.E. 3668</bibl>
+                        <bibl type="print">Verbesserte Ausgabe. Revidierter Nachdruck nach den
+                            selben, korrigierten Stichplatten. U.E. 3667</bibl>
+                        <bibl type="print">Korrigierte Stimmen. Universal-Edition A.G. 1920. U.E.
+                            3668</bibl>
+                        <bibl type="print">Studienpartitur. Universal-Edition A.G. / Wiener
+                            Philharmonischer Verlag 1923 bzw. 1924. U.E. 7147 W.Ph.V. 225</bibl>
                     </note>
                 </bibl>
                 <bibl xml:id="werke.3" type="arrangement">
                     <author role="composer">
-                        <persName key="XX">
+                        <persName key="p_3263">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
                         </persName>
                     </author>
                     <title>Kammersymphonie op.9b</title>
                     <idno>ASW 9.4</idno>
-                    <!-- alle untergeordneten bibl wie 9.4 haben eine <ref> das auf die ID des übergeordneten refernziert. -->
+                    <!-- sowohl Werkteile und Fassungen als auch Drucke bekommen in <note> ein <bibl> -->
                     <ref type="partOf" target="#werke.2"/>
-                    <note><ref target="url">Bearbeitung für großes Orchester</ref>
-                            (1935)<bibl>Verlag G. Schirmer, Inc. New York, 1936 (Nr.
-                        37402)</bibl></note>
+                    <note><bibl><title ref="url">Bearbeitung für großes Orchester</title> (<date
+                                when="1935">1935</date>)</bibl><bibl type="print">Verlag G.
+                            Schirmer, Inc. New York, 1936 (Nr. 37402)</bibl></note>
                 </bibl>
                 <!-- Bearbeitung fremder Werke-->
                 <bibl xml:id="werke.4" type="arrangement">
                     <author role="composer">
-                        <persName key="bb">
+                        <persName key="p_543">
                             <surname>Brahms</surname>
                             <forename>Johannes</forename>
                         </persName>
                     </author>
                     <author role="arranger">
-                        <persName key="XX">
+                        <persName key="p_3263">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
                         </persName>
                         <title>Piano Quartet op. 25</title>
                         <idno>ASW xx Arr</idno>
                     </author>
-                    <note><ref target="url">Bearbeitung für großes Orchester</ref> (1937)<bibl>G.
-                            Schirmer, Inc. New York 1937</bibl></note>
+                    <note><bibl><title ref="url">Bearbeitung für großes Orchester</title> (<date
+                                when="1937">1937</date>)</bibl><bibl type="print">G. Schirmer, Inc.
+                            New York 1937</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.5">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Pelleas und Melisande. Symphonische Dichtung für Orchester op. 5</title>
+                    <idno>ASW 21</idno>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=223&amp;herkunft=allewerke"
+                            /> (<date from="1902" to="1903">1902-1903</date>)</bibl>
+                        <bibl type="print">Erstdruck, Kopistenautographie. Universal-Edition A.G. Wien-Leipzig
+                            1911, U.E. 3371</bibl>
+                        <bibl type="print">Orchesterstimmen zum Erstdruck. Universal-Edition A.G. Wien-Leipzig,
+                            U.E. 3372</bibl>
+                        <bibl type="print">Revidierter und gestochener Neudruck. Universal-Edition A.G.
+                            Wien-Leipzig 1920, U.E. 3371</bibl>
+                        <bibl type="print">Orchesterstimmen zu der revidierten Ausgabe. Universal-Edition A.G.
+                            Wien-Leipzig, U.E. 3372</bibl>
+                        <bibl type="print">[Studienpartitur. Universal-Edition A.G. Wien-Leipzig, U.E.
+                            7036]</bibl><!-- in der GA ohne eigene Quellensigle -->
+                    </note>
+                </bibl>
+                
+                <bibl xml:id="werke.6" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_1702">
+                            <surname>Jalowetz</surname>
+                            <forename>Heinrich</forename>
+                        </persName>
+                    </author>
+                    <title>Pelleas und Melisande. Symphonische Dichtung für Orchester op. 5</title>
+                    <idno>ASW 21.x</idno>
+                    <ref type="partOf" target="#werke.5"/>
+                    <note>
+                        <bibl><title ref="link">Klavierauszug zu vier Händen</title>
+                        (<date when="1924">1924</date>)</bibl>
+                        <bibl type="print">[Universal-Edition U.E. 7269]</bibl>
+                    </note>
                 </bibl>
             </listBibl>
         </body>
