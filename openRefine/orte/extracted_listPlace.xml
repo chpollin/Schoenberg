@@ -756,19 +756,6 @@
                         </location>
                         <idno type="uri">http://sws.geonames.org/2818108</idno>
                     </place>
-                    <place xml:id="place.2.35" type="settlement">
-                        <placeName>Wien</placeName>
-                        <location>
-                            <geo>48.2083537, 16.3725042</geo>
-                        </location>
-                        <idno type="uri">http://sws.geonames.org/2761369</idno>
-                        <place xml:id="place.2.35.1" type="building">
-                            <placeName>Starhemberggasse 37</placeName>
-                            <location>
-                                <geo>48.18803434568988, 16.371928022738256</geo>
-                            </location>
-                        </place>
-                    </place>
                     <place xml:id="place.2.36" type="settlement">
                         <placeName>Wiesbaden</placeName>
                         <location>
@@ -1886,6 +1873,12 @@
                                 <placeName>Suttnerplatz 10</placeName>
                                 <location>
                                     <geo>48.197718515386356, 16.36722591105517</geo>
+                                </location>
+                            </place>
+                            <place xml:id="place.9.11.12.2" type="building">
+                                <placeName>Starhemberggasse 37</placeName>
+                                <location>
+                                    <geo>48.18803434568988, 16.371928022738256</geo>
                                 </location>
                             </place>
                         </place>

@@ -5185,6 +5185,15 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q33999"
                             >Schauspielerin</term></occupation>
                 </person>
+                <person xml:id="p_4303">
+                    <idno type="uri">https://d-nb.info/gnd/1073524302</idno>
+                    <persName><surname>Zehme</surname><forename>Felix</forename></persName>
+                    <birth><date when="1849"/></birth>
+                    <death><date when="1924"/><placeName>Leipzig</placeName></death>
+                    <occupation><term ref="https://www.wikidata.org/wiki/Q40348"
+                        >Rechtsanwalt</term></occupation>
+                    <note>Gatte von Albertine</note>
+                </person>
                 <person xml:id="p_4309">
                     <idno type="uri">http://d-nb.info/gnd/11863643X</idno>
                     <persName><surname>Zemlinsky</surname><forename>Alexander</forename></persName>
