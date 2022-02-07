@@ -94,7 +94,7 @@
                                 </location>
                             </place>
                             <place xml:id="place.2.3.1.2" type="building">
-                                <placeName>Kantstraße 4-IV.</placeName>
+                                <placeName>Kantstraße 4</placeName>
                                 <location>
                                     <geo>52.50552288962633, 13.332894613873579</geo>
                                 </location>
@@ -113,6 +113,7 @@
                             </place>
                             <place xml:id="place.2.3.1.5" type="building">
                                 <placeName>Steinplatz 2</placeName>
+                                <placeName type="alt">Pension Bavaria</placeName>
                                 <location>
                                     <geo>52.50839, 13.325</geo>
                                 </location>
@@ -996,59 +997,45 @@
                                     <geo>48.87724038165563, 2.335269596174794</geo>
                                 </location>
                             </place>
-                        </place>
-                    </place>
-                    <place xml:id="place.4.5" type="settlement">
-                        <placeName>Paris </placeName>
-                        <location>
-                            <geo>48.8588897, 2.3200410217200766</geo>
-                        </location>
-                        <idno type="uri">http://sws.geonames.org/2988507</idno>
-                        <place xml:id="place.4.5.1" type="district">
-                            <placeName>Opéra (IX.)</placeName>
-                            <location>
-                                <geo>48.8706446, 2.33233</geo>
-                            </location>
-                            <idno type="uri">http://sws.geonames.org/2989487</idno>
-                            <place xml:id="place.4.5.1.1" type="building">
+                            <place xml:id="place.4.4.5.5" type="building">
                                 <placeName>9, rue Ballu</placeName>
                                 <location>
                                     <geo>48.88171126118482, 2.3306583878096117</geo>
                                 </location>
                             </place>
                         </place>
-                        <place xml:id="place.4.5.2" type="district">
+                        <place xml:id="place.4.4.6" type="district">
                             <placeName>Palais Bourbon (VII.)</placeName>
                             <location>
                                 <geo>48.8565, 2.321</geo>
                             </location>
                             <idno type="uri">http://sws.geonames.org/2988760</idno>
-                            <place xml:id="place.4.5.2.1" type="building">
+                            <place xml:id="place.4.4.6.1" type="building">
                                 <placeName>5, rue Sébastien-Bottin</placeName>
                                 <location>
                                     <geo>48.856989403811355, 2.328685297510461</geo>
                                 </location>
                             </place>
                         </place>
-                        <place xml:id="place.4.5.3" type="district">
+                        <place xml:id="place.4.4.7" type="district">
                             <placeName>Passy (XVI.)</placeName>
                             <location>
                                 <geo>48.8575009, 2.285778</geo>
                             </location>
                             <idno type="uri">http://sws.geonames.org/2988394</idno>
-                            <place xml:id="place.4.5.3.1" type="building">
+                            <place xml:id="place.4.4.7.1" type="building">
                                 <placeName>4, rue Mission Marchand</placeName>
                                 <location>
                                     <geo>48.85012901767548, 2.2658598268555608</geo>
                                 </location>
                             </place>
-                            <place xml:id="place.4.5.3.2" type="building">
+                            <place xml:id="place.4.4.7.2" type="building">
                                 <placeName>82, rue de Passy</placeName>
                                 <location>
                                     <geo>48.858378354336686, 2.2755451845262127</geo>
                                 </location>
                             </place>
-                            <place xml:id="place.4.5.3.3" type="building">
+                            <place xml:id="place.4.4.7.3" type="building">
                                 <placeName>Avenue Kléber</placeName>
                                 <placeName type="alt">Hotel Majestic</placeName>
                                 <location>
@@ -1068,6 +1055,17 @@
                             <location>
                                 <geo/>
                             </location>
+                        </place>
+                    </place>
+                    <place xml:id="place.4.7" type="settlement">
+                        <placeName>Cannes</placeName>
+                        <location>
+                            <geo>43.55135, 7.01275</geo>
+                        </location>
+                        <idno type="uri">https://sws.geonames.org/3028808</idno>
+                        <place xml:id="place.4.7.1" type="building">
+                            <placeName>23-27, Avenue du Roi Albert 1er</placeName>
+                            <placeName type="alt">Californie Palace</placeName>
                         </place>
                     </place>
                 </place>
@@ -1916,6 +1914,13 @@
                             </location>
                         </place>
                     </place>
+                    <place xml:id="place.10.2" type="settlement">
+                        <placeName>St. Petersburg</placeName>
+                        <location>
+                            <geo>59.93073501457162, 30.363842268494185</geo>
+                        </location>
+                        <idno type="uri">https://sws.geonames.org/498817</idno>
+                    </place>
                 </place>
                 <place xml:id="place.11" type="country">
                     <placeName>Schweiz</placeName>
@@ -2011,6 +2016,26 @@
                             <location>
                                 <geo>47.37130329057124, 8.535570148479271</geo>
                             </location>
+                        </place>
+                    </place>
+                    <place xml:id="place.11.7" type="settlement">
+                        <placeName>Lugano</placeName>
+                        <location>
+                            <geo>46.00204922086479, 8.961733122147804</geo>
+                        </location>
+                        <idno>https://sws.geonames.org/2659836</idno>
+                        <place xml:id="place.11.7.1" type="district">
+                            <placeName>Besso</placeName>
+                            <location>
+                                <geo>46.00561, 8.9438</geo>
+                            </location>
+                            <idno>https://sws.geonames.org/11789447</idno>
+                            <place xml:id="place.11.7.1.1" type="building">
+                                <placeName>Via Seminario 2</placeName>
+                                <location>
+                                    <geo>46.0051416, 8.9417661</geo>
+                                </location>
+                            </place>
                         </place>
                     </place>
                 </place>
@@ -2352,6 +2377,11 @@
                                 <geo>40.77960509363009, -73.98165328871374</geo>
                             </location>
                         </place>
+                        <place xml:id="place.15.8.15" type="building">
+                            <placeName>209 West 57th Street</placeName>
+                            <location>
+                                <geo>40.76607691849662, -73.9805078459011</geo>
+                            </location>
                     </place>
                     <place xml:id="place.15.9" type="settlement">
                         <placeName>Pasadena</placeName>
