@@ -1441,6 +1441,13 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q61996872"
                             >Musikschriftsteller</term></occupation>
                 </person>
+                <person xml:id="p_1303">
+                    <idno type="uri">https://d-nb.info/gnd/116809949</idno>
+                    <persName><surname>Graener</surname><forename>Paul</forename></persName>
+                    <birth><date when="1872"/><placeName>Berlin</placeName></birth>
+                    <death><date when="1944"/><placeName>Salzburg</placeName></death>
+                    <occupation><term>Komponist</term></occupation>
+                </person>
                 <person xml:id="p_1310">
                     <idno type="uri">http://d-nb.info/gnd/116829931</idno>
                     <persName><surname>Gregori</surname><forename>Ferdinand</forename></persName>

@@ -18,11 +18,13 @@
         </fileDesc>
     </teiHeader>
     <text>
+        <!-- REMINDER: in den bibl typeprint elementen stehen die Namen der Drucke gemäß der ASC website/GA. NICHT gemäß der tatsächlichen Titel auf dem Einband. Im Schriftenregister
+        ist das anders. wahrscheinlich werden wir diese Elemente nochmal durchkämmen und aufräumen müssen, wenn das Werkverzeichnis da ist. -->
+        <!-- PHILIPP nicht-UE Drucke werden nicht aufgenommen, richtig? -->
         <body>
             <listBibl type="artwork">
-                <!-- 2 Lieder mit verschiedenen Textdichtern -->
                 <bibl xml:id="werke.1">
-                    <author role="composer">
+                    <author role="composition">
                         <persName key="p_3263">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
@@ -30,28 +32,29 @@
                     </author>
                     <title>Vier Lieder op. 2</title>
                     <idno>ASW 2</idno>
-                    <note>
+                    <note><!-- sowohl Werkteile und Fassungen als auch Drucke bekommen in <note> ein <bibl> -->
+                        <!-- PHILIPP ich habe jetzt mal systematisch ALLE dates eingeklammert -->
                         <bibl n="1"><title ref="https://bit.ly/399WHR1">Erwartung</title> (<date
                                 when="1899-08-09">09.08.1899</date>) Text: <persName role="text"
                                 key="p_842">Richard Dehmel</persName></bibl>
                         <bibl n="2"><title ref="https://bit.ly/3AgEUDj">Schenk mir deinen goldenen
                                 Kamm (Jesus bettelt)</title> (<date from="1899-09" to="1899-12"
-                                    >09.1899-12.1899</date>) Text: <persName role="text" key="p_842">Richard
-                                Dehmel</persName></bibl>
+                                >09.1899-12.1899</date>) Text: <persName role="text" key="p_842"
+                                >Richard Dehmel</persName></bibl>
                         <bibl n="3"><title ref="url">Erhebung</title> (<date when="1899-11-16"
-                            >16.11.1899</date>) Text: <persName role="text" key="p_842">Richard
+                                >16.11.1899</date>) Text: <persName role="text" key="p_842">Richard
                                 Dehmel</persName></bibl>
                         <bibl n="4"><title ref="url">Waldsonne</title> (<date when="1900"
-                            >1900</date>) Text: <persName role="text">Johannes Schlaf</persName></bibl>
+                                >1900</date>) Text: <persName role="text">Johannes
+                            Schlaf</persName></bibl>
                         <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer 237</bibl>
                         <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer 238</bibl>
-                        <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer
-                            239</bibl><bibl type="print">Verlag Dreililien Berlin 1903.
-                            Plattennummer 240</bibl></note>
+                        <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer 239</bibl>
+                        <bibl type="print">Verlag Dreililien Berlin 1903. Plattennummer 240</bibl>
+                    </note>
                 </bibl>
-                <!-- 2 Fassungen Kammersymphonie -->
                 <bibl xml:id="werke.2">
-                    <author role="composer">
+                    <author role="composition">
                         <persName key="p_3263">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
@@ -63,7 +66,8 @@
                         <!-- PHILIPP wird das jetzt auch nummeriert? oder nur bei mehrteiligen Werken? -->
                         <bibl n="1"><title ref="url">Originalfassung</title> (<date when="1906"
                                 >1906</date>)</bibl>
-                        <bibl type="print">Erstdruck. Universal-Edition A.G. Wien-Leipzig, 1912. U.E. 3667</bibl>
+                        <bibl type="print">Erstdruck. Universal-Edition A.G. Wien-Leipzig, 1912.
+                            U.E. 3667</bibl>
                         <bibl type="print">Gedruckte Stimmen zum Erstdruck. U.E. 3668</bibl>
                         <bibl type="print">Verbesserte Ausgabe. Revidierter Nachdruck nach den
                             selben, korrigierten Stichplatten. U.E. 3667</bibl>
@@ -74,7 +78,7 @@
                     </note>
                 </bibl>
                 <bibl xml:id="werke.3" type="arrangement">
-                    <author role="composer">
+                    <author role="composition">
                         <persName key="p_3263">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
@@ -82,21 +86,19 @@
                     </author>
                     <title>Kammersymphonie op.9b</title>
                     <idno>ASW 9.4</idno>
-                    <!-- sowohl Werkteile und Fassungen als auch Drucke bekommen in <note> ein <bibl> -->
                     <ref type="partOf" target="#werke.2"/>
                     <note><bibl><title ref="url">Bearbeitung für großes Orchester</title> (<date
                                 when="1935">1935</date>)</bibl><bibl type="print">Verlag G.
                             Schirmer, Inc. New York, 1936 (Nr. 37402)</bibl></note>
                 </bibl>
-                <!-- Bearbeitung fremder Werke-->
                 <bibl xml:id="werke.4" type="arrangement">
-                    <author role="composer">
+                    <author role="composition">
                         <persName key="p_543">
                             <surname>Brahms</surname>
                             <forename>Johannes</forename>
                         </persName>
                     </author>
-                    <author role="arranger">
+                    <author role="arrangement">
                         <persName key="p_3263">
                             <surname>Schönberg</surname>
                             <forename>Arnold</forename>
@@ -121,19 +123,18 @@
                         <bibl><title
                                 ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=223&amp;herkunft=allewerke"
                             /> (<date from="1902" to="1903">1902-1903</date>)</bibl>
-                        <bibl type="print">Erstdruck, Kopistenautographie. Universal-Edition A.G. Wien-Leipzig
-                            1911, U.E. 3371</bibl>
-                        <bibl type="print">Orchesterstimmen zum Erstdruck. Universal-Edition A.G. Wien-Leipzig,
-                            U.E. 3372</bibl>
-                        <bibl type="print">Revidierter und gestochener Neudruck. Universal-Edition A.G.
-                            Wien-Leipzig 1920, U.E. 3371</bibl>
-                        <bibl type="print">Orchesterstimmen zu der revidierten Ausgabe. Universal-Edition A.G.
+                        <bibl type="print">Erstdruck, Kopistenautographie. Universal-Edition A.G.
+                            Wien-Leipzig 1911, U.E. 3371</bibl>
+                        <bibl type="print">Orchesterstimmen zum Erstdruck. Universal-Edition A.G.
                             Wien-Leipzig, U.E. 3372</bibl>
-                        <bibl type="print">[Studienpartitur. Universal-Edition A.G. Wien-Leipzig, U.E.
-                            7036]</bibl><!-- in der GA ohne eigene Quellensigle -->
+                        <bibl type="print">Revidierter und gestochener Neudruck. Universal-Edition
+                            A.G. Wien-Leipzig 1920, U.E. 3371</bibl>
+                        <bibl type="print">Orchesterstimmen zu der revidierten Ausgabe.
+                            Universal-Edition A.G. Wien-Leipzig, U.E. 3372</bibl>
+                        <bibl type="print">[Studienpartitur. Universal-Edition A.G. Wien-Leipzig,
+                            U.E. 7036]</bibl><!-- in der GA ohne eigene Quellensigle -->
                     </note>
                 </bibl>
-                
                 <bibl xml:id="werke.6" type="arrangement">
                     <author role="composition">
                         <persName key="p_3263">
@@ -151,9 +152,2276 @@
                     <idno>ASW 21.x</idno>
                     <ref type="partOf" target="#werke.5"/>
                     <note>
-                        <bibl><title ref="link">Klavierauszug zu vier Händen</title>
-                        (<date when="1924">1924</date>)</bibl>
+                        <bibl><title ref="link">Klavierauszug zu vier Händen</title> (<date
+                                when="1924">1924</date>)</bibl>
                         <bibl type="print">[Universal-Edition U.E. 7269]</bibl>
+                    </note>
+                </bibl>
+                <!-- ab hier update von PHILIPP-->
+                <bibl xml:id="werke.7">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName key="p_2696">
+                            <surname>Pappenheim</surname>
+                            <forename>Marie</forename>
+                        </persName>
+                    </author>
+                    <title>Erwartung. Monodram in einem Akt op. 17</title>
+                    <idno>ASW 17</idno>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=472&amp;herkunft=allewerke"
+                            /> (<date from="1909-08-27" to="1909-09-12"
+                            >27.08.1909-12.09.1909</date>)</bibl>
+                        <bibl type="print">Erstdruck der Partitur. Universal-Edition, U.E.
+                            5361</bibl>
+                        <bibl type="print">Stimmenmaterial. Universal-Edition, U.E.
+                        5363</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.8" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName key="p_2696">
+                            <surname>Pappenheim</surname>
+                            <forename>Marie</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3662">
+                            <surname>Steuermamm</surname>
+                            <forename>Eduard</forename>
+                        </persName>
+                    </author>
+                    <title>Erwartung. Monodram in einem Akt op. 17</title>
+                    <idno>ASW 17</idno>
+                    <ref type="partOf" target="#werke.7"/>
+                    <note><bibl><title/><!-- Klavierauszug von Eduard Steuermann --></bibl>
+                        <bibl type="print">Klavierauszug von Eduard Steuermann. Erstdruck.
+                            Universal-Edition, U.E. 5362</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.9">
+                    <author>
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Drei Klavierstücke op. 11</title>
+                    <idno>ASW 11</idno>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=190&amp;herkunft=allewerke"
+                            /> (<date from="1909-02-19" to="1909-08-07"
+                            >19.02.1909-07.08.1909</date>)</bibl>
+                        <bibl type="print">Erstdruck. Oktober 1910. Wien, Universal-Edition Nr.
+                            2991</bibl>
+                        <bibl type="print">Druck nach Revision 1924. Wien 1925, Universal-Edition
+                            Nr. 2991</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.10" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_647">
+                            <surname>Busoni</surname>
+                            <forename>Ferrucio</forename>
+                        </persName>
+                    </author>
+                    <title>2. Klavierstück. Konzertmässige Interpretation von Ferruccio
+                        Busoni</title>
+                    <idno/>
+                    <ref type="partOf" target="#werke.9"/>
+                    <note>
+                        <bibl><title/></bibl>
+                        <bibl type="print">[U.E. 2992]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.11"><author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Sechs Lieder für Gesang und Orchester op. 8</title>
+                    <idno>ASW 8</idno>
+                    <note>
+                        <bibl><title/></bibl><!-- PHILIPP für das ganze Werk gibt erstmal keinen link. das kann sich aber noch ändern -->
+                        <!-- PHILIPP hier weiterkorrigieren -->
+                        <bibl n="1"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=173&amp;herkunft=allewerke"
+                                >Natur</title> (<date from="1903-12-18" to="1904-03-07"
+                                >18.12.1903-07.03.1904</date>) Text: <persName role="text">Heinrich
+                                Hart</persName></bibl>
+                        <bibl n="2"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=174&amp;herkunft=allewerke"
+                                >Das Wappenschild</title> (<date from="1903-11-26" to="1904-05-25"
+                                >26.11.1903-25.05.1904</date>) Text: <persName role="text">Achim von
+                                Arnim</persName> und <persName>Clemens Brentano</persName></bibl>
+                        <bibl n="3"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=175&amp;herkunft=allewerke"
+                                >Sehnsucht</title> (<date when="1905-04-06">06.04.1905</date>) Text:
+                                <persName role="text">Achim von Arnim</persName> und <persName
+                                role="text">Clemens Brentano</persName></bibl>
+                        <bibl n="4"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=176&amp;herkunft=allewerke"
+                                >Nie ward ich, Herrin, müd’</title> (<date from="1904-06"
+                                to="1904-07-03">06.1904-03.07.1904</date>) Text: <persName
+                                role="text">Francesco Petrarca</persName></bibl>
+                        <bibl n="5"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=177&amp;herkunft=allewerke"
+                                >Voll jener Süße</title> (<date when="1904-11">11.1904</date>) Text:
+                                <persName role="text">Francesco Petrarca</persName></bibl>
+                        <bibl n="6"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=178&amp;herkunft=allewerke"
+                                >Wenn Vöglein klagen</title> (<date from="1903-12-18"
+                                to="1904-07-03">18.12.1903-07.03.1904</date>) Text: <persName
+                                role="text">Francesco Petrarca</persName></bibl>
+                        <bibl type="print">Originaldruck. Universal Edition AG Wien Leipzig 1913.
+                            U.E.5276</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. Universal Edition AG
+                            Wien Leipzig. U.E.5277</bibl>
+                        <bibl type="print">Originaldruck. Universal Edition AG Wien Leipzig 1913.
+                            U.E.5278</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. Universal Edition AG
+                            Wien Leipzig. U.E.5279</bibl>
+                        <bibl type="print">Originaldruck. Universal Edition AG Wien Leipzig 1913.
+                            U.E. 5280</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. U.E. 5281</bibl>
+                        <bibl type="print">Originaldruck. Universal Edition AG Wien Leipzig 1913.
+                            U.E. 5282</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. U.E. 5283</bibl>
+                        <bibl type="print">Originaldruck. Universal Edition AG Wien Leipzig 1913.
+                            U.E. 5284</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. U.E. 5285</bibl>
+                        <bibl type="print">Originaldruck. Universal Edition AG Wien Leipzig 1913.
+                            U.E. 5286</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. U.E. 5287</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.12" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_4001">
+                            <surname>Webern</surname>
+                            <forename>Anton</forename>
+                        </persName>
+                    </author>
+                    <title>Sechs Lieder für Gesang und Orchester op. 8</title>
+                    <idno>ASW 8.x</idno>
+                    <ref type="partOf" target="#werke.11">Klavierauszug von Anton v. Webern</ref>
+                    <note>
+                        <bibl><title/><!-- hier könnte man natürlich alle 6 Lieder nochmal hinschreiben? --></bibl>
+                        <bibl type="print">[Universal-Edition U.E. 3041]</bibl>
+                        <bibl type="print">[Universal-Edition U.E. 3042]</bibl>
+                        <bibl type="print">[Universal-Edition U.E. 3043]</bibl>
+                        <bibl type="print">[Universal-Edition U.E. 3044]</bibl>
+                        <bibl type="print">[Universal-Edition U.E. 3045]</bibl>
+                        <bibl type="print">[Universal-Edition U.E. 3046]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.13">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Verklärte Nacht op. 4</title>
+                    <idno>ASW 4</idno>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=420&amp;herkunft=allewerke"
+                                >Originalfassung für Streichsextett</title> (<date from="1899-09"
+                                to="1899-12-01">09.1899-01.12.1899</date>)</bibl>
+                        <bibl type="print">Originaldruck der Stimmen. Verlag Dreililien Berlin
+                            [1905], Plattennummer 345</bibl>
+                        <bibl type="print">Originaldruck der Partitur. Verlag Dreililien Berlin
+                            [1905], Plattennummer 345</bibl>
+                        <bibl type="print">[Taschenpartitur. Universal-Edition U.E. 3662]</bibl>
+                        <bibl type="print">[Stimmen. Universal-Edition U.E. 3663]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.14" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Verklärte Nacht op. 4</title>
+                    <idno>ASW 4.1</idno>
+                    <ref type="partOf" target="#werke.13"/>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=495&amp;herkunft=allewerke"
+                                >Einrichtung für Streichorchester</title> (<date when="1917">
+                                1917</date>)</bibl>
+                        <bibl type="print">Erstdruck der Partitur der Streichorchesterfassung, Druck
+                            einer Kopistenautographie. U.E. 6065</bibl>
+                        <bibl type="print">Erstdruck der Stimmen. Druck einer Kopistenautographie.
+                            U.E. 6066</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.15" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Verklärte Nacht op. 4</title>
+                    <idno>ASW 4.2</idno>
+                    <ref type="partOf" target="#werke.13"/>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=501&amp;herkunft=allewerke"
+                                >Einrichtung für Streichorchester</title> (<date when="1943"
+                                >1943</date>)</bibl>
+                        <bibl type="print">Erstdruck der Partitur der Streichorchesterfassung von
+                            1943, Druck einer Kopistenautographie</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.16">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Jacobsen</surname>
+                            <forename>Jens Peter</forename>
+                        </persName>
+                    </author>
+                    <author role="translation">
+                        <persName key="p_186">
+                            <surname>Arnold</surname>
+                            <forename>Robert Franz</forename>
+                        </persName>
+                    </author>
+                    <title>Gurre-Lieder für Soli, Chor und Orchester</title>
+                    <idno>ASW 51</idno>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=480&amp;herkunft=allewerke"
+                            /> (<date from="1900-03" to="1911-11-07"
+                            >03.1900-07.11.1911</date>)</bibl>
+                        <bibl type="print">Erstdruck. Faksimile der Partiturreinschrift
+                            (Studienpartitur). Universal-Edition A. G. Wien-Leipzig 1912, U.E.
+                            3697</bibl>
+                        <bibl type="print">Stimmenmaterial der Uraufführung. Chorstimmen.
+                            Universal-Edition A.G. Wien-Leipzig 1912, U.E.3699[a] bis 3699[h]</bibl>
+                        <bibl type="print">Autographierte Stimmen der I. und II. Geigen.
+                            Wien-Leipzig 1912, U.E. 3698[a] und 3698[b]</bibl>
+                        <bibl type="print">Autographierte Bratschen-, Violoncello- und
+                            Kontrabaßstimmen. Wien-Leipzig, U.E. 3698[c] bis 3698[e]</bibl>
+                        <bibl type="print">Revidierter und gestochener Neudruck. Universal-Edition
+                            A. G. Wien-Leipzig 1920, U.E. 6300</bibl>
+                        <bibl type="print">Gestochene Stimmen der I. und II. Geigen. Wien-Leipzig
+                            1920, U.E. 3698[a] und 3698[b]</bibl>
+                        <bibl type="print">Autographiere Bläser-, Harfen- und Gelestastimmen.
+                            Wien-Leipzig 1926, U.E. 3698</bibl>
+                        <bibl type="print">Autographierte Schlagwerkpartitur. Wien-Leipzig, vor
+                            1925, U.E. 3698</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.17" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Jacobsen</surname>
+                            <forename>Jens Peter</forename>
+                        </persName>
+                    </author><author role="translation">
+                        <persName key="p_186">
+                            <surname>Arnold</surname>
+                            <forename>Robert Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Gurre-Lieder für Soli, Chor und Orchester</title>
+                    <!-- PHILIPP d.h. Besetzungen im Werktitel bleiben stehen, auch wenn sie auf den Titelblatt nicht steht? -->
+                    <idno>ASW ???.?</idno>
+                    <ref type="partOf" target="#werke.16"/>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=480&amp;herkunft=allewerke"
+                                >Klavierauszug von Alban Berg</title></bibl>
+                        <bibl type="print">Universal-Edition A. G. Wien-Leipzig 1913, U.E.
+                            3696</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.18" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Jacobsen</surname>
+                            <forename>Jens Peter</forename>
+                        </persName>
+                    </author>
+                    <author role="translation">
+                        <persName key="p_186">
+                            <surname>Arnold</surname>
+                            <forename>Robert Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_d1e8310">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>So tanzen die Engel</title>
+                    <idno>ASW ???.?</idno>
+                    <ref type="partOf" target="#werke.16"/>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1560&amp;werke_id=480&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >Klavierauszug von Alban Berg</title></bibl>
+                        <bibl type="print">Universal-Edition A. G. Wien-Leipzig 1914, U.E.
+                            5330</bibl>
+                        <bibl type="print">Universal-Edition A. G. Wien-Leipzig, U.E. 3800</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.19" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Jacobsen</surname>
+                            <forename>Jens Peter</forename>
+                        </persName>
+                    </author>
+                    <author role="translation">
+                        <persName key="p_186">
+                            <surname>Arnold</surname>
+                            <forename>Robert Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_d1e8310">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Nun sag ich Dir zum ersten Mal</title>
+                    <idno>ASW ???.?</idno>
+                    <ref type="partOf" target="#werke.16"/>
+                    <note><bibl><title/></bibl>
+                        <bibl type="print">Universal-Edition A. G. Wien-Leipzig 1914, U.E.
+                            5331</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.20" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Jacobsen</surname>
+                            <forename>Jens Peter</forename>
+                        </persName>
+                    </author><author role="translation">
+                        <persName key="p_186">
+                            <surname>Arnold</surname>
+                            <forename>Robert Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Du Wunderliche Tove!</title>
+                    <idno>ASW ???.?</idno>
+                    <ref type="partOf" target="#werke.16"/>
+                    <note><bibl><title/></bibl>
+                        <bibl type="print">Universal-Edition A. G. Wien-Leipzig 1914, U.E.
+                            5332</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.21" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Jacobsen</surname>
+                            <forename>Jens Peter</forename>
+                        </persName>
+                    </author>
+                    <author role="translation">
+                        <persName key="p_186">
+                            <surname>Arnold</surname>
+                            <forename>Robert Franz</forename>
+                        </persName></author>
+                    <author role="arrangement">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Das Lied der Waldtaube</title>
+                    <idno>ASW ???.?</idno>
+                    <ref type="partOf" target="#werke.12"/>
+                    <note><bibl><title/></bibl>
+                        <bibl type="print">Universal-Edition A. G. Wien-Leipzig 1914, U.E.
+                            5333</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.22">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Jacobsen</surname>
+                            <forename>Jens Peter</forename>
+                        </persName>
+                    </author>
+                    <author role="translation">
+                        <persName key="p_186">
+                            <surname>Arnold</surname>
+                            <forename>Robert Franz</forename>
+                        </persName>
+                    </author>
+                    <title>Das Lied der Waldtaube</title>
+                    <idno>ASW ???.?</idno>
+                    <ref type="partOf" target="#werke.16"/>
+                    <note><bibl><title/></bibl>
+                        <bibl type="print">[Partitur] U.E. 7272</bibl>
+                        <bibl type="print">[Orchestermaterial] U.E. 7273</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.23">
+                    <author role="composition">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Sonate für Klavier op. 1</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                        <bibl type="print">[11.07.1928] U.E. 8812</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.24">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName key="p_d1e26095">
+                            <surname>George</surname>
+                            <forename>Stefan</forename>
+                        </persName>
+                    </author>
+                    <title>Fünfzehn Gedichte aus „Das Buch der hängenden Gärten“ von Stefan George
+                        op. 15</title>
+                    <idno>ASW 15</idno>
+                    <note>
+                        <bibl n="1"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=124&amp;herkunft=allewerke"
+                                >Unterm Schutz von dichten Blättergründen</title> (<date
+                                from="1908-03" to="1909-03">03.1908-03.1909</date>)</bibl>
+                        <bibl n="2"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=125&amp;herkunft=allewerke"
+                                >Hain in diesen Paradiesen</title> (<date from="1908-03"
+                                to="1909-03">03.1908-03.1909</date>)</bibl>
+                        <bibl n="3"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=126&amp;herkunft=allewerke"
+                                >Als Neuling trat ich ein in dein Gehege</title> (<date
+                                when="1908-03-29">29.03.1908</date>)</bibl>
+                        <bibl n="4"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=127&amp;herkunft=allewerke"
+                                >Da meine Lippen reglos sind und brennen</title> (<date
+                                when="1908-03-15">15.03.1908</date>)</bibl>
+                        <bibl n="5"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=128&amp;herkunft=allewerke"
+                                >Saget mir, auf welchem Pfade</title> (<date when="1908-03-20"
+                                >20.03.1908</date>)</bibl>
+                        <bibl n="6"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=129&amp;herkunft=allewerke"
+                                >Jedem Werke bin ich fürder tot</title> (<date from="1908-04"
+                                to="1908-05">04.1908-05.1908</date>)</bibl>
+                        <bibl n="7"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=130&amp;herkunft=allewerke"
+                                >Angst und Hoffen wechselnd mich beklemmen</title> (<date
+                                when="1908-04-28">28.04.1908</date>)</bibl>
+                        <bibl n="8"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=131&amp;herkunft=allewerke"
+                                >Wenn ich heut nicht deinen Leib berühre</title> (<date
+                                when="1908-04-13">13.04.1908</date>)</bibl>
+                        <bibl n="9"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=132&amp;herkunft=allewerke"
+                                >Streng ist uns das Glück und spröde</title> (<date from="1908-03"
+                                to="1909-03">03.1908-03.1909</date>)</bibl>
+                        <bibl n="10"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=133&amp;herkunft=allewerke"
+                                >Das schöne Beet betracht ich mir im Harren</title> (<date
+                                from="1909-03" to="1908-03">03.1908-03.1909</date>)</bibl>
+                        <bibl n="11"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=134&amp;herkunft=allewerke"
+                                >Als wir hinter dem beblümten Tore</title> (<date from="1908-03"
+                                to="1909-03">03.1908-03.1909</date>)</bibl>
+                        <bibl n="12"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=135&amp;herkunft=allewerke"
+                                >Wenn sich bei heilger Ruh in tiefen Matten</title> (<date
+                                from="1908-03" to="1909-03">03.1908-03.1909</date>)</bibl>
+                        <bibl n="13"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=136&amp;herkunft=allewerke"
+                                >Du lehnest wider eine Silberweide</title> (<date when="1908-09-27"
+                                >27.09.1908</date>)</bibl>
+                        <bibl n="14"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=137&amp;herkunft=allewerke"
+                                >Sprich nicht immer von dem Laub</title> (<date from="1908-09"
+                                to="1909-03">09.1908-03.1909</date>)</bibl>
+                        <bibl n="15"><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=138&amp;herkunft=allewerke"
+                                >Wir bevölkerten die abend-düstern Lauben</title> (<date
+                                from="1908-09" to="1908-02-28">09.1908-28.02.1909</date>)</bibl>
+                        <bibl type="print">Originaldruck. Sammeldruck Opus 15. Universal-Edition
+                            A.G. Wien-Leipzig 1914. U.E. 5338</bibl>
+                        <bibl type="print">[Teilabdruck "Das schöne Beet... - Als wir hinter dem
+                            beblümten Tore" U.E. 5500]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.26">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Streichquartett Nr. 2 op. 10</title>
+                    <idno>ASW 10</idno>
+                    <note>
+                        <bibl><title
+                                ref="http://archive.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=404&amp;herkunft=allewerke"
+                                >Originalfassung</title></bibl>
+                        <bibl type="print">Erstdruck der Partitur, 1. Ausgabe. Photokopie des
+                            Partiturautographs E*. Universal Edition Wien Leipzig 1910. U.E.
+                            2993</bibl>
+                        <bibl type="print">Erstdruck der Stimmen. Photokopie einer
+                            Kopistenabschrift. Universal Edition Wien Leipzig 1911. U.E. 2994 (die
+                            einzelnen Stimmhefte mit dem Zusatz kleiner Buchstaben: von 1. Geige bis
+                            Violoncello U.E. 2994.[a] bis 2994.[d])</bibl>
+                        <bibl type="print">Studienpartitur, 1. Ausgabe. Universal Edition Wien
+                            Leipzig 1920. U.E. 2993.6064</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.27" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_d1e28907">
+                            <surname>Greissle</surname>
+                            <forename>Felix</forename>
+                        </persName>
+                    </author>
+                    <title>Streichquartett Nr. 2 op. 10</title>
+                    <idno>ASW 10.x</idno>
+                    <ref type="partOf" target="#werke.26"/>
+                    <note>
+                        <bibl><title>Vierhändiger Klavierauszug von Felix Greissle</title></bibl>
+                        <bibl type="print">[Vierhändiger Klavierauszug] U.E. 7179</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.28" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName></author>
+                    <author role="arrangement">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Litanei</title>
+                    <idno>ASW 10.x</idno>
+                    <ref type="partOf" target="#werke.26"/>
+                    <note>
+                        <bibl><title>Klavierauszug von Alban Berg</title></bibl>
+                        <bibl type="print">[Klavierauszug von Alban Berg] U.E. 6862</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.29" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Entrückung</title>
+                    <idno>ASW 10.x</idno>
+                    <ref type="partOf" target="#werke.26"/>
+                    <note>
+                        <bibl><title>Klavierauszug von Alban Berg</title></bibl>
+                        <bibl type="print">[Klavierauszug von Alban Berg] U.E. 6863</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.30" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_252">
+                            <surname>Bach</surname>
+                            <forename> Johann Sebastian</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Schmücke Dich, o liebe Seele</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Choralvorspiel BWV 654 von Johann Sebastian Bach</title> (<date
+                                from="1922-04" to="1922-06">04.1922-06.1922</date>)</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition A.G. Wien Leipzig 1925
+                            [U.E. 7650]</bibl>
+                        <bibl type="print">Gedruckte Stimmen. Universal-Edition A.G. Wien Leipzig
+                            1925 [Universal-Edition Nr.7649 bzw. Universal-Edition Nr.7651]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.31" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_252">
+                            <surname>Bach</surname>
+                            <forename> Johann Sebastian</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Komm, Gott, Schöpfer, Heiliger Geist</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Choralvorspiel BWV 667 von Johann Sebastian Bach</title> (<date
+                                when="1922-04-01">01.04.1922</date>)</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition A.G. Wien Leipzig 1925
+                            [U.E. 7648]</bibl>
+                        <bibl type="print">Gedruckte Stimmen. Universal-Edition A.G. Wien Leipzig
+                            1925 [Universal-Edition Nr.7649 bzw. Universal-Edition Nr.7651]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.32" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_252">
+                            <surname>Bach</surname>
+                            <forename> Johann Sebastian</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Präludium und Fuge in Es-Dur für Orgel BWV 552</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Präludium und Fuge in Es-Dur für Orgel BWV 552 von Johann
+                                Sebastian Bach</title> (<date when="1928-05-01"
+                            >01.05.1928</date>)</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition A.G. Wien Leipzig 1929
+                            [U.E. 9876]</bibl>
+                        <bibl type="print">Gedruckte Stimmen. Universal-Edition A.G. Wien Leipzig
+                            1929-1930 [U.E. 9877]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.33" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_331">
+                            <surname>Beethoven, van</surname>
+                            <forename>Ludwig</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Adelaide op. 46</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Adelaide op. 46 von Ludwig van Beethoven [verschollen]</title>
+                                (<date from="1912-02-19" to="1912-02-24"
+                                >19.02.1912-24.02.1912</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.34" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_1444">
+                            <surname>Händel</surname>
+                            <forename>Georg Friedrich</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Konzert für Streichquartett und Orchester B-Dur nach dem Concerto grosso
+                        opus 6 Nr. 7 von G.F. Händel</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Konzert für Streichquartett und Orchester B-Dur nach dem
+                                Concerto grosso opus 6 Nr. 7 von G.F. Händel</title> (<date
+                                from="1933-04" to="1933-09-16"
+                            >04.1933-16.09.1933</date>)</bibl><bibl type="print">Erster
+                            Originalphotodruck, Verlag G. Schirmer, Inc./New York
+                            (Verschollen)</bibl>
+                        <bibl type="print">Zweiter Originalphotodruck, Verlag G. Schirmer, Inc./New
+                            York (Verschollen)</bibl>
+                        <bibl type="print">Dritter Originalphotodruck, Verlag G. Schirmer, Inc./New
+                            York</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.35" type="arrangement">
+                    <author role="composition">
+                        <persName>
+                            <surname>Loewe</surname>
+                            <forename>Carl</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Der Nöck op. 129 Nr. 2</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Der Nöck op. 129 Nr. 2 von Carl Loewe</title> (<date
+                                when="1912">1912</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.36" type="arrangement">
+                    <author role="composition">
+                        <persName>
+                            <surname>Lortzing</surname>
+                            <forename>Albert</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Der Waffenschmied</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Klavierauszug</title> (<date when="1904"
+                            >1904</date>)</bibl><bibl type="print">1904, Universal-Edition
+                            Wien</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.37" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_2435">
+                            <surname>Monn</surname>
+                            <forename>Matthias Georg</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Konzert für Violoncello g-Moll</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Ausgabe für Violoncello mit Klavierbegleitung</title> (<date
+                                from="1911" to="1912">1911-1912</date>)</bibl><bibl type="print"
+                            >Originaldruck. 1914. Universal-Edition A.G. Wien-Leipzig; U.E. 5351,
+                            5351a</bibl><bibl type="print">Verbesserte Ausgabe nach Revision, 1921.
+                            Universal-Edition A.G. Wien-Leipzig; U.E. 5351, 5351a</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.38" type="arrangement">
+                    <!-- PHILIPP haben diese Kadenzen Werkstatus oder können wir sie zu werke.37 dazutun? je nach ASW. -->
+                    <author role="composition">
+                        <persName key="p_2435">
+                            <surname>Monn</surname>
+                            <forename>Matthias Georg</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Konzert für Violoncello g-Moll (Kadenzen)</title>
+                    <idno>ASW x.x</idno>
+                    <ref type="partOf" target="werke.37"/>
+                    <note>
+                        <bibl><title>Kadenzen</title> (<date from="1911" to="1912"
+                            >1911-1912</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.39" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_2435">
+                            <surname>Monn</surname>
+                            <forename>Matthias Georg</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Konzert für Violoncello und Orchester D-Dur nach dem Concerto per
+                        Clavicembalo, Matthias Georg Monn</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Orchesterfassung</title> (<date from="1932-11-11"
+                                to="1913-04-01">11.11.1932-04.01.1933</date>)</bibl><bibl
+                            type="print">Originalphotodruck 1936. Verlag G. Schirmer, Inc. New York;
+                            Nr. 36914</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.40" type="arrangement">
+                    <author role="composition">
+                        <persName>
+                            <surname>Rossini</surname>
+                            <forename>Gioachino</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Der Barbier von Sevilla</title>
+                    <idno>ASW x.x</idno>
+                    <note>
+                        <bibl><title>Klavierauszug</title> (<date when="1904"
+                            >1904</date>)</bibl><bibl type="print">1904, Universal-Edition
+                            Wien</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.41">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Sechs Lieder für eine mittlere Singstimme und Klavier op. 3</title>
+                    <idno>ASW 3</idno>
+                    <note><bibl n="1"><title ref="link">Wie Georg von Frundsberg von sich selber
+                                sang</title> (<date when="1903-03-18">18.03.1903</date>) Text:
+                                <persName role="text">Achim von Arnim</persName> und
+                                <persName>Clemens Brentano</persName></bibl>
+                        <bibl n="2"><title ref="link">Die Aufgeregten</title> (<date
+                                when="1903-11-09">09.11.1903</date>) Text: <persName role="text"
+                                >Gottfried Keller</persName></bibl>
+                        <bibl n="3"><title ref="url">Warnung</title> (<date from="1899-07-05"
+                                to="1903-10">07.05.1899-10.1903</date>) Text: <persName role="text"
+                                key="p_842">Richard Dehmel</persName></bibl>
+                        <bibl n="4"><title ref="url">Hochzeitslied</title> (<date when="1900-03-31"
+                                >31.03.1900</date>) Text: <persName role="text">Jens Peter
+                                Jacobsen</persName></bibl>
+                        <bibl n="5"><title ref="url">Geübtes Herz</title>(<date from="1903-09-02"
+                                to="1903-11-10">02.09.1903-10.11.1903</date>) Text: <persName
+                                role="text">Gottfried Keller</persName></bibl>
+                        <bibl n="6"><title ref="url">Freihold</title>(<date from="1900-11-20"
+                                to="1903-10">20.11.1900-10.1903</date>) Text: <persName role="text"
+                                >Hermann Lingg</persName></bibl>
+                        <bibl type="print"> Originaldruck. Verlag Dreililien Berlin 1904.
+                            Plattennummer 280 </bibl>
+                        <bibl type="print">Originaldruck. Verlag Dreililien Berlin 1904.
+                            Plattennummer 281 </bibl>
+                        <bibl type="print">Originaldruck. Verlag Dreililien Berlin 1904.
+                            Plattennummer 282 </bibl>
+                        <bibl type="print">Originaldruck. Verlag Dreililien Berlin 1904.
+                            Plattennummer 283 </bibl>
+                        <bibl type="print">Originaldruck. Verlag Dreililien Berlin 1904.
+                            Plattennummer 284 </bibl>
+                        <bibl type="print">Originaldruck. Verlag Dreililien Berlin 1904.
+                            Plattennummer 285 </bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.42">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Streichquartett Nr. 1 op. 7</title>
+                    <idno>ASW 7</idno>
+                    <note>
+                        <bibl><title/> (<date from="1904" to="1905-09-26"
+                            >1904-26.09.1905</date>)</bibl><bibl type="print">Originaldruck der
+                            Partitur. Verlag Dreililien Berlin 1907</bibl><bibl type="print"
+                            >Originaldruck der Stimmen. Verlag Dreililien Berlin 1908 </bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.43">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Zwei Balladen für Gesang und Klavier op. 12</title>
+                    <idno>ASW 12</idno>
+                    <note>
+                        <bibl n="1"><title>Jane Grey</title> (<date when="1907-04-28"
+                                >28.04.1907</date>)</bibl>
+                        <bibl n="2"><title>Der verlorene Haufen</title> (<date from="1907-03-15"
+                                to="1907-04">15.03.1907-04.1907</date>)</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition A.G. Wien-Leipzig 1920.
+                            U.E. 6207</bibl><bibl type="print">Originaldruck. Universal-Edition A.G.
+                            Wien-Leipzig 1920. U.E. 6208</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.44">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Friede auf Erden op. 13</title>
+                    <idno>ASW 13</idno>
+                    <note>
+                        <bibl><title/> (<date from="1907-03-09" to="1911-10-06"
+                                >09.03.1907-06.10.1911</date>)</bibl>
+                        <bibl type="print">Originaldruck der Partitur (Chorsatz mit Klavierauszug),
+                            1. Ausgabe. Tischer &amp; Jagenberg G.m.b.H. Köln 1912</bibl><bibl
+                            type="print">Originaldruck der Partitur (Chorsatz mit Klavierauszug), 2.
+                            Ausgabe mit hinzugefügter englischer Übersetzung. Tischer &amp;
+                            Jagenberg G.m.b.H. Köln 1912</bibl><bibl type="print">Gedruckte
+                            Chorstimmen (mit deutscher Textierung). Tischer &amp; Jagenberg G.m.b.H.
+                            Köln 1912</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.45">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Zwei Lieder für Gesang und Klavier op. 14</title>
+                    <idno>ASW 14</idno>
+                    <note>
+                        <bibl n="1"><title>Ich darf nicht dankend</title> (<date when="1907-12-17"
+                                >17.12.1907</date>)</bibl>
+                        <bibl n="2"><title>In diesen Wintertagen</title> (<date when="1908-02-02"
+                                >02.02.1908</date>)</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition A.G. Wien 1920. U.E.
+                            6205</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition A.G. Wien 1920. U.E.
+                            6206</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.46">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Am Strande</title>
+                    <idno>ASW xx</idno>
+                    <note>
+                        <bibl><title/> (<date when="1909-02-08">08.02.1909</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.47">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Fünf Orchesterstücke op. 16</title>
+                    <idno>ASW 16</idno>
+                    <note>
+                        <bibl><title>Originalfassung</title> (<date from="1909-05-23"
+                                to="1909-08-11">23.05.1909-11.08.1909</date>)</bibl>
+                        <bibl type="print">Erstdruck. Verlag C.F. Peters, Leipzig, 1912. Edition
+                            Peters Nr. 3376</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Erstdruck</bibl>
+                        <bibl type="print">Verbesserte Ausgabe nach Revision, 1922</bibl>
+                        <bibl type="print">Gedruckte Stimmen zur verbesserten Ausgabe</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.48" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Fünf Orchesterstücke op. 16</title>
+                    <idno>ASW 16.x</idno>
+                    <ref type="partOf" target="#werke.47"/>
+                    <note>
+                        <bibl><title>Bearbeitung für Kammerorchester</title></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.49" type="arrangement">
+                    <!-- kann der title so bleiben? -->
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Fünf Orchesterstücke op. 16</title>
+                    <idno>ASW 16.x</idno>
+                    <ref type="partOf" target="#werke.47"/>
+                    <note>
+                        <bibl><title>auf normale Besetzung reduziert</title></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.50">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Die glückliche Hand. Drama mit Musik op. 18</title>
+                    <idno>ASW 18</idno>
+                    <note>
+                        <bibl><title/>(<date from="1910-06" to="1913-11-20">06.1910-20.11.1913
+                            </date>)</bibl>
+                        <bibl type="print">Erstdruck der Partitur [U. E. 5670]</bibl>
+                        <bibl type="print">Stimmenmaterial [U. E. 5671, verschollen]</bibl>
+                        <!-- hier scheint es nur die Frauenstimmen zu geben -->
+                        <bibl type="print">Chorstimmen [U. E. 5647a</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.51">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3662">
+                            <surname>Steuermann</surname>
+                            <forename>Eduard</forename>
+                        </persName>
+                    </author>
+                    <title>Die glückliche Hand. Drama mit Musik op. 18</title>
+                    <idno>ASW 18</idno>
+                    <note>
+                        <bibl><title>Auszug mit Text für zwei Klaviere zu vier Händen von Eduard
+                                Steuermann</title></bibl>
+                        <bibl type="print">Erstdruck [U. E. 5669]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.52">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Sechs kleine Klavierstücke op. 19</title>
+                    <idno>ASW 19</idno>
+                    <note>
+                        <bibl><title/>(<date from="1911-02-19" to="1911-06-17">19.02.1911-17.06.1911
+                            </date>)</bibl>
+                        <bibl type="print">Erstdruck [U. E. 5069]</bibl>
+                        <bibl type="print">Nachdruck [U. E. 5069]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.53">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Herzgewächse op. 20</title>
+                    <idno>ASW 20</idno>
+                    <note>
+                        <bibl><title/>(<date from="1911-12-05" to="1911-12-09">05.12.1911-09.12.1911
+                            </date>)</bibl>
+                        <bibl type="print">Faksimile-Druck von „autographer Reinschrift“ (C*)</bibl>
+                        <bibl type="print">Erstdruck [U. E. 6209]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.54">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName key="p_1228">
+                            <surname>Giraud</surname>
+                            <forename>Albert</forename>
+                        </persName>
+                    </author>
+                    <author role="translation">
+                        <persName key="p_1465">
+                            <surname>Hartleben</surname>
+                            <forename>Otto Erich</forename>
+                        </persName>
+                    </author>
+                    <title>Pierrot lunaire. Dreimal sieben Gedichte aus Albert Girauds „Lieder des
+                        Pierrot Lunaire“ op. 21</title>
+                    <idno>ASW 21</idno>
+                    <note>
+                        <bibl><title/>(<date from="1912-03-12" to="1912-07-24">
+                                12.03.1912-24.07.1912 </date>)</bibl>
+                        <bibl type="print">Originaldruck. Große Partitur. Universal-Edition
+                            Wien-Leipzig, U. E. 5334</bibl>
+                        <bibl type="print">Originalddruck der Taschenpartitur 16°. U.E. 5336
+                            [DTa]</bibl>
+                        <bibl type="print">Taschenpartitur Philharmonia Nr. 1003 [DTb]</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Erstdruck D. Universal-Edition
+                            Wien-Leipzig 1920, UE 5335</bibl>
+                        <bibl type="print">Originalauszug des Klavierauszugs von Erwin Stein.
+                            Universal-Edition Wien-Leipzig 1923, UE 7144</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.55">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vier Lieder für Gesang und Orchester op. 22</title>
+                    <idno>ASW 22</idno>
+                    <note>
+                        <bibl n="1"><title>Seraphita</title> (<date from="1913-10-06"
+                                to="1913-11-09">06.10.1913-09.11.1913 </date>)</bibl>
+                        <bibl n="2"><title>Alle, welche dich suchen</title> (<date from="1914-11-30"
+                                to="1915-01-08">30.11.1914-08.01.1915 </date>)</bibl>
+                        <bibl n="3"><title>Mach mich zum Wächter deiner Weiten</title> (<date
+                                from="1914-12-03" to="1915-01-14">03.12.1914-14.01.1915
+                            </date>)</bibl>
+                        <bibl n="4"><title>Der verlorene Haufen</title> (<date from="1916-07-19"
+                                to="1916-11-01">19.07.1916-01.11.1916 </date>)</bibl>
+                        <bibl type="print">Originaldruck der vier Lieder in Form der vereinfachten
+                            Studier- und Dirigierpartitur. Universal Edition AG Wien Leipzig 1917.
+                            U.E. 6060</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.56">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Fünf Klavierstücke op. 20</title>
+                    <idno>ASW 23</idno>
+                    <note>
+                        <bibl><title/>(<date from="1920-07-08" to="1923-02-17"
+                                >08.07.1920-17.02.1923</date>)</bibl>
+                        <bibl type="print">Erstdruck [Hansen]</bibl>
+                        <bibl type="print">Erstdruck [U. E. 6209]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.57">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Serenade op. 24</title>
+                    <idno>ASW 24</idno>
+                    <note>
+                        <bibl><title/>(<date from="1920-08-03" to="1923-04-14">03.08.1920-14.04.1923
+                            </date>)</bibl>
+                        <bibl type="print">Originaldruck der Partitur [Hansen]</bibl>
+                        <bibl type="print">Studienpartitur des Originaldrucks E [Hansen]</bibl>
+                        <bibl type="print">Stimmen zum Originaldruck E</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.58">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Suite für Klavier op. 25</title>
+                    <idno>ASW 25</idno>
+                    <note>
+                        <bibl><title/>(<date from="1921-07-24" to="1923-03">24.07.1921-03.1923
+                            </date>)</bibl>
+                        <bibl type="print">Erstdruck [U. E. 7627]</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.59">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Quintett für Flöte, Oboe, Klarinette, Horn und Fagott op. 26</title>
+                    <idno>ASW 26</idno>
+                    <note>
+                        <bibl><title>Originalfassung</title>(<date from="1923-04-14" to="1924-08-27"
+                                >14.04.1923-27.08.1924 </date>)</bibl>
+                        <bibl type="print">Originaldruck der Partitur. Universal-Edition 7668 </bibl>
+                        <bibl type="print">Stimmen. Universal-Edition 7669</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.60">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vier Stücke für gemischten Chor op. 27</title>
+                    <idno>ASW 27</idno>
+                    <note>
+                        <bibl n="1"><title>Unentrinnbar</title> (<date from="1925" to="1925-09-30"
+                                >1925-30.09.1925 </date>)</bibl>
+                        <bibl n="2"><title>Du sollst nicht, du mußt</title> (<date from="1925-10-14"
+                                to="1925-10-17"> 14.10.1925-17.10.1925 </date>)</bibl>
+                        <bibl n="3"><title>Mond und Menschen</title> (<date from="1925-10-14"
+                                to="1925-01-16"> 14.10.1925-16.10.1925 </date>)</bibl>
+                        <bibl n="4"><title>Der Wunsch des Liebhabers</title> (<date
+                                when="1925-11-10">10.11.1925</date>)</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition A. G. Wien-New York
+                            1926. U.E. 8549</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.61">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Drei Satiren für gemischten Chor op. 28</title>
+                    <idno>ASW 28</idno>
+                    <note>
+                        <bibl n="1"><title>Am Scheideweg</title> (<date when="1925-11-12"
+                                >12.11.1925</date>)</bibl>
+                        <bibl n="2"><title>Vielseitigkeit</title> (<date from="1925-11-15"
+                                to="1925-12-31">15.11.1925-31.12.1925 </date>)</bibl>
+                        <bibl n="3"><title>Der neue Klassizismus</title> (<date from="1925-11-13"
+                                to="1925-12-30"> 13.11.1925-30.12.1925</date>)</bibl>
+                        <!-- PHILIPP ob das mit den römischen Zahlen passt...? -->
+                        <bibl n="I"><title>[Anhang] Ein Spruch und zwei Variationen über ihn</title>
+                                (<date when="1925-11-12">12.11.1925</date>)</bibl>
+                        <bibl n="II"><title>[Anhang] Kanon für Streichquartett</title> (<date
+                                when="1925-11-12">12.11.1925</date>)</bibl>
+                        <bibl n="III"><title>[Anhang] Legitimation als Kanon</title> (<date
+                                when="1925-11-12">12.11.1925</date>)</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition A. G. Wien-New York
+                            1926. U.E. 8549</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.62">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Suite op. 29</title>
+                    <idno>ASW 29</idno>
+                    <note>
+                        <bibl><title/>(<date from="1924-10-28" to="1926-05-01"
+                                >28.10.1924-01.05.1926</date>)</bibl>
+                        <bibl type="print">Originaldruck der Partitur [U. E. 8685]</bibl>
+                        <bibl type="print">Klarinetten- und Streicherstimmen zum Originaldruck C [U.
+                            E. 8685a-f]</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.63">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Streichquartett Nr. 3 op. 30</title>
+                    <idno>ASW 30</idno>
+                    <note>
+                        <bibl><title/>(<date from="1927-01-24" to="1927-09-19">24.01.1927-19.09.1927
+                            </date>)</bibl>
+                        <bibl type="print">Originaldruck als Studienpartitur. Universal Edition AG
+                            Wien Leipzig/Wiener Philharmonischer Verlag 1927. U.E. 8927
+                            W.Ph.V.228</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. Universal-Edition AG
+                            Wien Leipzig, U.E. 8928 (1. Geige: U.E 8928a, 2. Geige: U.E 8928b,
+                            Bratsche: U.E 8928c, Violoncello: U.E 8928d)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.64">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Variationen für Orchester op. 31</title>
+                    <idno>ASW 31</idno>
+                    <note>
+                        <bibl><title/>(<date from="1926-05-02" to="1928-08-21"
+                                >02.05.1926-21.08.1928</date>)</bibl>
+                        <bibl type="print">Originaldruck. Universal-Edition AG Wien Leipzig 1929,
+                            U.E. 9614</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. Universal-Edition AG
+                            Wien Leipzig 1929, U.E. 9615 (die Streicherstimmen mit dem Zusatz
+                            kleiner Buchstaben: von I. Geige bis Kontrabaß 9615a bis
+                        9615e)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.65">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Von heute auf morgen. Oper in einem Akt op. 32</title>
+                    <idno>ASW 32</idno>
+                    <note>
+                        <bibl><title/>(<date from="1928-10-25" to="1929-08-03"
+                                >25.10.1928-03.08.1929</date>)</bibl>
+                        <bibl type="print">Erster Originaldruck der Partitur, Berlin-Charlottenburg
+                            1929, im Selbstverlag des Komponisten</bibl>
+                        <bibl type="print">Zweiter Originaldruck der Partitur, Berlin-Charlottenburg
+                            1930, im Selbstverlag des Komponisten, Auslieferung und Bühnenvertrieb:
+                            Edition B. Balan, Berlin-Charlottenburg</bibl>
+                        <bibl type="print">Erster Originaldruck des Klavierauszug,
+                            Berlin-Charlottenburg 1929, Im Selbstverlag des Komponisten</bibl>
+                        <bibl type="print">Zweiter Originaldruck, Klavierauszug,
+                            Berlin-Charlottenburg 1930, im Selbstverlag des Komponisten,
+                            Auslieferung und Bühnenvertrieb: Edition B. Balan,
+                            Berlin-Charlottenburg</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.66">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Klavierstück op. 33a</title>
+                    <!-- unsicher, wie ASW nummern hier funktionieren -->
+                    <idno>ASW 33</idno>
+                    <note>
+                        <bibl><title/>(<date from="1929-04-25" to="1929-12-25">25.04.1929-25.12.1929
+                            </date>)</bibl>
+                        <bibl type="print">Erstdruck [U. E. 9521]</bibl>
+                        <bibl type="print">Separatdruck [U. E. 9773]</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.67">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Concerto for Violin and Orchestra op. 36</title>
+                    <idno>ASW 36</idno>
+                    <note>
+                        <bibl><title/>(<date from="1934" to="1936-09">1934-09.1936</date>)</bibl>
+                        <bibl type="print">Originaldruck. G. Schirmer, Inc., New York
+                        1939</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.68">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Streichquartett Nr. 4 op. 37</title>
+                    <idno>ASW 37</idno>
+                    <note>
+                        <bibl><title/>(<date from="1936-04-27" to="1936-06-26">27.04.1936-26.06.1936
+                            </date>)</bibl>
+                        <bibl type="print">Originaldruck. G. Schirmer, Inc., New York 1939</bibl>
+                        <bibl type="print">Gedruckte Stimmen zum Originaldruck. G. Schirmer, Inc.,
+                            New York 1939</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.69">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Kammersymphonie Nr. 2 op. 38</title>
+                    <idno>ASW 38</idno>
+                    <note>
+                        <bibl><title>Originalfassung</title>(<date from="1906" to="1939">1906-1936
+                            </date>)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.70" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Kammersymphonie Nr. 2 op. 38</title>
+                    <idno>ASW 38</idno>
+                    <note>
+                        <bibl><title>Bearbeitung für zwei Klaviere op. 38B</title>(<date
+                                from="1936-04-27" to="1936-06-26">27.04.1936-26.06.1936
+                            </date>)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.71">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Kol nidre op. 39</title>
+                    <idno>ASW 39</idno>
+                    <note>
+                        <bibl><title/>(<date from="1938-08-01" to="1938-09-08"
+                                >01.08.1938-08.09.1938</date>)</bibl>
+                        <bibl type="print">1. Originalfotodruck</bibl>
+                        <bibl type="print">2. Originalfotodruck</bibl></note>
+                </bibl>
+                <!-- wie ist es hier mit den Fassungen? gibt es zwei oder drei?? -->
+                <bibl xml:id="werke.72">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Ode to Napoleon Buonaparte op. 41</title>
+                    <idno>ASW 41</idno>
+                    <note>
+                        <bibl><title>Originalfassung</title>(<date from="1942-03-12" to="1942-06-12"
+                                >12.03.1942-12.06.1942 </date>)</bibl>
+                        <bibl type="print">Erstausgabe der Partitur der Orchesterfassung</bibl>
+                        <bibl type="print">Erstausgabe der Streicherstimmen der
+                            Orchesterfassung</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.73" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Ode to Napoleon Buonaparte op. 41</title>
+                    <idno>ASW 41</idno>
+                    <note>
+                        <bibl><title>Quartettfassung</title></bibl>
+                        <bibl type="print">Erstausgabe der Partitur der Quartettfassung</bibl>
+                        <bibl type="print">Erstausgabe der Stimmen der Quartettfassung</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.74" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Ode to Napoleon Buonaparte op. 41</title>
+                    <idno>ASW 41</idno>
+                    <note>
+                        <bibl><title>Einrichtung für Streichorchester, Klavier und
+                                Sprecher</title>(<date when="1942">1942</date>)</bibl>
+                        <bibl type="print">Erstausgabe der Partitur der Quartettfassung</bibl>
+                        <bibl type="print">Erstausgabe der Stimmen der Quartettfassung</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.75">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Concerto for Piano and Orchestra op. 42 </title>
+                    <idno>ASW 42</idno>
+                    <note>
+                        <bibl><title/>(<date from="1942-06-27" to="1942-12-30">27.06.1942-30.12.1942
+                            </date>)</bibl>
+                        <bibl type="print">Originalphotodruck. G. Schirmer, Inc., New York.
+                            Lichtpausfaksimile der Reinschrift C*</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.76">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>String Trio op. 45 </title>
+                    <idno>ASW 45</idno>
+                    <note>
+                        <bibl><title/>(<date from="1946-06-07" to="1946-09-23"
+                                >07.06.1946-23.09.1946</date>)</bibl>
+                        <bibl type="print">Originaldruck. Bomart Music Publications 1950</bibl>
+                        <bibl type="print">Gedruckte Stimmen. Bomart Music Publications
+                        1950</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.77">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>A Survivor from Warsaw op. 46 </title>
+                    <idno>ASW 46</idno>
+                    <note>
+                        <bibl><title/>(<date from="1946-06-07" to="1946-09-23"
+                                >11.08.1947-23.08.1947</date>)</bibl>
+                        <bibl type="print">Originaldruck [Bomart]</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.78">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Die Jakobsleiter. Oratorium</title>
+                    <idno>ASW ??</idno>
+                    <note>
+                        <bibl><title/>(<date from="1915" to="1922">1915-1922</date>)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.79">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Moses und Aron. Oper in drei Akten</title>
+                    <idno>ASW ??</idno>
+                    <note>
+                        <bibl><title/>(<date from="1923" to="1937">1923-1937</date>)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.80">
+                    <author role="composition">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Der Tanz um das goldene Kalb</title>
+                    <idno>ASW ??</idno>
+                    <ref type="partOf" target="#werke.79"/>
+                    <note>
+                        <bibl><title/></bibl></note>
+                </bibl>
+                <bibl xml:id="werke.81" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3320">
+                            <surname>Schubert</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Rellstab</surname>
+                            <forename>Ludwig</forename>
+                        </persName>
+                    </author>
+                    <title>Ständchen D 957/4</title>
+                    <idno>ASW ??</idno>
+                    <note>
+                        <bibl><title>Ständchen D 957/4 von Franz Schubert
+                                [verschollen]</title>(<date when="1912">1912</date>)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.82" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3320">
+                            <surname>Schubert</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Müller</surname>
+                            <forename>Wilhelm</forename>
+                        </persName>
+                    </author>
+                    <title>Die Post, Nr. 13 aus "Die Winterreise" D 922</title>
+                    <idno>ASW ??</idno>
+                    <note>
+                        <bibl><title>Die Post, Nr. 13 aus „Die Winterreise“ D 922 von Franz Schubert
+                                [verschollen]</title>(<date when="1912">1912</date>)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.83" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3320">
+                            <surname>Schubert</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <!-- die Autorin dieses Textes ist nicht Goethe, obwohl er aus dem Diwan stammt, sondern: -->
+                    <author role="text">
+                        <persName>
+                            <surname>Willemer, von</surname>
+                            <forename>Marianne</forename>
+                        </persName>
+                    </author>
+                    <title>Suleika I (Was bedeutet die Bewegung) D 720</title>
+                    <idno>ASW ??</idno>
+                    <note>
+                        <bibl><title>Suleika I (Was bedeutet die Bewegung) D 720 von Franz Schubert
+                                [verschollen]</title>(<date when="1912">1912</date>)</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.84" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3320">
+                            <surname>Schubert</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Goethe, von</surname>
+                            <forename>Johann Wolfgang</forename>
+                        </persName>
+                    </author>
+                    <title>Suleika II (Ach, um deine feuchten Schwingen) D 717</title>
+                    <idno>ASW ??</idno>
+                    <note>
+                        <bibl><title>Suleika II (Ach, um deine feuchten Schwingen) D 717 von Franz
+                                Schubert [verschollen]</title></bibl></note>
+                </bibl>
+                <bibl xml:id="werke.85" type="arrangement">
+                    <author role="composition">
+                        <persName key="p_3320">
+                            <surname>Schubert</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="arrangement">
+                        <persName key="p_3263">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Ouvertüre, Entr'acts und Ballets zum Drama Rosamunde von Franz
+                        Schubert</title>
+                    <idno>ASW ??</idno>
+                    <note>
+                        <bibl><title>Ouvertüre, Entr'acts und Ballets zum Drama Rosamunde von Franz
+                                Schubert [Klavierauszug]</title>(<date when="1904"
+                            >1904</date>)</bibl><bibl type="print">Erstdruck: 1904, Universal-Edition
+                            Wien</bibl></note>
+                </bibl>
+                <bibl xml:id="werke.86">
+                    <!-- fraglich, ob sie hier hin gehören -->
+                    <author role="composition">
+                        <persName key="p_252">
+                            <surname>Bach</surname>
+                            <forename>Johann Sebastian</forename>
+                        </persName>
+                    </author>
+                    <title>Sechs Triosonaten für Orgel BWV 525-530</title>
+                    <idno></idno>
+                    <note>
+                        <bibl><title/></bibl></note>
+                </bibl>
+                <bibl xml:id="werke.87">
+                    <author role="composition">
+                        <persName key="p_331">
+                            <surname>Beethoven, van</surname>
+                            <forename>Ludwig</forename>
+                        </persName>
+                    </author>
+                    <title>9. Sinfonie in d-Moll op. 125</title>
+                    <idno></idno>
+                    <note>
+                        <bibl><title/></bibl></note>
+                </bibl>
+                <bibl xml:id="werke.89">
+                    <author role="composition">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Wozzeck</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                        <!-- soll ich UE drucke von solchen Stücken aufnehmen? -->
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.90">
+                    <author role="composition">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <!-- woher nehmen wir die kanonischen Titel bei nicht AS-werken? -->
+                    <title>Lulu-Suite. Symphonische Stücke aus der Oper „Lulu“</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date when="1934">1934</date>)</bibl>
+                    </note>
+                </bibl>
+                <!-- in so einem Fall schreibe ich jetzt Wedekind nicht auf, Büchner beim Wozzeck auch nicht -->
+                <bibl xml:id="werke.91">
+                    <author role="composition">
+                        <persName key="p_385">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Lulu</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.92">
+                    <author role="composition">
+                        <persName key="p_602">
+                            <surname>Bruckner</surname>
+                            <forename>Anton</forename>
+                        </persName>
+                    </author>
+                    <title>Sinfonie Nr. 9 d-Moll WAB 109</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.93">
+                    <author role="composition">
+                        <persName key="p_647">
+                            <surname>Busoni</surname>
+                            <forename>Ferruccio</forename>
+                        </persName>
+                    </author>
+                    <title>Turandot</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.94">
+                    <author role="composition">
+                        <persName key="p_1303">
+                            <surname>Graener</surname>
+                            <forename>Paul</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Anthes</surname>
+                            <forename>Otto</forename>
+                        </persName>
+                    </author>
+                    <title>Don Juans letztes Abenteuer</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date when="1914">1914</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.95">
+                    <author role="composition">
+                        <persName key="p_1597">
+                            <surname>Hoérée</surname>
+                            <forename>Arthur</forename>
+                        </persName>
+                    </author>
+                    <title>6 poèmes for voice and piano</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.96">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>Toccata und Chaconne über den Choral "Ja ich glaub an Jesum Christum"</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date when="1922">1922</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.97">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>Symphonische Musik für 9 Soloinstrumente</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.98">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>4 gemischte Chöre for mixed choir a cappella</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.99">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>Jonny spielt auf. Oper in 2 Teilen</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date from="1925" to="1926">1925-1926</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.100">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>Karl V. Bühnenwerk mit Musik in 2 Teilen</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date when="1933">1933</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.101">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>Der Diktator op. 49</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date when="1926">1926</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.102">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>Das geheime Königreich op. 50</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.103">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>Schwergewicht oder Die Ehre der Nation op. 55</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.104">
+                    <author role="composition">
+                        <persName key="p_2053">
+                            <surname>Krenek</surname>
+                            <forename>Ernst</forename>
+                        </persName>
+                    </author>
+                    <title>Potpourri für Orchester</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.105">
+                    <author role="composition">
+                        <persName key="p_2225">
+                            <surname>Mahler</surname>
+                            <forename>Gustav</forename>
+                        </persName>
+                    </author>
+                    <title>2. Symphonie</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date from="1888" to="1894">1888-1894</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.106">
+                    <author role="composition">
+                        <persName key="p_2225">
+                            <surname>Mahler</surname>
+                            <forename>Gustav</forename>
+                        </persName>
+                    </author>
+                    <title>3. Symphonie</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date from="1895" to="1896">1895-1896</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.107">
+                    <author role="composition">
+                        <persName key="p_2225">
+                            <surname>Mahler</surname>
+                            <forename>Gustav</forename>
+                        </persName>
+                    </author>
+                    <title>8. Symphonie</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date when="1906">1906</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.108">
+                    <author role="composition">
+                        <persName key="p_2225">
+                            <surname>Mahler</surname>
+                            <forename>Gustav</forename>
+                        </persName>
+                    </author>
+                    <title>9. Symphonie</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date from="1908" to="1910">1908-1910</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.109">
+                    <author role="composition">
+                        <persName key="p_2225">
+                            <surname>Mahler</surname>
+                            <forename>Gustav</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Rückert</surname>
+                            <forename>Friedrich</forename>
+                        </persName>
+                    </author>
+                    <title>Kindertotenlieder</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.110">
+                    <author role="composition">
+                        <persName key="p_2394">
+                            <surname>Milhaud</surname>
+                            <forename>Darius</forename>
+                        </persName>
+                    </author>
+                    <title>5 Symphonien</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.111">
+                    <author role="composition">
+                        <persName key="p_2394">
+                            <surname>Milhaud</surname>
+                            <forename>Darius</forename>
+                        </persName>
+                    </author>
+                    <title>Sérénade für Orchester</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.112">
+                    <author role="composition">
+                        <persName key="p_2445">
+                            <surname>Monteverdi</surname>
+                            <forename>Claudio</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Rinuccini</surname>
+                            <forename>Ottavio</forename>
+                        </persName>
+                    </author>
+                    <title>L'Arianna</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.113">
+                    <author role="composition">
+                        <persName key="p_3301">
+                            <surname>Schreker</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <title>Der ferne Klang</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date from="1903" to="1910">1903-1910</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.114">
+                    <author role="composition">
+                        <persName key="p_3301">
+                            <surname>Schreker</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <title>Das Spielwerk und die Prinzessin</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date from="1908" to="1912">1908/1909-1912</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.115">
+                    <author role="composition">
+                        <persName key="p_3301">
+                            <surname>Schreker</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <title>Der singende Teufel</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/>(<date from="1924" to="1928">1924/1927-1928</date>)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.116">
+                    <author role="composition">
+                        <persName key="p_3301">
+                            <surname>Schreker</surname>
+                            <forename>Franz</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Whitman</surname>
+                            <forename>Walt</forename>
+                        </persName>
+                    </author>
+                    <title>Vom ewigen Leben</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.117">
+                    <author role="composition">
+                        <persName key="p_3612">
+                            <surname>Stein</surname>
+                            <forename>Erwin</forename>
+                        </persName>
+                    </author>
+                    <title>Andante</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.118">
+                    <author role="composition">
+                        <persName key="p_3946">
+                            <surname>Wagner</surname>
+                            <forename>Richard</forename>
+                        </persName>
+                    </author>
+                    <title>Siegfried</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.119">
+                    <author role="composition">
+                        <persName key="p_4048">
+                            <surname>Weill</surname>
+                            <forename>Kurt</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Goll</surname>
+                            <forename>Yvan</forename>
+                        </persName>
+                    </author>
+                    <title>Royal Palace op. 17</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.120">
+                    <author role="composition">
+                        <persName key="p_4098">
+                            <surname>Wellesz</surname>
+                            <forename>Egon</forename>
+                        </persName>
+                    </author>
+                    <title>Ein österreichisches Reiterlied</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.121">
+                    <author role="composition">
+                        <persName key="p_4309">
+                            <surname>Zemlinsky</surname>
+                            <forename>Alexander</forename>
+                        </persName>
+                    </author>
+                    <title>2. Streichquartett op. 15</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="werke.122">
+                    <author role="composition">
+                        <persName key="p_4332">
+                            <surname>Zillig</surname>
+                            <forename>Winfried</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName key="p_4332">
+                            <surname>Goering</surname>
+                            <forename>Reinhard</forename>
+                        </persName>
+                    </author>
+                    <title>Das Opfer</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
                     </note>
                 </bibl>
             </listBibl>
