@@ -3578,7 +3578,10 @@
                     <note>UE</note>
                 </person>
                 <person xml:id="p_3067">
-                    <persName><surname>Rothe</surname><forename>Betti/Betty</forename></persName>
+                    <persName type="reg"><surname>Rothe</surname><forename>Betti/Betty</forename></persName>
+                    <persName type="alternative">
+                        <name type="referencemark">R</name>
+                    </persName>
                     <note>im Schenker Briefwechsel übrigens als Barbara</note>
                 </person>
                 <person xml:id="p_3068">
