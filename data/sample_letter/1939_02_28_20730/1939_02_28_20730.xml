@@ -10,39 +10,53 @@
                 <title>Universal-Edition an Arnold Schönberg, 28. Februar 1939</title>
                 <respStmt>
                     <persName>
-                        <forename>Philipp</forename>
-                        <surname>Kehrer</surname>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
                     </persName>
                     <resp>
-                        <term>Transkription</term>
-                        <term>Annotation</term>
+                        <term>Projektleitung</term>
+                        <term>Herausgeberschaft</term></resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>Katharina</forename>
+                        <surname>Bleier</surname></persName>
+                    <resp>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                        <term>Herausgeberschaft</term>
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName>
-                        <forename>Katharina</forename>
-                        <surname>Bleier</surname>
-                    </persName>
-                    <resp>
-                        <term>Transkription</term>
-                        <term>Annotation</term>
-                    </resp>
-                </respStmt>
-                <respStmt>
-                    <persName>
-                        <forename>Christopher</forename>
-                        <surname>Pollin</surname>
-                    </persName>
+                    <persName><forename>Christopher</forename>
+                        <surname>Pollin</surname></persName>
                     <resp>
                         <term>Datenmodellierung</term>
                     </resp>
                 </respStmt>
+                <respStmt>
+                    <persName><forename>Philipp</forename><surname>Kehrer</surname></persName>
+                    <resp>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>N.</forename><surname>N.</surname></persName>
+                    <resp>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName><forename>N.</forename><surname>N.</surname></persName>
+                    <resp>
+                        <term>Studentische Mitarbeit</term>
+                    </resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher>Arnold Schönberg Center</publisher>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
                 <pubPlace>Wien</pubPlace>
-                <publisher>Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der
-                    Universität für Musik und darstellende Kunst Wien</publisher>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
                 <pubPlace>Wien</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -59,15 +73,14 @@
                 <msDesc>
                     <msIdentifier>
                         <settlement>
-                            <placeName key="#">Wien</placeName>
+                            <placeName key="place.9.11">Wien</placeName>
                         </settlement>
                         <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
                             Center</institution>
-                        <repository/>
                         <collection>SatCollS4 Corr. "Universal Edition"</collection>
                         <altIdentifier>
                             <settlement>
-                                <placeName key="#">Wien</placeName>
+                                <placeName key="place.9.11">Wien</placeName>
                             </settlement>
                             <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
                                 Center</institution>
@@ -80,15 +93,15 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <orgName key="org.1">Universal-Edition</orgName>
-                    <persName key="person.4">Betti Rothe</persName>
-                    <persName>illeg.</persName>
-                    <placeName key="xxx">Wien</placeName>
+                    <orgName key="UE">Universal-Edition</orgName>
+                    <persName key="p_3067">Betti Rothe</persName>
+                    <persName key="p_1210">Ernst Geutebrück</persName>
+                    <placeName key="place.9.11">Wien</placeName>
                     <date when="1939-02-28"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="xxx">Arnold Schönberg</persName>
-                    <placeName key="xxx">Los Angeles</placeName>
+                    <persName key="p_3263">Arnold Schönberg</persName>
+                    <placeName key="place.15.7">Los Angeles</placeName>
                 </correspAction>
                 <note>Auf der Rückseite findet sich der Entwurf eines Antwortbriefes in der Hand von
                     Richard Hoffmann</note>
@@ -105,6 +118,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-09-07" who="PK"> test </change>
+            <!-- Verwendung nach Veröffentlichung für nachträgliche Änderungen -->
         </revisionDesc>
     </teiHeader>
     <text>
@@ -112,47 +126,51 @@
             <div type="letter">
                 <pb n="1" xml:id="page.1"/>
                 <opener>
-                    <!-- ASUE "rend center" im <stamp> Element und in <hi> ? -->
-                    <!-- CP: es ginge sowohl <hi rendition="center"> als elternelement, oder rend in stamp.
-                    einfacher ist es sicher, wenn man zu jedem element ein @rend ohne hi hinzufügen kann. -->
-                    <stamp sameAs="#stamp.2" rendition="center"> Universal-Edition-A.G.<lb/>
-                        <hi rendition="#u" hand="#Hoffmann">WIEN. I. KARLSPLATZ
-                        6</hi><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG. KARLSTRASSE
-                        10</stamp>
-                    <add rendition="#r" hand="unknown">Ostmark Germany</add>
+                    <stamp sameAs="stamp.17" rendition="center">
+                        <orgName key="UE">Universal-Edition· A. G.</orgName><lb/>
+                        <location>
+                            <placeName key="place.9.11.6.12"><hi rendition="#circle"
+                                    hand="#Hoffmann">WIEN</hi><hi rendition="#u" hand="#Hoffmann">·
+                                    I· KARLSPLATZ 6</hi></placeName>
+                        </location><lb/> Musikvereinsgebäude / Tel. U 47-5-85<lb/>
+                        <location>
+                            <placeName key="place.2.20.8">LEIPZIG· KARLSTRASSE 10</placeName>
+                        </location></stamp>
+                    <add rendition="#r" hand="#Hoffmann">Ostmark<lb/> Germany</add>
                     <dateline rendition="#l">
-                        <persName>R</persName>/<persName>No.</persName></dateline>
-                    <!-- ASUE Kürzel in einer Zeile R/No.-->
+                        <persName key="p_3067">R</persName>/<persName>No.</persName></dateline>
                     <dateline rendition="#r">Wien, am 28. Feber 1939.</dateline>
-                    <hi rendition="#ud">
-                        <address>
-                            <addrLine>Herrn</addrLine>
-                            <addrLine>
-                                <persName>Prof. Arnold Schönberg</persName>
-                            </addrLine>
-                            <addrLine>
-                                <placeName>116 North Rockingham Avenue</placeName>
-                            </addrLine>
-                            <addrLine>
-                                <placeName>Brentwood Park</placeName>
-                            </addrLine>
-                            <addrLine>
-                                <placeName>Los Angeles, Calif.</placeName>
-                            </addrLine>
-                        </address>
-                    </hi>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>
+                            <persName key="p_3263">Prof. Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 North Rockingham Avenue</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3">Brentwood Park</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7"><hi rendition="#ud">Los Angeles,
+                                Calif.</hi></placeName>
+                        </addrLine>
+                    </address>
                     <stamp rendition="#r">APR221939</stamp>
                     <salute>Sehr geehrter Herr Professor!</salute>
                 </opener>
                 <p>Wir entsprechen gerne einem Wunsche des Komponisten<lb/>
-                    <persName key="Krenek">Ernst Krenek</persName> und lassen Ihnen gleichzeitig
-                    einen Klavierauszug sei<g ref="#typoHyphen"/><lb break="no"/>ner Oper "Karl
-                    V."<!-- musikalisches Werk --> als Ehrenexemplar zugehen.</p>
-                <p>Eben trifft auch <ref type="prev"
-                        target="Das ist ein interner Link auf einen vorausgehenden Brief im Korrespondenzkontext"
-                        >Ihr Schreiben</ref> vom 3o.v.M. ein und wir<lb/> danken Ihnen für die
-                    Einsendung der unterfertigten Copyrights-For<g ref="#typoHyphen"/><lb break="no"
-                    />mulare.</p>
+                    <persName key="p_2053">Ernst Krenek</persName> und lassen Ihnen gleichzeitig
+                    einen Klavierauszug sei<g ref="#typoHyphen"/><lb break="no"/>ner Oper "<bibl
+                        key="werke.100"
+                        ><!-- wie ist der entsprechende Eintrag im Werkregister hier einzutragen? -->Karl
+                        V.</bibl>" als Ehrenexemplar zugehen.</p>
+                <p>Eben trifft auch <ref type="prev" target="interner Link zum genannten Brief">Ihr
+                        Schreiben vom
+                    3o.v.M</ref><!--ASUE: funktioniert das so, oder braucht es ein <anchor> (siehe base manual) oder <seg type="comment"> -->.
+                    ein und wir<lb/> danken Ihnen für die Einsendung der unterfertigten <seg
+                        type="comment"><orig>Copyrights-For<g ref="#typoHyphen"/><lb break="no"
+                            />mulare.</orig><note xml:id="note_11">verschollen</note></seg></p>
                 <p>Wir stehen mit einer unserer ausländischen Vertretungen in<lb/> weitgehenden
                     Verhandlungen bezüglich Uebernahme der in unserem Verlag<lb/> erschienenen Werke
                     nichtarischer Komponisten, deren Abschluss den Kom<g ref="#typoHyphen"/><lb
@@ -170,14 +188,16 @@
                     <salute rendition="#r">in vorzüglicher Hochachtung<lb/>
                         <orgName>UNIVERSAL-EDITION A.G.</orgName>
                     </salute>
-                    <signed>
-                        <!-- ja, supplied ist besser. warum steht hier B. Rothe? ist das die vermutung des namens der hinter der unleserlichen unterschrift steht?-->
-                        <!-- ASUE es sind zwei Unterschriften B. Rothe + eine unleserliche -->
-                        <supplied reason="illegible"/>
+                    <signed><choice>
+                            <abbr>ppa</abbr>
+                            <expan>per Prokura</expan>
+                        </choice>
+                        <persName>Ernst Geutebrück</persName>
                         <persName>B. Rothe</persName>
                     </signed>
-                </closer>
-                <note rendition="#u" place="right">over</note>
+                    <stamp>TELEGRAMM·ADRESSE: MUSIKEDITION, WIEN·POSTSPARKASSEN-KONTO WIEN
+                        37557</stamp></closer>
+                <note rendition="#u" place="right" hand="#Hoffmann">over</note>
             </div>
             <pb n="2" xml:id="page.2"/>
             <div type="letter">
@@ -189,14 +209,19 @@
                         <corr>too</corr>
                     </choice><lb/> busy to write myself.</p>
                 <p>I have not yet got your answer about<lb/> my royalties from records and whether
-                    you have<lb/> paid (as I asked you previously.) the monthly<lb/> amount to my
-                    son <persName key="georg">Georg<del rendition="#s">e</del> Sch.</persName>
+                    you have<lb/> paid (<ref type="prev" target="interner Link zum genannten Brief"
+                        >as I asked you previously</ref>.) the monthly<lb/> amount to my son
+                        <persName key="p_3281">Georg<del rendition="#s">e</del> Sch.</persName>
                     Would you be<lb/> kind enough to do this as soon as possible. </p>
-                <p><metamark/> Today I want <add place="superlinear" hand="#Hoffmann">at first</add> to
-                    thank you for sending me<lb/> the music I ordered. But I think a number<lb/> of
-                    the packages must be delayed, and I hope<lb/> they will arrive soon.</p>
+                <p><metamark/> Today I want <add place="superlinear" hand="#Hoffmann">at first</add>
+                    to thank you for <seg type="comment"><orig>sending me<lb/> the music I
+                            ordered</orig><note xml:id="note_12">Schönberg erwähnt in einem <ref
+                                target="interner link zum Brief">Brief vom 21. April 1938</ref> eine
+                            Liste, genaue Daten über die Bestellung und Auslieferung konnten nicht
+                            eruiert werden</note></seg>. But I think a number<lb/> of the packages
+                    must be delayed, and I hope<lb/> they will arrive soon.</p>
                 <p>From the bills I saw, I observed to<lb/> my astonishment that you charge me for
-                    my own<lb/> works. It was an agreement with <persName key="Hertzka">Mr.
+                    my own<lb/> works. It was an agreement with <persName key="p_1538">Mr.
                         Herzka</persName><lb/> that I get copies without <add place="superlinear"
                         >any</add> charge.</p>
                 <p>As I am not selling them, it would be<lb/> awkward to me to pay for them. The
@@ -209,10 +234,10 @@
                     clipping!</p>
                 <note rendition="#circle" place="right">over</note>
                 <p>
-                    <metamark/>By the way, you even charge me for my opera<lb/> „VON HEUTE AUF
-                    MORGEN“<!-- musikalisches Werk -->, that is my property<lb/> for that I paid not
-                    only the printing expenses, but also<lb/> that of the lawsuit I lost.<lb/>
-                    Please kindly rectify this matter. </p>
+                    <metamark/>By the way, you even charge me for my opera<lb/>
+                    <bibl key="werke.65">„VON HEUTE AUF MORGEN“</bibl>, that is my property<lb/> for
+                    that I paid not only the printing expenses, but also<lb/> that of the lawsuit I
+                    lost.<lb/> Please kindly rectify this matter. </p>
                 <closer>
                     <salute>Very truly yours,</salute>
                 </closer>
