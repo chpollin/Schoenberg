@@ -1741,6 +1741,12 @@
                                     <geo>48.21370, 16.36727</geo>
                                 </location>
                             </place>
+                            <place xml:id="place.9.11.6.25" type="building">
+                                <placeName>Maximilianstraße 11</placeName>
+                                <location>
+                                    <geo>48.202708895561855, 16.372648527405776</geo>
+                                </location>
+                            </place>
                         </place>
                         <place xml:id="place.9.11.7" type="district">
                             <placeName>Josefstadt (VIII.)</placeName>
