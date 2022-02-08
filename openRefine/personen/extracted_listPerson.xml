@@ -1349,6 +1349,18 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q8178443"
                             >Librettist</term></occupation>
                 </person>
+                <person xml:id="p_1210">
+                    <idno type="uri">https://d-nb.info/gnd/130162353</idno>
+                    <persName><surname>Geutebrück</surname><forename>Ernst</forename></persName>
+                    <birth><date when="1893"/></birth>
+                    <death><date when="1944"/></death>
+                    <occupation><term ref="http://www.wikidata.org/entity/Q40348"
+                            >Rechtsanwalt</term></occupation>
+                    <occupation><term ref="http://www.wikidata.org/entity/Q639669"
+                        >Musiker</term></occupation>
+                    <occupation><term ref="http://www.wikidata.org/entity/Q36834"
+                        >Komponist</term></occupation>
+                </person>
                 <person xml:id="p_1228">
                     <idno type="uri">http://d-nb.info/gnd/118717650</idno>
                     <persName><surname>Giraud</surname><forename>Albert</forename></persName>
