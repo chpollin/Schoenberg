@@ -21,6 +21,7 @@
                     <location>
                         <geo>55.670249, 10.3333283</geo>
                     </location>
+                    <!-- PHILIPP den type der idno schlägt oxygen im moment als "URI" vor, anstatt "uri". hat das eine bedeutung? -->
                     <idno type="uri">http://sws.geonames.org/2623032</idno>
                     <place xml:id="place.1.1" type="settlement">
                         <placeName>Kopenhagen</placeName>
@@ -546,6 +547,12 @@
                             <placeName>Sternwartenstraße 15-20</placeName>
                             <location>
                                 <geo>51.335102535078974, 12.380465585373658</geo>
+                            </location>
+                        </place>
+                        <place xml:id="place.2.20.10" type="building">
+                            <placeName>Seeburgstr. 14-20</placeName>
+                            <location>
+                                <geo>51.33550764430616, 12.380712674133573</geo>
                             </location>
                         </place>
                     </place>
@@ -2285,6 +2292,19 @@
                                 </location>
                             </place>
                         </place>
+                        <place xml:id="place.15.7.3" type="district">
+                            <placeName>Brentwood Park</placeName>
+                            <location>
+                                <geo>34.05493697895366, -118.48796466641106</geo>
+                            </location>
+                            <idno type="uri">https://sws.geonames.org/5330658</idno>
+                            <place xml:id="place.15.7.3.1" type="building">
+                                <placeName>116 N Rockingham Avenue</placeName>
+                                <location>
+                                    <geo>34.05802122242767, -118.49100975420565</geo>
+                                </location>
+                            </place>
+                        </place>
                     </place>
                     <place xml:id="place.15.8" type="settlement">
                         <placeName>New York</placeName>
@@ -2382,63 +2402,64 @@
                             <location>
                                 <geo>40.76607691849662, -73.9805078459011</geo>
                             </location>
-                    </place>
-                    <place xml:id="place.15.9" type="settlement">
-                        <placeName>Pasadena</placeName>
-                        <location>
-                            <geo>34.1476452, -118.1444779</geo>
-                        </location>
-                        <idno type="uri">http://sws.geonames.org/5381396</idno>
-                    </place>
-                    <place xml:id="place.15.10" type="settlement">
-                        <placeName>Philadelphia</placeName>
-                        <location>
-                            <geo>39.9527237, -75.1635262</geo>
-                        </location>
-                        <idno type="uri">http://sws.geonames.org/4560349</idno>
-                        <place xml:id="place.15.10.1" type="building">
-                            <placeName>240 S. Broad Street</placeName>
-                            <location>
-                                <geo>39.948022862210486, -75.16523046068227</geo>
-                            </location>
                         </place>
-                        <place xml:id="place.15.10.2" type="building">
-                            <placeName>Packard Building</placeName>
+                        <place xml:id="place.15.9" type="settlement">
+                            <placeName>Pasadena</placeName>
                             <location>
-                                <geo>39.958672290446906, -75.16193019475588</geo>
+                                <geo>34.1476452, -118.1444779</geo>
                             </location>
+                            <idno type="uri">http://sws.geonames.org/5381396</idno>
                         </place>
-                    </place>
-                    <place xml:id="place.15.11" type="settlement">
-                        <placeName>Princeton</placeName>
-                        <location>
-                            <geo>40.34833555, -74.6684230570877</geo>
-                        </location>
-                        <idno type="uri">http://sws.geonames.org/5102922</idno>
-                    </place>
-                    <place xml:id="place.15.12" type="settlement">
-                        <placeName>Washington, D. C.</placeName>
-                        <location>
-                            <geo>38.9074322, -77.0350922</geo>
-                        </location>
-                        <idno type="uri">http://sws.geonames.org/4140963</idno>
-                        <place xml:id="place.15.12.1" type="building">
-                            <placeName>101 Independence Avenue SE</placeName>
+                        <place xml:id="place.15.10" type="settlement">
+                            <placeName>Philadelphia</placeName>
                             <location>
-                                <geo>38.887814348004824, -77.01225053109125</geo>
+                                <geo>39.9527237, -75.1635262</geo>
                             </location>
+                            <idno type="uri">http://sws.geonames.org/4560349</idno>
+                            <place xml:id="place.15.10.1" type="building">
+                                <placeName>240 S. Broad Street</placeName>
+                                <location>
+                                    <geo>39.948022862210486, -75.16523046068227</geo>
+                                </location>
+                            </place>
+                            <place xml:id="place.15.10.2" type="building">
+                                <placeName>Packard Building</placeName>
+                                <location>
+                                    <geo>39.958672290446906, -75.16193019475588</geo>
+                                </location>
+                            </place>
                         </place>
-                        <place xml:id="place.15.12.2" type="building">
-                            <placeName>950 Pennsylvania Avenue</placeName>
+                        <place xml:id="place.15.11" type="settlement">
+                            <placeName>Princeton</placeName>
                             <location>
-                                <geo>38.893003095231194, -77.02539302973747</geo>
+                                <geo>40.34833555, -74.6684230570877</geo>
                             </location>
+                            <idno type="uri">http://sws.geonames.org/5102922</idno>
                         </place>
-                        <place xml:id="place.15.12.3" type="building">
-                            <placeName>Library of Congress</placeName>
+                        <place xml:id="place.15.12" type="settlement">
+                            <placeName>Washington, D. C.</placeName>
                             <location>
-                                <geo>38.88863375803184, -77.00464824372601</geo>
+                                <geo>38.9074322, -77.0350922</geo>
                             </location>
+                            <idno type="uri">http://sws.geonames.org/4140963</idno>
+                            <place xml:id="place.15.12.1" type="building">
+                                <placeName>101 Independence Avenue SE</placeName>
+                                <location>
+                                    <geo>38.887814348004824, -77.01225053109125</geo>
+                                </location>
+                            </place>
+                            <place xml:id="place.15.12.2" type="building">
+                                <placeName>950 Pennsylvania Avenue</placeName>
+                                <location>
+                                    <geo>38.893003095231194, -77.02539302973747</geo>
+                                </location>
+                            </place>
+                            <place xml:id="place.15.12.3" type="building">
+                                <placeName>Library of Congress</placeName>
+                                <location>
+                                    <geo>38.88863375803184, -77.00464824372601</geo>
+                                </location>
+                            </place>
                         </place>
                     </place>
                 </place>
