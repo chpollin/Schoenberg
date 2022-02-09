@@ -161,16 +161,19 @@
                 </opener>
                 <p>Wir entsprechen gerne einem Wunsche des Komponisten<lb/>
                     <persName key="p_2053">Ernst Krenek</persName> und lassen Ihnen gleichzeitig
-                    einen Klavierauszug sei<g ref="#typoHyphen"/><lb break="no"/>ner Oper "<bibl
-                        key="werke.100"
+                    einen <seg type="comment"><orig>Klavierauszug</orig><note xml:id="note_11">Ernst
+                            Krenek: Karl V. Bühnenwerk mit Musik in zwei Teilen op. 73.
+                            Klavierauszug. Wien: Universal-Edition U.E. 10530 (Arnold Schönberg
+                            Center, Wien, PM/med 9)</note></seg> sei<g ref="#typoHyphen"/><lb
+                        break="no"/>ner Oper "<bibl key="werke.100"
                         ><!-- wie ist der entsprechende Eintrag im Werkregister hier einzutragen? -->Karl
                         V.</bibl>" als Ehrenexemplar zugehen.</p>
-                <p>Eben trifft auch <ref type="prev" target="interner Link zum genannten Brief">Ihr
-                        Schreiben vom
-                    3o.v.M</ref><!--ASUE: funktioniert das so, oder braucht es ein <anchor> (siehe base manual) oder <seg type="comment"> -->.
+                <p>Eben trifft auch <ref type="prev"
+                        target="interner Link zum genannten Brief ASCC ID 3146">Ihr Schreiben vom
+                        3o.v.M</ref><!--ASUE: funktioniert das so, oder braucht es ein <anchor> (siehe base manual) oder <seg type="comment"> -->.
                     ein und wir<lb/> danken Ihnen für die Einsendung der unterfertigten <seg
                         type="comment"><orig>Copyrights-For<g ref="#typoHyphen"/><lb break="no"
-                            />mulare.</orig><note xml:id="note_11">verschollen</note></seg></p>
+                            />mulare.</orig><note xml:id="note_12">verschollen</note></seg></p>
                 <p>Wir stehen mit einer unserer ausländischen Vertretungen in<lb/> weitgehenden
                     Verhandlungen bezüglich Uebernahme der in unserem Verlag<lb/> erschienenen Werke
                     nichtarischer Komponisten, deren Abschluss den Kom<g ref="#typoHyphen"/><lb
@@ -208,15 +211,17 @@
                         <sic>to</sic>
                         <corr>too</corr>
                     </choice><lb/> busy to write myself.</p>
-                <p>I have not yet got your answer about<lb/> my royalties from records and whether
-                    you have<lb/> paid (<ref type="prev" target="interner Link zum genannten Brief"
-                        >as I asked you previously</ref>.) the monthly<lb/> amount to my son
-                        <persName key="p_3281">Georg<del rendition="#s">e</del> Sch.</persName>
-                    Would you be<lb/> kind enough to do this as soon as possible. </p>
+                <p>I have not yet got your answer about<lb/>
+                    <ref type="prev" target="interner Link zum genannten Brief ASCC ID 3166">my
+                        royalties from records</ref> and whether you have<lb/> paid (<ref
+                        type="prev" target="interner Link zum genannten Brief">as I asked you
+                        previously</ref>.) the monthly<lb/> amount to my son <persName key="p_3281"
+                            >Georg<del rendition="#s">e</del> Sch.</persName> Would you be<lb/> kind
+                    enough to do this as soon as possible. </p>
                 <p><metamark/> Today I want <add place="superlinear" hand="#Hoffmann">at first</add>
                     to thank you for <seg type="comment"><orig>sending me<lb/> the music I
-                            ordered</orig><note xml:id="note_12">Schönberg erwähnt in einem <ref
-                                target="interner link zum Brief">Brief vom 21. April 1938</ref> eine
+                            ordered</orig><note xml:id="note_13">Schönberg erwähnt in einem <ref
+                                target="interner link zum Brief ASSC ID 3045">Brief vom 21. April 1938</ref> eine
                             Liste, genaue Daten über die Bestellung und Auslieferung konnten nicht
                             eruiert werden</note></seg>. But I think a number<lb/> of the packages
                     must be delayed, and I hope<lb/> they will arrive soon.</p>
