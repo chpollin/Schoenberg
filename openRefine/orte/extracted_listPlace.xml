@@ -2409,6 +2409,12 @@
                                 <geo>40.76607691849662, -73.9805078459011</geo>
                             </location>
                         </place>
+                        <place xml:id="place.15.8.16" type="building">
+                            <placeName>40 West 34th Street</placeName>
+                            <location>
+                                <geo>40.749361548458396, -73.98706384590133</geo>
+                            </location>
+                        </place>
                         <place xml:id="place.15.9" type="settlement">
                             <placeName>Pasadena</placeName>
                             <location>

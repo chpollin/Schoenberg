@@ -3185,6 +3185,14 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
                         >Musiker</term></occupation>
                 </person>
+                <person xml:id="p_2760">
+                    <persName><surname>Petschull</surname><forename>Johannes</forename></persName>
+                    <birth><date when="1901"/><placeName>Diez</placeName></birth>
+                    <death><date when="2011"/><placeName>Falkenstein (Taunus)</placeName></death>
+                    <occupation><term ref="http://www.wikidata.org/entity/Q2516866"
+                        >Verleger</term></occupation>
+                    <occupation><term ref="http://www.wikidata.org/entity/Q222836">Musikverleger</term></occupation>
+                </person>
                 <person xml:id="p_2764">
                     <persName><surname>Pfersmann</surname><forename>Ludwig</forename></persName>
                     <note>Flötist</note>
@@ -3578,7 +3586,8 @@
                     <note>UE</note>
                 </person>
                 <person xml:id="p_3067">
-                    <persName type="reg"><surname>Rothe</surname><forename>Betti/Betty</forename></persName>
+                    <persName type="reg"
+                        ><surname>Rothe</surname><forename>Betti/Betty</forename></persName>
                     <persName type="alternative">
                         <name type="referencemark">R</name>
                     </persName>

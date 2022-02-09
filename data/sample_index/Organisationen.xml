@@ -19,11 +19,14 @@
     <text>
         <body>
             <listOrg>
-                <org xml:id="org.1">
+                <org xml:id="org.1" type="publisher">
                     <idno type="uri">http://d-nb.info/gnd/2045143-X</idno>
                     <orgName>Universal-Edition</orgName>
+                    <location>
+                        <placeName key="#place.2.2.1">Schillerplatz</placeName>
+                    </location>
                 </org>
-                <org xml:id="automatisch1" type="theatre">
+                <org xml:id="org.2" type="theatre">
                     <idno type="uri">http://d-nb.info/gnd/30656-3</idno>
                     <orgName type="reg">Nationaltheater Mannheim</orgName>
                     <!-- CP: hier dann einfach in das loacation auf die xml:id im Ortsindex referenzieren und den jeweiligen Namen angeben.  -->
@@ -44,7 +47,7 @@
                         Verjüngung des Ensembles und des Repertoires Akzente setzen, eine Aufführung
                         von Schönbergs Monodram Erwartung op. 17 war geplant.</note>
                 </org>
-                <org xml:id="automatisch2" type="ensemble">
+                <org xml:id="org.3" type="ensemble">
                     <idno type="uri">http://d-nb.info/gnd/5075574-2</idno>
                     <orgName type="reg">Kolisch-Quartett</orgName>
                     <orgName type="alt">Wiener Streichquartett</orgName>

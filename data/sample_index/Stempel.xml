@@ -17,31 +17,22 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <!-- PHILIPP diese Version ist erstellt worden anhand der SCANS in SatColl U1, bis einschliesslich 1925. in 1926 muss es weitergehen, und die LC scans und andere müssen ergänzt werden. -->
+   <!-- PHILIPP diese Version ist erstellt worden anhand der SCANS in den Ordnern ASC und Dreililien. -->
    <text>
       <body>
          <list type="stampList">
+            <!-- Schönberg Adressstempel -->
             <item>
                <stamp xml:id="stamp.1">
-                  <persName key="p_3263">Arnold Schönberg</persName><lb/> Berlin-Südende<lb/>
+                  <persName key="p_3263">Arnold Schönberg</persName><lb/>Berlin-Südende<lb/>
+                  <!-- PHILIPP ist kodierung mit location und placeName so richtig? oder sollen ALLE angaben zum Ort in location sein? im moment ist "inhalt von location" = "inhalt von placeName"-->
                   <location>
                      <placeName key="place.2.23.1.1">Berlinerstr. 17a, I.</placeName>
-                  </location><lb/> Tel.: Tempelhof 174. </stamp>
-            </item>
-            <item><!-- noch nicht gesehen -->
-               <stamp xml:id="stamp.2">
-                  <orgName key="org.1">Universal-Edition-A. G.</orgName><lb/>
-                  <location>
-                     <placeName key="place.9.11.6.12">WIEN. I. KARLSPLATZ 6a</placeName>
-                  </location><lb/> Musikvereinsgebäude / Tel. U 47-5-85<lb/>
-                  <location>
-                     <placeName key="place.2.20.8">LEIPZIG. KARLSTRASSE 10b</placeName>
-                  </location>
-               </stamp>
+                  </location><lb/>Tel.: Tempelhof 174. </stamp>
             </item>
             <item>
                <stamp xml:id="stamp.3">
-                  <persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/> --- WIEN ---<lb/>
+                  <persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/>--- WIEN ---<lb/>
                   <location>
                      <placeName key="place.9.11.1.2">IX. LIECHTENSTEINSTRASSE 68/70</placeName>
                   </location>
@@ -49,23 +40,11 @@
             </item>
             <item>
                <stamp xml:id="stamp.4">
-                  <persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/> WIEN, XIII.<lb/>
+                  <persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/>WIEN, XIII.<lb/>
                   <location>
                      <placeName key="place.9.11.5.2">HIETZINGER HAUPTSTRASSE 113</placeName>
                   </location>
                </stamp>
-            </item>
-            <item><!-- PHILIPP gemeinsam anschauen, 1910: ID 6902_1 -->
-               <stamp xml:id="stamp.5">
-                  <orgName key="org.1">"Universal-Edition" A.-G.</orgName><lb/> Leipzig (<orgName
-                     key="PLATZHALTER">Jos. Aibl Verlag, G.m.b.H.</orgName>)<lb/>
-                  <location>
-                     <placeName key="place.2.20.9">Sternwartestrasse 15-20</placeName>
-                  </location>.<lb/> Wien<lb/>
-                  <location>
-                     <placeName key="place.9.11.6.24">I., Wipplingerstrasse 32</placeName>
-                  </location>.<lb/> Telegramm-Adresse:<lb/> ·MUSIKEDITION WIEN·<lb/> Telephon N<hi
-                     rendition="#sup">r</hi>. 22.877.<lb/> Wien, </stamp>
             </item>
             <item><!-- 1911: ID 213 -->
                <stamp xml:id="stamp.6">
@@ -79,7 +58,7 @@
                   <persName key="p_3263">Arnold Schönberg</persName><lb/>
                   <location>
                      <placeName key="place.8.3.1">Brederodestraat 65</placeName>
-                  </location><lb/> Zandvoort Holland </stamp>
+                  </location><lb/>Zandvoort Holland </stamp>
             </item>
             <item>
                <stamp xml:id="stamp.8">
@@ -87,14 +66,25 @@
                   <location>
                      <placeName key="place.9.3.1">Mattsee N<hi rendition="#sup">o</hi>
                         56</placeName>
-                  </location><lb/> Salzburg </stamp>
+                  </location><lb/>Salzburg </stamp>
             </item>
             <item>
                <stamp xml:id="stamp.9">
-                  <persName key="p_3263">Arnold Schönberg</persName><lb/> Mödling bei Wien<lb/>
+                  <persName key="p_3263">Arnold Schönberg</persName><lb/>Mödling bei Wien<lb/>
                   <location>
                      <placeName key="place.9.4.1">Bernhardg 6</placeName>
                   </location>.-Tel.118. </stamp>
+            </item>
+            <item><!-- noch nicht gesehen -->
+               <stamp xml:id="stamp.2">
+                  <orgName key="org.1">Universal-Edition-A. G.</orgName><lb/>
+                  <location>
+                     <placeName key="place.9.11.6.12">WIEN. I. KARLSPLATZ 6a</placeName>
+                  </location><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>
+                  <location>
+                     <placeName key="place.2.20.8">LEIPZIG. KARLSTRASSE 10b</placeName>
+                  </location>
+               </stamp>
             </item>
             <item>
                <stamp xml:id="stamp.10">
@@ -102,21 +92,7 @@
                   <location>
                      <placeName key="place.9.10.1">Traunkirchen N<hi rendition="#sup">o</hi>
                         29</placeName>
-                  </location><lb/> Villa Josef<lb/> Oberoesterr. </stamp>
-            </item>
-            <item><!-- gern auch nochmal anschauen: 1921 ID 7048_1 -->
-               <stamp xml:id="stamp.11">
-                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/> LEIPZIG (<orgName
-                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName>)<lb/>
-                  <location>
-                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
-                  </location><lb/> WIEN<lb/>
-                  <location>
-                     <placeName key="place.9.11.6.24">I· Karlsplatz 6·</placeName>
-                  </location>.<lb/> Musikvereinsgebäude<lb/> Telegramm-Adresse: Musikedition,
-                  Wien<lb/> Telefon N<hi rendition="#sup">o</hi> 3228, 4533· Bank-Konto:
-                  k-k·priv·öst·<lb/> Länderbank. Wien· Postsparkassen·Konto 57557.<lb/> Wien
-               </stamp>
+                  </location><lb/>Villa Josef<lb/>Oberoesterr. </stamp>
             </item>
             <item>
                <stamp xml:id="stamp.12">
@@ -124,57 +100,528 @@
                   <location>
                      <placeName key="place.9.10.2">Traunkirchen N<hi rendition="#sup">o</hi>
                         3</placeName>
-                  </location><lb/> Villa Spaun<lb/> Oberoesterr. </stamp>
-            </item>
-            <item><!-- gern auch nochmal anschauen: 1921 ID 19682_1 FRAGE: doppelte unterstreichung bei hochgestellten Buchstaben? Trennungsstrich als "=" oder "-"?-->
-               <stamp xml:id="stamp.13">
-                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/> LEIPZIG (<orgName
-                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName>)<lb/>
-                  <location>
-                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
-                  </location><lb/> WIEN<lb/>
-                  <location>
-                     <placeName key="place.9.11.6.24">I· Karlsplatz 6·</placeName>
-                  </location>.<lb/> Musikvereinsgebäude<lb/> Telegr.-Adr.: Musikedition, Wien,
-                  A.B.C. Code 5<hi rendition="#sup">th</hi> Ed.<lb/> Telefon N<hi rendition="#sup"
-                     >o</hi> 3228, 4533· Bank-Konto: Oesterr. Länder-<lb/> bank. Wien.
-                  Postsparkassen Konto: 57557.<lb/> Wien </stamp>
+                  </location><lb/>Villa Spaun<lb/>Oberoesterr. </stamp>
             </item>
             <item>
-               <stamp xml:id="stamp.14">
-                  <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>.<lb/> WIEN<lb/>
+               <stamp xml:id="stamp.18">
+                  <persName key="p_3263">Arnold Schönberg</persName><lb/>Charlottenburg 2<lb/>
                   <location>
-                     <placeName key="place.9.11.6.12">I. Karlsplatz 6</placeName>
-                  </location>, (Musikvereinsgebäude)<lb/>
-               </stamp>
+                     <placeName key="place.2.3.1.5">Steinpl.2 Pens.Bavaria</placeName>
+                  </location><lb/>TELEPHON NR.- 118<lb/>MÖDLING, 192 </stamp>
             </item>
             <item><!-- anschauen, 1923 ID 658. die Datumszeile so ok? -->
                <stamp xml:id="stamp.15">
-                  <persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/> MÖDLING BEI WIEN<lb/>
+                  <persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/>MÖDLING BEI WIEN<lb/>
                   <location>
                      <placeName key="place.9.4.1">BERNHARDGASSE 6</placeName>
-                  </location><lb/> TELEPHON NR.- 118<lb/> MÖDLING, 192 </stamp>
+                  </location><lb/>TELEPHON NR.- 118<lb/>MÖDLING, 192 </stamp>
             </item>
             <item>
-               <stamp xml:id="stamp.16">
-                  <orgName key="xxx">F. M. GEIDEL</orgName>, LEIPZIG<lb/> Anstalt für<lb/>
-                  Notenstich, Notendruck und Anastatischen Druck<lb/> Stein- und Buchdruckerei,
-                  Notensatz, Stereotypie<lb/> Lithographie, Autographie und Buchbinderei<lb/>
-                  Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co., Leipzig<lb/> Leipzig, den <!-- gerne nochmal nachdenken, was mit den Lücken passiert -->191<lb/>
+               <stamp xml:id="stamp.20">
+                  <persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/>PROFESSOR AN DER AKADEMIE
+                  DER KÜNSTE ZU BERLIN</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.21"> CHARLOTTENBURG 2<lb/>
                   <location>
-                     <placeName key="place.2.20.7">Wittenbergerstraße 23</placeName>
+                     <placeName key="place.2.3.1.2">KANTSTRASSE 4</placeName>
+                  </location>/IV
+                  r.<lb/><!-- PHILIPP ich vermute die römische IV ist das stockwerk, weiss aber nicht was es mit Bismarck auf sich hat -->
+                  BISMARCK 3148</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.25"><persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/>
+                  CHARLOTTENBURG 9<lb/>
+                  <location>
+                     <placeName key="place.2.3.8.1">NUSSBAUM-ALLEE 17</placeName>
+                  </location><lb/>TEL.: WESTEND 2266</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.27"> derzeit:<lb/>LUGANO-BESSO<lb/>SCHWEIZ<lb/>
+                  <location>
+                     <placeName key="place.11.7.1.1">VIA SEMINARIO 2</placeName>
+                  </location>
+               </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.28"> Territet - Montreux<lb/>
+                  <location>
+                     <placeName key="place.11.3.1">Villa Maria</placeName>
+                  </location>-Schweiz </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.29"><persName key="p_3263">ARNOLD SCHÖNBERG</persName><lb/>BARCELONA<lb/>
+                  <location>
+                     <placeName key="place.12.1.1">BAJADA DE BRIZ 14</placeName>
                   </location></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.30"><persName key="p_3263">ARNOLD
+                  SCHÖNBERG</persName><lb/>BERLIN W 50<lb/>
+                  <location>
+                     <placeName key="place.2.3.9.1">NÜRNBERGER·PLATZ 3</placeName>
+                  </location><lb/>TEL.: B 4, Bavaria 44 66</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.32"><persName key="p_3263">ARNOLD
+                  SCHOENBERG</persName><lb/>PELHAM HALL<lb/>
+                  <location>
+                     <placeName key="place.15.1.1">1284 BEACON STREET</placeName>
+                  </location><lb/>BROOKLINE - MASS.<lb/>TEL. BEACON 2430</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.33">
+                  <location>
+                     <placeName key="place.15.1.1">1284, BEACON STREET</placeName>
+                  </location><lb/>PELHAM HALL<lb/>BROOKLINE MASS</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.34">MRS. <persName key="p_3263">ARNOLD
+                  SCHOENBERG</persName><lb/>PELHAM HALL TEL. BEACON 2430<lb/>
+                  <location>
+                     <placeName key="place.15.1.1">1284 BEACON STREET</placeName>
+                  </location><lb/>BROOKLINE, MASS.</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.35"><persName key="p_3263">ARNOLD SCHOENBERG</persName><lb/>
+                  <location>
+                     <placeName key="place.15.7.1.2">5860 CANYON COVE</placeName>
+                  </location><lb/>HOLLYWOOD, CALIFORNIA</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.36"><persName key="p_3263">ARNOLD SCHOENBERG</persName><lb/>
+                  <location>
+                     <placeName key="place.15.7.1.2">5860 CANYON COVE</placeName>
+                  </location><lb/>HOLLYWOOD, CALIFORNIA<lb/>TEL GRANITE 9956</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.37"><persName key="p_3263">ARNOLD SCHOENBERG</persName><lb/>
+                  <location>
+                     <placeName key="place.15.7.1.2">5860 CANYON COVE</placeName>
+                  </location><lb/>HOLLYWOOD, CALIFORNIA<lb/>TEL HEMPSTEAD 1095</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.38"><location>
+                     <placeName key="place.15.8.14">HOTEL ANSONIA</placeName>
+                  </location><lb/>BROADWAY 73RD STR<lb/>NEW YORK CITY</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.39"><persName key="p_3263">ARNOLD SCHOENBERG</persName><lb/>
+                  <location>
+                     <placeName key="place.15.7.3.1">116 N. ROCKINGHAM AVE.</placeName>
+                  </location><lb/>BRENTWOOD PARK<lb/>LOS ANGELES, - CALIF.<lb/>TELEPHONE W.L.A.
+                  35077</stamp>
+            </item>
+            <!-- UE Stempel groß -->
+            <item><!-- PHILIPP gemeinsam anschauen, 1910: ID 6902_1-->
+               <stamp xml:id="stamp.5">
+                  <orgName key="org.1">"Universal-Edition" A.-G.</orgName><lb/>(<orgName
+                     key="PLATZHALTER">Jos. Aibl Verlag, G.m.b.H.</orgName>)<lb/>Leipzig <location>
+                     <placeName key="place.2.20.9">Sternwartestrasse 15-20</placeName>
+                  </location>.<lb/>Wien<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.24">I., Wipplingerstrasse 32</placeName>
+                  </location>.<lb/>Telegramm-Adresse:<lb/>·MUSIKEDITION WIEN·<lb/>Telephon N<hi
+                     rendition="#sup">r</hi>. 22.877.<lb/>Wien,</stamp>
+            </item>
+            <item><!-- gern auch nochmal anschauen: 1921 ID 7048_1 und womöglich blöcke umsortieren -->
+               <stamp xml:id="stamp.11">
+                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/>(<orgName
+                     key="PLATZHALTER">Jos·Aibl Verlag, G.m.b.H.</orgName>)<lb/>LEIPZIG<lb/>
+                  <location>
+                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                  </location><lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.24">I· Karlsplatz 6·</placeName>
+                  </location>.<lb/>Musikvereinsgebäude<lb/>Telegramm-Adresse: Musikedition,
+                  Wien<lb/>Telefon N<hi rendition="#sup"><hi rendition="#uu">o</hi></hi> 3228, 4533·
+                  Bank-Konto: k-k·priv·öst·<lb/>Länderbank. Wien· Postsparkassen·Konto
+                  57557.<lb/>Wien </stamp>
+            </item>
+            <item><!-- gern auch nochmal anschauen: 1922 ID 19682_1 FRAGE: doppelte unterstreichung bei hochgestellten Buchstaben? Trennungsstrich als "=" oder "-"?-->
+               <stamp xml:id="stamp.13">
+                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/>(<orgName
+                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName>)<lb/>LEIPZIG<lb/>
+                  <location>
+                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                  </location><lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.24">I· Karlsplatz 6·</placeName>
+                  </location>.<lb/>Musikvereinsgebäude<lb/>Telegr.-Adr.: Musikedition, Wien, A.B.C.
+                  Code 5<hi rendition="#sup">th</hi> Ed.<lb/>Telefon N<hi rendition="#sup"><hi
+                        rendition="#uu">o</hi></hi> 3228, 4533· Bank-Konto: Oesterr.
+                  Länder-<lb/>bank. Wien. Postsparkassen Konto: 57557.<lb/>Wien </stamp>
             </item>
             <item><!-- Beispielbrief 20730 -->
                <stamp xml:id="stamp.17">
                   <orgName key="org.1">Universal-Edition· A. G.</orgName><lb/>
                   <location>
                      <placeName key="place.9.11.6.12">WIEN· I· KARLSPLATZ 6</placeName>
-                  </location><lb/> Musikvereinsgebäude / Tel. U 47-5-85<lb/>
+                  </location><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>
                   <location>
                      <placeName key="place.2.20.8">LEIPZIG· KARLSTRASSE 10</placeName>
                   </location>
                </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.23">
+                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
+                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                  <location>
+                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                  </location><lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.24">I· Karlsplatz 6.</placeName>
+                  </location>.<lb/>Musikvereinsgebäude<lb/>Telegr.-Adr.: Musikedition, Wien, A.B.C.
+                  Code 5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon N<hi
+                     rendition="#sup"><hi rendition="#uu">o</hi></hi> 51351, 51352. Bank-Konto:
+                  Zentral-Europä-<lb/>ische Länderbank Wien. Postsparkassen-Kto. 57557.</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.24">
+                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
+                     key="PLATZHALTER">Jos·Aibl Verlag, G.m.b.H.</orgName><lb/><placeName
+                     key="place.15.8.15">209 West 57<hi rendition="#sup">th</hi>
+                  Street</placeName><lb/>New York<lb/>LEIPZIG<lb/>
+                  <location>
+                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                  </location><lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.24">I· Karlsplatz 6.</placeName>
+                  </location>.<lb/>Musikvereinsgebäude<lb/></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.26">
+                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
+                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                  <location>
+                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                  </location><lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.24">I· Karlsplatz 6.</placeName>
+                  </location>.<lb/>Musikvereinsgebäude<lb/>Telegr.Adr.: Musikedition, Wien, A.B.C.
+                  Code 5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon N<hi
+                     rendition="#sup"><hi rendition="#uu">o</hi></hi>.57-5-85 Serie.Bank-Konto:
+                  Zentral-Europä-<lb/>ische Länderbank Wien. Postsparkassen-Kto. 57557.</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.31">
+                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
+                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                  <location>
+                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                  </location><lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.24">I· Karlsplatz 6·</placeName>
+                  </location>.<lb/>Musikvereinsgebäude<lb/>Telegr.Adr.: Musikedition, Wien. A.B.C.
+                  Code 5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                  Serie.Bank-Konto: Zentral-Europä-<lb/>ische Länderbank Wien.Postsparkassen-Kto.
+                  57557.<lb/>Wien,</stamp><!-- möglicherweise kommt das "Wien," nur in einer Version des Stempels, dann ggf. korrigieren/hinzufügen -->
+            </item>
+            <item>
+               <stamp xml:id="stamp.40">
+                  <orgName key="org.1">Universal-Edition·A. G.</orgName><lb/>WIEN·I·<location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG·<location>
+                     <placeName key="place.2.20.8">KARLSTRASSE 10</placeName>
+                  </location></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.49">
+                  <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
+                     key="PLATZHALTER">Jos·Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                  <location>
+                     <placeName key="place.2.20.10">Seeburgstr. 14-20</placeName>
+                  </location><lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.24">I· Karlsplatz 6·</placeName>
+                  </location>.<lb/>Musikvereinsgebäude<lb/>Telegramm-Adresse: Musikedition,
+                     Wien<lb/>TelefonN<hi rendition="#sup"><hi rendition="#uu">o</hi></hi> 3228,
+                  4533·Bank-Konto:k-k·priv·öst·<lb/>Länderbank.Wien·Postsparkassen·Konto57557.<lb/>Wien</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.56">
+                  <orgName key="org.1">"Universal-Edition" A.-G.</orgName><lb/>(<orgName
+                     key="PLATZHALTER">Jos. Aibl Verlag, G.m.b.H.</orgName>)<lb/>Leipzig <location>
+                     <placeName key="place.2.20.9">Sternwartestrasse 15-20</placeName>
+                  </location>.<lb/>Wien<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.18">I., Reichsratsstrasse 9</placeName>
+                  </location>.<lb/>Telegramm-Adresse:<lb/>·MUSIKEDITION WIEN·<lb/>Telephon N<hi
+                     rendition="#sup">r</hi>. 22.877.<lb/>Wien,</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.58">
+                  <orgName key="org.1">UNIVERSAL-EDITION, A. G.</orgName><lb/><orgName
+                     key="PLATZHALTER">Jos. Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                  <location>
+                     <placeName key="place.2.20.9">Sternwartenstr.15-21</placeName>
+                  </location><lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.18">I·Reichsratsstrasse 9</placeName>
+                  </location>.<lb/>Telegramm-Adresse: Musikedition, Wien<lb/>Telefon N<hi
+                     rendition="#sup"><hi rendition="#uu">o</hi></hi>22877·Bank-Konto:
+                  k·k·privil·österr.<lb/>Länderbank,
+                  Wien·Postsparkassen-Konto:57557.<lb/>Wien,</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.62"><orgName key="org.1">"Universal-Edition"
+                     Actiengesellschaft</orgName><lb/><location>
+                     <placeName key="place.9.11.6.25">Maximilianstrasse N<hi rendition="#sup"><hi
+                              rendition="#uu">o</hi></hi> 11</placeName>
+                  </location>.<lb/>Telegramm-Adresse:<lb/>·UNIVERSAL-EDITION, WIEN,
+                  MAXIMILIANSTRASSE·<lb/>TELEPHON N<hi rendition="#u"><hi rendition="#sup"
+                     >o</hi></hi> 3364·<lb/>(Local und interurban.)<lb/>Wien, am <!-- Lücke -->190
+               </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.64"><orgName key="org.1">"Universal-Edition"
+                     Actiengesellschaft</orgName><lb/><location>
+                     <placeName key="place.9.11.6.25">Maximilianstrasse N<hi rendition="#sup"><hi
+                              rendition="#uu">o</hi></hi> 11</placeName>
+                  </location>.<lb/>Telegramm-Adresse:<lb/>·UNIVERSAL-EDITION, WIEN,
+                  MAXIMILIANSTRASSE·<lb/>TELEPHON N<hi rendition="#u"><hi rendition="#sup"
+                     >o</hi></hi> 3364·<lb/>(Local und interurban.)<lb/>Postsparc.-Conto
+                  857.557.<lb/>Wien, am <!-- Lücke -->190 </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.65"><orgName key="org.1">UNIVERSAL-EDITION,
+                  A.-G.</orgName><lb/>Jos·Aibl Verlag, G.m.b.H.<lb/><location>
+                     <placeName key="place.15.8.16">40 West 34<hi rendition="#sup">th</hi>
+                        Street</placeName>
+                  </location><lb/>New York<lb/>LEIPZIG<lb/><location>
+                     <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                  </location><lb/>WIEN<lb/>I· <location>
+                     <placeName key="place.9.11.6.24">Karlsplatz 6</placeName>
+                  </location>·<lb/>Musikvereinsgebäude</stamp>
+            </item>
+            <item><!-- postkartenvordruck 17674-->
+               <stamp xml:id="stamp.67"><orgName key="org.1">UNIVERSAL-EDITION
+                  A.-G.</orgName><lb/>JOS. AIBL Verlag, G.M.B.H., LEIPZIG<lb/>WIEN
+                  <!-- Lücke --><lb/>I., <location>
+                     <placeName key="place.9.11.6.24">KARLSPLATZ 6</placeName>
+                  </location><lb/>TELEGR.-ADR.: MUSIKEDITION WIEN TELEPHON Nr. 3228, 4533</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.72"><orgName key="org.1"
+                     >UNIVERSAL-EDITION</orgName><lb/><persName key="p_2760">DR·JOHANNES
+                     PETSCHULL</persName><lb/>WIEN UND LEIPZIG<lb/>WIEN I · <location>
+                     <placeName key="place.9.11.6.24">KARLSPLATZ 6</placeName>
+                  </location> · MUSIKVEREINSGEBÄUDE · TELEFON U 4 75 85 · U 4 75 86<lb/>TELEGRAMME:
+                  MUSIKEDITION WIEN</stamp>
+            </item>
+            <!-- UE Stempel klein -->
+            <item>
+               <stamp xml:id="stamp.14">
+                  <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>.<lb/>WIEN<lb/>
+                  <location>
+                     <placeName key="place.9.11.6.12">I. Karlsplatz 6</placeName>
+                  </location>, (Musikvereinsgebäude)<lb/>
+               </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.41">
+                  <orgName key="org.1">Universal-Edition·A. G.</orgName><lb/>WIEN·I·<location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location><lb/>Musikvereinsgebäude / Tel. U 47-5-85</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.42">
+                  <orgName key="org.1">UNIVERSAL-EDITION A. G.</orgName> WIEN,<lb/>I. <location>
+                     <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                  </location></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.43">
+                  <orgName key="org.1">UNIVERSAL-EDITION><lb/>ACTIENGESELLSCHAFT</orgName></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.44"> "<orgName key="org.1">Universal Edition
+                     Actiengesellschaft"</orgName>
+               </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.45">
+                  <orgName key="org.1">Universal-Edition· A. G.</orgName><lb/>WIEN·I·<location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location><lb/>Musikvereinsgebäude</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.46">
+                  <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.47">
+                  <orgName key="org.1">UNIVERSAL-EDITION</orgName><lb/>WIEN I · <location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location> · MUSIKVEREINSGEBÄUDE · TELEFON U 47-5-85<lb/>TELEGRAMME: MUSIKEDITION
+                  WIEN</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.48">
+                  <orgName key="org.1">Universal-Edition·A. G.</orgName><lb/>WIEN·I·<location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location><lb/>Musikvereinsgebäude<lb/>TEL. U 47-5-85</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.55">
+                  <orgName key="org.1">UNIVERSAL-EDITION</orgName><lb/>AKTIENGESELLSCHAFT </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.57">
+                  <orgName key="org.1">Universal Edition
+                  Actiengesellschaft</orgName><lb/>Buchhaltung</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.59"> NEUE BUREAU-ADRESSE<lb/>AB 7. SEPTEMBER 1914, I. <location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location><lb/>MUSIKVEREINSGEBÄUDE.</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.60"> Hochachtungsvoll<lb/><orgName key="org.1"
+                     >"Universal-Edition" A.-G</orgName><lb/>(Jos. Aibl Verlag, G.m.b.H.)<lb/>Wien,
+                  am <!-- Lücke -->191<!-- Lücke --><lb/>I. <location>
+                     <placeName key="place.9.11.6.17">Reichratsstraße 9</placeName>
+                  </location>.</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.61">I. <location>
+                     <!-- der Stempel ist ein korrekturstelmpel zum grossen, weil sich 1914 die Adresse ändert. -->
+                     <placeName key="place.9.11.6.12">Karlsplatz Nr. 6</placeName>
+                  </location><lb/>(Musikvereinsgebäude.) </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.63">Musikedition,
+                  Wien<!-- auch ein Korrekturstempel, zu stamp.62 --></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.66">Ab 5. Mai 1926 neue Telefonnummer:<lb/>Serie
+                  57-5-85<!-- auch ein Korrekturstempel, zu stamp.65 --></stamp>
+            </item>
+            <item>
+               <!-- postkartenvordruck -->
+               <stamp xml:id="stamp.68">WIEN <!-- lücke --><lb/>I, <location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location>.<lb/><orgName key="org.1">UNIVERSAL-EDITION A.-G.</orgName></stamp>
+            </item>
+            <item>
+               <!-- postkartenvordruck -->
+               <stamp xml:id="stamp.69"><orgName key="org.1">"UNIVERSAL-EDITION"
+                  A.-G.</orgName><lb/>WIEN, I., <location>
+                     <placeName>KARLSPLATZ 6</placeName>
+                  </location><lb/>(MUSIKVEREINSGEBÄUDE).</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.71">
+                  <orgName key="org.1">Universal-Edition· A. G.</orgName><lb/>WIEN·I·<location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location><lb/>TELEGR.-ADR.: MUSIKEDITION WIEN</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.73">
+                  <orgName key="org.1">Universal-Edition Aktiengesellschaft</orgName></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.74">
+                  <orgName key="org.1">UNIVERSAL-EDITION</orgName><lb/><persName key="p_2760">DR.
+                     JOHANNES PETSCHULL</persName><lb/>Der öffentliche Verwalter</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.75">
+                  <orgName key="org.1">UNIVERSAL-EDITION</orgName><lb/><persName key="p_2760"
+                     >DR·JOHANNES PETSCHULL</persName><lb/>Orchesterabteilung</stamp>
+            </item>
+            <item><!-- ID 17743 -->
+               <stamp xml:id="stamp.76">
+                  <orgName key="org.1">UNIVERSAL-EDITION</orgName></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.77"><!-- korrekturstempel zu einem grossen von 1928 --> NEUE
+                  TELEFONNUMMER<lb/>U 47-5-85 SERIE</stamp>
+            </item>
+            <item>
+               <!-- postkartenvordruck -->
+               <stamp xml:id="stamp.78">Wien, am <!-- lücke -->191<!-- lücke --><lb/> I., <location>
+                     <placeName key="place.9.11.6.24">Wipplingerstraße 32</placeName>
+                  </location>.<lb/>Hochachtungsvoll<lb/><orgName key="org.1">"Universal-Edition"
+                     A.-G.</orgName><lb/>(Jos. Aibl Verlag, G. m. b. H.)</stamp>
+            </item>
+            <item>
+               <!-- postkartenvordruck -->
+               <stamp xml:id="stamp.79">Wien, am <!-- lücke -->191<!-- lücke --><lb/> I., <location>
+                     <placeName key="place.9.11.6.24">Wipplingerstraße 32</placeName>
+                  </location><lb/>Ab 1. Nov.: I. <location>
+                     <placeName key="place.9.11.6.18">Reichsratstraße 9</placeName>
+                  </location><lb/>Hochachtungsvoll<lb/><orgName key="org.1">"Universal-Edition"
+                     A.-G.</orgName><lb/>(Jos. Aibl Verlag, G. m. b. H.)</stamp>
+            </item>
+            <item>
+               <!-- postkartenvordruck -->
+               <stamp xml:id="stamp.80"><orgName key="org.1">"UNIVERSAL-EDITION"
+                  A.-G.</orgName><lb/>WIEN, I., <location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location><lb/>(MUSIKVEREINSGEBÄUDE).</stamp>
+            </item>
+            <!-- Dreililien -->
+            <item>
+               <stamp xml:id="stamp.50">
+                  <orgName key="xxx">VERLAG DREILILIEN</orgName>.</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.51">
+                  <orgName key="xxx">VERLAG DREILILIEN</orgName><lb/>Halensee-Berlin<lb/><location>
+                     <placeName key="place.2.3.3.1">Georg Wilhelm-Str. 22</placeName>
+                  </location><lb/>den <!-- Lücke -->190</stamp>
+            </item>
+            <item><!-- identisch mit stamp.51, nur anderes layout -->
+               <stamp xml:id="stamp.52">
+                  <orgName key="xxx">VERLAG DREILILIEN</orgName><lb/>Halensee-Berlin<lb/><location>
+                     <placeName key="place.2.3.3.1">Georg Wilhelm-Str. 22</placeName>
+                  </location><lb/>den <!-- Lücke -->190</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.53">
+                  <orgName key="xxx">VERLAG<lb/>DREILILIEN</orgName><lb/>Berlin-Halensee, den
+                  <!-- Lücke -->191 <!-- Lücke --><lb/><location>
+                     <placeName key="place.2.4.1.2">Halberstädterstraße 6</placeName>
+                  </location>.</stamp>
+            </item>
+            <!-- andere -->
+            <item>
+               <stamp xml:id="stamp.16">
+                  <orgName key="xxx">F. M. GEIDEL</orgName>, LEIPZIG<lb/>Anstalt für<lb/>
+                  Notenstich, Notendruck und Anastatischen Druck<lb/>Stein- und Buchdruckerei,
+                  Notensatz, Stereotypie<lb/>Lithographie, Autographie und Buchbinderei<lb/>
+                  Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co., Leipzig<lb/>Leipzig, den <!-- Lücke -->191<lb/>
+                  <location>
+                     <placeName key="place.2.20.7">Wittenbergerstraße 23</placeName>
+                  </location></stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.19">
+                  <persName key="p_3907">Viktor Unzeitig</persName><lb/>
+                  <location>
+                     <placeName key="place.2.3.1.5">Steinpl.2 Pens.Bavaria</placeName>
+                  </location><lb/>TELEPHON NR.- 118<lb/>MÖDLING, 192 </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.22">
+                  <location>
+                     <placeName key="place.4.7.1">CALIFORNIE PALACE</placeName>
+                  </location><lb/>Cannes<lb/>Même Administration<lb/>PLAZA ATHÉNÉE<lb/>PARIS
+               </stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.54">
+                  <orgName key="xxx">PULT UND TAKTSTOCK</orgName><lb/>MONATSSCHRIFT FÜR
+                  DIRIGENTEN<lb/>Verlag der <orgName key="org.1"
+                  >Universal-Edition</orgName><lb/>WIEN,<lb/>I. <location>
+                     <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                  </location>
+               </stamp>
+            </item>
+            <item><!-- sowas wahrscheinlich rausnehmen... ID 17704, vgl. 17705 etc -->
+               <stamp xml:id="stamp.70">Österreichische Zensurstelle - Z.1<lb/>416</stamp>
             </item>
          </list>
       </body>
