@@ -18,11 +18,10 @@
   </teiHeader>
   <text>
       <body>
-         <list type="inst">
-            <head>Instrumente</head>
+         <list>
             <item xml:id="item.1">
                <idno type="uri">https://d-nb.info/gnd/4060993-5</idno>
-               <label>Trompete</label>
+               <label type="reg">Trompete</label>
                <desc>...</desc>
             </item>
             <item xml:id="item.2">
@@ -30,10 +29,6 @@
                <label></label>
                <desc>...</desc>
             </item>
-         </list>
-         <list type="other">
-            <head>Sonstige</head>
-            <item></item>
          </list>
       </body>
   </text>
