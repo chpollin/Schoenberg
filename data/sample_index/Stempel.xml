@@ -75,17 +75,6 @@
                      <placeName key="place.9.4.1">Bernhardg 6</placeName>
                   </location>.-Tel.118. </stamp>
             </item>
-            <item><!-- noch nicht gesehen -->
-               <stamp xml:id="stamp.2">
-                  <orgName key="org.1">Universal-Edition-A. G.</orgName><lb/>
-                  <location>
-                     <placeName key="place.9.11.6.12">WIEN. I. KARLSPLATZ 6a</placeName>
-                  </location><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>
-                  <location>
-                     <placeName key="place.2.20.8">LEIPZIG. KARLSTRASSE 10b</placeName>
-                  </location>
-               </stamp>
-            </item>
             <item>
                <stamp xml:id="stamp.10">
                   <persName key="p_3263">Arnold Schönberg</persName><lb/>
@@ -122,7 +111,7 @@
                   DER KÜNSTE ZU BERLIN</stamp>
             </item>
             <item>
-               <stamp xml:id="stamp.21"> CHARLOTTENBURG 2<lb/>
+               <stamp xml:id="stamp.21">CHARLOTTENBURG 2<lb/>
                   <location>
                      <placeName key="place.2.3.1.2">KANTSTRASSE 4</placeName>
                   </location>/IV
@@ -137,14 +126,14 @@
                   </location><lb/>TEL.: WESTEND 2266</stamp>
             </item>
             <item>
-               <stamp xml:id="stamp.27"> derzeit:<lb/>LUGANO-BESSO<lb/>SCHWEIZ<lb/>
+               <stamp xml:id="stamp.27">derzeit:<lb/>LUGANO-BESSO<lb/>SCHWEIZ<lb/>
                   <location>
                      <placeName key="place.11.7.1.1">VIA SEMINARIO 2</placeName>
                   </location>
                </stamp>
             </item>
             <item>
-               <stamp xml:id="stamp.28"> Territet - Montreux<lb/>
+               <stamp xml:id="stamp.28">Territet - Montreux<lb/>
                   <location>
                      <placeName key="place.11.3.1">Villa Maria</placeName>
                   </location>-Schweiz </stamp>
@@ -622,6 +611,18 @@
             </item>
             <item><!-- sowas wahrscheinlich rausnehmen... ID 17704, vgl. 17705 etc -->
                <stamp xml:id="stamp.70">Österreichische Zensurstelle - Z.1<lb/>416</stamp>
+            </item>
+            
+            <item><!-- noch nicht gesehen, kommt aus dem excel, möglicherweise quatsch. die hausnummern sehen falsch aus -->
+               <stamp xml:id="stamp.2">
+                  <orgName key="org.1">Universal-Edition-A. G.</orgName><lb/>
+                  <location>
+                     <placeName key="place.9.11.6.12">WIEN. I. KARLSPLATZ 6a</placeName>
+                  </location><lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>
+                  <location>
+                     <placeName key="place.2.20.8">LEIPZIG. KARLSTRASSE 10b</placeName>
+                  </location>
+               </stamp>
             </item>
          </list>
       </body>

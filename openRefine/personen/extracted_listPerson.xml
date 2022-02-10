@@ -3174,6 +3174,7 @@
                     <note>Dreililien, Schwager von Marschalk</note>
                 </person>
                 <person xml:id="p_2759">
+                    <idno type="uri">https://d-nb.info/gnd/116133872</idno>
                     <persName><surname>Petri</surname><forename>Henri</forename></persName>
                     <birth><date when="1856-04-05"/><placeName>Zeist</placeName></birth>
                     <death><date when="1914-04-07"/><placeName>Dresden</placeName></death>
@@ -3186,6 +3187,7 @@
                         >Musiker</term></occupation>
                 </person>
                 <person xml:id="p_2760">
+                    <idno type="uri">https://d-nb.info/gnd/125523459</idno>
                     <persName><surname>Petschull</surname><forename>Johannes</forename></persName>
                     <birth><date when="1901"/><placeName>Diez</placeName></birth>
                     <death><date when="2011"/><placeName>Falkenstein (Taunus)</placeName></death>
