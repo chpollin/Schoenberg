@@ -103,8 +103,8 @@
                     <persName key="p_3263">Arnold Schönberg</persName>
                     <placeName key="place.15.7">Los Angeles</placeName>
                 </correspAction>
-                <note>Auf der Rückseite findet sich der Entwurf eines Antwortbriefes in der Hand von
-                    Richard Hoffmann</note>
+                <note>Auf der Rückseite findet sich der Entwurf eines Antwortbriefes von fremder
+                    Hand, der mit 24. April datiert an die UE abging (ASCC ID 2961)</note>
                 <correspContext>
                     <ref type="prev" target="linkzumletzten Brief"/>
                     <ref type="next" target="linkzumnächsten Brief"/>
@@ -129,14 +129,14 @@
                     <stamp sameAs="stamp.17" rendition="center">
                         <orgName key="UE">Universal-Edition· A. G.</orgName><lb/>
                         <location>
-                            <placeName key="place.9.11.6.12"><hi rendition="#circle"
-                                    hand="#Hoffmann">WIEN</hi><hi rendition="#u" hand="#Hoffmann">·
-                                    I· KARLSPLATZ 6</hi></placeName>
+                            <placeName key="place.9.11.6.12"><hi rendition="#circle" hand="unknown"
+                                    >WIEN</hi><hi rendition="#u" hand="unknown">· I· KARLSPLATZ
+                                    6</hi></placeName>
                         </location><lb/> Musikvereinsgebäude / Tel. U 47-5-85<lb/>
                         <location>
                             <placeName key="place.2.20.8">LEIPZIG· KARLSTRASSE 10</placeName>
                         </location></stamp>
-                    <add rendition="#r" hand="#Hoffmann">Ostmark<lb/> Germany</add>
+                    <add rendition="#r" hand="unknown">Ostmark<lb/> Germany</add>
                     <dateline rendition="#l">
                         <persName key="p_3067">R</persName>/<persName>No.</persName></dateline>
                     <dateline rendition="#r">Wien, am 28. Feber 1939.</dateline>
@@ -200,7 +200,7 @@
                     </signed>
                     <stamp>TELEGRAMM·ADRESSE: MUSIKEDITION, WIEN·POSTSPARKASSEN-KONTO WIEN
                         37557</stamp></closer>
-                <note rendition="#u" place="right" hand="#Hoffmann">over</note>
+                <note rendition="#u" place="right" hand="unknown">over</note>
             </div>
             <pb n="2" xml:id="page.2"/>
             <div type="letter">
@@ -218,12 +218,14 @@
                         previously</ref>.) the monthly<lb/> amount to my son <persName key="p_3281"
                             >Georg<del rendition="#s">e</del> Sch.</persName> Would you be<lb/> kind
                     enough to do this as soon as possible. </p>
-                <p><metamark/> Today I want <add place="superlinear" hand="#Hoffmann">at first</add>
+                <p><metamark/> Today I want <add place="superlinear" hand="unknown">at first</add>
                     to thank you for <seg type="comment"><orig>sending me<lb/> the music I
-                            ordered</orig><note xml:id="note_13">Schönberg erwähnt in einem <ref
-                                target="interner link zum Brief ASSC ID 3045">Brief vom 21. April 1938</ref> eine
-                            Liste, die dem Brief beiliegt.</note></seg>. But I think a number<lb/> of the packages
-                    must be delayed, and I hope<lb/> they will arrive soon.</p>
+                            ordered</orig><note xml:id="note_13">Hier handelt es sich um die Werke,
+                            die er wohl in dem 2. Schreiben des am <ref type="prev"
+                                target="interner Link zum genannten Brief ASCC ID 3167">28. Februar
+                                1939</ref>
+                        </note></seg>. But I think a number<lb/> of the packages must be delayed,
+                    and I hope<lb/> they will arrive soon.</p>
                 <p>From the bills I saw, I observed to<lb/> my astonishment that you charge me for
                     my own<lb/> works. It was an agreement with <persName key="p_1538">Mr.
                         Herzka</persName><lb/> that I get copies without <add place="superlinear"
