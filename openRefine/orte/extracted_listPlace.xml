@@ -568,6 +568,12 @@
                                 <geo>49.993427017300014, 8.236719249259888</geo>
                             </location>
                         </place>
+                        <place xml:id="place.2.21.2" type="building">
+                            <placeName>Weihergarten</placeName>
+                            <location>
+                                <geo>49.99644282792512, 8.272088029768485</geo>
+                            </location>
+                        </place>
                     </place>
                     <place xml:id="place.2.22" type="settlement">
                         <placeName>Mannheim</placeName>
@@ -2241,9 +2247,9 @@
                         </location>
                         <idno type="uri">http://sws.geonames.org/4887398</idno>
                         <place xml:id="place.15.5.1" type="building">
-                            <placeName>610 South Michigan Avenue</placeName>
+                            <placeName>410 N. Michigan Avenue</placeName>
                             <location>
-                                <geo>41.87399963500507, -87.62458721267278</geo>
+                                <geo>41.890097502971486, -87.62441387268125</geo>
                             </location>
                         </place>
                     </place>
@@ -2320,6 +2326,19 @@
                                 <placeName>116 N Rockingham Avenue</placeName>
                                 <location>
                                     <geo>34.05802122242767, -118.49100975420565</geo>
+                                </location>
+                            </place>
+                        </place>
+                        <place xml:id="place.15.7.4" type="district">
+                            <placeName>Melrose</placeName>
+                            <location>
+                                <geo>34.083695198765504, -118.35499169817552</geo>
+                            </location>
+                            <idno type="uri">https://sws.geonames.org/8062697</idno>
+                            <place xml:id="place.15.7.4.1" type="building">
+                                <placeName>8373 Melrose Avenue</placeName>
+                                <location>
+                                    <geo>34.0837137563392, -118.37263903587831</geo>
                                 </location>
                             </place>
                         </place>
