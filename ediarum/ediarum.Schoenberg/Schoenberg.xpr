@@ -17,7 +17,7 @@
                                     <String>${ediarum_project_domain}</String>
                                 </field>
                                 <field name="value">
-                                    <String>http://localhost:8080</String>
+                                    <String>http://192.168.0.244:8080</String>
                                 </field>
                                 <field name="shortDescription">
                                     <String>Schönberg</String>
@@ -31,7 +31,7 @@
                                     <String>/oxygen/ediarum.xql?index=persons</String>
                                 </field>
                                 <field name="shortDescription">
-                                    <String></String>
+                                    <String>Personenregister</String>
                                 </field>
                             </userEditorVariable>
                             <userEditorVariable>
@@ -65,6 +65,50 @@
                                 </field>
                                 <field name="shortDescription">
                                     <String></String>
+                                </field>
+                            </userEditorVariable>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_index_item}</String>
+                                </field>
+                                <field name="value">
+                                    <String>/oxygen/ediarum.xql?index=items</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String>Sachbegriffe</String>
+                                </field>
+                            </userEditorVariable>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_index_org}</String>
+                                </field>
+                                <field name="value">
+                                    <String>/oxygen/ediarum.xql?index=organisations</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String>Körperschaftsregister</String>
+                                </field>
+                            </userEditorVariable>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_index_bibl}</String>
+                                </field>
+                                <field name="value">
+                                    <String>/oxygen/ediarum.xql?index=bibliography</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String>Schriftenregister</String>
+                                </field>
+                            </userEditorVariable>
+                            <userEditorVariable>
+                                <field name="name">
+                                    <String>${ediarum_index_place}</String>
+                                </field>
+                                <field name="value">
+                                    <String>/oxygen/ediarum.xql?index=places</String>
+                                </field>
+                                <field name="shortDescription">
+                                    <String>Ortsregister</String>
                                 </field>
                             </userEditorVariable>
                         </userEditorVariable-array>
