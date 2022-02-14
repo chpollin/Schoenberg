@@ -14,40 +14,40 @@
                         <surname>Muxeneder</surname>
                     </persName>
                     <resp>
-                        <term>Projektleitung</term>
-                        <term>Herausgeberschaft</term></resp>
+                        <rs type="term">Projektleitung</rs>
+                        <rs type="term">Herausgeberschaft</rs></resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>Katharina</forename>
                         <surname>Bleier</surname></persName>
                     <resp>
-                        <term>Wissenschaftliche Mitarbeit</term>
-                        <term>Herausgeberschaft</term>
+                        <rs type="term">Wissenschaftliche Mitarbeit</rs>
+                        <rs type="term">Herausgeberschaft</rs>
                     </resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>Christopher</forename>
                         <surname>Pollin</surname></persName>
                     <resp>
-                        <term>Datenmodellierung</term>
+                        <rs type="term">Datenmodellierung</rs>
                     </resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>Philipp</forename><surname>Kehrer</surname></persName>
                     <resp>
-                        <term>Wissenschaftliche Mitarbeit</term>
+                        <rs type="term">Wissenschaftliche Mitarbeit</rs>
                     </resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>N.</forename><surname>N.</surname></persName>
                     <resp>
-                        <term>Wissenschaftliche Mitarbeit</term>
+                        <rs type="term">Wissenschaftliche Mitarbeit</rs>
                     </resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>N.</forename><surname>N.</surname></persName>
                     <resp>
-                        <term>Studentische Mitarbeit</term>
+                        <rs type="term">Studentische Mitarbeit</rs>
                     </resp>
                 </respStmt>
             </titleStmt>
@@ -112,7 +112,7 @@
             </correspDesc>
             <textClass>
                 <keywords>
-                    <term>Brief</term>
+                    <rs type="term">Brief</rs>
                 </keywords>
             </textClass>
         </profileDesc>
