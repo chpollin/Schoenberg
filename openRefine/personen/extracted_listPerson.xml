@@ -2416,6 +2416,12 @@
                         Adler</surname><forename>Ellen</forename></persName>
                     <note>Renés Gattin, Sängerin…</note>
                 </person>
+                <person xml:id="p_2121">
+                    <persName><surname>Leigh-Taylor</surname><forename>Noel Heath</forename></persName>
+                    <birth when="1913-12-21"><placeName>Kapstadt</placeName></birth>
+                    <death when="1972-04-13"><placeName>Los Angeles</placeName></death>
+                    <note></note>
+                </person>
                 <person xml:id="p_2122">
                     <idno type="uri">http://d-nb.info/gnd/1028178360</idno>
                     <persName><surname>Lejeune</surname><forename>Nestor</forename></persName>
