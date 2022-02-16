@@ -105,7 +105,7 @@
                         ><forename>Johannes</forename><surname>Geidel</surname></persName>
                     <orgName key="Geidel">F. M. Geidel</orgName>
                     <placeName key="place.2.20">Leipzig</placeName>
-                    <date when="1914-06-03"/>
+                    <date when="1914-06-03" calendar="#Gregorian"/>
                 </correspAction>
                 <correspAction type="received">
                     <orgName key="UE">Universal-Edition</orgName>
@@ -155,17 +155,17 @@
                     </address>
                 </opener>
                 <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
-                        <orig>2 Abzüge einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
+                        <orig>2 <rs type="term" key="item.4">Abzüge</rs> einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
                         <note xml:id="note_8"><ref target="https://bit.ly/3BQVTfQ">Korrekturabzug
                                 (Probeseite) von S, 4 (T. 5-12) des Partiturdrucks</ref></note>
-                    </seg> aus der <bibl key="werke.7">Orchesterpartitur</bibl><!-- wie ist der entsprechende Eintrag im Werkregister einzutragen? -->
+                    </seg> aus der <bibl sameAs="werke.7">Orchesterpartitur</bibl>
                     <persName key="p_3263">Schönberg</persName>. Ich hoffe, alles nach Wunsch
                     <lb/>des Autors ausgeführt zu haben und bitte um recht baldigen Bescheid, da<g
                         ref="#typoHyphen"/><lb break="no"/>mit ich weiter arbeiten lassen kann.</p>
                 <p>Ich möchte hierzu noch bemerken, dass die Einteilung des <lb/>Manuskriptes es mit
                     sich bringt, dass ich gezwungen bin, <add place="superlinear" hand="author">ab
-                        und zu</add> verhältnismässig <lb/>wenig Linien auf eine Platte zu bringen,
-                    um unmittelbar im Anschluss daran <lb/>wieder eine Platte mit Doppelsystemen
+                        und zu</add> verhältnismässig <lb/>wenig Linien auf eine <rs type="term" key="item.3">Platte</rs> zu bringen,
+                    um unmittelbar im Anschluss daran <lb/>wieder eine <rs type="term" key="item.3">Platte</rs> mit Doppelsystemen
                     einrichten zu können.
                     <!-- ASUE Hier ist die Metamark-Situation etwas kompliziert, da das X die Position im Brieftext hier meint, die Zahl aber auf die entsprechende Zahl im angklebten handschriftlichen Brief verweist "1.XX" an einer Stelle ist nicht verständlich -->
                     Ich bitte, <lb/>beim Autor anzufragen, <add place="left" hand="#Schönberg"
@@ -179,14 +179,14 @@
                     mehrere auf eine Linie zusammen gezogen sind, ein Auseinander<g
                         ref="#typoHyphen"/><lb break="no"/>ziehen in einzelnen Instrumenten
                     vorgenommen werden kann, um zu vermeiden, <lb/>dass plötzlich auf eine sehr enge
-                    Platte mit 34 Linien eine sehr weite <lb/>mit 18 oder 20 Linien folgt. Umgedreht
+                    <rs type="term" key="item.3">Platte</rs> mit 34 Linien eine sehr weite <lb/>mit 18 oder 20 Linien folgt. Umgedreht
                     macht es sich notwendig, in ein<g ref="#typoHyphen"/><lb break="no"/>zelnen
                     Fällen, <add place="left" hand="#Schönberg">
                         <metamark>2. <hi rendition="#circle">X</hi></metamark></add><add
                         place="intralinear" hand="#Schönberg">
                         <metamark><hi rendition="#circle">X</hi></metamark></add> dass 2
                     gleichartige Instrumentenlinien auf eine Linie zu<g ref="#typoHyphen"/><lb
-                        break="no"/>sammengezogen werden, um eine 2systemige Platte einrichten zu
+                        break="no"/>sammengezogen werden, um eine 2systemige <rs type="term" key="item.3">Platte</rs> einrichten zu
                     können <lb/>und dabei die Höchstzahl der Linien, 34, nicht zu überschreiten.
                     Einer <lb/>kurzen Rückantwort hierüber sehe ich entgegen. </p>
                 <p><seg type="comment"><orig><hi rendition="#u"><persName key="p_331"
@@ -221,7 +221,7 @@
                     nicht genügend beachtet haben.</p>
                 <p>Ich schrieb wörtlich:</p>
                 <p rendition="#ll">„Es ist gar kein Unglück, sieht auch besser aus und ist
-                    <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm der <lb/>Höhe
+                    <lb/>lesbarer, wenn auf einer einsystemigen <rs type="term" key="item.3">Platte</rs> nur 24 cm der <lb/>Höhe
                     bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die Partituren dienen
                     einzig und allein <hi rendition="#u">praktischen</hi>
                     <lb/>Zwecken und je besser sie denen entsprechen, desto schöner <lb/>sind sie.

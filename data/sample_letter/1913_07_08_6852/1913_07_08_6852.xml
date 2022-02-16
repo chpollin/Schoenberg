@@ -103,7 +103,7 @@
                         <surname>Schönberg</surname>
                     </persName>
                     <placeName key="place.2.15">Gautzsch</placeName>
-                    <date when="1913-07-08"/>
+                    <date when="1913-07-08" calendar="#Gregorian"/>
                 </correspAction>
                 <correspAction type="received">
                     <orgName key="UE">Universal-Edition</orgName>
@@ -157,13 +157,14 @@
                     <add place="intralinear">I.</add> ich habe bereits an <persName key="p_2817"
                         >Polnauer</persName><lb/> geschrieben wegen der <seg type="comment"
                                 ><orig>„<hi rendition="#u"
-                                    >Bläser-Partituren-Stimmen</hi>“</orig><note xml:id="note_2">Anfang Juli 1913 entschloss
-                            sich Schönberg zu einer Revision der Gurre-Lieder-Stimmenmaterials.
-                            Anlass war die von Josef Polnauer im Auftrag der UE vorgenommene
-                            Durchsicht des gesamten Materials, da von Partitur und Bläserstimmen
-                            Abschriften hergestellt werden sollten. In diesem Zusammenhang hatte
-                            Schönberg vorgeschlagen, die Bläserstimmen zu Bläserpartituren
-                            zusammenzufassen. Am 8. Juli 1913 "schrieb er an Polnauer(<ref
+                            >Bläser-Partituren-Stimmen</hi>“</orig><note xml:id="note_2">Anfang Juli
+                            1913 entschloss sich Schönberg zu einer Revision der
+                            Gurre-Lieder-Stimmenmaterials. Anlass war die von Josef Polnauer im
+                            Auftrag der UE vorgenommene Durchsicht des gesamten Materials, da von
+                            Partitur und Bläserstimmen Abschriften hergestellt werden sollten. In
+                            diesem Zusammenhang hatte Schönberg vorgeschlagen, die Bläserstimmen zu
+                            Bläserpartituren zusammenzufassen. Am 8. Juli 1913 "schrieb er an
+                                Polnauer(<ref
                                 target="http://archive.schoenberg.at/letters/letters.php?id_letters=23133&amp;action=view&amp;sortieren=id%20DESC&amp;vonBis=0-19"
                                 >ASCC ID 23133</ref>), der im Zuge der Durchsicht des
                             Gurre-Lieder-Materials mit der Übertragung der Retuschen in die
@@ -182,13 +183,14 @@
                     <hi rendition="#u">Immerhin sollte man noch einige <seg type="comment"
                                 ><orig>Orchestermitglieder<lb/> befragen</orig><note xml:id="note_3"
                                 >Nach Rücksprache mit Orchestermusikern wurde der Plan aufgrund der
-                                    Schwierigkeit, geeignete Wendestellen zu finden, aufgegeben. (<ref
-                                        target="http://archive.schoenberg.at/letters/letters.php?id_letters=15029&amp;action=view&amp;sortieren=id%20DESC&amp;vonBis=0-19"
-                                        >ASCC ID 15029</ref> und <ref
+                                Schwierigkeit, geeignete Wendestellen zu finden, aufgegeben. (<ref
+                                    target="http://archive.schoenberg.at/letters/letters.php?id_letters=15029&amp;action=view&amp;sortieren=id%20DESC&amp;vonBis=0-19"
+                                    >ASCC ID 15029</ref> und <ref
                                     target="http://archive.schoenberg.at/letters/letters.php?id_letters=23084&amp;action=view&amp;sortieren=id%20DESC&amp;vonBis=0-19"
                                     >ASCC ID 23084</ref>)</note></seg></hi>. Wenn man es aber macht,
                     dann meine<lb/> ich: immer eine ganze Gruppe zusammen; also<lb/> alle 10 <term
-                        type="instrument" target="https://d-nb.info/gnd/4160662-0">Hörner</term>,
+                        type="instrument" target="https://d-nb.info/gnd/4160662-0"
+                    >Hörner</term><!-- ASUE: wir sind uns noch nicht ganz schlüssig, ob die Intrumente ins Sachregister kommen, daher bleibt das vorerst so -->,
                     alle 6 <term type="instrument" target="https://d-nb.info/gnd/4060993-5"
                         >Trp</term>, alle 8 <term type="instrument"
                         target="https://d-nb.info/gnd/4046865-3">Posaunen</term>; Nur<lb/> wenn das
@@ -263,9 +265,9 @@
                     <hi rendition="#rectangle">1. 2 <term type="instrument"
                             target="https://d-nb.info/gnd/4165172-8">Ctr Fg</term></hi></p>
                 <p>II. Ich nehme mir jetzt die <lb/>
-                    <seg type="comment"><orig><term key="#werkindex" type="artwork"
-                            >Gurre</term>Partitur</orig><note xml:id="note_4">Erstdruck. Faksimile
-                            der Partiturreinschrift (Studienpartitur)(<ref
+                    <seg type="comment"><orig><bibl sameAs="werke.16">Gurre</bibl>
+                            Partitur</orig><note xml:id="note_4">Erstdruck. Faksimile der
+                            Partiturreinschrift (Studienpartitur)(<ref
                                 target="http://archive.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1533&amp;werke_id=480&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
                                 >Quelle D</ref>)</note></seg> vor <hi rendition="#u">um etwaige
                         Änderungen</hi> noch<lb/> rechtzeitig zu nennen. Ich hoffe diese Arbeit<lb/>
@@ -277,11 +279,11 @@
                                 target="http://archive.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=576&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
                                 >Quelle H</ref>)</note></seg>; ich will auch hier einige
                     Änderungen<lb/> eintragen (für mein Material)</p>
-                <p>IV. Das <term key="#werkindex" type="artwork">Cello-Konzert von Monn</term><lb/>
-                    scheinen Sie nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist
-                        <supplied cert="high">,</supplied> dann bitte ich um Nachricht, da ich
-                    es<lb/> leicht <orgName key="peters">Peters</orgName> oder <orgName
-                        key="eulenburg">Eulenburg</orgName> geben kann.</p>
+                <p>IV. Das <bibl sameAs="werke.37">Cello-Konzert von Monn</bibl><lb/> scheinen Sie
+                    nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist <supplied
+                        cert="high">,</supplied> dann bitte ich um Nachricht, da ich es<lb/> leicht
+                        <orgName key="peters">Peters</orgName> oder <orgName key="eulenburg"
+                        >Eulenburg</orgName> geben kann.</p>
                 <p rendition="#c">V.</p>
                 <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
                     Jahre ver<g ref="#typoHyphen"/><lb break="no"/>flossen seit wir unseren <seg
@@ -303,19 +305,21 @@
                     nicht<lb/> frei sind.</p>
                 <p>
                     <list type="simple">
-                        <item>Es sind frei: I. Das Monodram<lb/> „Glückliche Hand“</item>
+                        <item>Es sind frei: I. Das Monodram<lb/> „<bibl sameAs="werke.50">Glückliche
+                                Hand</bibl>“</item>
                         <pb n="4" xml:id="page.4"/>
-                        <item>II. Die George Lieder</item>
-                        <item>III. Die 2 Balladen</item>
+                        <item>II. Die <bibl sameAs="werke.24">George Lieder</bibl></item>
+                        <item>III. Die <bibl sameAs="werke.43">2 Balladen</bibl></item>
                         <item>IV. Ein Heft Lieder</item>
                     </list>
                 </p>
                 <p>Noch nicht frei dagegen</p>
                 <p>
                     <list type="simple">
-                        <item>I. 6 Klavierstücke</item>
-                        <item>II. Lied für Harm. Celesta u. Harfe</item>
-                        <item>III. Pierrot lunaire.</item>
+                        <item>I. <bibl sameAs="werke.52">6 Klavierstücke</bibl></item>
+                        <item>II. <bibl sameAs="werke.53">Lied für Harm. Celesta u.
+                            Harfe</bibl></item>
+                        <item>III. <bibl sameAs="werke.54">Pierrot lunaire</bibl>.</item>
                     </list>
                 </p>
                 <p>Ich bitte Sie mir in<add place="sublinear">nerhalb</add> 8 Tagen mitzuteilen, ob
@@ -323,21 +327,23 @@
                 <p>
                     <list type="simple">
                         <head><hi rendition="#l">a)</hi></head>
-                        <!-- ASUE: was bedeutet rendition="#l" ?, steht noch nicht im wiki -->
-                        <item>I. Monodram Partitur und Klavierauszug</item>
-                        <item>II. George Lieder</item>
-                        <item>III. Pierrot lunaire</item>
-                        <item>IV. 6 Klavierstücke</item>
-                        <item>V. Partituren der 6 Orchesterlieder</item>
+                        <item>I. <bibl sameAs="werke.50">Monodram</bibl> Partitur und
+                            Klavierauszug</item>
+                        <item>II. <bibl sameAs="werke.24">George Lieder</bibl></item>
+                        <item>III. <bibl sameAs="werke.54">Pierrot lunaire</bibl></item>
+                        <item>IV. <bibl sameAs="werke.52">6 Klavierstücke</bibl></item>
+                        <item>V. Partituren der <bibl sameAs="werke.11">6
+                            Orchesterlieder</bibl></item>
                     </list></p>
                 <p> sofort in Druck zu geben und dafür zu sorgen, dass<lb/> sie in längstens 2
                     Monaten zur I. Korrektur und<lb/> in längstens 4 Monaten <add
                         place="superlinear">von heute</add> zum Verkauf fertig sind.</p>
                 <p><list type="simple">
                         <head><hi rendition="#l">b)</hi></head>
-                        <item>1) die 2 Balladen</item>
-                        <item>2) das Heft Lieder</item>
-                        <item>3) das Harm.-Cel.-Harfe-Lied in 5 Monaten</item>
+                        <item>1) die <bibl sameAs="werke.43">2 Balladen</bibl></item>
+                        <item>2) das Heft Lieder<!-- ist das op. 14? --></item>
+                        <item>3) das <bibl sameAs="werke.53">Harm.-Cel.-Harfe-Lied</bibl> in 5
+                            Monaten</item>
                     </list> zur I. Korrektur und in 7 Monaten von heute zum<lb/>
                     <del rendition="#s">Ausgab</del> Verkauf fertig sind.</p>
                 <p> Sollten Sie auf diese Bedingungen nicht<lb/> eingehen können, so müsste ich mein

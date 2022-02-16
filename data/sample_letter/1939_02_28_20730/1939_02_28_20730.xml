@@ -14,40 +14,40 @@
                         <surname>Muxeneder</surname>
                     </persName>
                     <resp>
-                        <rs type="term">Projektleitung</rs>
-                        <rs type="term">Herausgeberschaft</rs></resp>
+                        <term>Projektleitung</term>
+                        <term>Herausgeberschaft</term></resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>Katharina</forename>
                         <surname>Bleier</surname></persName>
                     <resp>
-                        <rs type="term">Wissenschaftliche Mitarbeit</rs>
-                        <rs type="term">Herausgeberschaft</rs>
+                       <term>Wissenschaftliche Mitarbeit</term>
+                        <term>Herausgeberschaft</term>
                     </resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>Christopher</forename>
                         <surname>Pollin</surname></persName>
                     <resp>
-                        <rs type="term">Datenmodellierung</rs>
+                        <term>Datenmodellierung</term>
                     </resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>Philipp</forename><surname>Kehrer</surname></persName>
                     <resp>
-                        <rs type="term">Wissenschaftliche Mitarbeit</rs>
+                        <term>Wissenschaftliche Mitarbeit</term>
                     </resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>N.</forename><surname>N.</surname></persName>
                     <resp>
-                        <rs type="term">Wissenschaftliche Mitarbeit</rs>
+                        <term>Wissenschaftliche Mitarbeit</term>
                     </resp>
                 </respStmt>
                 <respStmt>
                     <persName><forename>N.</forename><surname>N.</surname></persName>
                     <resp>
-                        <rs type="term">Studentische Mitarbeit</rs>
+                        <term>Studentische Mitarbeit</term>
                     </resp>
                 </respStmt>
             </titleStmt>
@@ -97,7 +97,7 @@
                     <persName key="p_3067">Betti Rothe</persName>
                     <persName key="p_1210">Ernst Geutebrück</persName>
                     <placeName key="place.9.11">Wien</placeName>
-                    <date when="1939-02-28"/>
+                    <date when="1939-02-28" calendar="#Gregorian"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="p_3263">Arnold Schönberg</persName>
@@ -112,7 +112,7 @@
             </correspDesc>
             <textClass>
                 <keywords>
-                    <rs type="term">Brief</rs>
+                    <term>Brief</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -165,8 +165,8 @@
                             Krenek: Karl V. Bühnenwerk mit Musik in zwei Teilen op. 73.
                             Klavierauszug. Wien: Universal-Edition U.E. 10530 (Arnold Schönberg
                             Center, Wien, PM/med 9)</note></seg> sei<g ref="#typoHyphen"/><lb
-                        break="no"/>ner Oper "<bibl key="werke.100"
-                        ><!-- wie ist der entsprechende Eintrag im Werkregister hier einzutragen? -->Karl
+                        break="no"/>ner Oper "<bibl sameAs="werke.100"
+                        >Karl
                         V.</bibl>" als Ehrenexemplar zugehen.</p>
                 <p>Eben trifft auch <ref type="prev"
                         target="interner Link zum genannten Brief ASCC ID 3146">Ihr Schreiben vom
@@ -241,7 +241,7 @@
                 <note rendition="#circle" place="right">over</note>
                 <p>
                     <metamark/>By the way, you even charge me for my opera<lb/>
-                    <bibl key="werke.65">„VON HEUTE AUF MORGEN“</bibl>, that is my property<lb/> for
+                    <bibl sameAs="werke.65">„VON HEUTE AUF MORGEN“</bibl>, that is my property<lb/> for
                     that I paid not only the printing expenses, but also<lb/> that of the lawsuit I
                     lost.<lb/> Please kindly rectify this matter. </p>
                 <closer>
