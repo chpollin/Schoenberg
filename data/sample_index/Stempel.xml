@@ -216,7 +216,7 @@
             <item><!-- gern auch nochmal anschauen: 1921 ID 7048_1 und womöglich blöcke umsortieren -->
                <stamp xml:id="stamp.11">
                   <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/>(<orgName
-                     key="PLATZHALTER">Jos·Aibl Verlag, G.m.b.H.</orgName>)<lb/>LEIPZIG<lb/>
+                     key="org.96">Jos·Aibl Verlag, G.m.b.H.</orgName>)<lb/>LEIPZIG<lb/>
                   <location>
                      <placeName key="place.2.20.8">Karlstrasse 10</placeName>
                   </location><lb/>WIEN<lb/>
@@ -230,7 +230,7 @@
             <item><!-- gern auch nochmal anschauen: 1922 ID 19682_1 FRAGE: doppelte unterstreichung bei hochgestellten Buchstaben? Trennungsstrich als "=" oder "-"?-->
                <stamp xml:id="stamp.13">
                   <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/>(<orgName
-                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName>)<lb/>LEIPZIG<lb/>
+                     key="org.96">Jos· Aibl Verlag, G.m.b.H.</orgName>)<lb/>LEIPZIG<lb/>
                   <location>
                      <placeName key="place.2.20.8">Karlstrasse 10</placeName>
                   </location><lb/>WIEN<lb/>
@@ -255,7 +255,7 @@
             <item>
                <stamp xml:id="stamp.23">
                   <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
-                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                     key="org.96">Jos· Aibl Verlag, G.m.b.H.</><lb/>LEIPZIG<lb/>
                   <location>
                      <placeName key="place.2.20.8">Karlstrasse 10</placeName>
                   </location><lb/>WIEN<lb/>
@@ -282,7 +282,7 @@
             <item>
                <stamp xml:id="stamp.26">
                   <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
-                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                     key="org.96">Jos· Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
                   <location>
                      <placeName key="place.2.20.8">Karlstrasse 10</placeName>
                   </location><lb/>WIEN<lb/>
@@ -296,7 +296,7 @@
             <item>
                <stamp xml:id="stamp.31">
                   <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
-                     key="PLATZHALTER">Jos· Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                     key="org.96">Jos· Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
                   <location>
                      <placeName key="place.2.20.8">Karlstrasse 10</placeName>
                   </location><lb/>WIEN<lb/>
@@ -318,7 +318,7 @@
             <item>
                <stamp xml:id="stamp.49">
                   <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName><lb/><orgName
-                     key="PLATZHALTER">Jos·Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                     key="org.96">Jos·Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
                   <location>
                      <placeName key="place.2.20.10">Seeburgstr. 14-20</placeName>
                   </location><lb/>WIEN<lb/>
@@ -331,7 +331,7 @@
             <item>
                <stamp xml:id="stamp.56">
                   <orgName key="org.1">"Universal-Edition" A.-G.</orgName><lb/>(<orgName
-                     key="PLATZHALTER">Jos. Aibl Verlag, G.m.b.H.</orgName>)<lb/>Leipzig <location>
+                     key="org.96">Jos. Aibl Verlag, G.m.b.H.</orgName>)<lb/>Leipzig <location>
                      <placeName key="place.2.20.9">Sternwartestrasse 15-20</placeName>
                   </location>.<lb/>Wien<lb/>
                   <location>
@@ -342,7 +342,7 @@
             <item>
                <stamp xml:id="stamp.58">
                   <orgName key="org.1">UNIVERSAL-EDITION, A. G.</orgName><lb/><orgName
-                     key="PLATZHALTER">Jos. Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
+                     key="org.96">Jos. Aibl Verlag, G.m.b.H.</orgName><lb/>LEIPZIG<lb/>
                   <location>
                      <placeName key="place.2.20.9">Sternwartenstr.15-21</placeName>
                   </location><lb/>WIEN<lb/>
@@ -375,7 +375,7 @@
             </item>
             <item>
                <stamp xml:id="stamp.65"><orgName key="org.1">UNIVERSAL-EDITION,
-                  A.-G.</orgName><lb/>Jos·Aibl Verlag, G.m.b.H.<lb/><location>
+                  A.-G.</orgName><lb/><orgName key="org.96">Jos·Aibl Verlag, G.m.b.H.</orgName><lb/><location>
                      <placeName key="place.15.8.16">40 West 34<hi rendition="#sup">th</hi>
                         Street</placeName>
                   </location><lb/>New York<lb/>LEIPZIG<lb/><location>
@@ -386,7 +386,7 @@
             </item>
             <item><!-- postkartenvordruck 17674-->
                <stamp xml:id="stamp.67"><orgName key="org.1">UNIVERSAL-EDITION
-                  A.-G.</orgName><lb/>JOS. AIBL Verlag, G.M.B.H., LEIPZIG<lb/>WIEN
+                  A.-G.</orgName><lb/><orgName key="org.96">JOS. AIBL Verlag, G.M.B.H.</orgName>, LEIPZIG<lb/>WIEN
                   <!-- Lücke --><lb/>I., <location>
                      <placeName key="place.9.11.6.24">KARLSPLATZ 6</placeName>
                   </location><lb/>TELEGR.-ADR.: MUSIKEDITION WIEN TELEPHON Nr. 3228, 4533</stamp>
@@ -533,7 +533,7 @@
                <stamp xml:id="stamp.78">Wien, am <!-- lücke -->191<!-- lücke --><lb/> I., <location>
                      <placeName key="place.9.11.6.24">Wipplingerstraße 32</placeName>
                   </location>.<lb/>Hochachtungsvoll<lb/><orgName key="org.1">"Universal-Edition"
-                     A.-G.</orgName><lb/>(Jos. Aibl Verlag, G. m. b. H.)</stamp>
+                     A.-G.</orgName><lb/>(<orgName key="org.96">Jos. Aibl Verlag, G. m. b. H.</orgName>)</stamp>
             </item>
             <item>
                <!-- postkartenvordruck -->
@@ -542,7 +542,7 @@
                   </location><lb/>Ab 1. Nov.: I. <location>
                      <placeName key="place.9.11.6.18">Reichsratstraße 9</placeName>
                   </location><lb/>Hochachtungsvoll<lb/><orgName key="org.1">"Universal-Edition"
-                     A.-G.</orgName><lb/>(Jos. Aibl Verlag, G. m. b. H.)</stamp>
+                     A.-G.</orgName><lb/>(<orgName key="org.96">Jos. Aibl Verlag, G. m. b. H.</orgName>)</stamp>
             </item>
             <item>
                <!-- postkartenvordruck -->
@@ -554,23 +554,23 @@
             <!-- Dreililien -->
             <item>
                <stamp xml:id="stamp.50">
-                  <orgName key="xxx">VERLAG DREILILIEN</orgName>.</stamp>
+                  <orgName key="org.180">VERLAG DREILILIEN</orgName>.</stamp>
             </item>
             <item>
                <stamp xml:id="stamp.51">
-                  <orgName key="xxx">VERLAG DREILILIEN</orgName><lb/>Halensee-Berlin<lb/><location>
+                  <orgName key="org.180">VERLAG DREILILIEN</orgName><lb/>Halensee-Berlin<lb/><location>
                      <placeName key="place.2.3.3.1">Georg Wilhelm-Str. 22</placeName>
                   </location><lb/>den <!-- Lücke -->190</stamp>
             </item>
             <item><!-- identisch mit stamp.51, nur anderes layout -->
                <stamp xml:id="stamp.52">
-                  <orgName key="xxx">VERLAG DREILILIEN</orgName><lb/>Halensee-Berlin<lb/><location>
+                  <orgName key="org.180">VERLAG DREILILIEN</orgName><lb/>Halensee-Berlin<lb/><location>
                      <placeName key="place.2.3.3.1">Georg Wilhelm-Str. 22</placeName>
                   </location><lb/>den <!-- Lücke -->190</stamp>
             </item>
             <item>
                <stamp xml:id="stamp.53">
-                  <orgName key="xxx">VERLAG<lb/>DREILILIEN</orgName><lb/>Berlin-Halensee, den
+                  <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName><lb/>Berlin-Halensee, den
                   <!-- Lücke -->191 <!-- Lücke --><lb/><location>
                      <placeName key="place.2.4.1.2">Halberstädterstraße 6</placeName>
                   </location>.</stamp>
@@ -578,7 +578,7 @@
             <!-- andere -->
             <item>
                <stamp xml:id="stamp.16">
-                  <orgName key="xxx">F. M. GEIDEL</orgName>, LEIPZIG<lb/>Anstalt für<lb/>
+                  <orgName key="org.65">F. M. GEIDEL</orgName>, LEIPZIG<lb/>Anstalt für<lb/>
                   Notenstich, Notendruck und Anastatischen Druck<lb/>Stein- und Buchdruckerei,
                   Notensatz, Stereotypie<lb/>Lithographie, Autographie und Buchbinderei<lb/>
                   Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co., Leipzig<lb/>Leipzig, den <!-- Lücke -->191<lb/>
@@ -602,7 +602,7 @@
             </item>
             <item>
                <stamp xml:id="stamp.54">
-                  <orgName key="xxx">PULT UND TAKTSTOCK</orgName><lb/>MONATSSCHRIFT FÜR
+                  <orgName key="org.191">PULT UND TAKTSTOCK</orgName><lb/>MONATSSCHRIFT FÜR
                   DIRIGENTEN<lb/>Verlag der <orgName key="org.1"
                   >Universal-Edition</orgName><lb/>WIEN,<lb/>I. <location>
                      <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>

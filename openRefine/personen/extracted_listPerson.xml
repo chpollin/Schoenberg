@@ -35,13 +35,13 @@
                     <affiliation>KHM-Museumsverband</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q36180"
                             >Schriftstellerin</term></occupation>
-                    <affiliation>K.K. Hof-Operntheater in Wien</affiliation>
+                    <affiliation key="org.90">K.K. Hof-Operntheater in Wien</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q33999"
                             >Schauspielerin</term></occupation>
                     <affiliation>Salzburger Festspiele</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q2865819"
                             >Opernsängerin</term></occupation>
-                    <affiliation>Staatsakademie für Musik und Darstellende Kunst</affiliation>
+                    <affiliation key="org.10">Staatsakademie für Musik und Darstellende Kunst</affiliation>
                     <affiliation>Konservatorium (Salzburg)</affiliation>
                 </person>
                 <person xml:id="p_20">
@@ -164,7 +164,7 @@
                     <affiliation>Schweizerisches Festspielorchester</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1643514"
                         >Arrangeur</term></occupation>
-                    <affiliation>Ballets Russes</affiliation>
+                    <affiliation key="org.26">Ballets Russes</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
                         >Musiker</term></occupation>
                 </person>
@@ -185,7 +185,7 @@
                     <persName><surname>Apostel</surname><forename>Hans Erich</forename></persName>
                     <death/>
                     <occupation><term>Komponist</term></occupation>
-                    <affiliation>International Society for Contemporary Music. Sektion
+                    <affiliation key="org.93">International Society for Contemporary Music. Sektion
                         Österreich</affiliation>
                     <note>Komponist, Schüler</note>
                 </person>
@@ -317,7 +317,7 @@
                     <affiliation>Universitätsbibliothek Salzburg</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q13418253"
                             >Philologe</term></occupation>
-                    <affiliation>S. Fischer Verlag</affiliation>
+                    <affiliation key="org.148">S. Fischer Verlag</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q17337766"
                             >Theaterkritiker</term></occupation>
                     <affiliation>Burgtheater Wien</affiliation>
@@ -740,7 +740,7 @@
                             >Kunsthändler</term></occupation>
                     <affiliation>Bruno und Paul Cassirer (Berlin)</affiliation>
                     <occupation><term>Schriftsteller</term></occupation>
-                    <affiliation>Verlag Paul Cassirer</affiliation>
+                    <affiliation key="org.129">Verlag Paul Cassirer</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q20771242"
                         >Galerist</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q2516866"
@@ -1021,7 +1021,7 @@
                     <affiliation>Koninklijke Nederlandse Akademie van Wetenschappen</affiliation>
                     <note>Physiker</note>
                     <occupation><term>Pazifist</term></occupation>
-                    <affiliation>Princeton University</affiliation>
+                    <affiliation key="org.138">Princeton University</affiliation>
                     <occupation><term>Nobelpreisträger</term></occupation>
                     <affiliation>Preußische Akademie der Wissenschaften</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q901"
@@ -1325,12 +1325,13 @@
                         Moritz</forename></persName>
                     <birth><date when="1847-08-02"/></birth>
                     <death><date when="1929-10-12"/></death>
-                    <affiliation>F. M. Geidel (Firma)</affiliation>
+                    <affiliation key="org.65">F. M. Geidel (Firma)</affiliation>
                     <note>Stecherei 1914</note>
                 </person>
                 <person xml:id="p_1206">
                     <idno type="uri">http://d-nb.info/gnd/125095600</idno>
                     <persName><surname>Geidel</surname><forename>Johannes</forename></persName>
+                    <affiliation key="org.65">F. M. Geidel (Firma)</affiliation>
                     <note>Stecherei 1914? Man findet eine med. Diss., sonst nichts</note>
                 </person>
                 <person xml:id="p_1209">
@@ -1921,7 +1922,7 @@
                             >Musikdirektor</term></occupation>
                     <affiliation>New York Philharmonic</affiliation>
                     <note>Manager</note>
-                    <affiliation>The Philadelphia Orchestra</affiliation>
+                    <affiliation key="org.132">The Philadelphia Orchestra</affiliation>
                 </person>
                 <person xml:id="p_1734">
                     <persName><surname>Juon</surname><forename>Paul</forename></persName>
@@ -1983,7 +1984,7 @@
                     <affiliation>Bauhaus Dessau (1925-1932)</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1028181"
                         >Maler</term></occupation>
-                    <affiliation>Der Blaue Reiter</affiliation>
+                    <affiliation key="org.48">Der Blaue Reiter</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1925963"
                         >Grafiker</term></occupation>
                     <affiliation>Bauhaus Berlin</affiliation>
@@ -2086,7 +2087,7 @@
                     <note>Musikhistoriker</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q61996872"
                             >Musikschriftsteller</term></occupation>
-                    <affiliation>Gesellschaft der Musikfreunde in Wien</affiliation>
+                    <affiliation key="org.78">Gesellschaft der Musikfreunde in Wien</affiliation>
                 </person>
                 <person xml:id="p_1868">
                     <idno type="uri">http://d-nb.info/gnd/134426428</idno>
@@ -2183,9 +2184,10 @@
                     <death><date when="1978-08-02"/><placeName>Watertown, Mass.</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1259917"
                         >Geiger</term></occupation>
-                    <affiliation>Kolisch-Quartett</affiliation>
+                    <affiliation key="org.3">Kolisch-Quartett</affiliation>
                     <note>Geiger</note>
                     <affiliation>Wiener Streichquartett</affiliation>
+                    <!-- das ist identisch mit Kolisch-Q. -->
                     <affiliation>Pro Arte Quartet</affiliation>
                 </person>
                 <person xml:id="p_1958">
@@ -2861,7 +2863,7 @@
                     <death><date when="1917-12-29"/><placeName>München</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q2516866"
                         >Verleger</term></occupation>
-                    <affiliation>Georg-Müller-Verlag</affiliation>
+                    <affiliation key="org.76">Georg-Müller-Verlag</affiliation>
                     <note>Verleger</note>
                 </person>
                 <person xml:id="p_2477">
@@ -3569,7 +3571,7 @@
                     <death><date when="1946-08-25"/><placeName>London</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1259917"
                         >Geiger</term></occupation>
-                    <affiliation>Rosé-Quartett</affiliation>
+                    <affiliation key="org.144">Rosé-Quartett</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
                         >Musiker</term></occupation>
                 </person>
@@ -3680,7 +3682,7 @@
                             Rax</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
                         >Musiker</term></occupation>
-                    <affiliation>Wiener Staatsoper (1955-)</affiliation>
+                    <affiliation key="org.90">Wiener Staatsoper (1955-)</affiliation>
                     <note>Dirigent</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q158852"
                         >Dirigent</term></occupation>
@@ -3871,7 +3873,7 @@
                     <death><date when="1951-07-13"/><placeName>Los Angeles,
                         Calif.</placeName></death>
                     <occupation><term>Komponist</term></occupation>
-                    <affiliation>Der Blaue Reiter</affiliation>
+                    <affiliation key="org.48">Der Blaue Reiter</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q2675537"
                             >Musiklehrer</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q483501"
@@ -4182,7 +4184,7 @@
                     <death><date when="1934-08-17"/></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q177220"
                         >Sänger</term></occupation>
-                    <affiliation>Volksoper Wien</affiliation>
+                    <affiliation key="org.184">Volksoper Wien</affiliation>
                     <note>Volksoper Wien</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q2865819"
                             >Opernsänger</term></occupation>
@@ -4468,7 +4470,7 @@
                     <death><date when="1913-10-24"/></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q2516866"
                         >Verleger</term></occupation>
-                    <affiliation>Geographisches Institut und Landkarten-Verlag Jul.
+                    <affiliation key="org.75">Geographisches Institut und Landkarten-Verlag Jul.
                         Straube</affiliation>
                     <note>Verleger (falsche Lesart: Schauber)</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1734662"
@@ -4517,7 +4519,7 @@
                     <death><date when="1975-09-10"/><placeName>Salzburg</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q158852"
                         >Dirigent</term></occupation>
-                    <affiliation>Universität für Musik und Darstellende Kunst Wien</affiliation>
+                    <affiliation key="org.10">Universität für Musik und Darstellende Kunst Wien</affiliation>
                     <note>Dirigent</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1607826"
                             >Herausgeber</term></occupation>
@@ -4983,7 +4985,7 @@
                     <death><placeName>Mödling</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
                         >Musiker</term></occupation>
-                    <affiliation>International Society for Contemporary Music</affiliation>
+                    <affiliation key="org.93">International Society for Contemporary Music</affiliation>
                     <note>Klarinettist</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1607826"
                             >Herausgeber</term></occupation>
@@ -5119,7 +5121,7 @@
                     <affiliation>F. Ries (Dresden)</affiliation>
                     <note>Konzertdirektion</note>
                     <occupation><term>Komponist</term></occupation>
-                    <affiliation>Konzert-Direktion Hermann Wolff (Berlin)</affiliation>
+                    <affiliation key="org.6">Konzert-Direktion Hermann Wolff (Berlin)</affiliation>
                 </person>
                 <person xml:id="p_4247">
                     <idno type="uri">http://d-nb.info/gnd/117441694</idno>

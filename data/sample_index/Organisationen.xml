@@ -2,7 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="organisationen" telota:doctype="register">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="organisationen"
+  telota:doctype="register">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +29,10 @@
             <placeName key="place.2.20.9">Leipzig, Sternwartestr. 15-20</placeName>
             <placeName key="place.2.20.8">Leipzig, Karlstr. 10</placeName>
             <placeName key="place.2.20.10">Leipzig, Seeburgstr. 14-20</placeName>
-            <placeName key="place.9.11.6.24">Wien, Innere Stadt (I.), Wipplingerstr.
-                            32</placeName>
-            <placeName key="place.9.11.6.24">Wien, Innere Stadt (I.), Karlsplatz
-                            6</placeName>
-            <placeName key="place.9.11.6.18">Wien, Innere Stadt (I.), Reichsratsstr.
-                            9</placeName>
-            <placeName key="place.9.11.6.25">Wien, Innere Stadt (I.), Maximilianstr.
-                            11</placeName>
+            <placeName key="place.9.11.6.24">Wien, Innere Stadt (I.), Wipplingerstr. 32</placeName>
+            <placeName key="place.9.11.6.24">Wien, Innere Stadt (I.), Karlsplatz 6</placeName>
+            <placeName key="place.9.11.6.18">Wien, Innere Stadt (I.), Reichsratsstr. 9</placeName>
+            <placeName key="place.9.11.6.25">Wien, Innere Stadt (I.), Maximilianstr. 11</placeName>
             <placeName key="place.15.8.16">New York, 40 West 34th Street</placeName>
             <placeName key="place.15.8.15">New York, 209 West 57th Street</placeName>
             <!-- die Londonder Adresse fehlt noch -->
@@ -48,9 +45,9 @@
           <location>
             <placeName key="place.2.22.2">Mannheim, Schillerplatz</placeName>
           </location>
-          <note>eröffnet 1777; Der Intendant Carl Hagemann konnte dort ab 1906 mit einer
-                        Verjüngung des Ensembles und des Repertoires Akzente setzen, eine Aufführung
-                        von Schönbergs Monodram Erwartung op. 17 war geplant.</note>
+          <note>eröffnet 1777; Der Intendant Carl Hagemann konnte dort ab 1906 mit einer Verjüngung
+            des Ensembles und des Repertoires Akzente setzen, eine Aufführung von Schönbergs
+            Monodram Erwartung op. 17 war geplant.</note>
         </org>
         <org xml:id="org.3" type="ensemble">
           <idno type="uri">http://d-nb.info/gnd/5075574-2</idno>
@@ -59,23 +56,21 @@
           <location>
             <placeName key="place.9.11">Wien</placeName>
           </location>
-          <note> gegründet 1921; zunächst Wiener Streichquartett, erst ab 1931 offiziell
-                        unter dem Namen Kolisch-Quartett, bestand bis 1944. Die Gründung des
-                        Streichquartetts ging aus der Probenarbeit für die Konzerte des Vereins für
-                        musikalische Privataufführungen hervor, zu dessen Vortragsmeistern Rudolf
-                        Kolisch gehörte. Das Quartett musizierte als erstes klassische Literatur
-                        auswendig, eine Konsequenz des gemeinsamen Studiums aus Partituren, und
-                        spielte Uraufführungen von Streichquartetten Schönbergs (Nr. 3 und 4),
-                        Weberns, Bergs und Bartoks. Mitglieder: Violine 1: Rudolf Kolisch (1921–)
-                        Violine 2: Jaromir Czerny (1921–), Gustav Kinzel (1922), Oskar Fitz
-                        (1922–1923), Fritz Rothschild (1924–1927), Felix Khuner (1927–1941), Daniel
-                        Guilevitch (1941–1943), Lorna Freedman (1943–1944) Viola: Othmar Steinbauer
-                        (1921–1922), Herbert Duesberg (1922–1923), Marcel Dick (1924–1927), Eugen
-                        Lehner (1927–1939), Jascha Veissi (1939–1941), Kurt Frederick (1941–1942),
-                        Ralph Hersh (1942–1943), Bernhard Milofsky (1943–1944) Violoncello: Erik
-                        Skeel-Görling (1921–1922), Wilhelm Winkler (1922–1923), Joachim Stutschewsky
-                        (1924–1927), Benar Heifetz (1927–1939), Stefan Auber (1939–1941), Fritz Magg
-                        (1942–1943), Janos Scholz (1943–1944), Stefan Auber (1944)</note>
+          <note> gegründet 1921; zunächst Wiener Streichquartett, erst ab 1931 offiziell unter dem
+            Namen Kolisch-Quartett, bestand bis 1944. Die Gründung des Streichquartetts ging aus der
+            Probenarbeit für die Konzerte des Vereins für musikalische Privataufführungen hervor, zu
+            dessen Vortragsmeistern Rudolf Kolisch gehörte. Das Quartett musizierte als erstes
+            klassische Literatur auswendig, eine Konsequenz des gemeinsamen Studiums aus Partituren,
+            und spielte Uraufführungen von Streichquartetten Schönbergs (Nr. 3 und 4), Weberns,
+            Bergs und Bartoks. Mitglieder: Violine 1: Rudolf Kolisch (1921–) Violine 2: Jaromir
+            Czerny (1921–), Gustav Kinzel (1922), Oskar Fitz (1922–1923), Fritz Rothschild
+            (1924–1927), Felix Khuner (1927–1941), Daniel Guilevitch (1941–1943), Lorna Freedman
+            (1943–1944) Viola: Othmar Steinbauer (1921–1922), Herbert Duesberg (1922–1923), Marcel
+            Dick (1924–1927), Eugen Lehner (1927–1939), Jascha Veissi (1939–1941), Kurt Frederick
+            (1941–1942), Ralph Hersh (1942–1943), Bernhard Milofsky (1943–1944) Violoncello: Erik
+            Skeel-Görling (1921–1922), Wilhelm Winkler (1922–1923), Joachim Stutschewsky
+            (1924–1927), Benar Heifetz (1927–1939), Stefan Auber (1939–1941), Fritz Magg
+            (1942–1943), Janos Scholz (1943–1944), Stefan Auber (1944)</note>
         </org>
         <org xml:id="org.4" type="publisher">
           <idno type="uri">http://d-nb.info/gnd/106428518X</idno>
@@ -83,24 +78,21 @@
           <location>
             <placeName key="place.2.18.2">Köln, Kastanienallee 20</placeName>
           </location>
-          <note>Musikverlag, gegründet 1909 in Köln von Gerhard Tischer mit einem
-                        Schwerpunkt auf kleinbesetzter zeitgenössischer Musik. Dort erschien 1912
-                        Schönbergs Chorstück Friede auf Erden op. 13, die weitere Beziehung zwischen
-                        dem Verlag und Schönberg war geprägt von einem Konflikt um fehlende bzw.
-                        falsche Abrechnungen. Es kam deshalb zu keiner weiteren
-                        Zusammenarbeit.</note>
+          <note>Musikverlag, gegründet 1909 in Köln von Gerhard Tischer mit einem Schwerpunkt auf
+            kleinbesetzter zeitgenössischer Musik. Dort erschien 1912 Schönbergs Chorstück Friede
+            auf Erden op. 13, die weitere Beziehung zwischen dem Verlag und Schönberg war geprägt
+            von einem Konflikt um fehlende bzw. falsche Abrechnungen. Es kam deshalb zu keiner
+            weiteren Zusammenarbeit.</note>
         </org>
         <org xml:id="org.5" type="collectingsociety">
           <idno type="uri">https://d-nb.info/gnd/1213842549</idno>
-          <orgName type="reg">Staatlich genehmigte Gesellschaft der Autoren, Komponisten
-                        und Musikverleger</orgName>
+          <orgName type="reg">Staatlich genehmigte Gesellschaft der Autoren, Komponisten und
+            Musikverleger</orgName>
           <orgName type="acronym">AKM</orgName>
           <location>
-            <placeName key="place.9.11.8.1">Wien, Landstraße (III.), Baumannstr.
-                            8</placeName>
+            <placeName key="place.9.11.8.1">Wien, Landstraße (III.), Baumannstr. 8</placeName>
           </location>
-          <note>gegründet 1897; Schönberg war Mitglied von April 1910 bis Dezember
-                        1912.</note>
+          <note>gegründet 1897; Schönberg war Mitglied von April 1910 bis Dezember 1912.</note>
         </org>
         <org xml:id="org.6" type="agency">
           <idno type="uri">http://d-nb.info/gnd/10196512-6</idno>
@@ -108,11 +100,10 @@
           <location>
             <placeName key="place.2.3.4.8">Berlin, Mitte, Linkstr. 42</placeName>
           </location>
-          <note>gegründet 1880 von Hermann Wolff, nach dessen Tod 1902 weitergeführt von
-                        dessen Witwe Louise Wolff. Diese war involviert in die Planung der Berliner
-                        Erstaufführung der Gurrelieder, die allerdings nach einem Streit zwischen
-                        Schönberg und dem Dirigenten der geplanten Aufführung, Siegfried Ochs, nicht
-                        zustande kam.</note>
+          <note>gegründet 1880 von Hermann Wolff, nach dessen Tod 1902 weitergeführt von dessen
+            Witwe Louise Wolff. Diese war involviert in die Planung der Berliner Erstaufführung der
+            Gurrelieder, die allerdings nach einem Streit zwischen Schönberg und dem Dirigenten der
+            geplanten Aufführung, Siegfried Ochs, nicht zustande kam.</note>
         </org>
         <org xml:id="org.7" type="agency">
           <idno type="uri">https://d-nb.info/gnd/4472710-0</idno>
@@ -122,16 +113,15 @@
           <location>
             <placeName key="place.9.11">Wien</placeName>
           </location>
-          <note>erschienen 1919–1937 in der UE als Monats- bzw. Halbmonatsschrift (ab 1929
-                        nur noch als Anbruch, ab 1935 als Österreichische Zeitschrift für Musik).
-                        Prägend auf Seiten der Redaktion waren Otto Schneider, Alfred Kalmus, Paul
-                        Amadeus Pisk und Paul Stefan; führende Komponisten und Musik-Intellektuelle
-                        (Paul Bekker, Franz Schreker, Theodor W. Adorno, Hans Heinz Stuckenschmidt)
-                        steuerten regelmäßig analytische, theoretische und ästhetische Texte bei. Ab
-                        der Septemberausgabe 1930 wurde die andere große Zeitschriftenpublikation
-                        der UE, Pult und Taktstock, mit dem Anbruch fusioniert. In den 1930er Jahren
-                        gerät die Zeitschrift immer mehr unter ideologischen Druck, viele Autoren
-                        und Redakteure emigrieren.</note>
+          <note>erschienen 1919–1937 in der UE als Monats- bzw. Halbmonatsschrift (ab 1929 nur noch
+            als Anbruch, ab 1935 als Österreichische Zeitschrift für Musik). Prägend auf Seiten der
+            Redaktion waren Otto Schneider, Alfred Kalmus, Paul Amadeus Pisk und Paul Stefan;
+            führende Komponisten und Musik-Intellektuelle (Paul Bekker, Franz Schreker, Theodor W.
+            Adorno, Hans Heinz Stuckenschmidt) steuerten regelmäßig analytische, theoretische und
+            ästhetische Texte bei. Ab der Septemberausgabe 1930 wurde die andere große
+            Zeitschriftenpublikation der UE, Pult und Taktstock, mit dem Anbruch fusioniert. In den
+            1930er Jahren gerät die Zeitschrift immer mehr unter ideologischen Druck, viele Autoren
+            und Redakteure emigrieren.</note>
         </org>
         <org xml:id="org.8" type="association">
           <idno type="uri">https://d-nb.info/gnd/16040081-8</idno>
@@ -151,28 +141,23 @@
           <idno type="uri">https://d-nb.info/gnd/1167249151</idno>
           <orgName type="reg">k.k. Akademie für Musik und darstellende Kunst</orgName>
           <location>
-            <placeName key="place.9.11.6.26">Wien, Innere Stadt (I.),
-                            Musikvereinsplatz</placeName>
-            <placeName key="place.9.11.8.6">Wien, Landstraße (III.), Lothringerstr.
-                            18</placeName>
+            <placeName key="place.9.11.6.26">Wien, Innere Stadt (I.), Musikvereinsplatz</placeName>
+            <placeName key="place.9.11.8.6">Wien, Landstraße (III.), Lothringerstr. 18</placeName>
           </location>
-          <note>1909 bis 1913 ist der Standort der Akademie im Musikvereinsgebäude, als
-                        sie in die Lothringerstraße umzieht, werden dort Räumlichkeiten frei, in die
-                        neben den Wiener Philharmonikern und der Klavierfabrik Bösendorfer auch die
-                        UE einziehen kann.</note>
+          <note>1909 bis 1913 ist der Standort der Akademie im Musikvereinsgebäude, als sie in die
+            Lothringerstraße umzieht, werden dort Räumlichkeiten frei, in die neben den Wiener
+            Philharmonikern und der Klavierfabrik Bösendorfer auch die UE einziehen kann.</note>
         </org>
         <org xml:id="org.11" type="association">
           <idno type="uri">https://d-nb.info/gnd/42927-2</idno>
           <orgName>Akademischer Verband für Literatur und Musik</orgName>
           <location>
-            <placeName key="place.9.11.6.17">Wien, Innere Stadt (I.), Reichsratsstr.
-                            7</placeName>
+            <placeName key="place.9.11.6.17">Wien, Innere Stadt (I.), Reichsratsstr. 7</placeName>
           </location>
         </org>
         <org xml:id="org.12" type="collectingsociety">
           <idno type="uri">https://d-nb.info/gnd/1213842549</idno>
-          <orgName type="reg">Gesellschaft der Autoren, Komponisten und
-                        Musikverleger</orgName>
+          <orgName type="reg">Gesellschaft der Autoren, Komponisten und Musikverleger</orgName>
           <orgName type="acronym">AKM</orgName>
         </org>
         <org xml:id="org.13" type="business">
@@ -184,8 +169,7 @@
         <org xml:id="org.14" type="publisher">
           <orgName>Alco Recording Company</orgName>
           <location>
-            <placeName key="place.2.3.6.1">Los Angeles, Melrose, 8373 Melrose
-                            Avenue</placeName>
+            <placeName key="place.2.3.6.1">Los Angeles, Melrose, 8373 Melrose Avenue</placeName>
             <!-- prüfen, diese ist von Sebastian -->
             <!-- <placeName>Los Angeles, Melrose, 8913 Sunset Boulevard</placeName> diese habe ich auf einer Platte gefunden, noch nicht zuende recherchiert -->
           </location>
@@ -209,8 +193,7 @@
         <org xml:id="org.17" type="other">
           <orgName>Allgemeines Krankenhaus Wien</orgName>
           <location>
-            <placeName key="place.9.11.1.1">Wien, Alsergrund (IX.), Alser Str.
-                            4</placeName>
+            <placeName key="place.9.11.1.1">Wien, Alsergrund (IX.), Alser Str. 4</placeName>
           </location>
         </org>
         <org xml:id="org.18" type="collectingsociety">
@@ -229,8 +212,7 @@
           <orgName type="reg">Ansorge-Verein</orgName>
           <orgName type="alt">Verein für Kunst und Kultur</orgName>
           <location>
-            <placeName key="place.9.11.7.2">Wien, Josefstadt (VIII.), Florianigasse
-                            58</placeName>
+            <placeName key="place.9.11.7.2">Wien, Josefstadt (VIII.), Florianigasse 58</placeName>
           </location>
         </org>
         <org xml:id="org.21" type="association">
@@ -242,8 +224,7 @@
         </org>
         <org xml:id="org.22" type="collectingsociety">
           <idno type="uri">https://d-nb.info/gnd/1009415-5</idno>
-          <orgName type="reg">American Society of Composers, Authors and
-                        Publishers</orgName>
+          <orgName type="reg">American Society of Composers, Authors and Publishers</orgName>
           <orgName type="acronym">Ascap</orgName>
         </org>
         <org xml:id="org.23" type="publisher">
@@ -271,8 +252,7 @@
         <org xml:id="org.27" type="business">
           <orgName>Bankhaus Friedenstein</orgName>
           <location>
-            <placeName key="place.9.11.6.4">Wien, Innere Stadt (I.), Börsegasse
-                            13</placeName>
+            <placeName key="place.9.11.6.4">Wien, Innere Stadt (I.), Börsegasse 13</placeName>
           </location>
         </org>
         <org xml:id="org.28" type="publisher">
@@ -284,16 +264,14 @@
         <org xml:id="org.29" type="publisher">
           <orgName>Edition Benno Balan</orgName>
           <location>
-            <placeName key="place.2.3.1.4">Berlin, Charlottenburg, Mommsenstraße
-                            43</placeName>
+            <placeName key="place.2.3.1.4">Berlin, Charlottenburg, Mommsenstraße 43</placeName>
           </location>
         </org>
         <org xml:id="org.30" type="ensemble">
           <idno>https://d-nb.info/gnd/2173862-2</idno>
           <orgName>Berliner Philharmoniker</orgName>
           <location>
-            <placeName key="place.2.3.10.1">Berlin, Kreuzberg, Bernburger Str.
-                            22</placeName>
+            <placeName key="place.2.3.10.1">Berlin, Kreuzberg, Bernburger Str. 22</placeName>
           </location>
         </org>
         <org xml:id="org.31" type="journal">
@@ -390,8 +368,7 @@
           <idno type="URI">https://d-nb.info/gnd/5531835-6</idno>
           <orgName>Capitol Records</orgName>
           <location>
-            <placeName key="place.15.7.1.3">Los Angeles, Hollywood, 1750 Vine
-                            Street</placeName>
+            <placeName key="place.15.7.1.3">Los Angeles, Hollywood, 1750 Vine Street</placeName>
           </location>
         </org>
         <org xml:id="org.45" type="publisher">
@@ -412,8 +389,7 @@
           <idno type="URI">https://d-nb.info/gnd/5267139-2</idno>
           <orgName>Columbia Recording Company</orgName>
           <location>
-            <placeName key="place.15.8.12">New York, 799 Seventh Avenue at 52nd
-                            Street</placeName>
+            <placeName key="place.15.8.12">New York, 799 Seventh Avenue at 52nd Street</placeName>
           </location>
         </org>
         <org xml:id="org.48" type="other">
@@ -487,8 +463,8 @@
           <orgName>Ecole des Hautes Etudes Sociales</orgName>
         </org>
         <org xml:id="org.62" type="collectingsociety">
-          <orgName type="reg">Société générale internationale de l’edition phonographique
-                        et cinématographique</orgName>
+          <orgName type="reg">Société générale internationale de l’edition phonographique et
+            cinématographique</orgName>
           <orgName type="acronym">Edifo</orgName>
         </org>
         <org xml:id="org.63" type="publisher">
@@ -496,7 +472,7 @@
           <orgName>Éditions Gallimard</orgName>
           <location>
             <placeName key="place.4.4.6.1">Paris, Palais Bourbon (VII.), 5 rue
-                            Sébastien-Bottin</placeName>
+              Sébastien-Bottin</placeName>
           </location>
         </org>
         <org xml:id="org.64" type="publisher">
@@ -512,8 +488,7 @@
         <org xml:id="org.66" type="other">
           <orgName>Fairfax Temple</orgName>
           <location>
-            <placeName key="place.15.7.1.1">Los Angeles, 525 South Fairfax
-                            Avenue</placeName>
+            <placeName key="place.15.7.1.1">Los Angeles, 525 South Fairfax Avenue</placeName>
           </location>
         </org>
         <org xml:id="org.67" type="ensemble">
@@ -525,8 +500,7 @@
         <org xml:id="org.68" type="publisher">
           <orgName>Musikverlag Fr. Chadim</orgName>
           <location>
-            <placeName key="place.13.1.2.3">Prag, Neustadt (II.), Vodičkova
-                            48</placeName>
+            <placeName key="place.13.1.2.3">Prag, Neustadt (II.), Vodičkova 48</placeName>
           </location>
         </org>
         <org xml:id="org.69" type="publisher">
@@ -546,18 +520,16 @@
         <org xml:id="org.71" type="business">
           <orgName>Gaveau</orgName>
           <location>
-            <placeName key="place.4.4.8.1">Paris, Élysée (VIII.), 45, rue la
-                            Boétie</placeName>
+            <placeName key="place.4.4.8.1">Paris, Élysée (VIII.), 45, rue la Boétie</placeName>
           </location>
         </org>
         <org xml:id="org.72" type="collectingsociety">
           <idno type="uri">https://d-nb.info/gnd/43194-1</idno>
           <orgName type="reg">Gesellschaft für musikalische Aufführungs- und mechanische
-                        Vervielfältigungsrechte</orgName>
+            Vervielfältigungsrechte</orgName>
           <orgName type="acronym">Gema</orgName>
           <location>
-            <placeName key="place.2.3.11.1">Berlin, Grunewald, Hohenzollerndamm
-                            46/47</placeName>
+            <placeName key="place.2.3.11.1">Berlin, Grunewald, Hohenzollerndamm 46/47</placeName>
           </location>
         </org>
         <org xml:id="org.73" type="collectingsociety">
@@ -571,16 +543,14 @@
         <org xml:id="org.74" type="collectingsociety">
           <orgName>Genossenschaft dramatischer Autoren und Komponisten in Wien</orgName>
           <location>
-            <placeName key="place.9.11.9.2">Wien, Mariahilf (VI.), Köstlergasse
-                            7</placeName>
+            <placeName key="place.9.11.9.2">Wien, Mariahilf (VI.), Köstlergasse 7</placeName>
           </location>
         </org>
         <org xml:id="org.75" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/1072917149</idno>
           <orgName>Geographisches Institut und Landkarten-Verlag Jul. Straube</orgName>
           <location>
-            <placeName key="place.2.3.10.2">Berlin, Kreuzberg, Neuenburger Str.
-                            15</placeName>
+            <placeName key="place.2.3.10.2">Berlin, Kreuzberg, Neuenburger Str. 15</placeName>
           </location>
         </org>
         <org xml:id="org.76" type="publisher">
@@ -600,8 +570,7 @@
           <idno type="URI">https://d-nb.info/gnd/1005067-X</idno>
           <orgName>Gesellschaft der Musikfreunde</orgName>
           <location>
-            <placeName key="place.9.11.6.5">Wien, Innere Stadt (I.), Bösendorferstr.
-                            12</placeName>
+            <placeName key="place.9.11.6.5">Wien, Innere Stadt (I.), Bösendorferstr. 12</placeName>
           </location>
         </org>
         <org xml:id="org.79" type="business">
@@ -621,14 +590,12 @@
                         Leider nimmt Schönberg selten Rücksicht auf die richtige Schreibung. -->
           <orgName>K. u. k. Hofmusikalienhandlung Albert Gutmann</orgName>
           <location>
-            <placeName key="place.9.11.6.27">Wien, Innere Stadt (I.), Operngasse
-                            1</placeName>
+            <placeName key="place.9.11.6.27">Wien, Innere Stadt (I.), Operngasse 1</placeName>
           </location>
         </org>
         <org xml:id="org.82" type="business">
           <idno type="URI">https://d-nb.info/gnd/24169-6</idno>
-          <orgName type="reg">Hamburg-Amerikanische
-                        Packetfahrt-Actien-Gesellschaft</orgName>
+          <orgName type="reg">Hamburg-Amerikanische Packetfahrt-Actien-Gesellschaft</orgName>
           <orgName type="alt">Hamburg-Amerika-Linie</orgName>
           <orgName type="acronym">H.A.P.A.G.</orgName>
           <location>
@@ -646,16 +613,14 @@
           <idno type="URI">https://d-nb.info/gnd/1232026360</idno>
           <orgName>Buch- und Kunsthandlung Hugo Heller &amp; Cie.</orgName>
           <location>
-            <placeName key="place.9.11.6.1">Wien, Innere Stadt (I.), Bauernmarkt
-                            3</placeName>
+            <placeName key="place.9.11.6.1">Wien, Innere Stadt (I.), Bauernmarkt 3</placeName>
           </location>
         </org>
         <org xml:id="org.85" type="business">
           <idno type="URI">https://d-nb.info/gnd/1073055043</idno>
           <orgName>Musikhaus Hermann Protze</orgName>
           <location>
-            <placeName key="place.2.3.4.4">Berlin, Mitte, Potsdamer Straße
-                            10</placeName>
+            <placeName key="place.2.3.4.4">Berlin, Mitte, Potsdamer Straße 10</placeName>
           </location>
         </org>
         <org xml:id="org.86" type="other">
@@ -668,8 +633,7 @@
         <org xml:id="org.87" type="publisher">
           <orgName>Éditions Heugel</orgName>
           <location>
-            <placeName key="place.4.4.9.1">Paris, Bourse (II.), 2 bis rue
-                            Vivienne</placeName>
+            <placeName key="place.4.4.9.1">Paris, Bourse (II.), 2 bis rue Vivienne</placeName>
           </location>
         </org>
         <org xml:id="org.88" type="journal">
@@ -677,23 +641,20 @@
                     die zugehörige zeitung nebeneinander hier aufzunehmen... -->
           <orgName>Le Ménestrel</orgName>
           <location>
-            <placeName key="place.4.4.9.1">Paris, Bourse (II.), 2 bis rue
-                            Vivienne</placeName>
+            <placeName key="place.4.4.9.1">Paris, Bourse (II.), 2 bis rue Vivienne</placeName>
           </location>
         </org>
         <org xml:id="org.89" type="business">
           <orgName>Notenstecherei Josef Hirsch</orgName>
           <location>
-            <placeName key="place.9.11.9.5">Wien, Mariahilf (VI.), Aegidigasse
-                            13</placeName>
+            <placeName key="place.9.11.9.5">Wien, Mariahilf (VI.), Aegidigasse 13</placeName>
           </location>
         </org>
         <org xml:id="org.90" type="theatre">
           <orgName type="reg">Wiener Staatsoper</orgName>
           <orgName type="alt">K. k. Hof-Operntheater</orgName>
           <location>
-            <placeName key="place.9.11.6.16">Wien, Innere Stadt (I.), Opernring
-                            2</placeName>
+            <placeName key="place.9.11.6.16">Wien, Innere Stadt (I.), Opernring 2</placeName>
           </location>
         </org>
         <org xml:id="org.91" type="theatre">
@@ -702,8 +663,7 @@
           <orgName type="reg">Wiener Staatsoper</orgName>
           <orgName type="alt">K. k. Hof-Operntheater</orgName>
           <location>
-            <placeName key="place.9.11.6.16">Wien, Innere Stadt (I.), Opernring
-                            2</placeName>
+            <placeName key="place.9.11.6.16">Wien, Innere Stadt (I.), Opernring 2</placeName>
           </location>
         </org>
         <org xml:id="org.92" type="publisher">
@@ -723,7 +683,7 @@
           <orgName>Israelitische Kultusgemeinde Wien</orgName>
           <location>
             <placeName key="place.9.11.6.20">Wien, Innere Stadt (I.), Seitenstettengasse
-                            4</placeName>
+              4</placeName>
           </location>
         </org>
         <org xml:id="org.95" type="business">
@@ -743,8 +703,7 @@
           <idno type="URI">https://d-nb.info/gnd/16156454-9</idno>
           <orgName>Kniže &amp; Comp.</orgName>
           <location>
-            <placeName key="place.9.11.6.10">Wien, Innere Stadt (I.), Graben
-                            13</placeName>
+            <placeName key="place.9.11.6.10">Wien, Innere Stadt (I.), Graben 13</placeName>
           </location>
         </org>
         <org xml:id="org.98" type="business">
@@ -757,8 +716,7 @@
         <org xml:id="org.99" type="agency">
           <orgName>Kozertdirektion Georg Kugel</orgName>
           <location>
-            <placeName key="place.9.11.11.1">Wien, Landstraße (III.), Faßziehergasse
-                            7</placeName>
+            <placeName key="place.9.11.11.1">Wien, Landstraße (III.), Faßziehergasse 7</placeName>
           </location>
         </org>
         <org xml:id="org.100" type="agency">
@@ -783,16 +741,13 @@
           <orgName type="reg">Wiener Konzertverein</orgName>
           <orgName type="alt">Wiener Konzerthaus Gesellschaft</orgName>
           <location>
-            <placeName key="place.9.11.6.26">Wien, Innere Stadt (I.),
-                            Musikvereinsplatz</placeName>
-            <placeName key="place.9.11.8.3">Wien, Landstraße (III.), Lothringerstr.
-                            20</placeName>
+            <placeName key="place.9.11.6.26">Wien, Innere Stadt (I.), Musikvereinsplatz</placeName>
+            <placeName key="place.9.11.8.3">Wien, Landstraße (III.), Lothringerstr. 20</placeName>
           </location>
-          <note>[Schenker online] The Concert Union was founded in 1900, and used the
-                        large hall of the Musikverein Building as its "home" until 1913, when the
-                        Vienna Concert House (Wiener Konzerthaus) was built, and the Union moved its
-                        base there and became the Vienna Concert House Society (Wiener Konzerthaus
-                        Gesellschaft).</note>
+          <note>[Schenker online] The Concert Union was founded in 1900, and used the large hall of
+            the Musikverein Building as its "home" until 1913, when the Vienna Concert House (Wiener
+            Konzerthaus) was built, and the Union moved its base there and became the Vienna Concert
+            House Society (Wiener Konzerthaus Gesellschaft).</note>
         </org>
         <org xml:id="org.105" type="business">
           <idno type="URI">https://d-nb.info/gnd/10348745-1</idno>
@@ -820,8 +775,7 @@
           <idno type="URI">https://d-nb.info/gnd/35626-8</idno>
           <orgName>Library of Congress</orgName>
           <location>
-            <placeName key="place.15.12.3">Washington D. C., Library of
-                            Congress</placeName>
+            <placeName key="place.15.12.3">Washington D. C., Library of Congress</placeName>
           </location>
         </org>
         <org xml:id="org.109" type="ensemble">
@@ -848,15 +802,13 @@
         <org xml:id="org.113" type="journal">
           <orgName>Der Merker</orgName>
           <location>
-            <placeName key="place.9.11.1.3">Wien, Alsergrund (IX.),
-                            Schwarzspanierhof</placeName>
+            <placeName key="place.9.11.1.3">Wien, Alsergrund (IX.), Schwarzspanierhof</placeName>
           </location>
         </org>
         <org xml:id="org.114" type="education">
           <orgName>Moskauer Konservatorium</orgName>
           <location>
-            <placeName key="place.10.1.1">Moskau, Bol'shaya Nikitskaya Ulitsa,
-                            13/6</placeName>
+            <placeName key="place.10.1.1">Moskau, Bol'shaya Nikitskaya Ulitsa, 13/6</placeName>
           </location>
         </org>
         <org xml:id="org.115" type="association">
@@ -869,8 +821,7 @@
         <org xml:id="org.117" type="education">
           <orgName>Musikhistorisches Institut Wien</orgName>
           <location>
-            <placeName key="place.9.11.1.6">Wien, Alsergrund (IX.), Türkenstr.
-                            3</placeName>
+            <placeName key="place.9.11.1.6">Wien, Alsergrund (IX.), Türkenstr. 3</placeName>
           </location>
         </org>
         <org xml:id="org.118" type="education">
@@ -898,15 +849,13 @@
           <idno type="URI">https://d-nb.info/gnd/3042019-2</idno>
           <orgName>Neues Deutsches Theater Prag</orgName>
           <location>
-            <placeName key="place.13.1.1.2">Prag, Altstadt (I.), Obstmarkt
-                            540</placeName>
+            <placeName key="place.13.1.1.2">Prag, Altstadt (I.), Obstmarkt 540</placeName>
           </location>
         </org>
         <org xml:id="org.122" type="journal">
           <orgName>Neues Wiener Journal</orgName>
           <location>
-            <placeName key="place.9.11.6.2">Wien, Innere Stadt (I.), Biberstr.
-                            5</placeName>
+            <placeName key="place.9.11.6.2">Wien, Innere Stadt (I.), Biberstr. 5</placeName>
           </location>
         </org>
         <org xml:id="org.123" type="business">
@@ -926,16 +875,14 @@
           <idno type="URI">https://d-nb.info/gnd/69026-0</idno>
           <orgName>Office of Alien Property Custodian</orgName>
           <location>
-            <placeName key="place.15.12.2">Washington. D. C., 950 Pennsylvania
-                            Avenue</placeName>
+            <placeName key="place.15.12.2">Washington. D. C., 950 Pennsylvania Avenue</placeName>
           </location>
         </org>
         <org xml:id="org.126" type="business">
           <idno type="URI">https://d-nb.info/gnd/2029439-6</idno>
           <orgName>Österreichische Postsparkasse</orgName>
           <location>
-            <placeName key="place.9.11.6.28">Wien, Innere Stadt (I.), Georg-Coch-Platz
-                            2</placeName>
+            <placeName key="place.9.11.6.28">Wien, Innere Stadt (I.), Georg-Coch-Platz 2</placeName>
           </location>
         </org>
         <org xml:id="org.127" type="journal">
@@ -959,16 +906,14 @@
         <org xml:id="org.130" type="business">
           <orgName>Pelzhaus E. Horovitz &amp; Co.</orgName>
           <location>
-            <placeName key="place.9.11.6.15">Wien, Innere Stadt (I.), Neuer Markt
-                            13</placeName>
+            <placeName key="place.9.11.6.15">Wien, Innere Stadt (I.), Neuer Markt 13</placeName>
           </location>
         </org>
         <org xml:id="org.131" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330044168</idno>
           <orgName>Wiener Philharmonischer Verlag</orgName>
           <location>
-            <placeName key="place.9.11.12.1">Wien, Wieden (IV.), Suttnerplatz
-                            10</placeName>
+            <placeName key="place.9.11.12.1">Wien, Wieden (IV.), Suttnerplatz 10</placeName>
           </location>
         </org>
         <org xml:id="org.132" type="ensemble">
@@ -981,8 +926,7 @@
         <org xml:id="org.133" type="ensemble">
           <orgName>Philharmonischer Chor</orgName>
           <location>
-            <placeName key="place.9.11.6.14">Wien, Innere Stadt (I.), Laurenzerberg
-                            4</placeName>
+            <placeName key="place.9.11.6.14">Wien, Innere Stadt (I.), Laurenzerberg 4</placeName>
           </location>
         </org>
         <org xml:id="org.134" type="publisher">
@@ -1010,8 +954,7 @@
           <idno type="URI">https://d-nb.info/gnd/10163790-1</idno>
           <orgName>Wiener Tonkünstler-Verein</orgName>
           <location>
-            <placeName key="place.9.11.6.24">Wien, Innere Stadt (I.), Karlsplatz
-                            6</placeName>
+            <placeName key="place.9.11.6.24">Wien, Innere Stadt (I.), Karlsplatz 6</placeName>
             <placeName key="place.9.11.6.9">Wien, Innere Stadt (I.), Giselastr. 12</placeName>
           </location>
         </org>
@@ -1058,8 +1001,7 @@
           <idno type="URI">https://d-nb.info/gnd/4836839-8</idno>
           <orgName>Rózsavölgyi és Társa</orgName>
           <location>
-            <placeName key="place.14.1.1.1">Budapest, Belváros (IV.), Kristóf tér
-                            3</placeName>
+            <placeName key="place.14.1.1.1">Budapest, Belváros (IV.), Kristóf tér 3</placeName>
           </location>
         </org>
         <org xml:id="org.146" type="business">
@@ -1160,7 +1102,8 @@
           <location>
             <placeName key="place.9.11.13.1">Wien, Favoriten (X.), Eugengasse 81</placeName>
           </location>
-          <note>hier war J. Ondracek Professor, mit dem AS 1912 eine Notenschreibmaschine plant</note>
+          <note>hier war J. Ondracek Professor, mit dem AS 1912 eine Notenschreibmaschine
+            plant</note>
         </org>
         <org xml:id="org.161" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/2002200-1</idno>
@@ -1178,10 +1121,12 @@
         </org>
         <org xml:id="org.163" type="collectingsociety">
           <idno type="URI">https://d-nb.info/gnd/15458-1</idno>
-          <orgName type="reg">Staatlich Genehmigte Gesellschaft zur Verwertung Musikalischer Urheberrechte</orgName>
+          <orgName type="reg">Staatlich Genehmigte Gesellschaft zur Verwertung Musikalischer
+            Urheberrechte</orgName>
           <orgName type="acronym">STAGMA</orgName>
           <location>
-            <placeName key="place.2.3.1.7">Berlin, Charlottenburg, Adolf-Hitler-Platz 7-11</placeName>
+            <placeName key="place.2.3.1.7">Berlin, Charlottenburg, Adolf-Hitler-Platz
+              7-11</placeName>
           </location>
         </org>
         <org xml:id="org.164">
@@ -1352,6 +1297,10 @@
           <location>
             <placeName key="place.14.1">Budapest</placeName>
           </location>
+        </org>
+        <org xml:id="org.191" type="journal">
+          <idno>https://d-nb.info/013874969</idno>
+          <orgName>Pult und Taktstock</orgName>
         </org>
       </listOrg>
     </body>
