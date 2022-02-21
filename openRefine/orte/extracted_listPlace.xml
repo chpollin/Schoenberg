@@ -35,7 +35,7 @@
               </location>
             </place>
             <place xml:id="place.1.1.2" type="building">
-              <placeName>Kongens Nytorv 34</placeName>
+              <placeName type="reg">Kongens Nytorv 34</placeName>
               <placeName type="alt">Hotel D'Angleterre</placeName>
               <location>
                 <geo>55.680804759672306, 12.584571082901078</geo>
@@ -112,7 +112,7 @@
                 </location>
               </place>
               <place xml:id="place.2.3.1.5" type="building">
-                <placeName>Steinplatz 2</placeName>
+                <placeName type="reg">Steinplatz 2</placeName>
                 <placeName type="alt">Pension Bavaria</placeName>
                 <location>
                   <geo>52.50839, 13.325</geo>
@@ -164,7 +164,7 @@
               </location>
               <idno type="uri">http://sws.geonames.org/6545310</idno>
               <place xml:id="place.2.3.4.1" type="building">
-                <placeName>Potsdamer Platz</placeName>
+                <placeName type="reg">Potsdamer Platz</placeName>
                 <placeName type="alt">Hotel Fürstenhof</placeName>
                 <location>
                   <geo>52.50900789875489, 13.377402916030249</geo>
@@ -636,7 +636,7 @@
               </location>
             </place>
             <place xml:id="place.2.20.4" type="building">
-              <placeName>Rossstraße 15</placeName>
+              <placeName type="reg">Rossstraße 15</placeName>
               <placeName type="alt">Hotel Hauffe</placeName>
               <location>
                 <geo>51.33596360269, 12.380914665396038</geo>
@@ -872,7 +872,7 @@
             </location>
             <idno type="uri">http://sws.geonames.org/2829109</idno>
             <place xml:id="place.2.32.1" type="building">
-              <placeName>Albrechtstraße 124</placeName>
+              <placeName type="reg">Albrechtstraße 124</placeName>
               <placeName type="alt">Pension Philipson</placeName>
               <location>
                 <geo>52.4558299, 13.3249646</geo>
@@ -1023,7 +1023,7 @@
             </location>
             <idno type="uri">http://sws.geonames.org/3037253</idno>
             <place xml:id="place.4.1.1" type="building">
-              <placeName>Avenue Rapp</placeName>
+              <placeName type="reg">Avenue Rapp</placeName>
               <placeName type="alt">Villa Strésa</placeName>
               <location>
                 <geo>44.659783868957895, -1.1805617597734195</geo>
@@ -1100,7 +1100,7 @@
               </location>
               <idno type="uri">http://sws.geonames.org/3029374</idno>
               <place xml:id="place.4.4.2.1" type="building">
-                <placeName>6, Passage de Clichy</placeName>
+                <placeName type="reg">6, Passage de Clichy</placeName>
                 <placeName type="alt">Hotel de la Lorraine</placeName>
                 <location>
                   <geo>48.885130268897875, 2.3290726998678215</geo>
@@ -1114,7 +1114,7 @@
               </location>
               <idno type="uri">http://sws.geonames.org/6269531</idno>
               <place xml:id="place.4.4.3.1" type="building">
-                <placeName>192 rue de Rivoli</placeName>
+                <placeName type="reg">192 rue de Rivoli</placeName>
                 <placeName type="alt">Hotel Regina (Places des
                                     Pyramides)</placeName>
                 <location>
@@ -1216,7 +1216,7 @@
                 </location>
               </place>
               <place xml:id="place.4.4.7.3" type="building">
-                <placeName>Avenue Kléber</placeName>
+                <placeName type="reg">Avenue Kléber</placeName>
                 <placeName type="alt">Hotel Majestic</placeName>
                 <location>
                   <geo>48.8711747411957, 2.2934210963954533</geo>
@@ -1289,7 +1289,7 @@
             </location>
             <idno type="uri">https://sws.geonames.org/3028808</idno>
             <place xml:id="place.4.7.1" type="building">
-              <placeName>23-27, Avenue du Roi Albert 1er</placeName>
+              <placeName type="reg">23-27, Avenue du Roi Albert 1er</placeName>
               <placeName type="alt">Californie Palace</placeName>
             </place>
           </place>
@@ -1352,7 +1352,7 @@
               </location>
             </place>
             <place xml:id="place.5.5.3" type="building">
-              <placeName>Via Sistina</placeName>
+              <placeName type="reg">Via Sistina</placeName>
               <placeName type="alt">Hotel de la Ville</placeName>
               <location>
                 <geo>41.90590409170641, 12.484323455491841</geo>
@@ -1560,7 +1560,7 @@
               </location>
             </place>
             <place xml:id="place.9.4.6" type="building">
-              <placeName>Scheffergasse 8</placeName>
+              <placeName type="reg">Scheffergasse 8</placeName>
               <placeName type="alt">Evang. Pfarrkirche Mödling</placeName>
               <location>
                 <geo>48.08060093817755, 16.28323942498575</geo>
@@ -1593,7 +1593,7 @@
             </location>
             <idno type="uri">http://sws.geonames.org/2768499</idno>
             <place xml:id="place.9.6.1" type="building">
-              <placeName>Werzer Promenade 8</placeName>
+              <placeName type="reg">Werzer Promenade 8</placeName>
               <placeName type="alt">Hotel Werzer</placeName>
               <location>
                 <geo>46.63463088414783, 14.13791325562422</geo>
@@ -1646,14 +1646,14 @@
             </location>
             <idno type="uri">http://sws.geonames.org/2763414</idno>
             <place xml:id="place.9.10.1" type="building">
-              <placeName>Traunkirchen 29</placeName>
+              <placeName type="reg">Traunkirchen 29</placeName>
               <placeName type="alt">Villa Josef</placeName>
               <location>
                 <geo>47.831073, 13.8089459</geo>
               </location>
             </place>
             <place xml:id="place.9.10.2" type="building">
-              <placeName>Traunkirchen 3</placeName>
+              <placeName type="reg">Traunkirchen 3</placeName>
               <placeName type="alt">Villa Spaun</placeName>
               <location>
                 <geo>47.843367, 13.7872907</geo>
@@ -2009,7 +2009,7 @@
               </location>
               <idno type="uri">http://sws.geonames.org/2775027</idno>
               <place xml:id="place.9.11.7.1" type="building">
-                <placeName>Auerspergstraße 9</placeName>
+                <placeName type="reg">Auerspergstraße 9</placeName>
                 <placeName type="alt">Sanatorium Auersperg</placeName>
                 <location>
                   <geo>48.20851222806585, 16.354570669165643</geo>
@@ -2452,7 +2452,7 @@
             </location>
             <idno type="uri">http://sws.geonames.org/4930956</idno>
             <place xml:id="place.15.1.1" type="building">
-              <placeName>1284 Beacon Street</placeName>
+              <placeName type="reg">1284 Beacon Street</placeName>
               <placeName type="alt">Pelham Hall</placeName>
               <location>
                 <geo>42.343119798141245, -71.11957604634287</geo>
@@ -2716,7 +2716,7 @@
               </location>
             </place>
             <place xml:id="place.15.8.14" type="building">
-              <placeName>Broadway 73rd Street</placeName>
+              <placeName type="reg">Broadway 73rd Street</placeName>
               <placeName type="alt">Hotel Ansonia</placeName>
               <location>
                 <geo>40.77960509363009, -73.98165328871374</geo>
