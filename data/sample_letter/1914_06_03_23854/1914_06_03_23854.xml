@@ -103,12 +103,12 @@
                 <correspAction type="sent">
                     <persName key="p_1206"
                         ><forename>Johannes</forename><surname>Geidel</surname></persName>
-                    <orgName key="Geidel">F. M. Geidel</orgName>
+                    <orgName key="org.65">F. M. Geidel</orgName>
                     <placeName key="place.2.20">Leipzig</placeName>
                     <date when="1914-06-03" calendar="#Gregorian"/>
                 </correspAction>
                 <correspAction type="received">
-                    <orgName key="UE">Universal-Edition</orgName>
+                    <orgName key="org.1">Universal-Edition</orgName>
                     <placeName key="place.9.11">Wien</placeName>
                 </correspAction>
                 <note>Dokument enthält den Antwortbrief von Arnold Schönberg an F. M. Geidel, 6.
@@ -135,7 +135,7 @@
             <div type="letter">
                 <pb n="1" xml:id="p.1"/>
                 <opener>
-                    <stamp sameAs="stamp.16"><orgName key="Geidel">F. M. GEIDEL</orgName>,
+                    <stamp sameAs="stamp.16"><orgName key="org.65">F. M. GEIDEL</orgName>,
                         LEIPZIG<lb/> Anstalt für<lb/> Notenstich, Notendruck und Anastatischen
                         Druck<lb/> Stein- und Buchdruckerei, Notensatz, Stereotypie<lb/>
                         Lithographie, Autographie und Buchbinderei<lb/> Fernsprecher 36 ····
@@ -149,7 +149,7 @@
                             key="place.2.20.7"><stamp><hi rendition="#i">Wittenbergerstraße
                                 23</hi></stamp></placeName></dateline>
                     <address>
-                        <addrLine>Verehrl. <orgName key="UE">Universal-Edition</orgName>, A.-G., <hi
+                        <addrLine>Verehrl. <orgName key="org.1">Universal-Edition</orgName>, A.-G., <hi
                                 rendition="#uu"><placeName key="place.9.11"
                             >Wien</placeName>.</hi></addrLine>
                     </address>

@@ -106,7 +106,7 @@
                     <date when="1913-07-08" calendar="#Gregorian"/>
                 </correspAction>
                 <correspAction type="received">
-                    <orgName key="UE">Universal-Edition</orgName>
+                    <orgName key="org.1">Universal-Edition</orgName>
                     <persName key="p_1538">
                         <forename>Emil</forename>
                         <surname>Hertzka</surname>
@@ -282,7 +282,7 @@
                 <p>IV. Das <bibl sameAs="werke.37">Cello-Konzert von Monn</bibl><lb/> scheinen Sie
                     nicht erwerben zu wollen. Wenn<pb n="3" xml:id="page.3"/>das so ist <supplied
                         cert="high">,</supplied> dann bitte ich um Nachricht, da ich es<lb/> leicht
-                        <orgName key="peters">Peters</orgName> oder <orgName key="eulenburg"
+                    <orgName key="org.43">Peters</orgName> oder <orgName key="org.64"
                         >Eulenburg</orgName> geben kann.</p>
                 <p rendition="#c">V.</p>
                 <p>Nun muss ich Ihnen noch etwas sehr Wichtiges<lb/> sagen. Nämlich: es sind nun 3 ¾
