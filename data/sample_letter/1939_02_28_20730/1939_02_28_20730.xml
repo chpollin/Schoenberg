@@ -93,7 +93,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <orgName key="UE">Universal-Edition</orgName>
+                    <orgName key="org.1">Universal-Edition</orgName>
                     <persName key="p_3067">Betti Rothe</persName>
                     <persName key="p_1210">Ernst Geutebrück</persName>
                     <placeName key="place.9.11">Wien</placeName>
@@ -127,7 +127,7 @@
                 <pb n="1" xml:id="page.1"/>
                 <opener>
                     <stamp sameAs="stamp.17" rendition="center">
-                        <orgName key="UE">Universal-Edition· A. G.</orgName><lb/>
+                        <orgName key="org.1">Universal-Edition· A. G.</orgName><lb/>
                         <location>
                             <placeName key="place.9.11.6.12"><hi rendition="#circle" hand="unknown"
                                     >WIEN</hi><hi rendition="#u" hand="unknown">· I· KARLSPLATZ
@@ -189,7 +189,7 @@
                         break="no"/>nisten liegt.</p>
                 <closer>Wir begrüssen Sie<lb/>
                     <salute rendition="#r">in vorzüglicher Hochachtung<lb/>
-                        <orgName>UNIVERSAL-EDITION A.G.</orgName>
+                        <orgName key="org.1">UNIVERSAL-EDITION A.G.</orgName>
                     </salute>
                     <signed><choice>
                             <abbr>ppa</abbr>
