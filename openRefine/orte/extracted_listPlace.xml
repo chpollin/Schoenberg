@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title/>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc>
-                <p/>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <listPlace><place xml:id="place.1" type="country">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <place xml:id="place.1" type="country">
           <placeName>Dänemark</placeName>
           <location>
             <geo>55.670249, 10.3333283</geo>
@@ -384,6 +385,12 @@
                   <geo>52.494818854024814, 13.294002745002711</geo>
                 </location>
               </place>
+            </place>
+            <place xml:id="place.2.4.2" type="building">
+              <placeName>Jenaer Straße 26</placeName>
+              <location>
+                <geo>52.49142383396117, 13.335872164205936</geo>
+              </location>
             </place>
           </place>
           <place xml:id="place.2.5" type="settlement">
@@ -1115,8 +1122,7 @@
               <idno type="uri">http://sws.geonames.org/6269531</idno>
               <place xml:id="place.4.4.3.1" type="building">
                 <placeName type="reg">192 rue de Rivoli</placeName>
-                <placeName type="alt">Hotel Regina (Places des
-                                    Pyramides)</placeName>
+                <placeName type="alt">Hotel Regina (Places des Pyramides)</placeName>
                 <location>
                   <geo>48.86420479584498, 2.3330074115151986</geo>
                 </location>

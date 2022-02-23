@@ -2424,6 +2424,19 @@
                     <note><bibl><title/></bibl>
                     </note>
                 </bibl>
+                <bibl xml:id="werke.123">
+                    <author role="composition">
+                        <persName key="p_2225">
+                            <surname>Mahler</surname>
+                            <forename>Gustav</forename>
+                        </persName>
+                    </author>
+                    <title>Das Lied von der Erde</title>
+                    <idno/>
+                    <ref/>
+                    <note><bibl><title/></bibl>
+                    </note>
+                </bibl>
             </listBibl>
         </body>
     </text>

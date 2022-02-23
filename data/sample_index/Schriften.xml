@@ -1479,6 +1479,21 @@
                         <bibl/>
                     </note>
                 </bibl>
+                <bibl xml:id="schriften.103">
+                    <author role="text">
+                        <persName key="p_4001">
+                            <surname>Webern</surname>
+                            <forename>Anton</forename>
+                        </persName>
+                    </author>
+                    <title>Ueber Arnold Schönberg</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK in: Rheinische Musik- und Theater-Zeitung 13 (1912), Heft 8, S.
+                            118.</bibl>
+                        <bibl/>
+                    </note>
+                </bibl>
             </listBibl>
         </body>
     </text>

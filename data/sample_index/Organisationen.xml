@@ -638,7 +638,7 @@
         </org>
         <org xml:id="org.88" type="journal">
           <!-- es wirkt ein bisschen widersinnig, sowohl den Verlag Heugel als auch
-                    die zugehörige zeitung nebeneinander hier aufzunehmen... -->
+                    die zugehörige zeitung nebeneinander hier aufzunehmen, besonders weil sie die gleiche "adresse" haben... -->
           <orgName>Le Ménestrel</orgName>
           <location>
             <placeName key="place.4.4.9.1">Paris, Bourse (II.), 2 bis rue Vivienne</placeName>
@@ -1301,6 +1301,10 @@
         <org xml:id="org.191" type="journal">
           <idno>https://d-nb.info/013874969</idno>
           <orgName>Pult und Taktstock</orgName>
+        </org>
+        <org xml:id="org.192" type="journal">
+          <idno/>
+          <orgName>Neue Blätter</orgName>
         </org>
       </listOrg>
     </body>

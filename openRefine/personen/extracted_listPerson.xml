@@ -16,6 +16,16 @@
     <text>
         <body>
             <listPerson>
+                <!-- was hier jetzt in der Korrektur noch passieren muss:
+                a) entscheiden, welche occupations und affiliations noch stehen bleiben und welche gestrichen werden können
+                b) BIOs schreiben
+                c) es gibt einige grösser/kleiner Zeichen bei den occupations (escaped als &lt; bzw &gt;) die unschön aussehen.
+                d) was die alt-names angeht: als Bsp. haben wir B. Rothe und Louis Goldsteen, Kodierung so ok? was ist mit "Gräner/Graener"?
+                e) der letzte Check ob die reconcileden Personen WIRKLICH die richtigen sind, sollte sinnvollerweise bei der Briefkodierung stattfinden,
+                verbunden mit der zugehörigen Recherche
+                f) einheitliche schreibung von doktor/adelstiteln
+                g) Anordnung der elemente: affil/occup/note sind durcheinander (wegen der früheren tabellenstruktur)
+                h) welche werte sind für @cert erlaubt? laut ediarum base nur high und low. -->
                 <person xml:id="p_2">
                     <persName><surname>(Ariann)</surname></persName>
                     <note>Kiesewetter, 1912 (vermutlich Arianna), ID 7011, Aufschrift von fremder
@@ -380,12 +390,10 @@
                             >Violoncellist</term></occupation>
                 </person>
                 <person xml:id="p_329">
-                    <idno type="uri">http://d-nb.info/gnd/1155018591</idno>
+                    <idno type="uri">https://d-nb.info/gnd/1060856352</idno>
                     <persName><surname>Beer</surname><forename>Gustave</forename></persName>
-                    <birth><placeName>Warendorf</placeName></birth>
-                    <death/>
-                    <occupation><term ref="http://www.wikidata.org/entity/Q3501317"
-                            >Modeschöpfer</term></occupation>
+                    <birth><date when="1888"/><placeName>Wien</placeName></birth>
+                    <death><date when="1983"/><placeName>New York, NY</placeName></death>
                     <note>ALACA</note>
                 </person>
                 <person xml:id="p_331">
@@ -527,7 +535,7 @@
                     <note>Philosoph</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q121594"
                             >Hochschullehrer</term></occupation>
-                    <affiliation>Harvard University</affiliation>
+                    <affiliation key="org.83">Harvard University</affiliation>
                 </person>
                 <person xml:id="p_486">
                     <idno type="uri">http://d-nb.info/gnd/116209429</idno>
@@ -543,8 +551,7 @@
                 </person>
                 <person xml:id="p_498">
                     <idno type="uri">http://d-nb.info/gnd/116215119</idno>
-                    <persName><surname>Bodanzky ("Bodansky",
-                            "Brodanzky")</surname><forename>Artur</forename></persName>
+                    <persName><surname>Bodanzky</surname><forename>Artur</forename></persName>
                     <birth><date when="1877-12-16"/><placeName>Wien</placeName></birth>
                     <death><date when="1939-11-23"/><placeName>New York, NY</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q158852"
@@ -556,7 +563,8 @@
                 <person xml:id="p_509">
                     <idno type="uri">http://d-nb.info/gnd/133452247</idno>
                     <persName><surname>Boosey</surname><forename>Leslie Arthur</forename></persName>
-                    <death/>
+                    <birth><date when="1887"></date></birth>
+                    <death><date when="1979"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q2516866"
                         >Verleger</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q222836"
@@ -565,7 +573,8 @@
                 <person xml:id="p_514">
                     <idno type="uri">http://d-nb.info/gnd/116245484</idno>
                     <persName><surname>Bopp</surname><forename>Wilhelm</forename></persName>
-                    <death/>
+                    <birth when="1863"></birth>
+                    <death when="1931"></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
                         >Musiker</term></occupation>
                     <note>Direktor k.k. Akademie</note>
@@ -622,7 +631,7 @@
                     <idno type="uri">http://d-nb.info/gnd/119001314</idno>
                     <persName><surname>Brecher</surname><forename>Gustav</forename></persName>
                     <birth><date when="1879-02-05"/><placeName>Dubí</placeName></birth>
-                    <death><placeName>Ostende</placeName></death>
+                    <death><date when="1940"/><placeName>Ostende</placeName></death>
                     <occupation><term>Komponist</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q158852"
                         >Dirigent</term></occupation>
@@ -667,7 +676,8 @@
                 <person xml:id="p_629">
                     <idno type="uri">http://d-nb.info/gnd/138049661</idno>
                     <persName><surname>Brusselmans</surname><forename>Jean</forename></persName>
-                    <death/>
+                    <birth><date when="1884"></date></birth>
+                    <death><date when="1953"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q483501"
                         >Künstler</term></occupation>
                     <note>Künstler</note>
@@ -687,7 +697,8 @@
                 <person xml:id="p_642">
                     <idno type="uri">http://d-nb.info/gnd/132325306</idno>
                     <persName><surname>Bunlet</surname><forename>Marcelle</forename></persName>
-                    <death/>
+                    <birth><date when="1900"></date></birth>
+                    <death><date when="1991"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834068"
                             >Sopranistin</term></occupation>
                     <note>Sängerin Erwartung Brüssel</note>
@@ -705,7 +716,8 @@
                     <idno type="uri">http://d-nb.info/gnd/129089117</idno>
                     <persName><surname>Calvocoressi ("Calvacorezzi"?)</surname><forename>Michel
                             Dimitri</forename></persName>
-                    <death/>
+                    <birth><date when="1877"></date></birth>
+                    <death><date when="1944"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q14915627"
                             >Musikwissenschaftler</term></occupation>
                     <note>Kritiker</note>
@@ -716,7 +728,7 @@
                     <idno type="uri">http://d-nb.info/gnd/118917188</idno>
                     <persName><surname>Capellen</surname><forename>Georg</forename></persName>
                     <birth><date when="1869-04-01"/></birth>
-                    <death/>
+                    <death><date when="1934"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q61996872"
                             >Musikschriftsteller</term></occupation>
                     <note>Komponist, Musikschriftsteller</note>
@@ -749,7 +761,8 @@
                 <person xml:id="p_717">
                     <idno type="uri">http://d-nb.info/gnd/116488107</idno>
                     <persName><surname>Chantavoine</surname><forename>Jean</forename></persName>
-                    <death/>
+                    <birth><date when="1877"></date></birth>
+                    <death><date when="1952"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q333634"
                         >Übersetzer</term></occupation>
                     <note>MuWi</note>
@@ -768,7 +781,8 @@
                     <idno type="uri">http://d-nb.info/gnd/116498234</idno>
                     <persName><surname>Chevillard
                             ("Chevilland")</surname><forename>Camille</forename></persName>
-                    <death/>
+                    <birth when="1859"></birth>
+                    <death when="1923"></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q158852"
                         >Dirigent</term></occupation>
                     <note>Komponist</note>
@@ -787,7 +801,8 @@
                 <person xml:id="p_756">
                     <idno type="uri">http://d-nb.info/gnd/128851511</idno>
                     <persName><surname>Collaer</surname><forename>Paul</forename></persName>
-                    <death/>
+                    <birth when="1891"></birth>
+                    <death when="1989"></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q486748"
                         >Pianist</term></occupation>
                     <note>MuWi, Dirigent</note>
@@ -796,7 +811,8 @@
                     <idno type="uri">http://d-nb.info/gnd/120720752</idno>
                     <persName><surname>Coolidge ("Colidge")</surname><forename>Elizabeth
                             Sprague</forename></persName>
-                    <death/>
+                    <birth when="1864"></birth>
+                    <death when="1953"></death>
                     <note>Pianistin/Mäzenin</note>
                 </person>
                 <person xml:id="p_774">
@@ -845,7 +861,8 @@
                 <person xml:id="p_808">
                     <idno type="uri">http://d-nb.info/gnd/13468415X</idno>
                     <persName><surname>Czako</surname><forename>Eva</forename></persName>
-                    <death/>
+                    <birth when="1926"></birth>
+                    <death when="1978"></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
                         >Musikerin</term></occupation>
                     <affiliation>Grumiaux Trio</affiliation>
@@ -901,8 +918,8 @@
                 <person xml:id="p_859">
                     <persName><surname>Deržanovskij
                             (Derjanovsky)</surname><forename>Vladimir</forename></persName>
-                    <birth><placeName>Tiflis</placeName></birth>
-                    <death><placeName>Sergijew Possad</placeName></death>
+                    <birth><date when="1881-04-14"></date><placeName>Tiflis</placeName></birth>
+                    <death><date when="1942-09-19"></date><placeName>Sergijew Possad</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1350157"
                             >Musikkritiker</term></occupation>
                     <note>Redakteur "Musik", (1881-1942)</note>
@@ -944,8 +961,8 @@
                 <person xml:id="p_883">
                     <idno type="uri">http://d-nb.info/gnd/116217995</idno>
                     <persName><surname>Dressel</surname><forename>Erwin</forename></persName>
-                    <birth><placeName>Berlin</placeName></birth>
-                    <death><placeName>Berlin</placeName></death>
+                    <birth><date when="1909"></date><placeName>Berlin</placeName></birth>
+                    <death><date when="1972"></date><placeName>Berlin</placeName></death>
                     <occupation><term>Komponist</term></occupation>
                     <note>Komponist (fälschlich "Dressler")</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1643514"
@@ -990,8 +1007,8 @@
                 <person xml:id="p_932">
                     <idno type="uri">http://d-nb.info/gnd/143658441</idno>
                     <persName><surname>Eberle</surname><forename>Josef</forename></persName>
-                    <birth><placeName>Falkenau an der Eger</placeName></birth>
-                    <death><placeName>Wien</placeName></death>
+                    <birth><date when="1845"></date><placeName>Falkenau an der Eger</placeName></birth>
+                    <death><date when="1921"></date><placeName>Wien</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q131524"
                             >Unternehmer</term></occupation>
                     <note>Verleger/Drucker</note>
@@ -1092,14 +1109,13 @@
                 </person>
                 <person xml:id="p_1011">
                     <idno type="uri">http://d-nb.info/gnd/118530747</idno>
-                    <persName><surname>Erfurth
-                        ("Erfurt")</surname><forename>Hugo</forename></persName>
+                    <persName><surname>Erfurth</surname><forename>Hugo</forename></persName>
                     <birth><date when="1874-10-14"/><placeName>Halle (Saale)</placeName></birth>
                     <death><date when="1948-02-14"/><placeName>Gaienhofen</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q33231"
                         >Fotograf</term></occupation>
                     <affiliation>Gesellschaft Deutscher Lichtbildner</affiliation>
-                    <note>Photograph</note>
+                    <note>("Erfurt") Photograph</note>
                 </person>
                 <person xml:id="p_1021">
                     <idno type="uri">http://d-nb.info/gnd/127638237</idno>
@@ -1118,6 +1134,7 @@
                 <person xml:id="p_1032">
                     <idno type="uri">http://d-nb.info/gnd/116618299</idno>
                     <persName><surname>Eweyk</surname><forename>Arthur van</forename></persName>
+                    <birth><date when="1866"></date></birth>
                     <occupation><term ref="http://www.wikidata.org/entity/Q177220"
                         >Sänger</term></occupation>
                     <note>Sänger</note>
@@ -1158,7 +1175,8 @@
                 <person xml:id="p_1075">
                     <idno type="uri">http://d-nb.info/gnd/119266601</idno>
                     <persName><surname>Fiedler</surname><forename>Arthur</forename></persName>
-                    <death/>
+                    <birth><date when="1894"></date></birth>
+                    <death><date when="1979"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q806349"
                         >Bandleader</term></occupation>
                     <affiliation>Boston Pops Orchestra</affiliation>
@@ -1272,12 +1290,15 @@
                 </person>
                 <person xml:id="p_1151">
                     <persName><surname>Fröbe</surname><forename>Ivan</forename></persName>
+                    <birth><date when="1882-05-23"></date></birth>
+                    <death><date when="1915-09-11"></date></death>
                     <note>Dirigent, 1913, 23.05.1882-11.09.1915</note>
                 </person>
                 <person xml:id="p_1152">
                     <idno type="uri">http://d-nb.info/gnd/118536524</idno>
                     <persName><surname>Frundsberg</surname><forename>Georg v.</forename></persName>
-                    <death/>
+                    <birth><date when="1473"></date></birth>
+                    <death><date when="1528"></date></death>
                     <note>auch Lied von AS</note>
                 </person>
                 <person xml:id="p_1167">
@@ -1292,31 +1313,24 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q1002228"
                             >Hofkapellmeister</term></occupation>
                 </person>
-                <person xml:id="p_1184">
-                    <persName><surname>G.</surname></persName>
-                    <note>Gutmann? 1913</note>
-                </person>
                 <person xml:id="p_1185">
                     <idno type="uri">http://d-nb.info/gnd/116327642</idno>
-                    <persName><surname>Gabrilowitsch ("Gabrilovits")</surname><forename>Ossip
+                    <persName><surname>Gabrilowitsch</surname><forename>Ossip
                             Salomonowitsch</forename></persName>
                     <birth><date when="1878-02-07"/><placeName>Sankt Petersburg</placeName></birth>
                     <death><date when="1936-02-14"/><placeName>Detroit, Mich.</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
                         >Musiker</term></occupation>
-                    <note>Dirigent</note>
+                    <note>("Gabrilovits") Dirigent</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q158852"
                         >Dirigent</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q486748"
                         >Pianist</term></occupation>
                 </person>
                 <person xml:id="p_1196">
-                    <idno type="uri">http://d-nb.info/gnd/1061602400</idno>
-                    <persName><surname>Galitzenstein
-                            (Galizenstein)</surname><forename>Ernst</forename></persName>
-                    <occupation><term ref="http://www.wikidata.org/entity/Q3282637"
-                            >Filmproduzent</term></occupation>
-                    <note>Kopist Gurrelieder? 1912, 28.12.1887-1923 Brand I, S. 94, genteam, Mutter
+                    <persName><surname>Galitzenstein</surname><forename>Ernst</forename></persName>
+                    <birth><date when="1887"></date></birth>
+                    <note>("Galizenstein") Kopist Gurrelieder? 1912, 28.12.1887-1923 Brand I, S. 94, geburtsjahr von geni, Mutter
                         Charlotte Pension Columbia, Comptoirist</note>
                 </person>
                 <person xml:id="p_1202">
@@ -1332,7 +1346,7 @@
                     <idno type="uri">http://d-nb.info/gnd/125095600</idno>
                     <persName><surname>Geidel</surname><forename>Johannes</forename></persName>
                     <affiliation key="org.65">F. M. Geidel (Firma)</affiliation>
-                    <note>Stecherei 1914? Man findet eine med. Diss., sonst nichts</note>
+                    <note>Stecherei 1914? Man findet eine med. Diss., sonst nichts. Leipzig passt möglicherweise</note>
                 </person>
                 <person xml:id="p_1209">
                     <idno type="uri">http://d-nb.info/gnd/11853856X</idno>
@@ -1365,7 +1379,8 @@
                 <person xml:id="p_1228">
                     <idno type="uri">http://d-nb.info/gnd/118717650</idno>
                     <persName><surname>Giraud</surname><forename>Albert</forename></persName>
-                    <death/>
+                    <birth><date when="1860"></date></birth>
+                    <death><date when="1929"></date></death>
                     <occupation><term>Schriftsteller</term></occupation>
                     <note>Autor</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q8178443"
@@ -1426,8 +1441,8 @@
                             >Musiklehrer</term></occupation>
                 </person>
                 <person xml:id="p_1287">
-                    <persName><surname>Goldsteen
-                        (Dornay)</surname><forename>Louis</forename></persName>
+                    <persName type="reg"><surname>Goldsteen</surname><forename>Louis</forename></persName>
+                    <persName type="alt"><surname>Dornay</surname><forename>Louis</forename></persName>
                     <occupation><term ref="http://www.wikidata.org/entity/Q177220"
                         >Sänger</term></occupation>
                     <note>Tenor, im Brief als Louis Dornay</note>
@@ -1446,13 +1461,13 @@
                 </person>
                 <person xml:id="p_1302">
                     <idno type="uri">http://d-nb.info/gnd/116809906</idno>
-                    <persName><surname>Gräner
-                        (Graener)</surname><forename>Georg</forename></persName>
+                    <persName><surname>Gräner</surname><forename>Georg</forename></persName>
                     <birth><date when="1876-11-20"/><placeName>Berlin</placeName></birth>
                     <death><date when="1945-04-30"/><placeName>Potsdam</placeName></death>
                     <occupation><term>Komponist</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q61996872"
                             >Musikschriftsteller</term></occupation>
+                    <note>("Graener")</note>
                 </person>
                 <person xml:id="p_1303">
                     <idno type="uri">https://d-nb.info/gnd/116809949</idno>
@@ -1460,6 +1475,7 @@
                     <birth><date when="1872"/><placeName>Berlin</placeName></birth>
                     <death><date when="1944"/><placeName>Salzburg</placeName></death>
                     <occupation><term>Komponist</term></occupation>
+                    
                 </person>
                 <person xml:id="p_1310">
                     <idno type="uri">http://d-nb.info/gnd/116829931</idno>
@@ -1474,31 +1490,30 @@
                     <occupation><term>Schriftsteller</term></occupation>
                 </person>
                 <person xml:id="p_1321">
-                    <idno type="uri">http://d-nb.info/gnd/134621999</idno>
                     <persName><surname>Greissle</surname><forename>Josef</forename></persName>
-                    <death/>
+                    <birth><date when="1852-04-23"></date></birth>
+                    <death><date when="1929-01-19"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1643514"
                         >Arrangeur</term></occupation>
                     <note>Vater von Felix G., 23.04.1852-19.01.1929?</note>
                 </person>
                 <person xml:id="p_1330">
-                    <idno type="uri">http://d-nb.info/gnd/134621999</idno>
                     <persName><surname>Greissle</surname><forename>Theresia</forename></persName>
-                    <death/>
-                    <occupation><term ref="http://www.wikidata.org/entity/Q1643514"
-                        >Arrangeur</term></occupation>
+                    <birth><date notBefore="1829" notAfter="1889"></date></birth>
                     <note>Mutter von Felix G., 1829-1889?</note>
                 </person>
                 <person xml:id="p_1339">
                     <idno type="uri">http://d-nb.info/gnd/134621999</idno>
                     <persName><surname>Greissle</surname><forename>Felix</forename></persName>
-                    <death/>
+                    <birth><date when="1894-11-15"></date></birth>
+                    <death><date when="1982-04-26"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1643514"
                         >Arrangeur</term></occupation>
                     <note>Schwiegersohn</note>
                 </person>
                 <person xml:id="p_1348">
-                    <idno type="uri">http://d-nb.info/gnd/1055357998</idno>
+                    <!-- hier gibt es nur VIAF -->
+                    <idno type="uri">http://viaf.org/viaf/67341114</idno>
                     <persName><surname>Grey</surname><forename>Cecil</forename></persName>
                     <note>nicht sicher identifiziert, da eigentlich "gray"</note>
                 </person>
@@ -1524,11 +1539,13 @@
                 </person>
                 <person xml:id="p_1364">
                     <idno type="uri">http://d-nb.info/gnd/116934042</idno>
-                    <persName><surname>Gut(t)mann</surname><forename>Emil</forename></persName>
-                    <death/>
+                    <persName><surname>Gutmann</surname><forename>Emil</forename></persName>
+                    <birth><date when="1877"></date></birth>
+                    <death><date when="1920" cert="unknown"></date></death>
                     <occupation><term>Konzertdirektion</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q33999"
                             >Schauspieler</term></occupation>
+                    <note>gelegentlich als "Guttmann"</note>
                 </person>
                 <person xml:id="p_1371">
                     <idno type="uri">http://d-nb.info/gnd/118543342</idno>
@@ -1553,19 +1570,15 @@
                 </person>
                 <person xml:id="p_1399">
                     <persName><surname>Guttmann</surname><forename>Hugo</forename></persName>
-                    <note>"Jugendfreund" 1921</note>
+                    <birth><date when="1870-04-22"></date><placeName>Wien</placeName></birth>
+                    <death><date when="1943-04-26"></date><placeName>Wien</placeName></death>
+                    <note>"Jugendfreund" 1921 (vgl. Adressbuch A3886, dort als "Gutmann"), Lebensdaten laut geni</note>
                 </person>
                 <person xml:id="p_1400">
-                    <idno type="uri">http://d-nb.info/gnd/129293555</idno>
                     <persName><surname>Guttmann</surname><forename>Ludwig</forename></persName>
-                    <birth><date when="1899-07-03"/><placeName>Tost</placeName></birth>
-                    <death><date when="1980-03-18"/><placeName>Aylesbury
-                            (Großbritannien)</placeName></death>
-                    <occupation><term ref="http://www.wikidata.org/entity/Q39631"
-                        >Arzt</term></occupation>
-                    <affiliation>Jüdisches Krankenhaus Breslau</affiliation>
-                    <note>dessen Sohn, UE?</note>
-                    <affiliation>Wenzel-Hancke'sches Krankenhaus (Breslau)</affiliation>
+                    <birth><date when="1896-09-16"></date><placeName>Wien</placeName></birth>
+                    <death><placeName>Wien</placeName></death>
+                    <note>dessen Sohn, UE?, geburtsdatum nach geni</note>
                 </person>
                 <person xml:id="p_1408">
                     <idno type="uri">http://d-nb.info/gnd/118699792</idno>
@@ -1589,6 +1602,7 @@
                         >Hauptmann</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q39020112"
                             >Theaterintendant</term></occupation>
+                    <affiliation key="org.2">Nationaltheater Mannheim</affiliation>
                 </person>
                 <person xml:id="p_1432">
                     <idno type="uri">http://d-nb.info/gnd/118832433</idno>
@@ -1609,14 +1623,13 @@
                         >Organist</term></occupation>
                     <occupation><term>Komponist</term></occupation>
                 </person>
-                <person xml:id="p_1461">
-                    <idno type="uri">http://d-nb.info/gnd/116460172</idno>
+                <person xml:id="p_1461"><!-- achtung -->
                     <persName><surname>Hansen</surname><forename>Wilhelm</forename></persName>
                     <occupation><term ref="http://www.wikidata.org/entity/Q222836"
                             >Musikverleger</term></occupation>
-                    <note>Verleger</note>
+                    <note>Verleger, es ist unklar, wer konkret jeweils AS' briefpartner war, die Hansen Söhne heissen alle Wilhelm</note>
                 </person>
-                <person xml:id="p_1464">
+                <person xml:id="p_1464"><!-- achtung -->
                     <persName><surname>Harden</surname><forename>?</forename></persName>
                     <note>kommt vor in Dreililien 1903. vllt Elfriede H., Sängerin?</note>
                 </person>
@@ -1633,19 +1646,23 @@
                 <person xml:id="p_1480">
                     <idno type="uri">http://d-nb.info/gnd/116491183</idno>
                     <persName><surname>Hartleben</surname><forename>Selma</forename></persName>
-                    <death/>
+                    <birth><date when="1868"></date></birth>
+                    <death><date when="1930"></date></death>
                     <note>Witwe</note>
                 </person>
                 <person xml:id="p_1485">
                     <idno type="uri">http://d-nb.info/gnd/1238151795</idno>
-                    <persName><surname>Hartmann</surname><forename>Ernst</forename></persName>
+                    <persName type="reg"><surname>Hartmann</surname><forename>Ernst</forename></persName>
+                    <persName type="alt"><surname>Löwy</surname></persName>
                     <birth><date when="1903-02-06"/></birth>
                     <death><date when="1970-04-02"/></death>
                     <note>("Loewy-Hartmann"), UE, auch Bote &amp; Bock</note>
                 </person>
                 <person xml:id="p_1486">
-                    <persName><surname>Hartmann</surname><forename>Heinrich</forename></persName>
-                    <note>Arrangeur Schreker?</note>
+                    <idno type="URI">https://d-nb.info/gnd/1037699742</idno>
+                    <persName type="reg"><surname>Hartmann</surname><forename>Heinrich</forename></persName>
+                    <persName type="alt"><surname>Löwy</surname><forename>Harry</forename></persName>
+                    <note>Arrangeur/Schüler Schreker</note>
                 </person>
                 <person xml:id="p_1487">
                     <idno type="uri">http://d-nb.info/gnd/121888541</idno>
@@ -1682,12 +1699,14 @@
                     <note>Sängerin, Gattin von Schlee?</note>
                 </person>
                 <person xml:id="p_1519">
-                    <persName><surname>Heinecke</surname><forename>Paul (?)</forename></persName>
-                    <note>UE Vertretung NY, später Gründer der SESAC</note>
+                    <persName><surname>Heinecke</surname><forename>Paul</forename></persName>
+                    <birth><date when="1885"></date></birth>
+                    <death><date when="1972-12-23"></date><placeName>New York</placeName></death>
+                    <note>UE Vertretung NY, später Gründer der SESAC (Todesanzeige NYT)</note>
                 </person>
                 <person xml:id="p_1520">
                     <idno type="uri">http://d-nb.info/gnd/120852551</idno>
-                    <persName><surname>Heinsheimer Dr.</surname><forename>Hans</forename></persName>
+                    <persName><surname>Heinsheimer, Dr.</surname><forename>Hans</forename></persName>
                     <birth><date when="1900-09-25"/><placeName>Karlsruhe</placeName></birth>
                     <death><date when="1993-10-12"/><placeName>New York, NY</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q222836"
@@ -1699,17 +1718,21 @@
                 <person xml:id="p_1532">
                     <idno type="uri">http://d-nb.info/gnd/1031820604</idno>
                     <persName><surname>Heinzen</surname><forename>Carl</forename></persName>
-                    <death/>
+                    <birth><date when="1887"></date></birth>
+                    <death><date when="1958"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1930187"
                             >Journalist</term></occupation>
                     <note>Kritiker</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q37226"
                         >Lehrer</term></occupation>
                     <occupation><term>Schriftsteller</term></occupation>
+                    <affiliation key="org.54">Die Musik</affiliation>
                 </person>
                 <person xml:id="p_1536">
                     <persName><surname>Heller</surname><forename>Adolf</forename></persName>
-                    <note>Dirigent Olmütz 1933, 06.11.1901-01.07.1954 laut imdb</note>
+                    <birth><date when="1901-11-06"></date></birth>
+                    <death><date when="1954-07-01"></date></death>
+                    <note>Dirigent Olmütz 1933, lebensdaten laut imdb</note>
                 </person>
                 <person xml:id="p_1537">
                     <persName><surname>Heller</surname><forename>Rudolf</forename></persName>
@@ -1719,7 +1742,8 @@
                 <person xml:id="p_1538">
                     <idno type="uri">http://d-nb.info/gnd/116755121</idno>
                     <persName><surname>Hertzka</surname><forename>Emil</forename></persName>
-                    <death/>
+                    <birth><date when="1869-08-03"></date><placeName>Pest</placeName></birth>
+                    <death><date when="1932-05-09"></date><placeName>Wien</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q222836"
                             >Musikverleger</term></occupation>
                     <note>UE</note>
@@ -1735,10 +1759,6 @@
                             Cembalobauer</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q486748"
                         >Pianist</term></occupation>
-                </person>
-                <person xml:id="p_1565">
-                    <persName><surname>Herzberger ?</surname><forename>?</forename></persName>
-                    <note>Schwarz-Kopie op. 31</note>
                 </person>
                 <person xml:id="p_1566">
                     <idno type="uri">http://d-nb.info/gnd/118550470</idno>
@@ -1760,14 +1780,16 @@
                     <idno type="uri">http://d-nb.info/gnd/118898248</idno>
                     <persName><surname>Hill, Prof.</surname><forename>Edward
                         Burlingame</forename></persName>
-                    <birth><placeName>Cambridge, Mass.</placeName></birth>
-                    <death><date when="1960-07-09"/></death>
+                    <birth><date when="1872-09-09"></date><placeName>Cambridge, Mass.</placeName></birth>
+                    <death><date when="1960-07-09"/><placeName>Francestown, NH</placeName></death>
                     <occupation><term>Komponist</term></occupation>
                     <note>Komponist</note>
                 </person>
-                <person xml:id="p_1594">
+                <person xml:id="p_1594"><!-- achtung -->
                     <idno type="uri">http://d-nb.info/gnd/1073366294</idno>
-                    <persName><surname>Hillig, Dr.</surname><forename>Curt?</forename></persName>
+                    <persName><surname>Hillig, Dr.</surname><forename cert="unknown">Curt</forename></persName>
+                    <birth><date when="1865-02-18"></date></birth>
+                    <death><date when="1939-04-28"></date></death>
                     <affiliation>Ernst Julius Günther (Leipzig)</affiliation>
                     <note>Anwalt 1910, Leipzig, 18.02.1865-28.04.1939, ID 6902</note>
                 </person>
@@ -1778,24 +1800,19 @@
                 <person xml:id="p_1597">
                     <idno type="uri">http://d-nb.info/gnd/134633547</idno>
                     <persName><surname>Hoérée</surname><forename>Arthur</forename></persName>
+                    <birth><date when="1897-04-16"></date><placeName>Brüssel</placeName></birth>
+                    <death><date when="1986-06-02"></date><placeName>Paris</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1643514"
                         >Arrangeur</term></occupation>
                     <note>Komponist</note>
                 </person>
                 <person xml:id="p_1604">
-                    <idno type="uri">http://d-nb.info/gnd/107348307X</idno>
                     <persName><surname>Hofbauer</surname><forename>A.</forename></persName>
-                    <affiliation>Hofbauer'sche Buchhandlung (Inh. A. Hofbauer)
-                        (Vohwinkel)</affiliation>
                     <note>Korrektor 1913, abk. A. H.? Mögl. über UE recherchieren...</note>
                 </person>
                 <person xml:id="p_1607">
                     <persName><surname>Hofer</surname></persName>
                     <note>Fräulein, Verbindung mit Hertzka? 1928</note>
-                </person>
-                <person xml:id="p_1608">
-                    <persName><surname>Hofmeister</surname><forename>Friedrich</forename></persName>
-                    <note>gemeint ist stets der verlag, nicht der gründer</note>
                 </person>
                 <person xml:id="p_1609">
                     <idno type="uri">http://d-nb.info/gnd/116961902</idno>
@@ -1826,7 +1843,7 @@
                     <idno type="uri">http://d-nb.info/gnd/116932953</idno>
                     <persName><surname>Hörth</surname><forename>Franz Ludwig</forename></persName>
                     <birth><date when="1883-11-14"/><placeName>Frankfurt am Main</placeName></birth>
-                    <death/>
+                    <death><date when="1934"></date></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q487596"
                         >Dramaturg</term></occupation>
                     <note>Schauspieler, Regisseur, Direktor</note>
@@ -1844,7 +1861,7 @@
                     <birth><date when="1884-01-01"/><placeName>Wien</placeName></birth>
                     <death><date when="1925-08-18"/><placeName>Salzburg</placeName></death>
                     <occupation><term>Komponist</term></occupation>
-                    <note>Dr. H. aus Prag?</note>
+                    <note>Dr. H. aus Prag, geiziger Schüler?</note>
                 </person>
                 <person xml:id="p_1649">
                     <idno type="uri">http://d-nb.info/gnd/128578580</idno>
@@ -1856,13 +1873,13 @@
                 </person>
                 <person xml:id="p_1660">
                     <idno type="uri">http://d-nb.info/gnd/117037508</idno>
-                    <persName><surname>Huebner (Hübner)</surname><forename>Friedrich
+                    <persName><surname>Hübner</surname><forename>Friedrich
                             Markus</forename></persName>
                     <birth><date when="1886-04-12"/><placeName>Dresden</placeName></birth>
                     <death><date when="1964-05-24"/><placeName>Amsterdam</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q333634"
                         >Übersetzer</term></occupation>
-                    <note>Herausgeber, Schriftsteller</note>
+                    <note>("Huebner") Herausgeber, Schriftsteller</note>
                     <occupation><term>Schriftsteller</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1792450"
                             >Kunsthistoriker</term></occupation>
@@ -1879,9 +1896,9 @@
                     <occupation><term>Komponist</term></occupation>
                     <note>Komponist</note>
                 </person>
-                <person xml:id="p_1691">
-                    <persName><surname>Jacob</surname><forename>???</forename></persName>
-                    <note>emigranten streichorchester in Paris 1933</note>
+                <person xml:id="p_1691"><!-- achtung, kein vorname -->
+                    <persName><surname>Jacob</surname><forename ></forename></persName>
+                    <note>emigranten streichorchester in Paris 1933 [recherchieren: ein Brief an AS von Paul Walter Jacob, er kommt vllt in Frage?] </note>
                 </person>
                 <person xml:id="p_1692">
                     <idno type="uri">http://d-nb.info/gnd/117048585</idno>
@@ -1894,6 +1911,8 @@
                 </person>
                 <person xml:id="p_1701">
                     <persName><surname>Jalowetz</surname><forename>Johanna</forename></persName>
+                    <birth><date when="1885-02-04"></date><placeName>Olmütz</placeName></birth>
+                    <death><date when="1966-03-27"></date><placeName>San Francisco</placeName></death>
                     <note>Johanna Jalowetz (Groag) Frau von Heinrich Jalowetz Birth:February 04,
                         1885 (Olomouc) Death:March 27, 1966 (81) (San Francisco)</note>
                 </person>
@@ -3102,8 +3121,16 @@
                 </person>
                 <person xml:id="p_2696">
                     <idno type="uri">http://d-nb.info/gnd/134611306</idno>
-                    <persName><surname>Pappenheim(-Frischauf),
+                    <persName type="reg"><surname>Pappenheim(-Frischauf),
                             Dr.</surname><forename>Marie</forename></persName>
+                    <persName type="pseudonym">
+                        <surname>Heim</surname>
+                        <forename>Maria</forename>
+                    </persName>
+                    <persName type="alt">
+                        <surname>Frischauf</surname>
+                        <forename>Marie</forename>
+                    </persName>
                     <birth><date when="1882-11-04"/><placeName>Preßburg</placeName></birth>
                     <death><date when="1966-07-24"/><placeName>Wien</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q8178443"
@@ -3598,7 +3625,7 @@
                 <person xml:id="p_3067">
                     <persName type="reg"
                         ><surname>Rothe</surname><forename>Betti/Betty</forename></persName>
-                    <persName type="alternative">
+                    <persName type="alt">
                         <name type="referencemark">R</name>
                     </persName>
                     <note>im Schenker Briefwechsel übrigens als Barbara</note>
@@ -4116,7 +4143,7 @@
                     <death><date when="1934-01-18"/><placeName>Písek</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1259917"
                         >Geiger</term></occupation>
-                    <note>Lehrer vpn Kolisch</note>
+                    <note>Lehrer von Kolisch</note>
                     <occupation><term>Komponist</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1231865"
                         >Pädagoge</term></occupation>
@@ -4315,7 +4342,10 @@
                 </person>
                 <person xml:id="p_3612">
                     <idno type="uri">http://d-nb.info/gnd/124172962</idno>
-                    <persName><surname>Stein</surname><forename>Erwin</forename></persName>
+                    <persName type="reg"><surname>Stein</surname><forename>Erwin</forename></persName>
+                    <persName type="alt">
+                        <name type="referencemark">S.</name>
+                    </persName>
                     <birth><date when="1885-11-07"/><placeName>Wien</placeName></birth>
                     <death><date when="1958-07-19"/><placeName>London</placeName></death>
                     <occupation><term>Komponist</term></occupation>
