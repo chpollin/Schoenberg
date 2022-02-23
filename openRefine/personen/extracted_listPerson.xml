@@ -3119,15 +3119,15 @@
                     <occupation><term>Komponist</term></occupation>
                     <note>Kritiker</note>
                 </person>
-                <person xml:id="p_2696">
+                <person xml:id="p_2696"><!-- achtung, checken welche Namen wir am Ende wirklich brauchen -->
                     <idno type="uri">http://d-nb.info/gnd/134611306</idno>
-                    <persName type="reg"><surname>Pappenheim(-Frischauf),
+                    <persName type="reg"><surname>Pappenheim-Frischauf,
                             Dr.</surname><forename>Marie</forename></persName>
-                    <persName type="pseudonym">
+                    <persName type="alt" subtype="pseudonym">
                         <surname>Heim</surname>
                         <forename>Maria</forename>
                     </persName>
-                    <persName type="alt">
+                    <persName type="alt" subtype="birthname">
                         <surname>Frischauf</surname>
                         <forename>Marie</forename>
                     </persName>
@@ -3622,7 +3622,7 @@
                         >Verleger</term></occupation>
                     <note>UE</note>
                 </person>
-                <person xml:id="p_3067">
+                <person xml:id="p_3067"><!-- achtung, vornamen -->
                     <persName type="reg"
                         ><surname>Rothe</surname><forename>Betti/Betty</forename></persName>
                     <persName type="alt">
