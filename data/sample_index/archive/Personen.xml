@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="persons"
+    telota:doctype="register">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <!-- ASUE dies ist ein aus den untenstehenden Beispielen generierter "Maximaleintrag", der alle benötigten Funktionen inkludiert -->
+                <person xml:id="person.0">
+                    <idno type="uri">http://d-nb.info/gnd/124172962</idno>
+                    <persName type="reg">
+                        <surname>Pappenheim</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <persName type="pseudonym">
+                        <surname>Heim</surname>
+                        <forename>Maria</forename>
+                    </persName>
+                    <persName type="birthname">
+                        <surname>Pappenheim</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <persName type="alternative">
+                        <surname>Frischauf</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <persName type="alternative">
+                        <name type="referencemark">P/S.</name>
+                    </persName>
+                    <birth>
+                        <date when="1882-06-04">4. Juni 1882</date>
+                        <placeName key="???">Preßburg</placeName>
+                    </birth>
+                    <death>
+                        <date when="1966-07-24">24. Juli 1966</date>
+                        <placeName key="???">Wien</placeName>
+                    </death>
+                    <!-- ASUE hier haben wir occupation und affiliation nebeneinander gestellt, d.h. affiliation nicht als kindelement von occupation, da uns das zu spezifisch für alle denkbaren Kombinationen erscheint -->
+                    <occupation><term ref="https://d-nb.info/gnd/4140665-5"
+                        >Ärztin</term></occupation>
+                    <occupation><term ref="https://d-nb.info/gnd/4053311-6"
+                        >Schriftstellerin</term></occupation>
+                    <occupation><term ref="https://d-nb.info/gnd/4683584-2"
+                        >Librettistin</term></occupation>
+                    <affiliation when="1910">
+                        <orgName key="#org.1">Universal-Edition</orgName>
+                    </affiliation>
+                    <affiliation from="1920" to="1922">
+                        <orgName key="???">Verein für musikalische Privataufführungen</orgName>
+                    </affiliation>
+                    <note type="bio"><!-- ASUE brauchen wir hier @type="bio"? -->Ärztin und
+                        Dichterin, engagierte Frauenrechtlerin. Sie kam zum Medizinstudium nach
+                        Wien, wo sie durch Alexander Zemlinsky auch Schönberg kennenlernte. 1909
+                        schrieb sie den Text zu Schönbergs Monodram Erwartung op. 17. Gedichte von
+                        ihr erschienen in der Fackel. Schönberg wollte ihr - einem Testament von
+                        1915 zufolge - für den Fall seines Todes die Herausgabe seiner Schriften und
+                        Briefwechsel anvertrauen. Emigration 1934-39 nach Frankreich, 1939-47 nach
+                        Mexiko</note>
+                </person>
+                <person xml:id="person.1">
+                    <persName type="reg">
+                        <forename>Arnold</forename>
+                        <surname>Schönberg</surname>
+                    </persName>
+                    <affiliation><orgName key="#automatisch4">Staatlich genehmigte Gesellschaft der Autoren, Komponisten
+                        und Musikverleger</orgName></affiliation>
+                </person>
+                <person xml:id="person.2">
+                    <persName type="reg">
+                        <forename>Emil</forename>
+                        <surname>Hertzka</surname>
+                    </persName>
+                </person>
+                <person xml:id="automatisch1">
+                    <persName>
+                        <name type="referencemark">S/P.</name>
+                    </persName>
+                </person>
+                <person xml:id="automatisch2">
+                    <persName type="reg">
+                        <surname>Ruppert</surname>
+                    </persName>
+                    <occupation>Sekretärin</occupation>
+                    <affiliation when="1910">
+                        <orgName key="#org.1">Universal-Edition</orgName>
+                    </affiliation>
+                </person>
+                <person xml:id="automatisch3">
+                    <idno type="uri">http://d-nb.info/gnd/119368277</idno>
+                    <persName type="reg">
+                        <surname>Hagemann</surname>
+                        <forename>Christian Carl</forename>
+                    </persName>
+                    <persName type="alternative">
+                        <surname>Hagemann</surname>
+                        <forename>Carl</forename>
+                    </persName>
+                    <birth>
+                        <date when="1871-09-22">22. September 1871</date>
+                        <placeName key="???">Harburg an der Elbe</placeName>
+                    </birth>
+                    <death>
+                        <date when="1945-12-24">24. Dezember 1945</date>
+                        <placeName key="???">Wiesbaden</placeName>
+                    </death>
+                    <occupation>
+                        <term ref="http://d-nb.info/gnd/4614675-1">Theaterwissenschaftler</term>
+                    </occupation>
+                    <occupation>
+                        <term ref="http://d-nb.info/gnd/4028781-6">Journalist</term>
+                    </occupation>
+                    <occupation>
+                        <term ref="http://d-nb.info/gnd/4185044-0">Intendant</term>
+                        <affiliation from="1906" to="1910">
+                            <orgName key="#">Mannheimer Nationaltheaters</orgName>
+                        </affiliation>
+                    </occupation>
+                    <note type="bio">Intendant des Mannheimer Nationaltheaters, wo Schönberg
+                        zunächst plante, sein Monodram Erwartung op. 17 zur Uraufführung zu bringen.
+                        Hagemanns Weggang aus Mannheim 1910 trug womöglich dazu bei, dass es zu
+                        einer Uraufführung in Mannheim nicht kam.</note>
+                </person>
+                <!--<person xml:id="automatisch4a">
+                    <idno type="uri">http://d-nb.info/gnd/134611306</idno>
+                    <persName type="reg">
+                        <surname>Pappenheim</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <persName type="pseudonym">
+                        <surname>Heim</surname>
+                        <forename>Maria</forename>
+                    </persName>
+                    <persName type="birthname">
+                        <surname>Pappenheim</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <persName type="alternative">
+                        <surname>Frischauf</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <birth>
+                        <date when="1882-06-04">4. Juni 1882</date>
+                        <placeName key="???">Preßburg</placeName>
+                    </birth>
+                    <death>
+                        <date when="1966-07-24">24. Juli 1966</date>
+                        <placeName key="???">Wien</placeName>
+                    </death>
+                    <occupation>Ärztin</occupation>
+                    <occupation>Schriftstellerin</occupation>
+                    <note type="bio">Ärztin und Dichterin, engagierte Frauenrechtlerin. Sie kam zum
+                        Medizinstudium nach Wien, wo sie durch Alexander Zemlinsky auch Schönberg
+                        kennenlernte. 1909 schrieb sie den Text zu Schönbergs Monodram Erwartung op.
+                        17. Gedichte von ihr erschienen in der Fackel. Schönberg wollte ihr - einem
+                        Testament von 1915 zufolge - für den Fall seines Todes die Herausgabe seiner
+                        Schriften und Briefwechsel anvertrauen. Emigration 1934-39 nach Frankreich,
+                        1939-47 nach Mexiko</note>
+                </person>-->
+                <person xml:id="automatisch4b">
+                    <idno type="uri">http://d-nb.info/gnd/128400420</idno>
+                    <persName type="reg">
+                        <surname>Kolisch</surname>
+                        <forename>Rudolf</forename>
+                    </persName>
+                    <birth>
+                        <date when="1896-07-20">20. Juli 1896</date>
+                        <placeName key="???">Klamm</placeName>
+                    </birth>
+                    <death>
+                        <date when="1978-08-01"/>
+                        <placeName key="???">Watertown, Massachusetts</placeName>
+                    </death>
+                    <occupation>
+                        <term ref="http://d-nb.info/gnd/4156342-6">Geiger</term>
+                        <affiliation to="1927"><orgName key="???">Wiener
+                            Streichquartett</orgName></affiliation>
+                        <affiliation from="1927"><orgName key="???"
+                            >Kolisch-Quartett</orgName></affiliation>
+                    </occupation>
+                    <occupation>Komponist</occupation>
+                    <note type="bio">Geiger und Primarius des Wiener Streichquartetts, das nach
+                        verschiedenen Umbesetzungen ab 1927 auch unter dem Namen Kolisch-Quartett
+                        auftrat (Umbenennung offiziell erst 1931). Kolisch studierte Violine bei
+                        Otakar Sevcík, Komposition bei Franz Schreker und Schönberg, der 1924 seine
+                        Schwester Gertrud heiratete. Die Gründung des Streichquartetts ging - in
+                        verschiedenen Anläufen - aus der Probenarbeit für die Konzerte des Vereins
+                        für musikalische Privataufführungen hervor, zu dessen Vortragsmeistern
+                        Kolisch gehörte. Das Quartett musizierte als erstes klassische Literatur
+                        auswendig, eine Konsequenz des gemeinsamen Studiums aus Partituren, und
+                        spielte die Uraufführungen von Streichquartetten Schönbergs (Nr. 3 und 4),
+                        Weberns, Bergs und Bartoks. Nach der Emigration in die USA wirkte Kolisch
+                        unter anderem als Primarius des Pro Arte-Quartetts, des „Quartet in
+                        Residence“ an der University of Wisconsin in Madison (1944-62). Außerhalb
+                        der USA gab er Interpretationskurse unter anderem in Darmstadt
+                        (Internationale Ferienkurse für Neue Musik) und - von 1974 bis zu seinem
+                        Tode - im Schönberghaus in Mödling. Er trat außerdem auch als Bearbeiter
+                        fremder Werke auf</note>
+                </person>
+                <person xml:id="automatisch4c">
+                    <idno type="uri">http://d-nb.info/gnd/124172962</idno>
+                    <persName type="reg">
+                        <surname>Stein</surname>
+                        <forename>Erwin</forename>
+                    </persName>
+                    <persName type="alternative">
+                        <name type="referencemark">S</name>
+                    </persName>
+                    <birth>
+                        <date when="1885-11-07">7. November 1885</date>
+                        <placeName key="???">Wien</placeName>
+                    </birth>
+                    <death>
+                        <date when="1958-07-19">19. Juli 1958</date>
+                        <placeName key="???">London</placeName>
+                    </death>
+                    <occupation><term ref="http://d-nb.info/gnd/4012434-4"
+                        >Dirigent</term></occupation>
+                    <occupation><term ref="http://d-nb.info/gnd/4176310-5"
+                        >Publizist</term></occupation>
+                    <occupation>
+                        <term>Leiter der Orchesterabteilung</term>
+                        <term ref="http://d-nb.info/gnd/4416257-1">Lektor</term>
+                        <affiliation from="1924" to="1938">
+                            <orgName key="org.1">Universal-Edition</orgName>
+                        </affiliation>
+                    </occupation>
+                    <occupation>
+                        <!-- ist Schriftleiter ein Redakteur ? -->
+                        <term ref="http://d-nb.info/gnd/4177294-5">Schriftleiter</term>
+                        <affiliation from="1924" to="1930">
+                            <orgName key="???">Pult und Taktstock</orgName>
+                        </affiliation>
+                    </occupation>
+                    <occupation>
+                        <!-- gnd? -->
+                        <term>Vortragsmeister</term>
+                        <affiliation from="1920" to="1922">
+                            <orgName key="???">Verein für musikalische Privataufführungen</orgName>
+                        </affiliation>
+                    </occupation>
+                    <note type="bio">Dirigent und Publizist, studierte bis 1910 bei Guido Adler
+                        Musikwissenschaft und 1906-10 Komposition bei Schönberg. 1920-22 einer der
+                        Vortragsmeister in Schönbergs Verein für musikalische Privataufführungen.
+                        Seit 1924 Mitarbeiter der UE als Lektor und Leiter der Orchesterabteilung;
+                        zudem 1924-1930 Schriftleiter der in der UE erscheinenden Zeitschrift Pult
+                        und Taktstock. Ende 1938 Emigration nach England und Eintritt in das
+                        Verlagshaus Boosey &amp; Hawkes. Mitbegründer der Musikzeitschrift
+                        Tempo.</note>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
