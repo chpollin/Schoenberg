@@ -2,12 +2,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.1"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.220"
     telota:doctype="letter">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Arnold Schönberg an Universal-Edition, 8. Juli 1913</title>
+                <title>Arnold Schönberg an Universal-Edition, 9. Dezember 1911</title>
                 <respStmt>
                     <persName>
                         <forename>Therese</forename>
@@ -54,7 +54,7 @@
             <publicationStmt>
                 <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
                 <pubPlace>Wien</pubPlace>
-                <!-- ASUE: braucht es hier ein <placeName key="place.9.11">? -->
+               
                 <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
                     Schönberg und die Wiener Schule an der Universität für Musik und darstellende
                     Kunst Wien</publisher>
@@ -93,12 +93,23 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
+                    <persName key="p_99"> (Thessaloniki-Oświęcim)</persName>
+                    <placeName key="place.15.7.1"> - </placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="p_137"> (Vevey-Genf)</persName>
+                    <orgName key="org.90">Wiener Staatsoper</orgName>
+                    <placeName key="place.1.1.1"> - </placeName>
+                </correspAction>
+            </correspDesc>
+            <!--<correspDesc>
+                <correspAction type="sent">
                     <persName key="p_3263">
                         <forename>Arnold</forename>
                         <surname>Schönberg</surname>
                     </persName>
-                    <placeName key="place.2.15">Gautzsch</placeName>
-                    <date when="1913-07-08" calendar="#Gregorian"/>
+                    <placeName key="place.2.1">Berlin</placeName>
+                    <date when="1911-12-09" calendar="#Gregorian"/>
                 </correspAction>
                 <correspAction type="received">
                     <orgName key="org.1">Universal-Edition</orgName>
@@ -113,7 +124,7 @@
                     <ref type="prev" target="linkzumletzten Brief"/>
                     <ref type="next" target="linkzumnächsten Brief"/>
                 </correspContext>
-            </correspDesc>
+            </correspDesc>-->
             <textClass>
                 <keywords>
                     <term>Brief</term>
@@ -133,37 +144,58 @@
                         <location>
                             <placeName key="place.2.38.2">Machnower Chaussee, Villa
                                 Lepcke</placeName>
-                        </location>. </stamp><dateline rendition="#l"><date><date when="1911-12-09"
-                                calendar="#Gregorian"> 9/12.1911</date>
-                        </date></dateline><add place="right"><stamp>Erledigt</stamp></add></opener>
-                <p><seg type="salute">Lieber Herr Direktor,</seg> das war schade, dass wir uns nicht
-                    mehr getroffen haben. Ich habe <lb/>von dem, was Sie ins Telefon sprachen, nur
-                    wenig gehört; denn sehr bald war mein Anschluss <lb/>plötzlich tot und meine
-                    Wiederbelebungsversuche blieben erfolglos. <lb/>Ich muss mit Bleistift
-                    schreiben, denn ich habe Schreibkrampf. </p><p>Also: die 3 Exemplare der
-                    Harmonielehre habe ich erhalten „und hab mich sehr gefreut“. Das heißt
-                    eigentlich war ich verstimmt, was ich stets bin, so oft ich ein gedrucktes Werk
-                    von mir in die Hand bekomme. Dann kann ich es zuerst lange nicht ansehen, vor
-                    Ekel und Katzenjammer. Es dauert dann geraume Zeit, bis ich wieder daran
+                        </location>. </stamp><dateline rendition="#l"><date when="1911-12-09"
+                            calendar="#Gregorian">9/12.1911</date></dateline>
+                    <add place="right"><stamp>Erledigt</stamp></add></opener>
+                <p><seg type="salute">Lieber <persName key="p_294">Herr Direktor</persName>,</seg>
+                    das war schade, dass wir uns nicht mehr getroffen haben. Ich habe <lb/>von dem,
+                    was Sie ins Telefon sprachen, nur wenig gehört; denn sehr bald war mein
+                    Anschluss <lb/>plötzlich tot und meine Wiederbelebungsversuche blieben
+                    erfolglos. <lb/>Ich muss mit Bleistift schreiben, denn ich habe Schreibkrampf.
+                    </p><p>Also: die 3 Exemplare der <bibl sameAs="schriften.1">Harmonielehre</bibl>
+                    habe ich erhalten „und hab mich sehr gefreut“.  <lb/>Das heißt eigentlich war
+                    ich verstimmt, was ich stets bin, so oft ich ein gedrucktes Werk von  <lb/>mir
+                    in die Hand bekomme. Dann kann ich es zuerst lange nicht ansehen, vor Ekel und
+                    <lb/>Katzenjammer. Es dauert dann geraume Zeit, bis ich wieder daran
                     glaube.</p><p> Was Ihre Frage über die Versendung von Frei-Exemplaren an
-                    Musikkritiker anbelangt, so muss ich das ganz Ihnen überlassen. Es ist mir
-                    wirklich nicht möglich, die kleinen Nuancen zu unterscheiden um die der Kohn
-                    weniger schlecht ist als der Stangelbauer oder der Plutzenhuber. Jedenfalls bin
-                    ich mit Ihnen sehr einverstanden, möglichst wenig Freiexemplare an diesem
-                    Gesindel in den Rachen zu werfen. Ich möchte Ihnen vorschlagen (da Sie ja
-                    wahrscheinlich nicht davon absehen werden wollen, dieden „besseren“ Kritikern
-                    bedeutenderer Blätter zu bedenken) wenigstens den anerkannt schlechteren
-                    Kritikern, der unbedeutendsten Blätter Exemplare nur dann zu geben, wenn sie
-                    darum ersuchen. Dagegen bin ich einverstanden, da wenn Sie jenen Fach- und
-                    Kunstzeitschriften, die mir befreundet sind welche schicken wollen (Merker,
-                    Musik, Rheinische Musik-Zeitung, Pan, etc) ferner 1) bitte ich Sie an Herrn *W.
-                    Kandinsky, Maler (der ab Jänner eine neue Kunstzeitschrift herausgiebt) und mit
-                    dem ich befreundet bin, ein Exemplar zu schicken. Ebenso Herrn Carl Einstein in
-                    Wilmersdorf-Berlin, Jenaerstr. 26, der Sie darum ersuchen wird. Er giebt auch
-                    eine Kunstzeitschrift heraus.</p><p> Dann bitte ich Sie je ein gebundenes
-                    Exemplar zu schicken *[Adresse: München, Ainmillerstr. 36] bitte beantworten Sie
-                    die rot bezeichneten Fragen! an: II. Frau Alma Mahler Frau Justine Rosé 2) Herrn
-                    Karl Moll und } so bald wie möglich* an Karl Kraus </p><p>Ich lege diesem Brief
+                    Musikkritiker anbelangt, so  <lb/>muss ich das ganz Ihnen überlassen. Es ist mir
+                    wirklich nicht möglich, die kleinen Nuancen  <lb/>zu unterscheiden um die der
+                        <seg type="comment"><orig>Kohn weniger schlecht ist als der Stangelbauer
+                            oder der  <lb/>Plutzenhuber</orig><note xml:id="newl_g34_rsb">Es handelt
+                            sich hierbei vermutlich um Fantasienamen</note></seg>. Jedenfalls bin
+                    ich mit Ihnen sehr einverstanden, möglichst wenig  <lb/>Freiexemplare an diesem
+                    Gesindel in den Rachen zu werfen. Ich möchte Ihnen vorschlagen  <lb/>(da Sie ja
+                    wahrscheinlich nicht davon absehen werden wollen, <subst>
+                        <del rendition="#ow">den</del>
+                        <add place="across">die</add>
+                    </subst> „besseren“ Kritikern  <lb/>bedeutenderer Blätter zu bedenken)
+                    wenigstens den anerkannt schlechteren Kritikern, der  <lb/>unbedeutendsten
+                    Blätter Exemplare nur dann zu geben, wenn sie darum ersuchen. Dagegen  <lb/>bin
+                    ich einverstanden, da wenn Sie jenen Fach- und Kunstzeitschriften, die mir
+                    befreundet  <lb/>sind welche schicken wollen (<orgName key="org.58"
+                        >Merker</orgName>, Musik, Rheinische Musik-Zeitung, Pan, etc) ferner
+                    <lb/>1) bitte ich Sie an Herrn <add place="mBottom">Adresse: München, <placeName
+                            key="place.2.1.1">Ainmillerstr. 36</placeName></add>
+                    <persName key="p_107">W. Kandinsky</persName>, Maler (der ab Jänner eine neue
+                        <seg type="comment"><orig>Kunstzeitschrift</orig><note xml:id="nq13_dp4_rsb"
+                                ><orgName key="org.99">Der Blaue Reiter</orgName> darin enthalten
+                            von Schönberg Schrift Das Verhältnis zum Text sowie das Faksimile von
+                            Herzgewächse op. 20 (<ref
+                                target="http://archive.schoenberg.at/compositions/manuskripte.php?werke_id=442&amp;id_quelle=1255&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >Quelle Ca</ref>)</note></seg>
+                    <lb/>herausgiebt) und mit dem ich befreundet bin, ein Exemplar zu schicken.
+                    Ebenso Herrn <persName key="p_99">Carl  <lb/>Einstein</persName> in <placeName
+                        key="place.1.1">Wilmersdorf-Berlin, Jenaerstr. 26</placeName>, der Sie darum
+                    ersuchen wird. Er giebt auch  <lb/>eine <seg type="comment"
+                            ><orig>Kunstzeitschrift</orig><note xml:id="nshy_4p4_rsb">Neue Blätter.
+                            Hrsg. von Carl Einstein und Jakob Hegner. Jg. 1 (insges. 3 Folgen).
+                            Berlin: Erich Baron Verlag 1912. Vgl. hierzu den Brief von Carl Einstein
+                            an Arnold Schönberg (undatiert, ca. Herbst 1911) <ref
+                                target="http://archive.schoenberg.at/letters/letters.php?id_letters=10556&amp;action=view&amp;sortieren=id%20DESC&amp;vonBis=0-19"
+                                >ASCC ID 10556</ref></note></seg> heraus.</p><p> Dann bitte ich Sie
+                    je ein gebundenes Exemplar zu schicken bitte beantworten Sie die rot
+                    bezeichneten Fragen! an: II. Frau Alma Mahler Frau Justine Rosé 2) Herrn Karl
+                    Moll und } so bald wie möglich* an Karl Kraus </p><p>Ich lege diesem Brief
                     kleine Begleitschreiben bei, die Sie so freundlich sein werden mit den in die
                     Bücher hineinzugeben. Dann eines an Zemlinsky in Prag* Nun danke ich Ihnen noch
                     sehr für die Mahler-Symphonie und das Lied von der Erde. Das ist sehr lieb von
