@@ -2,12 +2,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.2"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.<!-- ASCC ID -->"
     telota:doctype="letter">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>F. M. Geidel an Universal-Edition, 3. Juni 1914</title>
+                <title></title>
                 <respStmt>
                     <persName>
                         <forename>Therese</forename>
@@ -39,7 +39,7 @@
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName><forename>N.</forename><surname>N.</surname></persName>
+                    <persName><forename>Jannik</forename><surname>Franz</surname></persName>
                     <resp>
                         <term>Wissenschaftliche Mitarbeit</term>
                     </resp>
@@ -50,12 +50,7 @@
                         <term>Studentische Mitarbeit</term>
                     </resp>
                 </respStmt>
-                <respStmt>
-                    <orgName>Österreichischer Verband für Stenografie und Textverarbeitung</orgName>
-                    <resp>
-                        <note type="remarkResponsibility">Transkription Stenographie</note>
-                    </resp>
-                </respStmt>
+               
             </titleStmt>
             <publicationStmt>
                 <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
@@ -77,12 +72,10 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <settlement><placeName key="place.15.12">Washington,
-                            D.C.</placeName></settlement>
-                        <institution ref="http://d-nb.info/gnd/35626-8">The Library of
-                            Congress</institution>
-                        <repository>Music Division</repository>
-                        <collection>Arnold Schoenberg Collection</collection>
+                        <settlement><placeName key="x">xx</placeName></settlement>
+                        <institution ref="dnb">xx</institution>
+                        <repository>xx</repository>
+                        <collection>xx</collection>
                         <altIdentifier>
                             <settlement><placeName key="place.9.11">Wien</placeName></settlement>
                             <institution>Arnold Schönberg Center</institution>
@@ -91,43 +84,39 @@
                     </msIdentifier>
                 </msDesc>
                 <listWit>
-                    <witness><bibl>Katalog Sotheby's London, Juni 2002, Lot 704</bibl></witness>
+                    <witness><bibl>xx</bibl></witness>
                 </listWit>
-                <bibl>Arnold Schönberg: Sämtliche Werke. Abteilung III: Bühnenwerke. Reihe B, Band
-                    6, Teil 2. Bühnenwerke I. Erwartung op. 17. Herausgegeben von Ullrich
-                    Scheideler. Mainz, Wien 2005. <!-- zotero Bibliographie referenzieren --></bibl>
+              
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName key="p_1206"
-                        ><forename>Johannes</forename><surname>Geidel</surname></persName>
-                    <orgName key="org.65">F. M. Geidel</orgName>
-                    <placeName key="place.2.20">Leipzig</placeName>
-                    <date when="1914-06-03" calendar="#Gregorian"/>
+                    <persName key="xx"
+                        ><forename>xx</forename><surname>xx</surname></persName>
+                    <orgName key="xx">xx</orgName>
+                    <placeName key="xx">xx</placeName>
+                    <date when="xx" calendar="#Gregorian"/>
                 </correspAction>
                 <correspAction type="received">
-                    <orgName key="org.1">Universal-Edition</orgName>
-                    <placeName key="place.9.11">Wien</placeName>
+                    <orgName key="xx">xx</orgName>
+                    <placeName key="xx">xx</placeName>
                 </correspAction>
-                <note>Dokument enthält den Antwortbrief von Arnold Schönberg an F. M. Geidel, 6.
-                    Juni 1914</note>
+                <note>xx</note>
                 <correspContext>
-                    <ref type="next" target="https://bit.ly/3BTGCex">Brief vom 6. Juni 1914</ref>
-                    <ref type="prev" target="Brief">Brief vom 14. Mai 1914</ref>
+                    <ref type="next" target="xx">xx</ref>
+                    <ref type="prev" target="xx">xx</ref>
                 </correspContext>
             </correspDesc>
             <textClass>
                 <keywords>
-                    <term>Brief</term>
-                    <term>Kopie</term>
+                    <term>xxBrief</term>
+                    <term>xxKopie</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change when="2021-09-07" who="PK"> test </change>
-            <!-- Verwendung nach Veröffentlichung für nachträgliche Änderungen -->
+            <change when="2021-09-07" who="PK"/> 
         </revisionDesc>
     </teiHeader>
     <text>
