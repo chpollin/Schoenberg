@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title><!--  --></title>
                 <respStmt>
                     <persName>
                         <forename>Therese</forename>
@@ -50,11 +50,10 @@
                         <term>Studentische Mitarbeit</term>
                     </resp>
                 </respStmt>
-               
             </titleStmt>
             <publicationStmt>
                 <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
-                <pubPlace>Wien</pubPlace>
+                <pubPlace key="place.9.11">Wien</pubPlace>
                 <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
                     Schönberg und die Wiener Schule an der Universität für Musik und darstellende
                     Kunst Wien</publisher>
@@ -72,249 +71,49 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <settlement><placeName key="x">xx</placeName></settlement>
-                        <institution ref="dnb">xx</institution>
-                        <repository>xx</repository>
-                        <collection>xx</collection>
+                        <settlement><placeName key="x"><!--  --></placeName></settlement>
+                        <institution ref="dnb"><!--  --></institution>
+                        <repository><!--  --></repository>
+                        <collection><!--  --></collection>
                         <altIdentifier>
                             <settlement><placeName key="place.9.11">Wien</placeName></settlement>
                             <institution>Arnold Schönberg Center</institution>
-                            <idno type="signature">ASCC ID 23854</idno>
+                            <idno type="signature">ASCC ID <!-- ASCC ID --></idno>
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
                 <listWit>
-                    <witness><bibl>xx</bibl></witness>
+                    <witness><bibl><!--  --></bibl></witness>
                 </listWit>
-              
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
-                <correspAction type="sent">
-                    <persName key="xx"
-                        ><forename>xx</forename><surname>xx</surname></persName>
-                    <orgName key="xx">xx</orgName>
-                    <placeName key="xx">xx</placeName>
-                    <date when="xx" calendar="#Gregorian"/>
-                </correspAction>
-                <correspAction type="received">
-                    <orgName key="xx">xx</orgName>
-                    <placeName key="xx">xx</placeName>
-                </correspAction>
-                <note>xx</note>
-                <correspContext>
-                    <ref type="next" target="xx">xx</ref>
-                    <ref type="prev" target="xx">xx</ref>
-                </correspContext>
+                <!--  -->
             </correspDesc>
             <textClass>
                 <keywords>
-                    <term>xxBrief</term>
-                    <term>xxKopie</term>
+                    <term><!--  --></term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2021-09-07" who="PK"/> 
-        </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div type="letter">
                 <pb n="1" xml:id="p.1"/>
-                <opener>
-                    <stamp sameAs="stamp.16"><orgName key="org.65">F. M. GEIDEL</orgName>,
-                        LEIPZIG<lb/> Anstalt für<lb/> Notenstich, Notendruck und Anastatischen
-                        Druck<lb/> Stein- und Buchdruckerei, Notensatz, Stereotypie<lb/>
-                        Lithographie, Autographie und Buchbinderei<lb/> Fernsprecher 36 ····
-                        Bank-Konto: Frege &amp; Co., Leipzig<lb/> Leipzig, den <!-- gerne nochmal nachdenken, was mit den Lücken passiert KB: Lücken ausfüllen, oder den Teil aus dem Stampblock nehmen, siehe unten -->191<lb/>
-                        <location>
-                            <placeName key="place.2.20.7">Wittenbergerstraße 23</placeName>
-                        </location></stamp>
-                    <dateline rendition="#r"><stamp><placeName><hi rendition="#i"
-                                >Leipzig</hi></placeName>, <hi rendition="#i">den</hi></stamp> 3.
-                        Juni <stamp><hi rendition="#i">191</hi></stamp>4.<lb/><placeName
-                            key="place.2.20.7"><stamp><hi rendition="#i">Wittenbergerstraße
-                                23</hi></stamp></placeName></dateline>
-                    <address>
-                        <addrLine>Verehrl. <orgName key="org.1">Universal-Edition</orgName>, A.-G., <hi
-                                rendition="#uu"><placeName key="place.9.11"
-                            >Wien</placeName>.</hi></addrLine>
-                    </address>
-                </opener>
-                <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
-                        <orig>2 <rs type="term" key="item.4">Abzüge</rs> einer Pro<g ref="#typoHyphen"/><lb break="no"/>beseite</orig>
-                        <note xml:id="note_8"><ref target="https://bit.ly/3BQVTfQ">Korrekturabzug
-                                (Probeseite) von S, 4 (T. 5-12) des Partiturdrucks</ref></note>
-                    </seg> aus der <bibl sameAs="werke.7">Orchesterpartitur</bibl>
-                    <persName key="p_3263">Schönberg</persName>. Ich hoffe, alles nach Wunsch
-                    <lb/>des Autors ausgeführt zu haben und bitte um recht baldigen Bescheid, da<g
-                        ref="#typoHyphen"/><lb break="no"/>mit ich weiter arbeiten lassen kann.</p>
-                <p>Ich möchte hierzu noch bemerken, dass die Einteilung des <lb/>Manuskriptes es mit
-                    sich bringt, dass ich gezwungen bin, <add place="superlinear" hand="author">ab
-                        und zu</add> verhältnismässig <lb/>wenig Linien auf eine <rs type="term" key="item.3">Platte</rs> zu bringen,
-                    um unmittelbar im Anschluss daran <lb/>wieder eine <rs type="term" key="item.3">Platte</rs> mit Doppelsystemen
-                    einrichten zu können.
-                    <!-- ASUE Hier ist die Metamark-Situation etwas kompliziert, da das X die Position im Brieftext hier meint, die Zahl aber auf die entsprechende Zahl im angklebten handschriftlichen Brief verweist "1.XX" an einer Stelle ist nicht verständlich -->
-                    Ich bitte, <lb/>beim Autor anzufragen, <add place="left" hand="#Schönberg"
-                            ><!-- wie verweist man hier auf Schönberg p_3263, ist das schon korrekt so? ? --><metamark>1.
-                                <hi rendition="#circle">X</hi></metamark></add><add
-                        place="intralinear" hand="#Schönberg"><metamark><hi rendition="#circle"
-                                >X</hi></metamark></add>ob in diesem <hi rendition="#u">Falle <add
-                            place="superlinear" hand="author">bei</add> geeignete<add
-                            place="intralinear" hand="author">n</add> Instrumente<add
-                            place="intralinear" hand="author">n</add>, wo im</hi><lb/> Manuskript
-                    mehrere auf eine Linie zusammen gezogen sind, ein Auseinander<g
-                        ref="#typoHyphen"/><lb break="no"/>ziehen in einzelnen Instrumenten
-                    vorgenommen werden kann, um zu vermeiden, <lb/>dass plötzlich auf eine sehr enge
-                    <rs type="term" key="item.3">Platte</rs> mit 34 Linien eine sehr weite <lb/>mit 18 oder 20 Linien folgt. Umgedreht
-                    macht es sich notwendig, in ein<g ref="#typoHyphen"/><lb break="no"/>zelnen
-                    Fällen, <add place="left" hand="#Schönberg">
-                        <metamark>2. <hi rendition="#circle">X</hi></metamark></add><add
-                        place="intralinear" hand="#Schönberg">
-                        <metamark><hi rendition="#circle">X</hi></metamark></add> dass 2
-                    gleichartige Instrumentenlinien auf eine Linie zu<g ref="#typoHyphen"/><lb
-                        break="no"/>sammengezogen werden, um eine 2systemige <rs type="term" key="item.3">Platte</rs> einrichten zu
-                    können <lb/>und dabei die Höchstzahl der Linien, 34, nicht zu überschreiten.
-                    Einer <lb/>kurzen Rückantwort hierüber sehe ich entgegen. </p>
-                <p><seg type="comment"><orig><hi rendition="#u"><persName key="p_331"
-                                    >Beethoven</persName>-<persName key="p_3127"
-                                >Schenker</persName>.</hi></orig><note xml:id="note_9">Vermutlich
-                            handelt es sich hierbei um: Beethoven-Schenker, Erläuterungs-Ausgabe der
-                            letzten fünf Sonaten. Sonate As-Dur Op. 110. Wien 1914 <!-- zotero -->
-                        </note>
-                    </seg> Korrektur der Vorbemerkung hoffe ich im Laufe dieser <lb/>Woche
-                    auszusetzen; durch die vielen Feiertage hat sich leider die Fertig<g
-                        ref="#typoHyphen"/><lb break="no"/>stellung dieser Arbeit etwas verzögert. </p>
-                <closer rendition="#r">
-                    <salute>Hochachtungsvoll<lb/>
-                        <stamp>ppa. F. M. Geidel</stamp>
-                    </salute>
-                    <signed hand="#Geidel">Johannes Geidel</signed>
-                </closer>
-                <note place="left" hand="#Schönberg"> Warum wurde<lb/> kein <hi rendition="#u"
-                        >breiteres Papier</hi> genommen?<lb/>
-                    <seg type="comment">
-                        <orig>Ich schrieb doch deswegen auch!!!</orig>
-                        <note xml:id="note_10"><ref
-                                target="http://archive.schoenberg.at/letters/letters.php?id_letters=23853&amp;action=view&amp;sortieren=id%20DESC&amp;vonBis=0-19"
-                                >Schönberg an Geidel, Mai 1914</ref></note>
-                    </seg>
-                </note>
-            </div>
-            <div type="letter">
-                <pb n="2" xml:id="p.2"/>
-                <p>Ich habe geglaubt, Ihre Fragen deutlich und klar beantwortet zu <lb/>haben. Nun
-                    sehe ich mit Bedauern, dass Sie meine ausführlichen <lb/>Auseinandersetzungen
-                    nicht genügend beachtet haben.</p>
-                <p>Ich schrieb wörtlich:</p>
-                <p rendition="#ll">„Es ist gar kein Unglück, sieht auch besser aus und ist
-                    <lb/>lesbarer, wenn auf einer einsystemigen <rs type="term" key="item.3">Platte</rs> nur 24 cm der <lb/>Höhe
-                    bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die Partituren dienen
-                    einzig und allein <hi rendition="#u">praktischen</hi>
-                    <lb/>Zwecken und je besser sie denen entsprechen, desto schöner <lb/>sind sie.
-                    Jede andere Schönheit ist Mumpitz.“</p>
-                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/><hi rendition="#u">Lesbarkeit</hi> =
-                        <hi rendition="#u">Schönheit</hi>
-                    <lb/>von Ihnen zur Kenntnis genommen werden wird.</p>
-                <p>Ich habe gedacht, Sie werden einsehen, dass die <lb/>Partituren <lb/>für die <hi
-                        rendition="#u">Dirigenten</hi> und <hi rendition="#u">Musiker</hi> sind<lb/>
-                    und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich zu
-                    erleichtern hat !!!</p>
-                <p rendition="#lll #llr">
-                    <hi rendition="#circle">1</hi> Deshalb ist es also durchaus nicht an<g
-                        ref="#typoHyphen"/><lb break="no"/>gebracht, durchaus <hi rendition="#uu"
-                        >falsch</hi>, 2 Stimmen die auf <lb/>einer Zeile stehen können, auf 2 zu
-                    stechen !! <lb/>Insbesondere, da meist die Akkorde leichter zu lesen <lb/>sind,
-                    wenn möglichst viel davon (2 - 3 Töne) in einer <lb/>Zeile stehen.</p>
-                <p>Eine <hi rendition="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in
-                    denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp : Seite 3, V<hi
-                        rendition="#sup"><hi rendition="#uu">cll</hi></hi> , 2 Takt:</p>
-                <notatedMusic>
-                    <seg type="row">
-                        <seg type="column">
-                            <figure hand="#Schönberg"
-                                facs="1914_06_03_23854/note_example/note_example1.jpg">
-                                <figDesc>Notenbeispiel</figDesc>
-                            </figure>
-                        </seg>
-                        <seg type="column">das ist besser als <lb/>2 Zeilen:</seg>
-                        <seg type="column">
-                            <figure hand="#Schönberg"
-                                facs="1914_06_03_23854/note_example/note_example2.jpg">
-                                <figDesc>Notenbeispiel</figDesc>
-                            </figure>
-                        </seg>
-                    </seg>
-                    <seg type="row">
-                        <seg>oder: Seite 3: Takt 2, <term type="instrument"
-                                target="https://d-nb.info/gnd/4176713-5">Flöten</term></seg>
-                        <seg type="row">
-                            <seg type="column">
-                                <figure hand="#Schönberg"
-                                    facs="1914_06_03_23854/note_example/note_example3.jpg">
-                                    <figDesc>Notenbeispiel</figDesc>
-                                </figure>
-                            </seg>
-                            <seg type="column"> besser: </seg>
-                            <seg type="column">
-                                <figure hand="#Schönberg"
-                                    facs="1914_06_03_23854/note_example/note_example4.jpg">
-                                    <figDesc>Notenbeispiel</figDesc>
-                                </figure>
-                            </seg>
-                        </seg>
-                        <seg>oder Seite 4, 2. System, 3. Takt, <term type="instrument"
-                                target="https://d-nb.info/gnd/4176713-5">Fl</term> u <term
-                                type="instrument" target="https://d-nb.info/gnd/4197172-3"
-                                >Pic</term></seg>
-                        <seg type="row">
-                            <seg type="column">
-                                <figure hand="#Schönberg"
-                                    facs="1914_06_03_23854/note_example/note_example5.jpg">
-                                    <figDesc>Notenbeispiel</figDesc>
-                                </figure>
-                            </seg>
-                            <seg type="column"> besser: </seg>
-                            <seg type="column">
-                                <figure hand="#Schönberg"
-                                    facs="1914_06_03_23854/note_example/note_example6.jpg">
-                                    <figDesc>Notenbeispiel</figDesc>
-                                </figure>
-                            </seg>
-                        </seg>
-                    </seg>
-                    <seg type="row">aber Seite 8, 1. System, 4. Takt Solo <term type="instrument"
-                            target="https://d-nb.info/gnd/4188364-0">B<hi rendition="#sup #uu"
-                                >r</hi></term>
-                        <lb/>besser in 2 Zeilen (eventuell !!)</seg>
-                </notatedMusic>
-                <p>dagegen sind folgende Stellen <hi rendition="#uu">besser</hi> in <hi
-                        rendition="#uu">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <term
-                        type="instrument" target="https://d-nb.info/gnd/4188364-0">B<hi
-                            rendition="#sup #uu">r</hi></term>; | Seite 7, Takt 3, die <term
-                        type="instrument" target="https://d-nb.info/gnd/4030938-1">Clar.</term> und
-                    die <term type="instrument" target="https://d-nb.info/gnd/4153531-5">Fag</term>.
-                    | <lb/>Seite 5, 1. System, Takt 1 die <term type="instrument"
-                        target="http://d-nb.info/gnd/4032300-6">Ktrbsse</term> | Seite 9, 2. Syst,
-                    6. Takt, <term type="instrument" target="https://d-nb.info/gnd/4139391-0"
-                        >Ob</term> und <term type="instrument"
-                        target="https://d-nb.info/gnd/4030938-1">Klar</term>
-                </p>
-                <p><hi rendition="#circle">2.</hi> Zusammenziehungen nur bei Instrumenten der
-                    gleichen Gattung, die die <lb/>gleiche Notierung haben !!!</p>
-                <closer rendition="#r">
-                    <signed>Schönberg</signed>
-                    <dateline>6./6.
-                    1914</dateline><!-- ASUE: dateline sollte in einer Zeile mit Schönberg sein -->
-                </closer>
+                <opener> </opener>
+                
+                <closer> </closer>
             </div>
         </body>
     </text>
     <facsimile>
-        <surface start="#page.1">
-            <graphic url="1914_06_03_23854/1914_06_03_23854.jpg" xml:id="IMG.1"/>
+        <surface start="#p.1">
+            <graphic url="/23854/23854_1.jpg" xml:id="IMG.1"/>
+        </surface>
+        <surface start="#p.2">
+            <graphic url="/23854/23854_2.jpg" xml:id="IMG.2"/>
         </surface>
     </facsimile>
 </TEI>
