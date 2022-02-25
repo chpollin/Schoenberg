@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="organisationen"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="organisations"
   telota:doctype="register">
   <teiHeader>
     <fileDesc>
@@ -22,7 +22,7 @@
       <listOrg>
         <org xml:id="org.1" type="publisher">
           <idno type="uri">http://d-nb.info/gnd/2045143-X</idno>
-          <orgName>Universal-Edition</orgName>
+          <orgName type="reg">Universal-Edition</orgName>
           <location>
             <!-- PHILIPP ich gebe jetzt die Adressen nach einem selbst gewählten Schema (Stadt, Distrikt [falls vorhanden], Str. Hausnummer) an, also
               gleiche Struktur wie im Ortsregister. -->
@@ -41,7 +41,7 @@
         <org xml:id="org.2" type="theatre">
           <idno type="uri">http://d-nb.info/gnd/30656-3</idno>
           <orgName type="reg">Nationaltheater Mannheim</orgName>
-          <!-- PHILIPP braucht man den type="reg" immer, oder nur wenn es auch einen type="alt" gibt?" -->
+          <!-- PHILIPP braucht man den immer, oder nur wenn es auch einen type="alt" gibt?" -->
           <location>
             <placeName key="place.2.22.2">Mannheim, Schillerplatz</placeName>
           </location>
@@ -125,7 +125,7 @@
         </org>
         <org xml:id="org.8" type="association">
           <idno type="uri">https://d-nb.info/gnd/16040081-8</idno>
-          <orgName>Accademia Filarmonica Romana</orgName>
+          <orgName type="reg">Accademia Filarmonica Romana</orgName>
           <location>
             <placeName key="place.5.5.1">Rom, Via Flaminia 118</placeName>
           </location>
@@ -150,7 +150,7 @@
         </org>
         <org xml:id="org.11" type="association">
           <idno type="uri">https://d-nb.info/gnd/42927-2</idno>
-          <orgName>Akademischer Verband für Literatur und Musik</orgName>
+          <orgName type="reg">Akademischer Verband für Literatur und Musik</orgName>
           <location>
             <placeName key="place.9.11.6.17">Wien, Innere Stadt (I.), Reichsratsstr. 7</placeName>
           </location>
@@ -161,13 +161,13 @@
           <orgName type="acronym">AKM</orgName>
         </org>
         <org xml:id="org.13" type="business">
-          <orgName>Albert Stahl Musikalienhandlung</orgName>
+          <orgName type="reg">Albert Stahl Musikalienhandlung</orgName>
           <location>
             <placeName key="place.2.3.6.1">Berlin, Schöneberg, Bülowstr. 88</placeName>
           </location>
         </org>
         <org xml:id="org.14" type="publisher">
-          <orgName>Alco Recording Company</orgName>
+          <orgName type="reg">Alco Recording Company</orgName>
           <location>
             <placeName key="place.2.3.6.1">Los Angeles, Melrose, 8373 Melrose Avenue</placeName>
             <!-- prüfen, diese ist von Sebastian -->
@@ -176,7 +176,7 @@
         </org>
         <org xml:id="org.15" type="journal">
           <idno type="uri">https://d-nb.info/01265048X</idno>
-          <orgName>Allgemeine deutsche Musikzeitung</orgName>
+          <orgName type="reg">Allgemeine deutsche Musikzeitung</orgName>
           <!-- die gab es zur betreffenden Zeit schon nicht mehr -->
           <location>
             <placeName key="place.2.20">Leipzig</placeName>
@@ -185,13 +185,13 @@
         </org>
         <org xml:id="org.16" type="journal">
           <!-- die zeitungen müssen wir noch klar kriegen -->
-          <orgName>Allgemeine Musikzeitung</orgName>
+          <orgName type="reg">Allgemeine Musikzeitung</orgName>
           <location>
             <placeName key="place.2.20">Leipzig</placeName>
           </location>
         </org>
         <org xml:id="org.17" type="other">
-          <orgName>Allgemeines Krankenhaus Wien</orgName>
+          <orgName type="reg">Allgemeines Krankenhaus Wien</orgName>
           <location>
             <placeName key="place.9.11.1.1">Wien, Alsergrund (IX.), Alser Str. 4</placeName>
           </location>
@@ -235,68 +235,68 @@
           </location>
         </org>
         <org xml:id="org.24" type="education">
-          <orgName>Arnold Schönberg-Bibliothek</orgName>
+          <orgName type="reg">Arnold Schönberg-Bibliothek</orgName>
           <!-- was ist das? -->
         </org>
         <org xml:id="org.25" type="publisher">
           <idno type="uri">https://d-nb.info/dnbn/1090897855</idno>
-          <orgName>B. Schott's Söhne</orgName>
+          <orgName type="reg">B. Schott's Söhne</orgName>
           <location>
             <placeName key="place.2.21.2">Mainz, Weihergarten</placeName>
           </location>
         </org>
         <org xml:id="org.26" type="ensemble">
           <idno type="uri">https://d-nb.info/gnd/16047158-8</idno>
-          <orgName>Ballets Russes</orgName>
+          <orgName type="reg">Ballets Russes</orgName>
         </org>
         <org xml:id="org.27" type="business">
-          <orgName>Bankhaus Friedenstein</orgName>
+          <orgName type="reg">Bankhaus Friedenstein</orgName>
           <location>
             <placeName key="place.9.11.6.4">Wien, Innere Stadt (I.), Börsegasse 13</placeName>
           </location>
         </org>
         <org xml:id="org.28" type="publisher">
-          <orgName>Béal Frères</orgName>
+          <orgName type="reg">Béal Frères</orgName>
           <location>
             <placeName key="place.4.3.1">Lyon, 15 rue de la République</placeName>
           </location>
         </org>
         <org xml:id="org.29" type="publisher">
-          <orgName>Edition Benno Balan</orgName>
+          <orgName type="reg">Edition Benno Balan</orgName>
           <location>
             <placeName key="place.2.3.1.4">Berlin, Charlottenburg, Mommsenstraße 43</placeName>
           </location>
         </org>
         <org xml:id="org.30" type="ensemble">
           <idno>https://d-nb.info/gnd/2173862-2</idno>
-          <orgName>Berliner Philharmoniker</orgName>
+          <orgName type="reg">Berliner Philharmoniker</orgName>
           <location>
             <placeName key="place.2.3.10.1">Berlin, Kreuzberg, Bernburger Str. 22</placeName>
           </location>
         </org>
         <org xml:id="org.31" type="journal">
           <idno type="URI">https://d-nb.info/gnd/1086206452</idno>
-          <orgName>Berliner Tageblatt</orgName>
+          <orgName type="reg">Berliner Tageblatt</orgName>
           <location>
             <placeName key="place.2.3">Berlin</placeName>
           </location>
         </org>
         <org xml:id="org.32" type="association">
-          <orgName>Bernische Vereinigung für neue Musik</orgName>
+          <orgName type="reg">Bernische Vereinigung für neue Musik</orgName>
           <location>
             <placeName key="place.11.1">Bern</placeName>
           </location>
         </org>
         <org xml:id="org.33" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/1051219760</idno>
-          <orgName>Richard Birnbach KG Musikverlag</orgName>
+          <orgName type="reg">Richard Birnbach KG Musikverlag</orgName>
           <location>
             <placeName key="place.2.3">Berlin</placeName>
           </location>
         </org>
         <org xml:id="org.34" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330001299</idno>
-          <orgName>Boosey &amp; Hawkes</orgName>
+          <orgName type="reg">Boosey &amp; Hawkes</orgName>
           <location>
             <placeName key="place.3.1.2">London, 295 Regent Street</placeName>
             <placeName key="place.15.8.10">New York, 43 West 23rd Street</placeName>
@@ -304,42 +304,42 @@
           </location>
         </org>
         <org xml:id="org.35" type="publisher">
-          <orgName>Boston Music Company</orgName>
+          <orgName type="reg">Boston Music Company</orgName>
           <location>
             <placeName key="place.15.1.6">Boston, 26-28 West Street</placeName>
           </location>
         </org>
         <org xml:id="org.36" type="ensemble">
           <idno type="URI">https://d-nb.info/gnd/1038474-1</idno>
-          <orgName>Boston Symphony Orchestra</orgName>
+          <orgName type="reg">Boston Symphony Orchestra</orgName>
           <location>
             <placeName key="place.15.1.2">Boston, 301 Massachusetts Avenue</placeName>
           </location>
         </org>
         <org xml:id="org.37" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330272039</idno>
-          <orgName>Bote &amp; Bock</orgName>
+          <orgName type="reg">Bote &amp; Bock</orgName>
           <location>
             <placeName key="place.2.3.4.3">Berlin, Mitte, Leipziger Str. 37</placeName>
           </location>
         </org>
         <org xml:id="org.38" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330265350</idno>
-          <orgName>Breikopf &amp; Härtel</orgName>
+          <orgName type="reg">Breikopf &amp; Härtel</orgName>
           <location>
             <placeName key="place.2.3.4.4">Berlin, Mitte, Potsdamer Str. 22</placeName>
             <placeName>Leipzig, Nürnberger Str. 36/38</placeName>
           </location>
         </org>
         <org xml:id="org.39" type="business">
-          <orgName>Broekmanns &amp; Van Poppel</orgName>
+          <orgName type="reg">Broekmanns &amp; Van Poppel</orgName>
           <location>
             <placeName key="place.8.1.3">Amsterdam, Van Baerlestraat 94</placeName>
           </location>
         </org>
         <org xml:id="org.40" type="ensemble">
           <idno type="URI">https://d-nb.info/gnd/5186814-3</idno>
-          <orgName>Bruno Kittelscher Chor</orgName>
+          <orgName type="reg">Bruno Kittelscher Chor</orgName>
         </org>
         <org xml:id="org.41" type="ensemble">
           <idno type="URI">https://d-nb.info/367127970</idno>
@@ -358,7 +358,7 @@
         </org>
         <org xml:id="org.43" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330003461</idno>
-          <orgName>C. F. Peters</orgName>
+          <orgName type="reg">C. F. Peters</orgName>
           <location>
             <placeName key="place.2.20.6">Leipzig, Talstr. 10</placeName>
             <placeName key="place.15.8.2">New York, 1209 Carnegie Hall</placeName>
@@ -366,101 +366,101 @@
         </org>
         <org xml:id="org.44" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/5531835-6</idno>
-          <orgName>Capitol Records</orgName>
+          <orgName type="reg">Capitol Records</orgName>
           <location>
             <placeName key="place.15.7.1.3">Los Angeles, Hollywood, 1750 Vine Street</placeName>
           </location>
         </org>
         <org xml:id="org.45" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330218883</idno>
-          <orgName>Carisch</orgName>
+          <orgName type="reg">Carisch</orgName>
           <location>
             <placeName key="place.5.7.1">Mailand, Via G. Broggi 19</placeName>
           </location>
         </org>
         <org xml:id="org.46" type="journal">
           <idno type="URI">https://d-nb.info/gnd/1086198549</idno>
-          <orgName>Christian Science Monitor</orgName>
+          <orgName type="reg">Christian Science Monitor</orgName>
           <location>
             <placeName key="place.15.1.2">Boston, 210 Massachusetts Avenue</placeName>
           </location>
         </org>
         <org xml:id="org.47" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/5267139-2</idno>
-          <orgName>Columbia Recording Company</orgName>
+          <orgName type="reg">Columbia Recording Company</orgName>
           <location>
             <placeName key="place.15.8.12">New York, 799 Seventh Avenue at 52nd Street</placeName>
           </location>
         </org>
         <org xml:id="org.48" type="other">
           <idno type="URI">https://d-nb.info/gnd/2092721-6</idno>
-          <orgName>Der blaue Reiter</orgName>
+          <orgName type="reg">Der blaue Reiter</orgName>
           <location>
             <placeName key="place.2.24.2">München, Arcisstr. 10</placeName>
           </location>
         </org>
         <org xml:id="org.49" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/3009547-5</idno>
-          <orgName>Deutsche Oper Berlin</orgName>
+          <orgName type="reg">Deutsche Oper Berlin</orgName>
           <location>
             <placeName key="place.2.8.1">Charlottenburg, Bismarckstr. 34-37</placeName>
           </location>
         </org>
         <org xml:id="org.50" type="association">
           <idno type="URI">https://d-nb.info/gnd/30000-7</idno>
-          <orgName>Deutscher Bühnenverein</orgName>
+          <orgName type="reg">Deutscher Bühnenverein</orgName>
         </org>
         <org xml:id="org.51" type="association">
           <idno type="URI">https://d-nb.info/gnd/1011383-6</idno>
-          <orgName>Verband deutscher Bühnenschriftsteller und Bühnenkomponisten</orgName>
+          <orgName type="reg">Verband deutscher Bühnenschriftsteller und Bühnenkomponisten</orgName>
         </org>
         <org xml:id="org.52" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/46046-1</idno>
-          <orgName>Kammerspiele (Deutsches Theater Berlin)</orgName>
+          <orgName type="reg">Kammerspiele (Deutsches Theater Berlin)</orgName>
           <location>
             <placeName key="place.2.3.4.2">Berlin, Mitte, Schumannstr. 13a</placeName>
           </location>
         </org>
         <org xml:id="org.53" type="other">
           <idno type="URI">https://d-nb.info/gnd/4526388-7</idno>
-          <orgName>k.u.k. Infanterieregiment „Hoch- und Deutschmeister“ Nr. 4</orgName>
+          <orgName type="reg">k.u.k. Infanterieregiment „Hoch- und Deutschmeister“ Nr. 4</orgName>
         </org>
         <org xml:id="org.54" type="journal">
-          <orgName>Die Musik</orgName>
+          <orgName type="reg">Die Musik</orgName>
           <location>
             <placeName key="place.2.3.6.3">Berlin, Schöneberg, Bülowstr. 107</placeName>
           </location>
         </org>
         <org xml:id="org.55" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330271806</idno>
-          <orgName>Drei Masken Verlag</orgName>
+          <orgName type="reg">Drei Masken Verlag</orgName>
           <location>
             <placeName key="place.2.24.4">München, Karlstr. 21</placeName>
           </location>
         </org>
         <org xml:id="org.56" type="business">
-          <orgName>Dresdner Bank, Filiale Zehlendorf</orgName>
+          <orgName type="reg">Dresdner Bank, Filiale Zehlendorf</orgName>
           <location>
             <placeName key="place.2.38.1">Zehlendorf, Hauptstr. 7</placeName>
           </location>
         </org>
         <org xml:id="org.58" type="journal">
           <idno type="URI">https://d-nb.info/gnd/4539987-6</idno>
-          <orgName>Dresdner Neueste Nachrichten</orgName>
+          <orgName type="reg">Dresdner Neueste Nachrichten</orgName>
           <location>
             <placeName key="place.2.10.1">Dresden, Ferdinandstr. 4</placeName>
           </location>
         </org>
         <org xml:id="org.59" type="business">
-          <orgName>Druckerei Gerin</orgName>
+          <orgName type="reg">Druckerei Gerin</orgName>
         </org>
         <org xml:id="org.60" type="journal">
           <idno type="URI">https://d-nb.info/gnd/16196577-5</idno>
-          <orgName>Duisburger General-Anzeiger</orgName>
+          <orgName type="reg">Duisburger General-Anzeiger</orgName>
         </org>
         <org xml:id="org.61" type="education">
           <idno type="URI">https://d-nb.info/gnd/380303-X</idno>
-          <orgName>Ecole des Hautes Etudes Sociales</orgName>
+          <orgName type="reg">Ecole des Hautes Etudes Sociales</orgName>
         </org>
         <org xml:id="org.62" type="collectingsociety">
           <orgName type="reg">Société générale internationale de l’edition phonographique et
@@ -469,7 +469,7 @@
         </org>
         <org xml:id="org.63" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/33669-5</idno>
-          <orgName>Éditions Gallimard</orgName>
+          <orgName type="reg">Éditions Gallimard</orgName>
           <location>
             <placeName key="place.4.4.6.1">Paris, Palais Bourbon (VII.), 5 rue
               Sébastien-Bottin</placeName>
@@ -477,48 +477,48 @@
         </org>
         <org xml:id="org.64" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330244507</idno>
-          <orgName>Eulenburg Verlag</orgName>
+          <orgName type="reg">Eulenburg Verlag</orgName>
         </org>
         <org xml:id="org.65" type="business">
-          <orgName>F. M. Geidel</orgName>
+          <orgName type="reg">F. M. Geidel</orgName>
           <location>
             <placeName key="place.2.20.7">Leipzig, Wittenberger Str. 23</placeName>
           </location>
         </org>
         <org xml:id="org.66" type="other">
-          <orgName>Fairfax Temple</orgName>
+          <orgName type="reg">Fairfax Temple</orgName>
           <location>
             <placeName key="place.15.7.1.1">Los Angeles, 525 South Fairfax Avenue</placeName>
           </location>
         </org>
         <org xml:id="org.67" type="ensemble">
-          <orgName>Flonzaley Quartett</orgName>
+          <orgName type="reg">Flonzaley Quartett</orgName>
           <location>
             <placeName key="place.15.8">New York</placeName>
           </location>
         </org>
         <org xml:id="org.68" type="publisher">
-          <orgName>Musikverlag Fr. Chadim</orgName>
+          <orgName type="reg">Musikverlag Fr. Chadim</orgName>
           <location>
             <placeName key="place.13.1.2.3">Prag, Neustadt (II.), Vodičkova 48</placeName>
           </location>
         </org>
         <org xml:id="org.69" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330272101</idno>
-          <orgName>G. Alsbach &amp; Co.</orgName>
+          <orgName type="reg">G. Alsbach &amp; Co.</orgName>
           <location>
             <placeName key="place.8.1.2">Amsterdam, Kalverstraat 176</placeName>
           </location>
         </org>
         <org xml:id="org.70" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/33021750X</idno>
-          <orgName>G. Schirmer Inc.</orgName>
+          <orgName type="reg">G. Schirmer Inc.</orgName>
           <location>
             <placeName key="place.15.8.7">New York, 3 East 43rd Street</placeName>
           </location>
         </org>
         <org xml:id="org.71" type="business">
-          <orgName>Gaveau</orgName>
+          <orgName type="reg">Gaveau</orgName>
           <location>
             <placeName key="place.4.4.8.1">Paris, Élysée (VIII.), 45, rue la Boétie</placeName>
           </location>
@@ -541,46 +541,46 @@
           </location>
         </org>
         <org xml:id="org.74" type="collectingsociety">
-          <orgName>Genossenschaft dramatischer Autoren und Komponisten in Wien</orgName>
+          <orgName type="reg">Genossenschaft dramatischer Autoren und Komponisten in Wien</orgName>
           <location>
             <placeName key="place.9.11.9.2">Wien, Mariahilf (VI.), Köstlergasse 7</placeName>
           </location>
         </org>
         <org xml:id="org.75" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/1072917149</idno>
-          <orgName>Geographisches Institut und Landkarten-Verlag Jul. Straube</orgName>
+          <orgName type="reg">Geographisches Institut und Landkarten-Verlag Jul. Straube</orgName>
           <location>
             <placeName key="place.2.3.10.2">Berlin, Kreuzberg, Neuenburger Str. 15</placeName>
           </location>
         </org>
         <org xml:id="org.76" type="publisher">
           <idno type="URI">Georg-Müller-Verlag</idno>
-          <orgName>Georg Müller Verlag</orgName>
+          <orgName type="reg">Georg Müller Verlag</orgName>
           <location>
             <placeName key="place.2.24.5">München, Königinstr. 59</placeName>
           </location>
         </org>
         <org xml:id="org.77" type="publisher">
-          <orgName>Les Editions Modernes Georges Vriamont</orgName>
+          <orgName type="reg">Les Editions Modernes Georges Vriamont</orgName>
           <location>
             <placeName key="place.16.1">Brüssel</placeName>
           </location>
         </org>
         <org xml:id="org.78" type="association">
           <idno type="URI">https://d-nb.info/gnd/1005067-X</idno>
-          <orgName>Gesellschaft der Musikfreunde</orgName>
+          <orgName type="reg">Gesellschaft der Musikfreunde</orgName>
           <location>
             <placeName key="place.9.11.6.5">Wien, Innere Stadt (I.), Bösendorferstr. 12</placeName>
           </location>
         </org>
         <org xml:id="org.79" type="business">
-          <orgName>Grey Hound Lines</orgName>
+          <orgName type="reg">Grey Hound Lines</orgName>
           <location>
             <placeName key="place.15.5">Chicago</placeName>
           </location>
         </org>
         <org xml:id="org.80" type="association">
-          <orgName>Gustav Mahler Stiftung</orgName>
+          <orgName type="reg">Gustav Mahler Stiftung</orgName>
         </org>
         <org xml:id="org.81" type="business">
           <idno type="URI">https://d-nb.info/gnd/1200445171</idno>
@@ -588,7 +588,7 @@
                         Emil Gutmann, den Konzertagenten, Alfred Guttmann vom Arbeiter
                         Sängerbund, und Albert Gutmann, den Musikalienhändler, der AUCH konzertagent ist.
                         Leider nimmt Schönberg selten Rücksicht auf die richtige Schreibung. -->
-          <orgName>K. u. k. Hofmusikalienhandlung Albert Gutmann</orgName>
+          <orgName type="reg">K. u. k. Hofmusikalienhandlung Albert Gutmann</orgName>
           <location>
             <placeName key="place.9.11.6.27">Wien, Innere Stadt (I.), Operngasse 1</placeName>
           </location>
@@ -604,34 +604,34 @@
         </org>
         <org xml:id="org.83" type="education">
           <idno type="URI">https://d-nb.info/gnd/2012974-9</idno>
-          <orgName>Harvard University</orgName>
+          <orgName type="reg">Harvard University</orgName>
           <location>
             <placeName key="place.15.2.1">Cambridge, Harvard University</placeName>
           </location>
         </org>
         <org xml:id="org.84" type="business">
           <idno type="URI">https://d-nb.info/gnd/1232026360</idno>
-          <orgName>Buch- und Kunsthandlung Hugo Heller &amp; Cie.</orgName>
+          <orgName type="reg">Buch- und Kunsthandlung Hugo Heller &amp; Cie.</orgName>
           <location>
             <placeName key="place.9.11.6.1">Wien, Innere Stadt (I.), Bauernmarkt 3</placeName>
           </location>
         </org>
         <org xml:id="org.85" type="business">
           <idno type="URI">https://d-nb.info/gnd/1073055043</idno>
-          <orgName>Musikhaus Hermann Protze</orgName>
+          <orgName type="reg">Musikhaus Hermann Protze</orgName>
           <location>
             <placeName key="place.2.3.4.4">Berlin, Mitte, Potsdamer Straße 10</placeName>
           </location>
         </org>
         <org xml:id="org.86" type="other">
           <idno type="URI">https://d-nb.info/gnd/1009716-8</idno>
-          <orgName>Hessischer Rundfunk</orgName>
+          <orgName type="reg">Hessischer Rundfunk</orgName>
           <location>
             <placeName key="place.2.13.4">Frankfurt, Bertramstr. 8</placeName>
           </location>
         </org>
         <org xml:id="org.87" type="publisher">
-          <orgName>Éditions Heugel</orgName>
+          <orgName type="reg">Éditions Heugel</orgName>
           <location>
             <placeName key="place.4.4.9.1">Paris, Bourse (II.), 2 bis rue Vivienne</placeName>
           </location>
@@ -639,13 +639,13 @@
         <org xml:id="org.88" type="journal">
           <!-- es wirkt ein bisschen widersinnig, sowohl den Verlag Heugel als auch
                     die zugehörige zeitung nebeneinander hier aufzunehmen, besonders weil sie die gleiche "adresse" haben... -->
-          <orgName>Le Ménestrel</orgName>
+          <orgName type="reg">Le Ménestrel</orgName>
           <location>
             <placeName key="place.4.4.9.1">Paris, Bourse (II.), 2 bis rue Vivienne</placeName>
           </location>
         </org>
         <org xml:id="org.89" type="business">
-          <orgName>Notenstecherei Josef Hirsch</orgName>
+          <orgName type="reg">Notenstecherei Josef Hirsch</orgName>
           <location>
             <placeName key="place.9.11.9.5">Wien, Mariahilf (VI.), Aegidigasse 13</placeName>
           </location>
@@ -668,7 +668,7 @@
         </org>
         <org xml:id="org.92" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/1035044714</idno>
-          <orgName>Friedrich Hofmeister Musikverlag</orgName>
+          <orgName type="reg">Friedrich Hofmeister Musikverlag</orgName>
           <location>
             <placeName key="place.2.20.8">Leipzig, Karlstraße 10</placeName>
           </location>
@@ -680,59 +680,59 @@
         </org>
         <org xml:id="org.94" type="other">
           <idno type="URI">https://d-nb.info/gnd/123152-2</idno>
-          <orgName>Israelitische Kultusgemeinde Wien</orgName>
+          <orgName type="reg">Israelitische Kultusgemeinde Wien</orgName>
           <location>
             <placeName key="place.9.11.6.20">Wien, Innere Stadt (I.), Seitenstettengasse
               4</placeName>
           </location>
         </org>
         <org xml:id="org.95" type="business">
-          <orgName>Jecklin P. Söhne</orgName>
+          <orgName type="reg">Jecklin P. Söhne</orgName>
           <location>
             <placeName key="place.11.6.3">Zürich, Zeltweg 2</placeName>
           </location>
         </org>
         <org xml:id="org.96" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/5156065-3</idno>
-          <orgName>Musikverlag Josef Aibl</orgName>
+          <orgName type="reg">Musikverlag Josef Aibl</orgName>
           <location>
             <placeName key="place.2.24">München</placeName>
           </location>
         </org>
         <org xml:id="org.97" type="business">
           <idno type="URI">https://d-nb.info/gnd/16156454-9</idno>
-          <orgName>Kniže &amp; Comp.</orgName>
+          <orgName type="reg">Kniže &amp; Comp.</orgName>
           <location>
             <placeName key="place.9.11.6.10">Wien, Innere Stadt (I.), Graben 13</placeName>
           </location>
         </org>
         <org xml:id="org.98" type="business">
           <idno type="URI">https://d-nb.info/gnd/16156454-9</idno>
-          <orgName>Kontophot G.m.b.H.</orgName>
+          <orgName type="reg">Kontophot G.m.b.H.</orgName>
           <location>
             <placeName key="place.2.3.6.4">Berlin, Motzstr. 31</placeName>
           </location>
         </org>
         <org xml:id="org.99" type="agency">
-          <orgName>Kozertdirektion Georg Kugel</orgName>
+          <orgName type="reg">Kozertdirektion Georg Kugel</orgName>
           <location>
             <placeName key="place.9.11.11.1">Wien, Landstraße (III.), Faßziehergasse 7</placeName>
           </location>
         </org>
         <org xml:id="org.100" type="agency">
-          <orgName>Kozertdirektion Hirt</orgName>
+          <orgName type="reg">Kozertdirektion Hirt</orgName>
           <location>
             <placeName key="place.11.1.1">Bern, Jubiläumsstr. 47</placeName>
           </location>
         </org>
         <org xml:id="org.101" type="agency">
-          <orgName>Kozertdirektion Hüni</orgName>
+          <orgName type="reg">Kozertdirektion Hüni</orgName>
           <location>
             <placeName key="place.11.6.1">Zürich, Neumühlequai 10-12</placeName>
           </location>
         </org>
         <org xml:id="org.102" type="agency">
-          <orgName>Kozertdirektion Leonard</orgName>
+          <orgName type="reg">Kozertdirektion Leonard</orgName>
           <location>
             <placeName key="place.2.3.4.7">Berlin, Mitte, Schellingstr. 9</placeName>
           </location>
@@ -751,21 +751,21 @@
         </org>
         <org xml:id="org.105" type="business">
           <idno type="URI">https://d-nb.info/gnd/10348745-1</idno>
-          <orgName>Lampart &amp; Co.</orgName>
+          <orgName type="reg">Lampart &amp; Co.</orgName>
           <location>
             <placeName key="place.2.1.1">Augsburg, Annastr. D 260</placeName>
           </location>
         </org>
         <org xml:id="org.106" type="association">
           <idno type="URI">https://d-nb.info/gnd/61238-8</idno>
-          <orgName>League of Composers</orgName>
+          <orgName type="reg">League of Composers</orgName>
           <location>
             <placeName key="place.15.8.1">New York, 113 West 57th Street</placeName>
           </location>
         </org>
         <org xml:id="org.107" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/112056-6</idno>
-          <orgName>Leipziger Stadttheater</orgName>
+          <orgName type="reg">Leipziger Stadttheater</orgName>
           <location>
             <placeName key="place.2.20.11">Leipzig, Bosestr. 1</placeName>
           </location>
@@ -773,186 +773,186 @@
         </org>
         <org xml:id="org.108" type="other">
           <idno type="URI">https://d-nb.info/gnd/35626-8</idno>
-          <orgName>Library of Congress</orgName>
+          <orgName type="reg">Library of Congress</orgName>
           <location>
             <placeName key="place.15.12.3">Washington D. C., Library of Congress</placeName>
           </location>
         </org>
         <org xml:id="org.109" type="ensemble">
-          <orgName>Löwensohn Quartett</orgName>
+          <orgName type="reg">Löwensohn Quartett</orgName>
         </org>
         <org xml:id="org.110" type="education">
-          <orgName>Malkin Conservatory</orgName>
+          <orgName type="reg">Malkin Conservatory</orgName>
           <location>
             <placeName key="place.15.1.4">Boston, 229 Beacon Street</placeName>
           </location>
         </org>
         <org xml:id="org.111" type="business">
-          <orgName>May Company</orgName>
+          <orgName type="reg">May Company</orgName>
           <location>
             <placeName key="place.15.7.1.3">Los Angeles, 6067 Wilshire Blvd.</placeName>
           </location>
         </org>
         <org xml:id="org.112" type="journal">
-          <orgName>Melos</orgName>
+          <orgName type="reg">Melos</orgName>
           <location>
             <placeName key="place.2.41.1">Niederschönhausen, Lindenstr. 35b</placeName>
           </location>
         </org>
         <org xml:id="org.113" type="journal">
-          <orgName>Der Merker</orgName>
+          <orgName type="reg">Der Merker</orgName>
           <location>
             <placeName key="place.9.11.1.3">Wien, Alsergrund (IX.), Schwarzspanierhof</placeName>
           </location>
         </org>
         <org xml:id="org.114" type="education">
-          <orgName>Moskauer Konservatorium</orgName>
+          <orgName type="reg">Moskauer Konservatorium</orgName>
           <location>
             <placeName key="place.10.1.1">Moskau, Bol'shaya Nikitskaya Ulitsa, 13/6</placeName>
           </location>
         </org>
         <org xml:id="org.115" type="association">
           <idno type="URI">https://d-nb.info/gnd/1212674-3</idno>
-          <orgName>Music Teachers National Association</orgName>
+          <orgName type="reg">Music Teachers National Association</orgName>
           <location>
             <placeName key="place.15.8.9">New York, 338 West 89th Street</placeName>
           </location>
         </org>
         <org xml:id="org.117" type="education">
-          <orgName>Musikhistorisches Institut Wien</orgName>
+          <orgName type="reg">Musikhistorisches Institut Wien</orgName>
           <location>
             <placeName key="place.9.11.1.6">Wien, Alsergrund (IX.), Türkenstr. 3</placeName>
           </location>
         </org>
         <org xml:id="org.118" type="education">
           <idno type="URI">https://d-nb.info/gnd/2102634-8</idno>
-          <orgName>Musikhochschule Mainz</orgName>
+          <orgName type="reg">Musikhochschule Mainz</orgName>
           <location>
             <placeName key="place.2.21.1">Mainz, Jakob-Welder-Weg 28</placeName>
           </location>
         </org>
         <org xml:id="org.119" type="ensemble">
           <idno type="URI">https://d-nb.info/gnd/1007842-3</idno>
-          <orgName>Musikhochschule Mainz</orgName>
+          <orgName type="reg">Musikhochschule Mainz</orgName>
           <location>
             <placeName key="place.11.5.1">Winterthur, Rychenbergstr. 94</placeName>
           </location>
         </org>
         <org xml:id="org.120" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/4028218-1</idno>
-          <orgName>Nationaltheater Prag</orgName>
+          <orgName type="reg">Nationaltheater Prag</orgName>
           <location>
             <placeName key="place.13.1.2.2">Prag, Neustadt (II.), Národní 2</placeName>
           </location>
         </org>
         <org xml:id="org.121" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/3042019-2</idno>
-          <orgName>Neues Deutsches Theater Prag</orgName>
+          <orgName type="reg">Neues Deutsches Theater Prag</orgName>
           <location>
             <placeName key="place.13.1.1.2">Prag, Altstadt (I.), Obstmarkt 540</placeName>
           </location>
         </org>
         <org xml:id="org.122" type="journal">
-          <orgName>Neues Wiener Journal</orgName>
+          <orgName type="reg">Neues Wiener Journal</orgName>
           <location>
             <placeName key="place.9.11.6.2">Wien, Innere Stadt (I.), Biberstr. 5</placeName>
           </location>
         </org>
         <org xml:id="org.123" type="business">
-          <orgName>Norddeutscher Lloyd</orgName>
+          <orgName type="reg">Norddeutscher Lloyd</orgName>
           <idno type="URI">https://d-nb.info/gnd/2020453-X</idno>
           <location>
             <placeName key="place.2.5.1">Bremen, Papenstr. 6</placeName>
           </location>
         </org>
         <org xml:id="org.124" type="publisher">
-          <orgName>Nordisk Musikforlag</orgName>
+          <orgName type="reg">Nordisk Musikforlag</orgName>
           <location>
             <placeName key="place.1.1">Kopenhagen</placeName>
           </location>
         </org>
         <org xml:id="org.125" type="other">
           <idno type="URI">https://d-nb.info/gnd/69026-0</idno>
-          <orgName>Office of Alien Property Custodian</orgName>
+          <orgName type="reg">Office of Alien Property Custodian</orgName>
           <location>
             <placeName key="place.15.12.2">Washington. D. C., 950 Pennsylvania Avenue</placeName>
           </location>
         </org>
         <org xml:id="org.126" type="business">
           <idno type="URI">https://d-nb.info/gnd/2029439-6</idno>
-          <orgName>Österreichische Postsparkasse</orgName>
+          <orgName type="reg">Österreichische Postsparkasse</orgName>
           <location>
             <placeName key="place.9.11.6.28">Wien, Innere Stadt (I.), Georg-Coch-Platz 2</placeName>
           </location>
         </org>
         <org xml:id="org.127" type="journal">
           <idno type="URI">https://d-nb.info/gnd/2108446-4</idno>
-          <orgName>Pan-Presse</orgName>
+          <orgName type="reg">Pan-Presse</orgName>
           <location>
             <placeName key="place.2.3.4.9">Berlin, Mitte, Victoriastr. 35</placeName>
           </location>
         </org>
         <org xml:id="org.128" type="other">
           <idno type="URI">https://d-nb.info/gnd/41792-0</idno>
-          <orgName>K. k. Patentamt</orgName>
+          <orgName type="reg">K. k. Patentamt</orgName>
         </org>
         <org xml:id="org.129" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/38136-6</idno>
-          <orgName>Verlag Paul Cassirer</orgName>
+          <orgName type="reg">Verlag Paul Cassirer</orgName>
           <location>
             <placeName key="place.2.3.4.9">Berlin, Mitte, Victoriastr. 35</placeName>
           </location>
         </org>
         <org xml:id="org.130" type="business">
-          <orgName>Pelzhaus E. Horovitz &amp; Co.</orgName>
+          <orgName type="reg">Pelzhaus E. Horovitz &amp; Co.</orgName>
           <location>
             <placeName key="place.9.11.6.15">Wien, Innere Stadt (I.), Neuer Markt 13</placeName>
           </location>
         </org>
         <org xml:id="org.131" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330044168</idno>
-          <orgName>Wiener Philharmonischer Verlag</orgName>
+          <orgName type="reg">Wiener Philharmonischer Verlag</orgName>
           <location>
             <placeName key="place.9.11.12.1">Wien, Wieden (IV.), Suttnerplatz 10</placeName>
           </location>
         </org>
         <org xml:id="org.132" type="ensemble">
           <idno type="URI">https://d-nb.info/gnd/801194-1</idno>
-          <orgName>Philadelphia Orchestra</orgName>
+          <orgName type="reg">Philadelphia Orchestra</orgName>
           <location>
             <placeName key="place.15.10.1">Philadelphia, 240 S. Broad Street</placeName>
           </location>
         </org>
         <org xml:id="org.133" type="ensemble">
-          <orgName>Philharmonischer Chor</orgName>
+          <orgName type="reg">Philharmonischer Chor</orgName>
           <location>
             <placeName key="place.9.11.6.14">Wien, Innere Stadt (I.), Laurenzerberg 4</placeName>
           </location>
         </org>
         <org xml:id="org.134" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/1135691584</idno>
-          <orgName>Philosophical Library</orgName>
+          <orgName type="reg">Philosophical Library</orgName>
           <location>
             <placeName key="place.15.8.3">New York, 15 East 40th Street</placeName>
           </location>
         </org>
         <org xml:id="org.135" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/10078672-8</idno>
-          <orgName>Piper Verlag</orgName>
+          <orgName type="reg">Piper Verlag</orgName>
           <location>
             <placeName key="place.2.24.3">München, Georgenstr. 4</placeName>
           </location>
         </org>
         <org xml:id="org.136" type="business">
           <idno type="URI">https://d-nb.info/gnd/6040260-X</idno>
-          <orgName>Pleyel</orgName>
+          <orgName type="reg">Pleyel</orgName>
           <location>
             <placeName key="place.4.3.4">Lyon, 22, 24 rue Rochechouart</placeName>
           </location>
         </org>
         <org xml:id="org.137" type="association">
           <idno type="URI">https://d-nb.info/gnd/10163790-1</idno>
-          <orgName>Wiener Tonkünstler-Verein</orgName>
+          <orgName type="reg">Wiener Tonkünstler-Verein</orgName>
           <location>
             <placeName key="place.9.11.6.24">Wien, Innere Stadt (I.), Karlsplatz 6</placeName>
             <placeName key="place.9.11.6.9">Wien, Innere Stadt (I.), Giselastr. 12</placeName>
@@ -960,52 +960,52 @@
         </org>
         <org xml:id="org.138" type="education">
           <idno type="URI">https://d-nb.info/gnd/30381-1</idno>
-          <orgName>Princeton University</orgName>
+          <orgName type="reg">Princeton University</orgName>
           <location>
             <placeName key="place.15.11.1">Princeton, Princeton University</placeName>
           </location>
         </org>
         <org xml:id="org.139" type="other">
-          <orgName>Radio Genève</orgName>
+          <orgName type="reg">Radio Genève</orgName>
           <idno type="URI">https://d-nb.info/gnd/3012509-1</idno>
         </org>
         <org xml:id="org.140" type="other">
-          <orgName>Radio Wien</orgName>
+          <orgName type="reg">Radio Wien</orgName>
           <idno type="URI">https://d-nb.info/gnd/10320772-7</idno>
         </org>
         <org xml:id="org.141" type="ensemble">
-          <orgName>Rebner Quartett</orgName>
+          <orgName type="reg">Rebner Quartett</orgName>
         </org>
         <org xml:id="org.142" type="business">
           <idno type="URI">https://d-nb.info/gnd/4611240-6</idno>
-          <orgName>Red Star Line</orgName>
+          <orgName type="reg">Red Star Line</orgName>
           <location>
             <placeName key="place.16.2">Antwerpen</placeName>
           </location>
         </org>
         <org xml:id="org.143" type="journal">
           <idno type="URI">https://d-nb.info/123582649X</idno>
-          <orgName>Rheinische Musik- und Theaterzeitung</orgName>
+          <orgName type="reg">Rheinische Musik- und Theaterzeitung</orgName>
           <location>
             <placeName key="place.2.18">Köln</placeName>
           </location>
         </org>
         <org xml:id="org.144" type="ensemble">
           <idno type="URI">https://d-nb.info/gnd/10298369-0</idno>
-          <orgName>Rosé-Quartett</orgName>
+          <orgName type="reg">Rosé-Quartett</orgName>
           <location>
             <placeName key="place.9.11">Wien</placeName>
           </location>
         </org>
         <org xml:id="org.145" type="business">
           <idno type="URI">https://d-nb.info/gnd/4836839-8</idno>
-          <orgName>Rózsavölgyi és Társa</orgName>
+          <orgName type="reg">Rózsavölgyi és Társa</orgName>
           <location>
             <placeName key="place.14.1.1.1">Budapest, Belváros (IV.), Kristóf tér 3</placeName>
           </location>
         </org>
         <org xml:id="org.146" type="business">
-          <orgName>Ruch</orgName>
+          <orgName type="reg">Ruch</orgName>
           <note>Klavierbauer, Verbindung zu Beal Freres?</note>
         </org>
         <org xml:id="org.147" type="publisher">
@@ -1019,7 +1019,7 @@
         </org>
         <org xml:id="org.148" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/43325-1</idno>
-          <orgName>S. Fischer</orgName>
+          <orgName type="reg">S. Fischer</orgName>
           <location>
             <placeName key="place.2.3.6.2">Berlin, Schöneberg, Bülowstr. 90</placeName>
           </location>
@@ -1033,28 +1033,28 @@
           </location>
         </org>
         <org xml:id="org.151" type="ensemble">
-          <orgName>Sängerchor des Lehrervereins zu Frankfurt</orgName>
+          <orgName type="reg">Sängerchor des Lehrervereins zu Frankfurt</orgName>
           <location>
             <placeName key="place.2.13.2">Frankfurt, Schneckenhofstr. 20</placeName>
           </location>
         </org>
         <org xml:id="org.152" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/5325296-2</idno>
-          <orgName>Schuster &amp; Loeffler</orgName>
+          <orgName type="reg">Schuster &amp; Loeffler</orgName>
           <location>
             <placeName key="place.2.13.2">Frankfurt, Schneckenhofstr. 20</placeName>
           </location>
         </org>
         <org xml:id="org.153" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330273035</idno>
-          <orgName>Maurice Senart</orgName>
+          <orgName type="reg">Maurice Senart</orgName>
           <location>
             <placeName key="place.4.4.4.2">Paris, Luxembourg (VI.), 20 rue du Dragon</placeName>
           </location>
         </org>
         <org xml:id="org.154" type="journal">
           <idno type="URI">https://d-nb.info/gnd/4181268-2</idno>
-          <orgName>Signale für die musikalische Welt</orgName>
+          <orgName type="reg">Signale für die musikalische Welt</orgName>
           <location>
             <placeName key="place.2.3.4.10">Berlin, Mitte, Potsdamer Straße 123</placeName>
             <placeName key="place.9.11.12.2">Wien, Wieden (IV.), Starhemberggasse 37</placeName>
@@ -1062,28 +1062,28 @@
         </org>
         <org xml:id="org.155" type="publisher">
           <idno type="URI">https://d-nb.info/dnbn/330187694</idno>
-          <orgName>Simrock</orgName>
+          <orgName type="reg">Simrock</orgName>
           <location>
             <placeName key="place.2.3.1.6">Berlin, Charlottenburg, Tauentzienstr. 7B</placeName>
           </location>
         </org>
         <org xml:id="org.156" type="association">
           <idno type="URI">https://d-nb.info/gnd/1055424-5</idno>
-          <orgName>Société des auteurs, compositeurs et éditeurs de musique</orgName>
+          <orgName type="reg">Société des auteurs, compositeurs et éditeurs de musique</orgName>
           <location>
             <placeName key="place.4.4.5.5">Paris, Opéra (IX.), 9 rue Ballu</placeName>
           </location>
         </org>
         <org xml:id="org.157" type="association">
           <idno type="URI">https://d-nb.info/gnd/403460-0</idno>
-          <orgName>Société Internationale de Musique Française</orgName>
+          <orgName type="reg">Société Internationale de Musique Française</orgName>
           <location>
             <placeName key="place.4.4.5.6">Paris, Opéra (IX.), 10 rue Chaptal</placeName>
           </location>
         </org>
         <org xml:id="org.158" type="association">
           <idno type="URI">https://d-nb.info/gnd/403460-0</idno>
-          <orgName>Société Internationale de Musique Française </orgName>
+          <orgName type="reg">Société Internationale de Musique Française </orgName>
           <location>
             <placeName key="place.4.4.5.6">Paris, Opéra (IX.), 10 rue Chaptal</placeName>
           </location>
@@ -1098,7 +1098,7 @@
         </org>
         <org xml:id="org.160" type="education">
           <idno type="URI">https://d-nb.info/gnd/402005-4</idno>
-          <orgName>K.K. Staats-Gewerbeschule im 10. Wiener Gemeindebezirke</orgName>
+          <orgName type="reg">K.K. Staats-Gewerbeschule im 10. Wiener Gemeindebezirke</orgName>
           <location>
             <placeName key="place.9.11.13.1">Wien, Favoriten (X.), Eugengasse 81</placeName>
           </location>
@@ -1107,14 +1107,14 @@
         </org>
         <org xml:id="org.161" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/2002200-1</idno>
-          <orgName>Staatsoper Dresden</orgName>
+          <orgName type="reg">Staatsoper Dresden</orgName>
           <location>
             <placeName key="place.2.10.2">Dresden, Theaterplatz 2</placeName>
           </location>
         </org>
         <org xml:id="org.162" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/2042913-7</idno>
-          <orgName>Staatstheater Wiesbaden</orgName>
+          <orgName type="reg">Staatstheater Wiesbaden</orgName>
           <location>
             <placeName key="place.2.36.1">Wiesbaden, Christian-Zais-Straße 3</placeName>
           </location>
@@ -1130,181 +1130,181 @@
           </location>
         </org>
         <org xml:id="org.164">
-          <orgName>Steinway-Gesellschaft</orgName>
+          <orgName type="reg">Steinway-Gesellschaft</orgName>
           <note>ungeklärt</note>
         </org>
         <org xml:id="org.165" type="education">
           <idno type="URI">https://d-nb.info/gnd/45352-3</idno>
-          <orgName>Stern'sches Konservatorium</orgName>
+          <orgName type="reg">Stern'sches Konservatorium</orgName>
           <location>
             <placeName key="place.2.3.10.1">Berlin, Kreuzberg, Bernburger Str. 22a</placeName>
           </location>
         </org>
         <org xml:id="org.166" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/1022253-4</idno>
-          <orgName>Teatro alla Scala</orgName>
+          <orgName type="reg">Teatro alla Scala</orgName>
           <location>
             <placeName key="place.5.7.2">Mailand, Via Filodrammatici 2</placeName>
           </location>
         </org>
         <org xml:id="org.167" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/4280762-1</idno>
-          <orgName>Teatro Eliseo</orgName>
+          <orgName type="reg">Teatro Eliseo</orgName>
           <location>
             <placeName key="place.5.5.2">Rom, Via Nazionale 183</placeName>
           </location>
         </org>
         <org xml:id="org.168" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/1041381-9</idno>
-          <orgName>Teatro la fenice</orgName>
+          <orgName type="reg">Teatro la fenice</orgName>
           <location>
             <placeName key="place.5.6.1">Venedig, Campo S. Fantin</placeName>
           </location>
         </org>
         <org xml:id="org.169" type="journal">
-          <orgName>The Chesterian</orgName>
+          <orgName type="reg">The Chesterian</orgName>
           <location>
             <placeName key="place.3.1.1">London, 11 Great Marlborough Street</placeName>
           </location>
         </org>
         <org xml:id="org.170" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/814199-X</idno>
-          <orgName>Theater an der Wien</orgName>
+          <orgName type="reg">Theater an der Wien</orgName>
           <location>
             <placeName key="place.9.11.9.3">Wien, Mariahilf (VI.), Linke Wienzeile 6</placeName>
           </location>
         </org>
         <org xml:id="org.171" type="theatre">
           <idno type="URI">https://d-nb.info/gnd/500378-7</idno>
-          <orgName>Theater Duisburg</orgName>
+          <orgName type="reg">Theater Duisburg</orgName>
           <location>
             <placeName key="place.2.11.1">Duisburg, Neckarstr. 1</placeName>
           </location>
         </org>
         <org xml:id="org.172" type="ensemble">
-          <orgName>Wiener Tonkünstler-Orchester</orgName>
+          <orgName type="reg">Wiener Tonkünstler-Orchester</orgName>
           <!-- XXX welches Orchester ist das?? -->
         </org>
         <org xml:id="org.173" type="ensemble">
-          <orgName>Trigintuor Instrumental Lyonanais</orgName>
+          <orgName type="reg">Trigintuor Instrumental Lyonanais</orgName>
           <location>
             <placeName key="place.4.3">Lyon</placeName>
           </location>
         </org>
         <org xml:id="org.174" type="association">
-          <orgName>Ungarischer Tonkünstler Verein</orgName>
+          <orgName type="reg">Ungarischer Tonkünstler Verein</orgName>
           <location>
             <placeName key="place.4.3">Lyon</placeName>
           </location>
         </org>
         <org xml:id="org.175" type="ensemble">
           <idno type="URI">https://d-nb.info/gnd/1212439-4</idno>
-          <orgName>Ungarisches Streichquartet</orgName>
+          <orgName type="reg">Ungarisches Streichquartet</orgName>
           <location>
             <placeName key="place.14.1">Budapest</placeName>
           </location>
         </org>
         <org xml:id="org.176" type="education">
           <idno type="URI">https://d-nb.info/gnd/1022548-1</idno>
-          <orgName>Universität Perugia</orgName>
+          <orgName type="reg">Universität Perugia</orgName>
           <location>
             <placeName key="place.5.4.1">Budapest</placeName>
           </location>
         </org>
         <org xml:id="org.177" type="education">
           <idno type="URI">https://d-nb.info/gnd/2144203-4</idno>
-          <orgName>Volkshochschule Urania</orgName>
+          <orgName type="reg">Volkshochschule Urania</orgName>
           <location>
             <placeName key="place.9.11.6.22">Budapest</placeName>
           </location>
         </org>
         <org xml:id="org.178" type="association">
           <idno type="URI">https://d-nb.info/gnd/2080000-9</idno>
-          <orgName>Verein für musikalische Privataufführungen</orgName>
+          <orgName type="reg">Verein für musikalische Privataufführungen</orgName>
           <location>
             <placeName key="place.9.11.1.5">Wien, Alsergrund (IX.), Türkenstr. 17</placeName>
           </location>
         </org>
         <org xml:id="org.179" type="ensemble">
           <idno type="URI">https://d-nb.info/gnd/5155083-0</idno>
-          <orgName>Végh Quartett</orgName>
+          <orgName type="reg">Végh Quartett</orgName>
           <location>
             <placeName key="place.14.1">Budapest</placeName>
           </location>
         </org>
         <org xml:id="org.180" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/1044029129</idno>
-          <orgName>Dreililien-Verlag</orgName>
+          <orgName type="reg">Dreililien-Verlag</orgName>
           <location>
             <placeName key="place.2.3.3.1">Berlin, Halensee, Georg Wilhelm-Str. 22</placeName>
           </location>
         </org>
         <org xml:id="org.181" type="collectingsociety">
           <idno type="URI">https://d-nb.info/gnd/16119482-5</idno>
-          <orgName>Verband zum Schutze Musikalischer Aufführungsrechte für Deutschland</orgName>
+          <orgName type="reg">Verband zum Schutze Musikalischer Aufführungsrechte für Deutschland</orgName>
           <location>
             <placeName key="place.2.3">Berlin</placeName>
           </location>
         </org>
         <org xml:id="org.182" type="association">
-          <orgName>Verein für neue Musik</orgName>
+          <orgName type="reg">Verein für neue Musik</orgName>
           <location>
             <placeName key="place.2.3">Wien, Innere Stadt (I.), Elisabethstr. 13</placeName>
           </location>
         </org>
         <org xml:id="org.183" type="business">
           <idno>http://d-nb.info/gnd/1085720926</idno>
-          <orgName>Victor Talking Machine Company</orgName>
+          <orgName type="reg">Victor Talking Machine Company</orgName>
           <location>
             <placeName key="place.15.3.1">Camden, Front and Cooper Street</placeName>
           </location>
         </org>
         <org xml:id="org.184" type="theatre">
           <idno>https://d-nb.info/gnd/1212284-1</idno>
-          <orgName>Volksoper Wien</orgName>
+          <orgName type="reg">Volksoper Wien</orgName>
           <location>
             <placeName key="place.9.11.1.7">Wien, Alsergrund (IX.), Währinger Str. 78</placeName>
           </location>
         </org>
         <org xml:id="org.185" type="journal">
           <idno>https://d-nb.info/gnd/1084661985</idno>
-          <orgName>Vossische Zeitung</orgName>
+          <orgName type="reg">Vossische Zeitung</orgName>
           <location>
             <placeName key="place.2.3.10.4">Berlin, Kreuzberg, Kochstr. 22-26</placeName>
           </location>
         </org>
         <org xml:id="org.186" type="publisher">
           <idno>https://d-nb.info/gnd/6119809-2</idno>
-          <orgName>Waldheim-Eberle</orgName>
+          <orgName type="reg">Waldheim-Eberle</orgName>
           <location>
             <placeName key="place.9.11.11.2">Wien, Neubau (VII.), Seidengasse 3-9</placeName>
           </location>
         </org>
         <org xml:id="org.187" type="ensemble">
-          <orgName>Wiener Bläser Vereinigung</orgName>
+          <orgName type="reg">Wiener Bläser Vereinigung</orgName>
         </org>
         <org xml:id="org.188" type="other">
-          <orgName>Wiener Curanstalt</orgName>
+          <orgName type="reg">Wiener Curanstalt</orgName>
         </org>
         <org xml:id="org.189" type="publisher">
-          <orgName>Witmark Educational Publications</orgName>
+          <orgName type="reg">Witmark Educational Publications</orgName>
           <location>
             <placeName key="place.15.8.11">New York, 619 West 54th Street</placeName>
           </location>
         </org>
         <org xml:id="org.190" type="ensemble">
-          <orgName>Waldbauer Quartett</orgName>
+          <orgName type="reg">Waldbauer Quartett</orgName>
           <location>
             <placeName key="place.14.1">Budapest</placeName>
           </location>
         </org>
         <org xml:id="org.191" type="journal">
           <idno>https://d-nb.info/013874969</idno>
-          <orgName>Pult und Taktstock</orgName>
+          <orgName type="reg">Pult und Taktstock</orgName>
         </org>
         <org xml:id="org.192" type="journal">
           <idno/>
-          <orgName>Neue Blätter</orgName>
+          <orgName type="reg">Neue Blätter</orgName>
         </org>
       </listOrg>
     </body>
