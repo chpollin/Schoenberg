@@ -19,61 +19,2812 @@
     <text>
         <body>
             <listPlace>
-                <place xml:id="place.1" type="country">
-                    <placeName type="reg">Österreich</placeName>
-                    <idno type="uri">http://www.geonames.org/2782113</idno>
-                    <place xml:id="place.1.1" type="settlement">
-                        <placeName type="reg">Wien</placeName>
-                        <idno type="uri">http://www.geonames.org/2761369</idno>
-                        <place xml:id="place.1.1.1" type="district">
-                            <placeName type="reg">XIII</placeName>
-                            <placeName type="alt">Hietzing</placeName>
-                            <idno type="uri">http://www.geonames.org/2776421</idno>
-                            <place xml:id="place.1.1.1.1" type="street">
-                                <placeName type="reg">Hietzinger Hauptstrasse</placeName>
-                                <place xml:id="automatisch5" type="building">
-                                    <placeName type="reg">Hietzinger Hauptstrasse 113</placeName>
-                                    <placeName type="alt">Hotel Fürstenhof</placeName>
-                                    <!-- ASUE Wo können wir Angaben wie z.B. Hotel Fürstenhof (Hotels gibt es relativ häufig) unterbringen, bräuchte es hierzu noch ein eigenes Element, oder könnte man das in "building" inkudieren? -->
-                                    <location>
-                                        <geo>41.891775, 12.486137</geo>
-                                    </location>
-                                </place>
-                            </place>
-                        </place>
-                        <place xml:id="place.1.1.2" type="district">
-                            <placeName type="reg">I</placeName>
-                            <place xml:id="place.1.1.2.1">
-                                <placeName>WIEN. I. KARLSPLATZ 6</placeName>
-                            </place>
-                        </place>
-                        <place xml:id="place.1.1.3" type="district">
-                            <placeName type="reg">IX</placeName>
-                            <place xml:id="place.1.1.3.1">
-                                <placeName>IX. Liechtensteinstrasse 63/70</placeName>
-                            </place>
-                        </place>
-                    </place>
-                </place>
-                <place xml:id="place.2" type="country">
-                    <placeName>Deutschland</placeName>
-                    <place xml:id="place.2.1" type="settlement">
-                        <placeName>Berlin</placeName>
-                        <place xml:id="place.2.1.1" type="district">
-                            <placeName>Berlin-Südende</placeName>
-                            <place xml:id="place.2.1.1.1" type="building">
-                                <placeName>Berlinerstr. 17a, I.</placeName>
-                            </place>
-                        </place>
-                    </place>
-                    <place xml:id="place.2.2" type="settlement">
-                        <placeName>Mannheim</placeName>
-                        <place xml:id="place.2.2.1" type="district">
-                            <placeName>Schillerplatz</placeName>
-                        </place>
-                    </place>
-                </place> 
-            </listPlace>
+        <place xml:id="place.1" type="country">
+          <placeName type="reg">Dänemark</placeName>
+          <location>
+            <geo>55.670249, 10.3333283</geo>
+          </location>
+          <!-- PHILIPP den type der idno schlägt oxygen im moment als "URI" vor, anstatt "uri". hat das eine bedeutung? -->
+          <idno type="uri">http://sws.geonames.org/2623032</idno>
+          <place xml:id="place.1.1" type="settlement">
+            <placeName type="reg">Kopenhagen</placeName>
+            <location>
+              <geo>55.6867243, 12.5700724</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2618425</idno>
+            <place xml:id="place.1.1.1" type="building">
+              <placeName type="reg">Gothersgade 9-11</placeName>
+              <location>
+                <geo>55.68157098944504, 12.58437714034035</geo>
+              </location>
+            </place>
+            <place xml:id="place.1.1.2" type="building">
+              <placeName type="reg">Kongens Nytorv 34</placeName>
+              <placeName type="alt">Hotel D'Angleterre</placeName>
+              <location>
+                <geo>55.680804759672306, 12.584571082901078</geo>
+              </location>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.2" type="country">
+          <placeName type="reg">Deutschland</placeName>
+          <location>
+            <geo>51.0834196, 10.4234469</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/2921044</idno>
+          <place xml:id="place.2.1" type="settlement">
+            <placeName type="reg">Augsburg</placeName>
+            <location>
+              <geo>48.3668041, 10.8986971</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2954172</idno>
+            <place xml:id="place.2.1.1" type="building">
+              <placeName type="reg">Annastraße D 260</placeName>
+              <location>
+                <geo>48.36700633664233, 10.895045226743752</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.2" type="settlement">
+            <placeName type="reg">Berg (Starnberger See)</placeName>
+            <location>
+              <geo>47.9092703, 11.308362557857567</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2950767</idno>
+            <place xml:id="place.2.2.1" type="building">
+              <placeName type="reg">Seeshaupter Straße 14</placeName>
+              <location>
+                <geo>47.9686314, 11.3560278</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.3" type="settlement">
+            <placeName type="reg">Berlin</placeName>
+            <location>
+              <geo>52.5170365, 13.3888599</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2950159</idno>
+            <place xml:id="place.2.3.1" type="district">
+              <placeName type="reg">Charlottenburg</placeName>
+              <location>
+                <geo>52.515747, 13.3096834</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2940187</idno>
+              <place xml:id="place.2.3.1.1" type="building">
+                <placeName type="reg">Hebbelstrasse 20</placeName>
+                <location>
+                  <geo>52.515486609089635, 13.29958640208519</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.1.2" type="building">
+                <placeName type="reg">Kantstraße 4</placeName>
+                <location>
+                  <geo>52.50552288962633, 13.332894613873579</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.1.3" type="building">
+                <placeName type="reg">Kurfürstendamm 203/III</placeName>
+                <location>
+                  <geo>52.5018497, 13.3225613</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.1.4" type="building">
+                <placeName type="reg">Mommsenstraße 43</placeName>
+                <location>
+                  <geo>52.50345114902283, 13.306593295727208</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.1.5" type="building">
+                <placeName type="reg">Steinplatz 2</placeName>
+                <placeName type="alt">Pension Bavaria</placeName>
+                <location>
+                  <geo>52.50839, 13.325</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.1.6" type="building">
+                <placeName type="reg">Tauentzienstraße 7B</placeName>
+                <location>
+                  <geo>52.50381371772942, 13.339446585038187</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.1.7" type="building">
+                <placeName type="reg">Adolf-Hitler-Platz 7-11</placeName>
+                <location>
+                  <geo>52.50858371440862, 13.271456298446086</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.2" type="district">
+              <placeName type="reg">Grünau</placeName>
+              <location>
+                <geo>52.404853508129825, 13.593526904546245</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2914477</idno>
+            </place>
+            <place xml:id="place.2.3.3" type="district">
+              <placeName type="reg">Halensee</placeName>
+              <location>
+                <geo>52.4972262, 13.2929986</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2911560</idno>
+              <place xml:id="place.2.3.3.1" type="building">
+                <placeName type="reg">Georg Wilhelm-Straße 22</placeName>
+                <location>
+                  <geo>52.498341, 13.290106</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.3.2" type="building">
+                <placeName type="reg">Halberstädterstraße 6</placeName>
+                <location>
+                  <geo>52.494818854024814, 13.294002745002711</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.4" type="district">
+              <placeName type="reg">Mitte</placeName>
+              <location>
+                <geo>52.5178855, 13.4040601</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/6545310</idno>
+              <place xml:id="place.2.3.4.1" type="building">
+                <placeName type="reg">Potsdamer Platz</placeName>
+                <placeName type="alt">Hotel Fürstenhof</placeName>
+                <location>
+                  <geo>52.50900789875489, 13.377402916030249</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.2" type="building">
+                <placeName type="reg">Schumannstraße 13a</placeName>
+                <location>
+                  <geo>52.524174230724086, 13.382049313671581</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.3" type="building">
+                <placeName type="reg">Leipziger Straße 37</placeName>
+                <location>
+                  <geo>52.5101481778001, 13.386664312026042</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.4" type="building">
+                <placeName type="reg">Potsdamer Straße 10</placeName>
+                <location>
+                  <geo>52.507110930381664, 13.37113055533492</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.5" type="building">
+                <placeName type="reg">Potsdamer Straße 22</placeName>
+                <location>
+                  <geo>52.50605932576852, 13.370177937017466</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.6" type="building">
+                <placeName type="reg">Wilhelmstraße 57/58</placeName>
+                <location>
+                  <geo>52.51134690690473, 13.38376680041425</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.7" type="building">
+                <placeName type="reg">Schellingstraße 9</placeName>
+                <location>
+                  <geo>52.505746084339776, 13.373562227367453</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.8" type="building">
+                <placeName type="reg">Linkstraße 42</placeName>
+                <location>
+                  <geo>52.507376551867345, 13.374955646081588 </geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.9" type="building">
+                <placeName type="reg">Victoriastraße 35</placeName>
+                <location>
+                  <geo>52.50924040188012, 13.369549424162555</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.4.10" type="building">
+                <placeName type="reg">Potsdamer Straße 123</placeName>
+                <location>
+                  <geo>52.50540964504886, 13.368047875239506</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.5" type="district">
+              <placeName type="reg">Prenzlauer Tor</placeName>
+              <location>
+                <geo>53.50153655, 13.987178199999997</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2852217</idno>
+              <place xml:id="place.2.3.5.1" type="building">
+                <placeName type="reg">Lettestraße 9</placeName>
+                <location>
+                  <geo>52.5437884, 13.4182999</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.6" type="district">
+              <placeName type="reg">Schöneberg</placeName>
+              <location>
+                <geo>52.482157, 13.3551901</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2836788</idno>
+              <place xml:id="place.2.3.6.1" type="building">
+                <placeName type="reg">Bülowstraße 88</placeName>
+                <location>
+                  <geo>52.497997614065504, 13.360618311196829</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.6.2" type="building">
+                <placeName type="reg">Bülowstraße 90</placeName>
+                <location>
+                  <geo>52.498511790784804, 13.360470127604394</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.6.3" type="building">
+                <placeName type="reg">Bülowstraße 107</placeName>
+                <location>
+                  <geo>52.49934660223452, 13.356587940861138</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.6.4" type="building">
+                <placeName type="reg">Motzstraße 31</placeName>
+                <location>
+                  <geo>52.49903476462523, 13.348095944457999</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.7" type="district">
+              <placeName type="reg">Tiergarten</placeName>
+              <location>
+                <geo>50.3409222, 6.956329</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2822224</idno>
+              <place xml:id="place.2.3.7.1" type="building">
+                <placeName type="reg">Lützowstraße 83</placeName>
+                <location>
+                  <geo>52.50331914892931, 13.36356250125077</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.8" type="district">
+              <placeName type="reg">Westend</placeName>
+              <location>
+                <geo>52.5133992, 13.2558416</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2810538</idno>
+              <place xml:id="place.2.3.8.1" type="building">
+                <placeName type="reg">Nussbaum-Allee 17</placeName>
+                <location>
+                  <geo>52.51800738090323, 13.272727161714771</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.9" type="district">
+              <placeName type="reg">Wilmersdorf</placeName>
+              <location>
+                <geo>52.4871152, 13.3203298</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2808473</idno>
+              <place xml:id="place.2.3.9.1" type="building">
+                <placeName type="reg">Nürnbergerplatz 3</placeName>
+                <location>
+                  <geo>52.4986290907148, 13.33492902885633</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.9.2" type="building">
+                <placeName type="reg">Schaperstraße 1</placeName>
+                <location>
+                  <geo>52.49888674730009, 13.334050169677885</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.10" type="district">
+              <placeName type="reg">Kreuzberg</placeName>
+              <location>
+                <geo>52.49973, 13.40338</geo>
+              </location>
+              <idno type="uri">https://sws.geonames.org/2884161</idno>
+              <place xml:id="place.2.3.10.1" type="building">
+                <placeName type="reg">Bernburger Straße 22</placeName>
+                <location>
+                  <geo>52.505432634035586, 13.37748376969663</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.10.2" type="building">
+                <placeName type="reg">Neuenburgerstraße 15</placeName>
+                <location>
+                  <geo>52.49992076717048, 13.397955103258097</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.10.3" type="building">
+                <placeName type="reg">Königgrätzer Straße 112/113</placeName>
+                <placeName type="alt">Hotel Excelsior</placeName>
+                <location>
+                  <geo>52.504109779712095, 13.383196066521506</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.10.4" type="building">
+                <placeName type="reg">Kochstraße 22-26</placeName>
+                <location>
+                  <geo>52.50671694709212, 13.393122327673538</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.3.11" type="district">
+              <placeName type="reg">Grunewald</placeName>
+              <location>
+                <geo>52.48344379956502, 13.26530747582437</geo>
+              </location>
+              <idno type="uri">https://sws.geonames.org/2914210</idno>
+              <place xml:id="place.2.3.11.1">
+                <placeName type="reg">Hohenzollerndamm 46/47</placeName>
+                <location>
+                  <geo>52.48862889134489, 13.303124777319209 </geo>
+                </location>
+              </place>
+            </place>
+          </place>
+          <place xml:id="place.2.4" type="settlement">
+            <placeName type="reg">Berlin-Wilmersdorf</placeName>
+            <location>
+              <geo>52.4871152, 13.3203298</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2808473</idno>
+            <place xml:id="place.2.4.1" type="district">
+              <placeName type="reg">Halensee</placeName>
+              <location>
+                <geo>52.4972262, 13.2929986</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2911560</idno>
+              <place xml:id="place.2.4.1.1" type="building">
+                <placeName type="reg">Georg Wilhelm-Straße 22</placeName>
+                <location>
+                  <geo>52.498341, 13.290106</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.4.1.2" type="building">
+                <placeName type="reg">Halberstädterstraße 6</placeName>
+                <location>
+                  <geo>52.494818854024814, 13.294002745002711</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.2.4.2" type="building">
+              <placeName type="reg">Jenaer Straße 26</placeName>
+              <location>
+                <geo>52.49142383396117, 13.335872164205936</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.5" type="settlement">
+            <placeName type="reg">Bremen</placeName>
+            <location>
+              <geo>53.0758196, 8.8071646</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2944388</idno>
+            <place xml:id="place.2.5.1" type="building">
+              <placeName type="reg">Papenstraße 6</placeName>
+              <location>
+                <geo>53.07860390389535, 8.805697304392414</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.6" type="settlement">
+            <placeName type="reg">Breslau</placeName>
+            <location>
+              <geo>51.1089776, 17.0326689</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/5908481</idno>
+            <place xml:id="place.2.6.1" type="building">
+              <placeName type="reg">Kaiser-Wilhelm-Straße 139</placeName>
+              <location>
+                <geo>51.08719654458107, 17.012363979930072</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.7" type="settlement">
+            <placeName type="reg">Carlshagen</placeName>
+            <location>
+              <geo>59.4840297, 12.702253675512104</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2892865</idno>
+            <place xml:id="place.2.7.1" type="building">
+              <placeName type="reg">Villa Concordia</placeName>
+              <location>
+                <geo>54.1131923, 13.8276934</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.8" type="settlement">
+            <placeName type="reg">Charlottenburg</placeName>
+            <location>
+              <geo>52.515747, 13.3096834</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2940187</idno>
+            <place xml:id="place.2.8.1" type="building">
+              <placeName type="reg">Bismarckstraße 34–37</placeName>
+              <location>
+                <geo>52.511925718433076, 13.308252221628235</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.8.2" type="building">
+              <placeName type="reg">Wielandstraße 14</placeName>
+              <location>
+                <geo>52.503488, 13.314954</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.9" type="settlement">
+            <placeName type="reg">Darmstadt</placeName>
+            <location>
+              <geo>49.872775, 8.651177</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2938913</idno>
+            <place xml:id="place.2.9.1" type="building">
+              <placeName type="reg">Herdweg 54</placeName>
+              <location>
+                <geo>49.863626396458315, 8.657448767409102</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.10" type="settlement">
+            <placeName type="reg">Dresden</placeName>
+            <location>
+              <geo>51.0493286, 13.7381437</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2935022</idno>
+            <place xml:id="place.2.10.1" type="building">
+              <placeName type="reg">Ferdinandstraße 4</placeName>
+              <location>
+                <geo>51.04531244233337, 13.736525245886918</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.10.2" type="building">
+              <placeName type="reg">Theaterplatz 2</placeName>
+              <location>
+                <geo>51.05451652729727, 13.735083079222738</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.11" type="settlement">
+            <placeName type="reg">Duisburg</placeName>
+            <location>
+              <geo>51.434999, 6.759562</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2934691</idno>
+            <place xml:id="place.2.11.1" type="building">
+              <placeName type="reg">Neckarstraße 1</placeName>
+              <location>
+                <geo>51.43478897019203, 6.770771830182331</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.12" type="settlement">
+            <placeName type="reg">Düsseldorf</placeName>
+            <location>
+              <geo>51.2254018, 6.7763137</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2934246</idno>
+            <place xml:id="place.2.12.1" type="building">
+              <placeName type="reg">Düsselstraße 68</placeName>
+              <location>
+                <geo>51.21283608152262, 6.7691382301822305</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.13" type="settlement">
+            <placeName type="reg">Frankfurt am Main</placeName>
+            <location>
+              <geo>50.1106444, 8.6820917</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/6553153</idno>
+            <place xml:id="place.2.13.1" type="building">
+              <placeName type="reg">Eschersheimer Landstraße 29–33</placeName>
+              <location>
+                <geo>50.12004747083183, 8.676578952214113</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.13.2" type="building">
+              <placeName type="reg">Schneckenhofstraße 20</placeName>
+              <location>
+                <geo>50.101453479187384, 8.6784690836949</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.13.3" type="building">
+              <placeName type="reg">Schwindstraße 11</placeName>
+              <location>
+                <geo>50.11841198443677, 8.658087647395519</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.13.4" type="building">
+              <placeName type="reg">Bertramstraße 8</placeName>
+              <placeName type="alt">Funkhaus am Dornbusch</placeName>
+              <location>
+                <geo>50.1374462028135, 8.675884041085121</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.14" type="settlement">
+            <placeName type="reg">Friedenau</placeName>
+            <location>
+              <geo>52.472075, 13.3296424</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2924770</idno>
+            <place xml:id="place.2.14.1" type="building">
+              <placeName type="reg">Rheingaustraße 16</placeName>
+              <location>
+                <geo>52.47205, 13.32117</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.15" type="settlement">
+            <placeName type="reg">Gautzsch</placeName>
+            <location>
+              <geo>51.2807008, 12.3571872</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2922229</idno>
+            <place xml:id="place.2.15.1" type="building">
+              <placeName type="reg">Charlottenstraße 18</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.16" type="settlement">
+            <placeName type="reg">Göhren (auf Rügen)</placeName>
+            <location>
+              <geo>54.3414, 13.73823</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2856195</idno>
+            <place xml:id="place.2.16.1" type="building">
+              <placeName type="reg">(Haus) Burg Niedeck</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.17" type="settlement">
+            <placeName type="reg">Johannisthal</placeName>
+            <location>
+              <geo>52.4459114, 13.504547</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2894755</idno>
+            <place xml:id="place.2.17.1" type="building">
+              <placeName type="reg">Friedrichstraße 2</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.18" type="settlement">
+            <placeName type="reg">Köln</placeName>
+            <location>
+              <geo>50.938361, 6.959974</geo>
+            </location>
+            <place xml:id="place.2.18.1" type="building">
+              <placeName type="reg">Marienburgerstraße 55</placeName>
+              <location>
+                <geo>50.900173715068775, 6.9663292892984305</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.18.2" type="building">
+              <placeName type="reg">Kastanienallee 20</placeName>
+              <location>
+                <geo>50.90156575148245, 6.97793781162269</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.19" type="settlement">
+            <placeName type="reg">Köslin (Koszalin)</placeName>
+            <location>
+              <geo>54.20727105, 16.217530768271565</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3095049</idno>
+          </place>
+          <place xml:id="place.2.20" type="settlement">
+            <placeName type="reg">Leipzig</placeName>
+            <location>
+              <geo>51.3406321, 12.3747329</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2879139</idno>
+            <place xml:id="place.2.20.1" type="building">
+              <placeName type="reg">Augustusplatz</placeName>
+              <location>
+                <geo>51.33987485585088, 12.381230916478335</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.2" type="building">
+              <placeName type="reg">Dresdner Straße 9</placeName>
+              <location>
+                <geo>51.33880787833936, 12.390188485045787</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.3" type="building">
+              <placeName type="reg">Gerichtsweg 5-7</placeName>
+              <location>
+                <geo>51.33859788706593, 12.395273816288254</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.4" type="building">
+              <placeName type="reg">Rossstraße 15</placeName>
+              <placeName type="alt">Hotel Hauffe</placeName>
+              <location>
+                <geo>51.33596360269, 12.380914665396038</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.5" type="building">
+              <placeName type="reg">Rossstraße 18</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+            <place xml:id="place.2.20.6" type="building">
+              <placeName type="reg">Talstraße 10</placeName>
+              <location>
+                <geo>51.335294223952914, 12.386198594795124</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.7" type="building">
+              <placeName type="reg">Wittenberger Straße 23</placeName>
+              <location>
+                <geo>51.3595727743656, 12.386369235093754</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.8" type="building">
+              <placeName type="reg">Karlstraße 10</placeName>
+              <location>
+                <geo>51.34272841720681, 12.386207523344185</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.9" type="building">
+              <placeName type="reg">Sternwartenstraße 15-20</placeName>
+              <location>
+                <geo>51.335102535078974, 12.380465585373658</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.10" type="building">
+              <placeName type="reg">Seeburgstraße 14-20</placeName>
+              <location>
+                <geo>51.33550764430616, 12.380712674133573</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.20.11" type="building">
+              <placeName type="reg">Bosestraße 1</placeName>
+              <location>
+                <geo>51.34089382276526, 12.36969259850391</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.21" type="settlement">
+            <placeName type="reg">Mainz</placeName>
+            <location>
+              <geo>50.0012314, 8.2762513</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2874225</idno>
+            <place xml:id="place.2.21.1" type="building">
+              <placeName type="reg">Jakob-Welder-Weg 28</placeName>
+              <location>
+                <geo>49.993427017300014, 8.236719249259888</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.21.2" type="building">
+              <placeName type="reg">Weihergarten</placeName>
+              <location>
+                <geo>49.99644282792512, 8.272088029768485</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.22" type="settlement">
+            <placeName type="reg">Mannheim</placeName>
+            <location>
+              <geo>49.4892913, 8.4673098</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2873891</idno>
+            <place xml:id="place.2.22.1" type="building">
+              <placeName type="reg">Mollstraße 45</placeName>
+              <location>
+                <geo>49.48089905618126, 8.479615329122606</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.22.2" type="building">
+              <placeName type="reg">Schillerplatz</placeName>
+              <location>
+                <geo>49.48660229369825, 8.462224034133115</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.23" type="settlement">
+            <placeName type="reg">Mariendorf</placeName>
+            <location>
+              <geo>52.44008, 13.3900277</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2873606</idno>
+            <place xml:id="place.2.23.1" type="district">
+              <placeName type="reg">Südende</placeName>
+              <location>
+                <geo>52.4495757, 13.3536673</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2825204</idno>
+              <place xml:id="place.2.23.1.1" type="building">
+                <placeName type="reg">Berliner Straße 17a</placeName>
+                <location>
+                  <geo>52.453926, 13.352511</geo>
+                </location>
+              </place>
+            </place>
+          </place>
+          <place xml:id="place.2.24" type="settlement">
+            <placeName type="reg">München</placeName>
+            <location>
+              <geo>48.1371079, 11.5753822</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2867713</idno>
+            <place xml:id="place.2.24.1" type="building">
+              <placeName type="reg">Ainmillerstraße 36</placeName>
+              <location>
+                <geo>48.1591033155329, 11.57849037627677</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.24.2" type="building">
+              <placeName type="reg">Arcisstraße 10</placeName>
+              <location>
+                <geo>48.146382505079366, 11.567268912514775</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.24.3" type="building">
+              <placeName type="reg">Georgenstraße 4</placeName>
+              <location>
+                <geo>48.15452698454818, 11.581311441090946</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.24.4" type="building">
+              <placeName type="reg">Karlstraße 21</placeName>
+              <location>
+                <geo>48.143219790556905, 11.565738131888054</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.24.5" type="building">
+              <placeName type="reg">Königinstraße 59</placeName>
+              <location>
+                <geo>48.151596670973845, 11.585036899823766</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.24.6" type="building">
+              <placeName type="reg">Pesenbacherstraße 4-II links</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+            <place xml:id="place.2.24.7" type="building">
+              <placeName type="reg">Prinzregenten-Platz 7</placeName>
+              <location>
+                <geo>48.14022941360577, 11.605340710465235</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.25" type="settlement">
+            <placeName type="reg">Murnau</placeName>
+            <location>
+              <geo>47.6778816, 11.2011903</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2867446</idno>
+            <place xml:id="place.2.25.1" type="building">
+              <placeName type="reg">Seidlstraße 6</placeName>
+              <location>
+                <geo>47.67389876153873, 11.202107784574228</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.26" type="settlement">
+            <placeName type="reg">Nikolassee</placeName>
+            <location>
+              <geo>52.4262495, 13.1981446</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2862423</idno>
+          </place>
+          <place xml:id="place.2.27" type="settlement">
+            <placeName type="reg">Rottach-Egern</placeName>
+            <location>
+              <geo>47.6909599, 11.7707109</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2843775</idno>
+            <place xml:id="place.2.27.1" type="building">
+              <placeName type="reg">Rottach-Egern am Tegernsee 46</placeName>
+              <location>
+                <geo>47.6897, 11.7706</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.28" type="settlement">
+            <placeName type="reg">Rügen</placeName>
+            <location>
+              <geo>54.4224525, 13.3315713</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/2843325</idno>
+          </place>
+          <place xml:id="place.2.29" type="settlement">
+            <placeName type="reg">Sassnitz (auf Rügen)</placeName>
+            <location>
+              <geo>54.5196539, 13.6425425</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2841333</idno>
+            <place xml:id="place.2.29.1" type="building">
+              <placeName type="reg">Miramareplatz</placeName>
+              <location>
+                <geo>54.51671307755866, 13.656007699087812</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.30" type="settlement">
+            <placeName type="reg">Schöneberg</placeName>
+            <location>
+              <geo>52.482157, 13.3551901</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2836788</idno>
+            <place xml:id="place.2.30.1" type="building">
+              <placeName type="reg">Kleiststraße 42</placeName>
+              <location>
+                <geo>52.49989379131748, 13.351422187483392</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.31" type="settlement">
+            <placeName type="reg">Sorenbohm (Sarbinowo)</placeName>
+            <location>
+              <geo>54.2484193, 15.9482088</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3086262</idno>
+          </place>
+          <place xml:id="place.2.32" type="settlement">
+            <placeName type="reg">Steglitz</placeName>
+            <location>
+              <geo>52.4572569, 13.3222865</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2829109</idno>
+            <place xml:id="place.2.32.1" type="building">
+              <placeName type="reg">Albrechtstraße 124</placeName>
+              <placeName type="alt">Pension Philipson</placeName>
+              <location>
+                <geo>52.4558299, 13.3249646</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.33" type="settlement">
+            <placeName type="reg">Stettin</placeName>
+            <location>
+              <geo>53.4301818, 14.5509623</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/11495656</idno>
+            <place xml:id="place.2.33.1" type="building">
+              <placeName type="reg">Dohrnstraße 1</placeName>
+              <location>
+                <geo>53.43059745139748, 14.56061182705727</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.34" type="settlement">
+            <placeName type="reg">Usedom</placeName>
+            <location>
+              <geo>53.9905064, 14.082945091597797</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2818108</idno>
+          </place>
+          <place xml:id="place.2.36" type="settlement">
+            <placeName type="reg">Wiesbaden</placeName>
+            <location>
+              <geo>50.0820384, 8.2416556</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2809346</idno>
+            <place xml:id="place.2.36.1" type="building">
+              <placeName type="reg">Christian-Zais-Straße 3</placeName>
+              <location>
+                <geo>50.0840947206834, 8.24511130001135</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.37" type="settlement">
+            <placeName type="reg">Wilmersdorf</placeName>
+            <location>
+              <geo>52.4871152, 13.3203298</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2808473</idno>
+            <place xml:id="place.2.37.1" type="building">
+              <placeName type="reg">Augsburger Straße 48, Gartenhaus IV</placeName>
+              <location>
+                <geo>52.501099715973155, 13.335851026968795</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.38" type="settlement">
+            <placeName type="reg">Zehlendorf</placeName>
+            <location>
+              <geo>52.4343217, 13.2589298</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2805059</idno>
+            <place xml:id="place.2.38.1" type="building">
+              <placeName type="reg">Hauptstraße 7</placeName>
+              <location>
+                <geo>52.43244792339897, 13.259356321697346</geo>
+              </location>
+            </place>
+            <place xml:id="place.2.38.2" type="building">
+              <placeName type="reg">Machnower Chaussee "Villa Lepcke"</placeName>
+              <location>
+                <geo>52.414618536785305, 13.244061470031738</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.39" type="settlement">
+            <placeName type="reg">Ludwigshafen am Bodensee</placeName>
+            <location>
+              <geo>47.81663, 9.06138</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2875377</idno>
+          </place>
+          <place xml:id="place.2.40" type="settlement">
+            <placeName type="reg">Hamburg</placeName>
+            <location>
+              <geo>53.55073, 9.99302</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/2911298</idno>
+            <place xml:id="place.2.40.1" type="building">
+              <placeName type="reg">Alsterdamm 25</placeName>
+              <location>
+                <geo>53.55342933095173, 9.99789659104488</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.2.41" type="settlement">
+            <placeName type="reg">Niederschönhausen</placeName>
+            <location>
+              <geo>52.58483, 13.40272</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/2862888</idno>
+            <place xml:id="place.2.41.1" type="building">
+              <placeName type="reg">Lindenstraße 35b</placeName>
+              <location>
+                <geo>52.57599982884473, 13.398935164353187</geo>
+              </location>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.3" type="country">
+          <placeName type="reg">England</placeName>
+          <location>
+            <geo>52.5310214, -1.2649062</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/2635167</idno>
+          <place xml:id="place.3.1" type="settlement">
+            <placeName type="reg">London</placeName>
+            <location>
+              <geo>51.5073219, -0.1276474</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2643743</idno>
+            <place xml:id="place.3.1.1" type="building">
+              <placeName type="reg">11 Great Marlborough Street</placeName>
+              <location>
+                <geo>51.51462354624789, -0.13838704298027618</geo>
+              </location>
+            </place>
+            <place xml:id="place.3.1.2" type="building">
+              <placeName type="reg">295 Regent Street</placeName>
+              <location>
+                <geo>51.516804454897624, -0.14278807121444234</geo>
+              </location>
+            </place>
+            <place xml:id="place.3.1.3" type="building">
+              <placeName type="reg">3 Berners Street</placeName>
+              <location>
+                <geo>51.51637234280259, -0.13601719829478315</geo>
+              </location>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.4" type="country">
+          <placeName type="reg">Frankreich</placeName>
+          <location>
+            <geo>46.603354, 1.8883335</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/3017382</idno>
+          <place xml:id="place.4.1" type="settlement">
+            <placeName type="reg">Arcachon</placeName>
+            <location>
+              <geo>44.6539428, -1.1755714</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3037253</idno>
+            <place xml:id="place.4.1.1" type="building">
+              <placeName type="reg">Avenue Rapp</placeName>
+              <placeName type="alt">Villa Strésa</placeName>
+              <location>
+                <geo>44.659783868957895, -1.1805617597734195</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.4.2" type="settlement">
+            <placeName type="reg">Louveciennes</placeName>
+            <location>
+              <geo>48.8616969, 2.1130641</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2997351</idno>
+            <place xml:id="place.4.2.1" type="building">
+              <placeName type="reg">9 bis Place Ernest Dreux</placeName>
+              <location>
+                <geo>48.86753390791718, 2.118192441954316</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.4.3" type="settlement">
+            <placeName type="reg">Lyon</placeName>
+            <location>
+              <geo>45.7578137, 4.8320114</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2996944</idno>
+            <place xml:id="place.4.3.1" type="building">
+              <placeName type="reg">15 rue de la République</placeName>
+              <location>
+                <geo>45.765561582733476, 4.836164440258172</geo>
+              </location>
+            </place>
+            <place xml:id="place.4.3.2" type="building">
+              <placeName type="reg">21 rue Longue</placeName>
+              <location>
+                <geo>45.76560208263016, 4.833661253752543</geo>
+              </location>
+            </place>
+            <place xml:id="place.4.3.3" type="building">
+              <placeName type="reg">rue du Platre</placeName>
+              <location>
+                <geo>45.7663414297731, 4.833474755598925</geo>
+              </location>
+            </place>
+            <place xml:id="place.4.3.4" type="building">
+              <placeName type="reg">22, 24 rue Rochechouart</placeName>
+              <location>
+                <geo>48.877894484183685, 2.3450412609769358</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.4.4" type="settlement">
+            <placeName type="reg">Paris</placeName>
+            <location>
+              <geo>48.8588897, 2.3200410217200766</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2988507</idno>
+            <place xml:id="place.4.4.1" type="district">
+              <placeName type="reg">Batignolles-Monceau (XVII.)</placeName>
+              <location>
+                <geo>48.8812969, 2.3157689</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/3034610</idno>
+              <place xml:id="place.4.4.1.1" type="building">
+                <placeName type="reg">164 rue de Courcelles</placeName>
+                <location>
+                  <geo>48.88372977245414, 2.2989776556917914</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.2" type="district">
+              <placeName type="reg">Buttes-Montmartre (XVIII.)</placeName>
+              <location>
+                <geo>48.9010323, 2.3315471</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/3029374</idno>
+              <place xml:id="place.4.4.2.1" type="building">
+                <placeName type="reg">6, Passage de Clichy</placeName>
+                <placeName type="alt">Hotel de la Lorraine</placeName>
+                <location>
+                  <geo>48.885130268897875, 2.3290726998678215</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.3" type="district">
+              <placeName type="reg">Louvre (I.)</placeName>
+              <location>
+                <geo>48.8611473, 2.33802768704666</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/6269531</idno>
+              <place xml:id="place.4.4.3.1" type="building">
+                <placeName type="reg">192 rue de Rivoli</placeName>
+                <placeName type="alt">Hotel Regina (Places des Pyramides)</placeName>
+                <location>
+                  <geo>48.86420479584498, 2.3330074115151986</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.4" type="district">
+              <placeName type="reg">Luxembourg (VI.)</placeName>
+              <location>
+                <geo>48.8454719, 2.339808</geo>
+              </location>
+              <idno type="uri">https://sws.geonames.org/2997000</idno>
+              <place xml:id="place.4.4.4.1" type="building">
+                <placeName type="reg">11 rue Jacob</placeName>
+                <location>
+                  <geo>48.85499924921952, 2.3353981268557176</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.4.2" type="building">
+                <placeName type="reg">20 rue du Dragon</placeName>
+                <location>
+                  <geo>48.85343275586154, 2.3308639452173887</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.5" type="district">
+              <placeName type="reg">Opéra (IX.)</placeName>
+              <location>
+                <geo>48.8706446, 2.33233</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2989487</idno>
+              <place xml:id="place.4.4.5.1" type="building">
+                <placeName type="reg">10 rue Chaptal</placeName>
+                <location>
+                  <geo>48.88078208845975, 2.3338794549991095</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.5.2" type="building">
+                <placeName type="reg">2 rue Moncey</placeName>
+                <location>
+                  <geo>48.87990169362529, 2.329510371032457</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.5.3" type="building">
+                <placeName type="reg">47 rue Blanche</placeName>
+                <location>
+                  <geo>48.880887028396515, 2.331398721295132</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.5.4" type="building">
+                <placeName type="reg">81 rue Taitbout</placeName>
+                <location>
+                  <geo>48.87724038165563, 2.335269596174794</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.5.5" type="building">
+                <placeName type="reg">9 rue Ballu</placeName>
+                <location>
+                  <geo>48.88171126118482, 2.3306583878096117</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.5.6" type="building">
+                <placeName type="reg">10 rue Chaptal</placeName>
+                <location>
+                  <geo>48.881123377961494, 2.333944503319387</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.6" type="district">
+              <placeName type="reg">Palais Bourbon (VII.)</placeName>
+              <location>
+                <geo>48.8565, 2.321</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2988760</idno>
+              <place xml:id="place.4.4.6.1" type="building">
+                <placeName type="reg">5 rue Sébastien-Bottin</placeName>
+                <location>
+                  <geo>48.856989403811355, 2.328685297510461</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.7" type="district">
+              <placeName type="reg">Passy (XVI.)</placeName>
+              <location>
+                <geo>48.8575009, 2.285778</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2988394</idno>
+              <place xml:id="place.4.4.7.1" type="building">
+                <placeName type="reg">4 rue Mission Marchand</placeName>
+                <location>
+                  <geo>48.85012901767548, 2.2658598268555608</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.7.2" type="building">
+                <placeName type="reg">82 rue de Passy</placeName>
+                <location>
+                  <geo>48.858378354336686, 2.2755451845262127</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.7.3" type="building">
+                <placeName type="reg">Avenue Kléber</placeName>
+                <placeName type="alt">Hotel Majestic</placeName>
+                <location>
+                  <geo>48.8711747411957, 2.2934210963954533</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.8" type="district">
+              <placeName type="reg">Élysée (VIII.)</placeName>
+              <location>
+                <geo>48.86897442241977, 2.3105404274067425</geo>
+              </location>
+              <idno type="uri">https://sws.geonames.org/3020270</idno>
+              <place xml:id="place.4.4.8.1" type="building">
+                <placeName type="reg">45 rue la Boétie</placeName>
+                <location>
+                  <geo>48.8734543679153, 2.3140631913010026</geo>
+                </location>
+              </place>
+              <place xml:id="place.4.4.8.2" type="building">
+                <placeName type="reg">45 rue la Boétie</placeName>
+                <location>
+                  <geo>48.8734543679153, 2.3140631913010026</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.9" type="district">
+              <placeName type="reg">Bourse (II.)</placeName>
+              <location>
+                <geo>48.867716431662224, 2.3443770670591495</geo>
+              </location>
+              <idno type="uri">https://sws.geonames.org/3030864</idno>
+              <place xml:id="place.4.4.9.1" type="building">
+                <placeName type="reg">2 bis rue Vivienne</placeName>
+                <location>
+                  <geo>48.86718006445459, 2.3390126493739753</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.4.4.10" type="district">
+              <placeName type="reg">Panthéon (V.)</placeName>
+              <location>
+                <geo>48.8448, 2.3471</geo>
+              </location>
+              <idno type="URI">https://sws.geonames.org/2988623</idno>
+              <place xml:id="place.4.4.10.1" type="building">
+                <placeName type="reg">1 rue Victor Cousin</placeName>
+                <location>
+                  <geo>48.850105490820525, 2.3440701920467646</geo>
+                </location>
+              </place>
+            </place>
+          </place>
+          <place xml:id="place.4.6" type="settlement">
+            <placeName type="reg">Roquebrune-Cap-Martin</placeName>
+            <location>
+              <geo>43.7641047, 7.4565697</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2982876</idno>
+            <place xml:id="place.4.6.1" type="building">
+              <placeName type="reg">Pavillon Sévigné</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.4.7" type="settlement">
+            <placeName type="reg">Cannes</placeName>
+            <location>
+              <geo>43.55135, 7.01275</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/3028808</idno>
+            <place xml:id="place.4.7.1" type="building">
+              <placeName type="reg">23-27, Avenue du Roi Albert 1er</placeName>
+              <placeName type="alt">Californie Palace</placeName>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.5" type="country">
+          <placeName type="reg">Italien</placeName>
+          <location>
+            <geo>42.6384261, 12.674297</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/3175395</idno>
+          <place xml:id="place.5.1" type="settlement">
+            <placeName type="reg">Lido di Venezia</placeName>
+            <location>
+              <geo>45.4164594, 12.3706115</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/10346228</idno>
+            <place xml:id="place.5.1.1" type="building">
+              <placeName type="reg">Pension Corno d'oro</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.5.2" type="settlement">
+            <placeName type="reg">Meran</placeName>
+            <location>
+              <geo>46.6695547, 11.1594185</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3173578</idno>
+          </place>
+          <place xml:id="place.5.4" type="settlement">
+            <placeName type="reg">Perugia</placeName>
+            <location>
+              <geo>43.1070321, 12.402996209906487</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3171180</idno>
+            <place xml:id="place.5.4.1" type="building">
+              <placeName type="reg">Piazza dell'Università</placeName>
+              <location>
+                <geo>43.116410755212726, 12.386948204283984</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.5.5" type="settlement">
+            <placeName type="reg">Rom</placeName>
+            <location>
+              <geo>41.8933203, 12.4829321</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3169070</idno>
+            <place xml:id="place.5.5.1" type="building">
+              <placeName type="reg">Via Flaminia 118</placeName>
+              <location>
+                <geo>41.9167273015377, 12.473980580689375</geo>
+              </location>
+            </place>
+            <place xml:id="place.5.5.2" type="building">
+              <placeName type="reg">Via Nazionale 183</placeName>
+              <location>
+                <geo>41.89792809754712, 12.48865084153009</geo>
+              </location>
+            </place>
+            <place xml:id="place.5.5.3" type="building">
+              <placeName type="reg">Via Sistina</placeName>
+              <placeName type="alt">Hotel de la Ville</placeName>
+              <location>
+                <geo>41.90590409170641, 12.484323455491841</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.5.6" type="settlement">
+            <placeName type="reg">Venedig</placeName>
+            <location>
+              <geo>45.4371908, 12.3345898</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3164603</idno>
+            <place xml:id="place.5.6.1" type="building">
+              <placeName type="reg">Campo S. Fantin</placeName>
+              <location>
+                <geo>45.433613637559546, 12.33375590208642</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.5.7" type="settlement">
+            <placeName type="reg">Mailand</placeName>
+            <location>
+              <geo>45.46416, 9.19199</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/6542283</idno>
+            <place xml:id="place.5.7.1" type="building">
+              <placeName type="reg">Via G. Broggi 19</placeName>
+              <location>
+                <geo>45.47727081304755, 9.212754167526713</geo>
+              </location>
+            </place>
+            <place xml:id="place.5.7.2" type="building">
+              <placeName type="reg">Via Filodrammatici 2</placeName>
+              <location>
+                <geo>45.4673694441667, 9.189610763200559</geo>
+              </location>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.6" type="country">
+          <placeName type="reg">Kroatien</placeName>
+          <location>
+            <geo>45.5643442, 17.0118954</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/3202326</idno>
+          <place xml:id="place.6.1" type="settlement">
+            <placeName type="reg">Dubrovnik</placeName>
+            <location>
+              <geo>42.64873625, 18.094680152605108</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3201047</idno>
+            <place xml:id="place.6.1.1" type="building">
+              <placeName type="alt">Hotel Lapad</placeName>
+              <location>
+                <geo>42.65727893793666, 18.08164818015304</geo>
+              </location>
+            </place>
+            <place xml:id="place.6.1.2" type="building">
+              <placeName type="alt">Hotel Odak</placeName>
+              <location>
+                <geo>42.639652735924415, 18.126223671794936</geo>
+              </location>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.7" type="country">
+          <placeName type="reg">Monaco</placeName>
+          <location>
+            <geo>43.73844905, 7.424224092532953</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/2993457</idno>
+          <place xml:id="place.7.1" type="settlement">
+            <placeName type="reg">Monte Carlo</placeName>
+            <location>
+              <geo>43.7402961, 7.426559</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2992741</idno>
+          </place>
+        </place>
+        <place xml:id="place.8" type="country">
+          <placeName type="reg">Niederlande</placeName>
+          <location>
+            <geo>52.15517, 5.38721</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/2750405</idno>
+          <place xml:id="place.8.1" type="settlement">
+            <placeName type="reg">Amsterdam</placeName>
+            <location>
+              <geo>52.3727598, 4.8936041</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2759794</idno>
+            <place xml:id="place.8.1.1" type="building">
+              <placeName type="reg">Concertgebouw</placeName>
+              <location>
+                <geo>52.356463137320304, 4.879167355801446</geo>
+              </location>
+            </place>
+            <place xml:id="place.8.1.2" type="building">
+              <placeName type="reg">Kalverstraat 176</placeName>
+              <location>
+                <geo>52.368275987245035, 4.891390754556978</geo>
+              </location>
+            </place>
+            <place xml:id="place.8.1.3" type="building">
+              <placeName type="reg">Van Baerlestraat 94</placeName>
+              <location>
+                <geo>52.35693511571587, 4.879183025003834</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.8.2" type="settlement">
+            <placeName type="reg">Den Haag</placeName>
+            <location>
+              <geo>52.0799838, 4.3113461</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2747372</idno>
+          </place>
+          <place xml:id="place.8.3" type="settlement">
+            <placeName type="reg">Zandvoort</placeName>
+            <location>
+              <geo>52.3713394, 4.5307624</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2744042</idno>
+            <place xml:id="place.8.3.1" type="building">
+              <placeName type="reg">Brederodestraat 65</placeName>
+              <location>
+                <geo>52.3693333446196, 4.526949626966666</geo>
+              </location>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.9" type="country">
+          <placeName type="reg">Österreich</placeName>
+          <location>
+            <geo>47.2, 13.2</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/2782113</idno>
+          <place xml:id="place.9.1" type="settlement">
+            <placeName type="reg">Annenheim</placeName>
+            <location>
+              <geo>46.6599356, 13.9007214</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2782485</idno>
+          </place>
+          <place xml:id="place.9.2" type="settlement">
+            <placeName type="reg">Gmunden</placeName>
+            <location>
+              <geo>47.9185855, 13.8003048</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2778436</idno>
+            <place xml:id="place.9.2.1" type="building">
+              <placeName type="reg">Kammerhofgasse 6</placeName>
+              <location>
+                <geo>47.91850662454554, 13.800866455662435</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.3" type="settlement">
+            <placeName type="reg">Mattsee</placeName>
+            <location>
+              <geo>47.9699824, 13.1026633</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/7873300</idno>
+            <place xml:id="place.9.3.1" type="building">
+              <placeName type="reg">Mattsee 56</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.4" type="settlement">
+            <placeName type="reg">Mödling</placeName>
+            <location>
+              <geo>48.0855922, 16.2833526</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2771335</idno>
+            <place xml:id="place.9.4.1" type="building">
+              <placeName type="reg">Bernhardgasse 6</placeName>
+              <location>
+                <geo>48.07942343423156, 16.284605371008116</geo>
+              </location>
+            </place>
+            <place xml:id="place.9.4.2" type="building">
+              <placeName type="reg">Brühlerstraße 104</placeName>
+              <location>
+                <geo>48.081439026453744, 16.267807513337807</geo>
+              </location>
+            </place>
+            <place xml:id="place.9.4.3" type="building">
+              <placeName type="reg">Demelgasse 22</placeName>
+              <location>
+                <geo>48.084714957774985, 16.292942524985893</geo>
+              </location>
+            </place>
+            <place xml:id="place.9.4.4" type="building">
+              <placeName type="reg">Franz Josefplatz 9</placeName>
+              <location>
+                <geo>48.08552427716709, 16.28496087965007</geo>
+              </location>
+            </place>
+            <place xml:id="place.9.4.5" type="building">
+              <placeName type="reg">Neusiedlerstraße 58</placeName>
+              <location>
+                <geo>48.07860290004785, 16.287145069161777</geo>
+              </location>
+            </place>
+            <place xml:id="place.9.4.6" type="building">
+              <placeName type="reg">Scheffergasse 8</placeName>
+              <placeName type="alt">Evang. Pfarrkirche Mödling</placeName>
+              <location>
+                <geo>48.08060093817755, 16.28323942498575</geo>
+              </location>
+            </place>
+            <place xml:id="place.9.4.7" type="building">
+              <placeName type="reg">Schillerstraße 11</placeName>
+              <location>
+                <geo>48.08260714113875, 16.28625482982014</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.5" type="settlement">
+            <placeName type="reg">Ossiach</placeName>
+            <location>
+              <geo>46.6758288, 13.9823604</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/7871685</idno>
+            <place xml:id="place.9.5.1" type="building">
+              <placeName type="reg">Berghof am Ossiachersee</placeName>
+              <location>
+                <geo>46.653046797681064, 13.932970726789677</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.6" type="settlement">
+            <placeName type="reg">Pörtschach</placeName>
+            <location>
+              <geo>46.6560824, 14.5723054</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2768499</idno>
+            <place xml:id="place.9.6.1" type="building">
+              <placeName type="reg">Werzer Promenade 8</placeName>
+              <placeName type="alt">Hotel Werzer</placeName>
+              <location>
+                <geo>46.63463088414783, 14.13791325562422</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.7" type="settlement">
+            <placeName type="reg">Salzburg</placeName>
+            <location>
+              <geo>47.7981346, 13.0464806</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2766824</idno>
+            <place xml:id="place.9.7.1" type="building">
+              <placeName type="reg">Schloss Arenberg</placeName>
+              <location>
+                <geo>47.80020623135602, 13.058322169182487</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.8" type="settlement">
+            <placeName type="reg">Steinakirchen am Forst</placeName>
+            <location>
+              <geo>48.07261935, 15.02844653102965</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/7871905</idno>
+            <place xml:id="place.9.8.1" type="building">
+              <placeName type="reg">Hedwighof</placeName>
+              <location>
+                <geo>48.07060519503124, 15.051977625521811</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.9" type="settlement">
+            <placeName type="reg">Tobelbad ("bei Graz")</placeName>
+            <location>
+              <geo>46.9808952, 15.3658501</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/11820063</idno>
+            <place xml:id="place.9.9.1" type="building">
+              <placeName type="reg">Wildbad Sanatorium</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.10" type="settlement">
+            <placeName type="reg">Traunkirchen</placeName>
+            <location>
+              <geo>47.8448255, 13.7902844</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2763414</idno>
+            <place xml:id="place.9.10.1" type="building">
+              <placeName type="reg">Traunkirchen 29</placeName>
+              <placeName type="alt">Villa Josef</placeName>
+              <location>
+                <geo>47.831073, 13.8089459</geo>
+              </location>
+            </place>
+            <place xml:id="place.9.10.2" type="building">
+              <placeName type="reg">Traunkirchen 3</placeName>
+              <placeName type="alt">Villa Spaun</placeName>
+              <location>
+                <geo>47.843367, 13.7872907</geo>
+              </location>
+            </place>
+            <place xml:id="place.9.10.3" type="building">
+              <placeName type="reg">Traunkirchen 9</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.9.11" type="settlement">
+            <placeName type="reg">Wien</placeName>
+            <location>
+              <geo>48.2083537, 16.3725042</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2761369</idno>
+            <place xml:id="place.9.11.1" type="district">
+              <placeName type="reg">Alsergrund (IX.)</placeName>
+              <location>
+                <geo>48.22507335, 16.358397599045787</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2782729</idno>
+              <place xml:id="place.9.11.1.1" type="building">
+                <placeName type="reg">Alser Straße 4</placeName>
+                <location>
+                  <geo>48.21725109259076, 16.35308704436334</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.1.2" type="building">
+                <placeName type="reg">Liechtensteinstrasse 68/70</placeName>
+                <location>
+                  <geo>48.22677221506838, 16.35669033591502</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.1.3" type="building">
+                <placeName type="reg">Schwarzspanierhof</placeName>
+                <location>
+                  <geo>48.217480113263235, 16.35709019873894</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.1.4" type="building">
+                <placeName type="reg">Schwarzspanierstraße 15</placeName>
+                <location>
+                  <geo>48.21671888788746, 16.357540391967664</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.1.5" type="building">
+                <placeName type="reg">Türkenstraße 17</placeName>
+                <location>
+                  <geo>48.2176468, 16.3631802</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.1.6" type="building">
+                <placeName type="reg">Türkenstraße 3</placeName>
+                <location>
+                  <geo>48.21684128865498, 16.360573428864807</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.1.7" type="building">
+                <placeName type="reg">Währinger Straße 78</placeName>
+                <location>
+                  <geo>48.22454048669038, 16.350201798228554</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.1.8" type="building">
+                <placeName type="reg">Währingerstraße 78</placeName>
+                <location>
+                  <geo>48.22457434234363, 16.3501172268366</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.2" type="district">
+              <placeName type="reg">Brigittenau (XX.)</placeName>
+              <location>
+                <geo>48.2305006, 16.3761539</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/12214081</idno>
+              <place xml:id="place.9.11.2.1" type="building">
+                <placeName type="reg">Mathildenplatz</placeName>
+                <location>
+                  <geo>48.22626640266811, 16.3690326450962</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.3" type="district">
+              <placeName type="reg">Döbling (XIX.)</placeName>
+              <location>
+                <geo>48.23953495, 16.346526922843804</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/3324498</idno>
+              <place xml:id="place.9.11.3.1" type="building">
+                <placeName type="reg">Kaasgrabenstraße 19</placeName>
+                <location>
+                  <geo>48.25070336017172, 16.336583984507712</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.3.2" type="building">
+                <placeName type="reg">Pyrkergasse</placeName>
+                <location>
+                  <geo>48.24144175816803, 16.352324540331384</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.4" type="district">
+              <placeName type="reg">Fünfhaus (XV.)</placeName>
+              <location>
+                <geo>48.2652965, 16.9082946</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2779139</idno>
+              <place xml:id="place.9.11.4.1" type="building">
+                <placeName type="reg">Sechshauserstraße 10</placeName>
+                <location>
+                  <geo>48.1898025302472, 16.33601774217623</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.4.2" type="building">
+                <placeName type="reg">Sechshauserstraße 36/38</placeName>
+                <location>
+                  <geo>48.188229670995, 16.333332499805543</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.5" type="district">
+              <placeName type="reg">Hietzing (XIII.)</placeName>
+              <location>
+                <geo>48.1718167, 16.27371391523914</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2776421</idno>
+              <place xml:id="place.9.11.5.1" type="building">
+                <placeName type="reg">Gloriettegasse 43</placeName>
+                <location>
+                  <geo>48.182077983625796, 16.2929519710112</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.5.2" type="building">
+                <placeName type="reg">Hietzinger Hauptstraße</placeName>
+                <location>
+                  <geo>48.187454512838144, 16.28527135382416</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.5.3" type="building">
+                <placeName type="reg">Hietzinger Hauptstraße 113</placeName>
+                <location>
+                  <geo>48.1873292, 16.2755375</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.5.4" type="building">
+                <placeName type="reg">Hietzinger Kai 5</placeName>
+                <location>
+                  <geo>48.18838668144117, 16.299043069165027</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.5.5" type="building">
+                <placeName type="reg">Kremsergasse 1</placeName>
+                <location>
+                  <geo>48.18809370463672, 16.2880200403298</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.5.6" type="building">
+                <placeName type="reg">Kupelwiesergasse 27</placeName>
+                <location>
+                  <geo>48.18621650557568, 16.286314655670584</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.5.7" type="building">
+                <placeName type="reg">Trauttmannsdorffgasse 27</placeName>
+                <location>
+                  <geo>48.1831567604856, 16.295554184505615</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.6" type="district">
+              <placeName type="reg">Innere Stadt (I.)</placeName>
+              <location>
+                <geo>48.20769, 16.37049</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2775260</idno>
+              <place xml:id="place.9.11.6.1" type="building">
+                <placeName type="reg">Bauernmarkt 3</placeName>
+                <location>
+                  <geo>48.209609201526646, 16.371338916739223</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.2" type="building">
+                <placeName type="reg">Biberstraße 5</placeName>
+                <location>
+                  <geo>48.208284621340326, 16.380255401942076</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.3" type="building">
+                <placeName type="reg">Börsegasse 12</placeName>
+                <location>
+                  <geo>48.21547030756354, 16.367739998000992</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.4" type="building">
+                <placeName type="reg">Börsegasse 13</placeName>
+                <location>
+                  <geo>48.216237725789966, 16.366403529927027</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.5" type="building">
+                <placeName type="reg">Bösendorferstraße 12</placeName>
+                <location>
+                  <geo>48.200692556791765, 16.372882129477336</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.6" type="building">
+                <placeName type="reg">Canovagasse 4/Halbstock</placeName>
+                <location>
+                  <geo>48.20040260842814, 16.37301861318403</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.7" type="building">
+                <placeName type="reg">Ebendorferstraße 10</placeName>
+                <location>
+                  <geo>48.21324726764901, 16.358251926836118</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.8" type="building">
+                <placeName type="reg">Elisabethstraße 13</placeName>
+                <location>
+                  <geo>48.20284972512438, 16.36409667473274</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.9" type="building">
+                <placeName type="reg">Giselastraße 12</placeName>
+                <location>
+                  <geo>48.20068739198021, 16.372874473179138</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.10" type="building">
+                <placeName type="reg">Graben 13</placeName>
+                <location>
+                  <geo>48.208608377745904, 16.36982969800075</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.11" type="building">
+                <placeName type="reg">Graben 29</placeName>
+                <location>
+                  <geo>48.20875586644411, 16.370554890091032</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.12" type="building">
+                <placeName type="reg">Karlsplatz 6</placeName>
+                <location>
+                  <geo>48.20024107913087, 16.37257046658928</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.13" type="building">
+                <placeName type="reg">Kolowratring 14</placeName>
+                <location>
+                  <geo>48.20215689575853, 16.374482584506243</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.14" type="building">
+                <placeName type="reg">Laurenzerberg 4</placeName>
+                <location>
+                  <geo>48.211137228016966, 16.378676658967187</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.15" type="building">
+                <placeName type="reg">Neuer Markt 13</placeName>
+                <location>
+                  <geo>48.206551384844374, 16.37026192498958</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.16" type="building">
+                <placeName type="reg">Opernring 2</placeName>
+                <location>
+                  <geo>48.20289934077933, 16.368954387676254</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.17" type="building">
+                <placeName type="reg">Reichsratsstraße 7</placeName>
+                <location>
+                  <geo>48.2085136, 16.3574984</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.18" type="building">
+                <placeName type="reg">Reichsratsstraße 9</placeName>
+                <location>
+                  <geo>48.20874, 16.35756</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.19" type="building">
+                <placeName type="reg">Schulerstraße 1</placeName>
+                <location>
+                  <geo>48.208500753239775, 16.37466814031411</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.20" type="building">
+                <placeName type="reg">Seitenstettengasse 4</placeName>
+                <location>
+                  <geo>48.21165957711785, 16.374735598393762</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.21" type="building">
+                <placeName type="reg">Tuchlauben 12</placeName>
+                <location>
+                  <geo>48.21038301254143, 16.37082582022393</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.22" type="building">
+                <placeName type="reg">Uraniastraße 1</placeName>
+                <location>
+                  <geo>48.21147828813583, 16.383906313872377</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.23" type="building">
+                <placeName type="reg">Wipplingerstraße 30</placeName>
+                <location>
+                  <geo>48.21351852540826, 16.367711146900984</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.24" type="building">
+                <placeName type="reg">Wipplingerstraße 32</placeName>
+                <location>
+                  <geo>48.21370, 16.36727</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.25" type="building">
+                <placeName type="reg">Maximilianstraße 11</placeName>
+                <location>
+                  <geo>48.202708895561855, 16.372648527405776</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.26" type="building">
+                <placeName type="reg">Musikvereinsplatz</placeName>
+                <location>
+                  <geo>48.20055833535649, 16.37235641160724</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.27" type="building">
+                <placeName type="reg">Operngasse 1</placeName>
+                <location>
+                  <geo>48.20351241596159, 16.368554625072584</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.6.28" type="building">
+                <placeName type="reg">Georg-Coch-Platz 2</placeName>
+                <location>
+                  <geo>48.21001565932963, 16.381209264293258</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.7" type="district">
+              <placeName type="reg">Josefstadt (VIII.)</placeName>
+              <location>
+                <geo>47.4911418, 19.0751207</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2775027</idno>
+              <place xml:id="place.9.11.7.1" type="building">
+                <placeName type="reg">Auerspergstraße 9</placeName>
+                <placeName type="alt">Sanatorium Auersperg</placeName>
+                <location>
+                  <geo>48.20851222806585, 16.354570669165643</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.7.2" type="building">
+                <placeName type="reg">Florianigasse 58</placeName>
+                <location>
+                  <geo>48.21214526749695, 16.343484068550865</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.7.3" type="building">
+                <placeName type="reg">Lammgasse 7</placeName>
+                <location>
+                  <geo>48.21285146853304, 16.351816626836076</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.8" type="district">
+              <placeName type="reg">Landstraße (III.)</placeName>
+              <location>
+                <geo>48.19811, 16.39482</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/12214069</idno>
+              <place xml:id="place.9.11.8.1" type="building">
+                <placeName type="reg">Baumannstraße 8</placeName>
+                <location>
+                  <geo>48.20382717558842, 16.38737384856251</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.8.2" type="building">
+                <placeName type="reg">Lisztstraße 1</placeName>
+                <location>
+                  <geo>48.20035554139983, 16.37674412905722</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.8.3" type="building">
+                <placeName type="reg">Lothringerstraße 20</placeName>
+                <location>
+                  <geo>48.20071737102434, 16.37724475495014</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.8.4" type="building">
+                <placeName type="reg">Rennweg 89-93</placeName>
+                <location>
+                  <geo>48.19049017105853, 16.39913118533578</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.8.5" type="building">
+                <placeName type="reg">Salesianergasse 7</placeName>
+                <location>
+                  <geo>48.19982560226713, 16.381432984506077</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.8.6" type="building">
+                <placeName type="reg">Lothringerstraße 18</placeName>
+                <location>
+                  <geo>48.20048346075516, 16.376979446906084</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.9" type="district">
+              <placeName type="reg">Mariahilf (VI.)</placeName>
+              <location>
+                <geo>46.8277367, 7.2016442</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/12214071</idno>
+              <place xml:id="place.9.11.9.1" type="building">
+                <placeName type="reg">Gumpendorferstraße 91</placeName>
+                <location>
+                  <geo>48.19308072951723, 16.349207711494746</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.9.2" type="building">
+                <placeName type="reg">Köstlergasse 7</placeName>
+                <location>
+                  <geo>48.19845278027069, 16.358985577917924</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.9.3" type="building">
+                <placeName type="reg">Linke Wienzeile 6</placeName>
+                <location>
+                  <geo>48.199466639213, 16.364356957105848</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.9.4" type="building">
+                <placeName type="reg">Wiedner Hauptstrasse 18</placeName>
+                <location>
+                  <geo>48.19696201026144, 16.36724971334127</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.9.5" type="building">
+                <placeName type="reg">Aegidigasse 13</placeName>
+                <location>
+                  <geo>48.19324906854635, 16.340928698430822</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.10" type="district">
+              <placeName type="reg">Meidling (XII.)</placeName>
+              <location>
+                <geo>48.166961900000004, 16.33237331569468</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2771706</idno>
+              <place xml:id="place.9.11.10.1" type="building">
+                <placeName type="reg">Schlöglgasse 38</placeName>
+                <location>
+                  <geo>48.1686873557036, 16.311315953823648</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.11" type="district">
+              <placeName type="reg">Neubau (VII.)</placeName>
+              <location>
+                <geo>48.203035137684324, 16.346323183484063</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2770853</idno>
+              <place xml:id="place.9.11.11.1" type="building">
+                <placeName type="reg">Faßziehergasse 7</placeName>
+                <location>
+                  <geo>48.20504504591136, 16.35436679694792</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.11.2" type="building">
+                <placeName type="reg">Seidengasse 3-9</placeName>
+                <location>
+                  <geo>48.200296406355584, 16.346421986757758</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.12" type="district">
+              <placeName type="reg">Wieden (IV.)</placeName>
+              <location>
+                <geo>48.19198, 16.36714</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2761393</idno>
+              <place xml:id="place.9.11.12.1" type="building">
+                <placeName type="reg">Suttnerplatz 10</placeName>
+                <location>
+                  <geo>48.197718515386356, 16.36722591105517</geo>
+                </location>
+              </place>
+              <place xml:id="place.9.11.12.2" type="building">
+                <placeName type="reg">Starhemberggasse 37</placeName>
+                <location>
+                  <geo>48.18803434568988, 16.371928022738256</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.9.11.13" type="district">
+              <placeName type="reg">Favoriten (X.)</placeName>
+              <location>
+                <geo>48.17111, 16.37778</geo>
+              </location>
+              <idno type="URI">https://sws.geonames.org/2779776</idno>
+              <place xml:id="place.9.11.13.1">
+                <placeName type="reg">Eugengasse 81</placeName>
+                <location>
+                  <geo>48.1771599028116, 16.36498803472432</geo>
+                </location>
+              </place>
+            </place>
+          </place>
+          <place xml:id="place.9.12" type="settlement">
+            <placeName type="reg">Wiener Neudorf</placeName>
+            <location>
+              <geo>48.0885947, 16.318448723546133</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2761354</idno>
+            <place xml:id="place.9.12.1" type="building">
+              <placeName type="reg">Adolf Hitler Platz 5</placeName>
+              <location>
+                <geo>47.813163086035395, 16.242659266185214</geo>
+              </location>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.10" type="country">
+          <placeName type="reg">Russland</placeName>
+          <location>
+            <geo>60, 100</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/2017370</idno>
+          <place xml:id="place.10.1" type="settlement">
+            <placeName type="reg">Moskau</placeName>
+            <location>
+              <geo>55.7504461, 37.6174943</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/524901</idno>
+            <place xml:id="place.10.1.1" type="building">
+              <placeName type="reg">Bol'shaya Nikitskaya Ulitsa, 13/6</placeName>
+              <location>
+                <geo>55.75609809919764, 37.60385927902266</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.10.2" type="settlement">
+            <placeName type="reg">St. Petersburg</placeName>
+            <location>
+              <geo>59.93073501457162, 30.363842268494185</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/498817</idno>
+          </place>
+        </place>
+        <place xml:id="place.11" type="country">
+          <placeName type="reg">Schweiz</placeName>
+          <location>
+            <geo>46.7985624, 8.2319736</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/2658434</idno>
+          <place xml:id="place.11.1" type="settlement">
+            <placeName type="reg">Bern</placeName>
+            <location>
+              <geo>46.9482713, 7.4514512</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2661552</idno>
+            <place xml:id="place.11.1.1" type="building">
+              <placeName type="reg">Jubiläumsstraße 47</placeName>
+              <location>
+                <geo>46.93769978136044, 7.449827966529515</geo>
+              </location>
+            </place>
+            <place xml:id="place.11.1.2" type="building">
+              <placeName type="reg">Waisenhausplatz 4/II</placeName>
+              <location>
+                <geo>46.949258548872876, 7.444041253460302</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.11.2" type="settlement">
+            <placeName type="reg">Genf</placeName>
+            <location>
+              <geo>46.2017559, 6.1466014</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2660646</idno>
+            <place xml:id="place.11.2.1" type="building">
+              <placeName type="reg">7 rue du Jeu-de-l'Arc</placeName>
+              <location>
+                <geo>46.20198136138126, 6.157353822058106</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.11.3" type="settlement">
+            <placeName type="reg">Montreux-Territet</placeName>
+            <location>
+              <geo>46.4249698, 6.9246438</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2658399</idno>
+            <place xml:id="place.11.3.1" type="building">
+              <placeName type="reg">Villa Maria</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.11.4" type="settlement">
+            <placeName type="reg">St. Moritz</placeName>
+            <location>
+              <geo>46.4960592, 9.8386578</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2658813</idno>
+            <place xml:id="place.11.4.1" type="building">
+              <placeName type="reg">Villa Acla Silva</placeName>
+              <location>
+                <geo/>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.11.5" type="settlement">
+            <placeName type="reg">Winterthur</placeName>
+            <location>
+              <geo>47.4991723, 8.7291498</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/7287592</idno>
+            <place xml:id="place.11.5.1" type="building">
+              <placeName type="reg">Rychenbergstrasse 94</placeName>
+              <location>
+                <geo>47.50631417131529, 8.73439287911597</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.11.6" type="settlement">
+            <placeName type="reg">Zürich</placeName>
+            <location>
+              <geo>47.3744489, 8.5410422</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/2657896</idno>
+            <place xml:id="place.11.6.1" type="building">
+              <placeName type="reg">Neumühlequai 10-12</placeName>
+              <location>
+                <geo>47.37807285461722, 8.543034196509387</geo>
+              </location>
+            </place>
+            <place xml:id="place.11.6.2" type="building">
+              <placeName type="reg">Pelikanstraße 15</placeName>
+              <location>
+                <geo>47.37130329057124, 8.535570148479271</geo>
+              </location>
+            </place>
+            <place xml:id="place.11.6.3" type="building">
+              <placeName type="reg">Zeltweg 2</placeName>
+              <location>
+                <geo>47.36986848119018, 8.549015024659637</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.11.7" type="settlement">
+            <placeName type="reg">Lugano</placeName>
+            <location>
+              <geo>46.00204922086479, 8.961733122147804</geo>
+            </location>
+            <idno>https://sws.geonames.org/2659836</idno>
+            <place xml:id="place.11.7.1" type="district">
+              <placeName type="reg">Besso</placeName>
+              <location>
+                <geo>46.00561, 8.9438</geo>
+              </location>
+              <idno>https://sws.geonames.org/11789447</idno>
+              <place xml:id="place.11.7.1.1" type="building">
+                <placeName type="reg">Via Seminario 2</placeName>
+                <location>
+                  <geo>46.0051416, 8.9417661</geo>
+                </location>
+              </place>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.12" type="country">
+          <placeName type="reg">Spanien</placeName>
+          <location>
+            <geo>39.3260685, -4.8379791</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/2510769</idno>
+          <place xml:id="place.12.1" type="settlement">
+            <placeName type="reg">Barcelona</placeName>
+            <location>
+              <geo>41.3828939, 2.1774322</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3128760</idno>
+            <place xml:id="place.12.1.1" type="building">
+              <placeName type="reg">Bajada de Briz 14</placeName>
+              <location>
+                <geo>41.412131283821225, 2.147851126643544</geo>
+              </location>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.13" type="country">
+          <placeName type="reg">Tschechien</placeName>
+          <location>
+            <geo>49.8167003, 15.4749544</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/3077311</idno>
+          <place xml:id="place.13.1" type="settlement">
+            <placeName type="reg">Prag</placeName>
+            <location>
+              <geo>50.0874654, 14.4212535</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3067696</idno>
+            <place xml:id="place.13.1.1" type="district">
+              <placeName type="reg">Altstadt (I.)</placeName>
+              <location>
+                <geo>51.427105999999995, 6.888183260797166</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/3065328</idno>
+              <place xml:id="place.13.1.1.1" type="building">
+                <placeName type="reg">Jungmannstraße 14</placeName>
+                <location>
+                  <geo>50.08055116674412, 14.422562426893682</geo>
+                </location>
+              </place>
+              <place xml:id="place.13.1.1.2" type="building">
+                <placeName type="reg">Obstmarkt 540</placeName>
+                <location>
+                  <geo>50.08577872739763, 14.423244922020004</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.13.1.2" type="district">
+              <placeName type="reg">Neustadt (II.)</placeName>
+              <location>
+                <geo>49.5335628, 12.3285166</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/3069467</idno>
+              <place xml:id="place.13.1.2.1" type="building">
+                <placeName type="reg">Hawliczekgasse 9</placeName>
+                <location>
+                  <geo>50.0755381, 14.4378005</geo>
+                </location>
+              </place>
+              <place xml:id="place.13.1.2.2" type="building">
+                <placeName type="reg">Národní 2</placeName>
+                <location>
+                  <geo>50.08094228959291, 14.413552053274437</geo>
+                </location>
+              </place>
+              <place xml:id="place.13.1.2.3" type="building">
+                <placeName type="reg">Vodičkova 48</placeName>
+              </place>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.14" type="country">
+          <placeName type="reg">Ungarn</placeName>
+          <location>
+            <geo>47.1817585, 19.5060937</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/719819</idno>
+          <place xml:id="place.14.1" type="settlement">
+            <placeName type="reg">Budapest</placeName>
+            <location>
+              <geo>47.4979937, 19.0403594</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/3054643</idno>
+            <place xml:id="place.14.1.1" type="district">
+              <placeName type="reg">Belváros (IV.)</placeName>
+              <location>
+                <geo>47.5, 19.05115</geo>
+              </location>
+              <idno type="uri">https://sws.geonames.org/12059757</idno>
+              <place xml:id="place.14.1.1.1" type="building">
+                <placeName type="reg">Kristóf tér 3</placeName>
+                <location>
+                  <geo>47.49559686651183, 19.051993281651903</geo>
+                </location>
+              </place>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.15" type="country">
+          <placeName type="reg">USA</placeName>
+          <location>
+            <geo>36.81843005, -99.00906717303353</geo>
+          </location>
+          <idno type="uri">http://sws.geonames.org/6252001</idno>
+          <place xml:id="place.15.1" type="settlement">
+            <placeName type="reg">Boston</placeName>
+            <location>
+              <geo>42.3602534, -71.0582912</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/4930956</idno>
+            <place xml:id="place.15.1.1" type="building">
+              <placeName type="reg">1284 Beacon Street</placeName>
+              <placeName type="alt">Pelham Hall</placeName>
+              <location>
+                <geo>42.343119798141245, -71.11957604634287</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.1.2" type="building">
+              <placeName type="reg">210 Massachusetts Avenue Boston</placeName>
+              <location>
+                <geo>42.344339798696254, -71.08521102894201</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.1.3" type="building">
+              <placeName type="reg">221 Columbus Avenue</placeName>
+              <location>
+                <geo>42.348083021522726, -71.07259524284525</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.1.4" type="building">
+              <placeName type="reg">229 Beacon Street</placeName>
+              <location>
+                <geo>42.352950988375355, -71.08140600623649</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.1.5" type="building">
+              <placeName type="reg">301 Massachusetts Avenue</placeName>
+              <location>
+                <geo>42.342923857089936, -71.0855756258422</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.1.6" type="building">
+              <placeName type="reg">26-28 West Street</placeName>
+              <location>
+                <geo>42.35455952256961, -71.06270491081207</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.15.2" type="settlement">
+            <placeName type="reg">Cambridge</placeName>
+            <location>
+              <geo>52.2055314, 0.1186637</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/4931972</idno>
+            <place xml:id="place.15.2.1" type="building">
+              <placeName type="reg">Harvard University</placeName>
+              <location>
+                <geo>42.377404833960014, -71.11672526778155</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.15.3" type="settlement">
+            <placeName type="reg">Camden</placeName>
+            <location>
+              <geo>39.9448402, -75.1198911</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/4501018</idno>
+            <place xml:id="place.15.3.1" type="building">
+              <placeName type="reg">Front and Cooper Street</placeName>
+              <location>
+                <geo>39.948162429176, -75.1262820969838</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.15.4" type="settlement">
+            <placeName type="reg">Chatauqua</placeName>
+            <location>
+              <geo>42.1758306, -79.41332582749861</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/5112358</idno>
+            <place xml:id="place.15.4.1" type="building">
+              <placeName type="reg">26 Vincent Avenue</placeName>
+              <location>
+                <geo>42.209007, -79.467563</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.15.5" type="settlement">
+            <placeName type="reg">Chicago</placeName>
+            <location>
+              <geo>41.8755616, -87.6244212</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/4887398</idno>
+            <place xml:id="place.15.5.1" type="building">
+              <placeName type="reg">410 N. Michigan Avenue</placeName>
+              <location>
+                <geo>41.890097502971486, -87.62441387268125</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.15.6" type="settlement">
+            <placeName type="reg">Kansas City</placeName>
+            <location>
+              <geo>39.100105, -94.5781416</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/4393217</idno>
+            <place xml:id="place.15.6.1" type="building">
+              <placeName type="reg">Muehlebach Hotel</placeName>
+              <location>
+                <geo>39.09935066314971, -94.58448778389015</geo>
+              </location>
+            </place>
+          </place>
+          <place xml:id="place.15.7" type="settlement">
+            <placeName type="reg">Los Angeles</placeName>
+            <location>
+              <geo>34.0536909, -118.242766</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/5368361</idno>
+            <place xml:id="place.15.7.1" type="district">
+              <placeName type="reg">Hollywood</placeName>
+              <location>
+                <geo>34.0980031, -118.329523</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/4158928</idno>
+              <place xml:id="place.15.7.1.1" type="building">
+                <placeName type="reg">525 South Fairfax Avenue</placeName>
+                <location>
+                  <geo>34.06673709034499, -118.3615867755223</geo>
+                </location>
+              </place>
+              <place xml:id="place.15.7.1.2" type="building">
+                <placeName type="reg">5860 Canyon Cove</placeName>
+                <location>
+                  <geo>34.112264923233155, -118.31765764469627</geo>
+                </location>
+              </place>
+              <place xml:id="place.15.7.1.3" type="building">
+                <placeName type="reg">6067 Wilshire Blvd.</placeName>
+                <location>
+                  <geo>34.1032167603799, -118.32638291352384</geo>
+                </location>
+              </place>
+              <place xml:id="place.15.7.1.4" type="building">
+                <placeName type="reg">1750 Vine Street</placeName>
+                <location>
+                  <geo>34.097995362753124, -118.32669382840783</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.15.7.2" type="district">
+              <placeName type="reg">Westwood</placeName>
+              <location>
+                <geo>34.0561207, -118.4306347</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/2143934</idno>
+              <place xml:id="place.15.7.2.1" type="building">
+                <placeName type="reg">3551 Trousdale Pkwy, Los Angeles, CA 90089***</placeName>
+                <location>
+                  <geo>34.02262338667536, -118.2851854586175</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.15.7.3" type="district">
+              <placeName type="reg">Brentwood Park</placeName>
+              <location>
+                <geo>34.05493697895366, -118.48796466641106</geo>
+              </location>
+              <idno type="uri">https://sws.geonames.org/5330658</idno>
+              <place xml:id="place.15.7.3.1" type="building">
+                <placeName type="reg">116 N Rockingham Avenue</placeName>
+                <location>
+                  <geo>34.05802122242767, -118.49100975420565</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.15.7.4" type="district">
+              <placeName type="reg">Melrose</placeName>
+              <location>
+                <geo>34.083695198765504, -118.35499169817552</geo>
+              </location>
+              <idno type="uri">https://sws.geonames.org/8062697</idno>
+              <place xml:id="place.15.7.4.1" type="building">
+                <placeName type="reg">8373 Melrose Avenue</placeName>
+                <location>
+                  <geo>34.0837137563392, -118.37263903587831</geo>
+                </location>
+              </place>
+            </place>
+          </place>
+          <place xml:id="place.15.8" type="settlement">
+            <placeName type="reg">New York</placeName>
+            <location>
+              <geo>40.7127281, -74.0060152</geo>
+            </location>
+            <idno type="uri">http://sws.geonames.org/5128581</idno>
+            <place xml:id="place.15.8.1" type="building">
+              <placeName type="reg">113 West 57th Street</placeName>
+              <location>
+                <geo>40.76476895323889, -73.97793157505917</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.2" type="building">
+              <placeName type="reg">1209 Carnegie Hall</placeName>
+              <location>
+                <geo>40.7651095274448, -73.97988068634662</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.3" type="building">
+              <placeName type="reg">15 East 40th Street</placeName>
+              <location>
+                <geo>40.751833104207144, -73.98064191977153</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.4" type="building">
+              <placeName type="reg">15 East, 4th Street (New York, 16)</placeName>
+              <location>
+                <geo>40.7282936407189, -73.99335311755023</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.5" type="building">
+              <placeName type="reg">25 West, 45th Street</placeName>
+              <location>
+                <geo>40.75599821950444, -73.98081394896117</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.6" type="building">
+              <placeName type="reg">250 West 57th Street</placeName>
+              <location>
+                <geo>40.766394578828745, -73.98247585215337</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.7" type="building">
+              <placeName type="reg">3 East 43rd Street</placeName>
+              <location>
+                <geo>40.75358286187452, -73.97894190417531</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.8" type="building">
+              <placeName type="reg">30 West 57th Street</placeName>
+              <location>
+                <geo>40.76347363768088, -73.97578233631101</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.9" type="building">
+              <placeName type="reg">338 West 89th Street</placeName>
+              <location>
+                <geo>40.79134449669713, -73.97815265998437</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.10" type="building">
+              <placeName type="reg">43 West 23rd Street</placeName>
+              <location>
+                <geo>40.74248834368295, -73.99122120207934</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.11" type="building">
+              <placeName type="reg">619 West 54th Street</placeName>
+              <location>
+                <geo>40.76889129851773, -73.99365632037026</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.12" type="building">
+              <placeName type="reg">799 Seventh Avenue at 52nd Street</placeName>
+              <location>
+                <geo>40.7618772125453, -73.98219469408505</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.13" type="building">
+              <placeName type="reg">815 Park Avenue</placeName>
+              <location>
+                <geo>40.77280815748638, -73.9621785930933</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.14" type="building">
+              <placeName type="reg">Broadway 73rd Street</placeName>
+              <placeName type="alt">Hotel Ansonia</placeName>
+              <location>
+                <geo>40.77960509363009, -73.98165328871374</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.15" type="building">
+              <placeName type="reg">209 West 57th Street</placeName>
+              <location>
+                <geo>40.76607691849662, -73.9805078459011</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.8.16" type="building">
+              <placeName type="reg">40 West 34th Street</placeName>
+              <location>
+                <geo>40.749361548458396, -73.98706384590133</geo>
+              </location>
+            </place>
+            <place xml:id="place.15.9" type="settlement">
+              <placeName type="reg">Pasadena</placeName>
+              <location>
+                <geo>34.1476452, -118.1444779</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/5381396</idno>
+            </place>
+            <place xml:id="place.15.10" type="settlement">
+              <placeName type="reg">Philadelphia</placeName>
+              <location>
+                <geo>39.9527237, -75.1635262</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/4560349</idno>
+              <place xml:id="place.15.10.1" type="building">
+                <placeName type="reg">240 S. Broad Street</placeName>
+                <location>
+                  <geo>39.948022862210486, -75.16523046068227</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.15.11" type="settlement">
+              <placeName type="reg">Princeton</placeName>
+              <location>
+                <geo>40.34833555, -74.6684230570877</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/5102922</idno>
+              <place xml:id="place.15.11.1" type="building">
+                <placeName type="reg">Princeton University</placeName>
+                <location>
+                  <geo>40.345308606550155, -74.65581449819481</geo>
+                </location>
+              </place>
+            </place>
+            <place xml:id="place.15.12" type="settlement">
+              <placeName type="reg">Washington, D. C.</placeName>
+              <location>
+                <geo>38.9074322, -77.0350922</geo>
+              </location>
+              <idno type="uri">http://sws.geonames.org/4140963</idno>
+              <place xml:id="place.15.12.1" type="building">
+                <placeName type="reg">101 Independence Avenue SE</placeName>
+                <location>
+                  <geo>38.887814348004824, -77.01225053109125</geo>
+                </location>
+              </place>
+              <place xml:id="place.15.12.2" type="building">
+                <placeName type="reg">950 Pennsylvania Avenue</placeName>
+                <location>
+                  <geo>38.893003095231194, -77.02539302973747</geo>
+                </location>
+              </place>
+              <place xml:id="place.15.12.3" type="building">
+                <placeName type="reg">Library of Congress</placeName>
+                <location>
+                  <geo>38.88863375803184, -77.00464824372601</geo>
+                </location>
+              </place>
+            </place>
+          </place>
+        </place>
+        <place xml:id="place.16" type="country">
+          <placeName type="reg">Belgien</placeName>
+          <location>
+            <geo>50.75, 4.5</geo>
+          </location>
+          <idno type="uri">https://sws.geonames.org/2802361</idno>
+          <place xml:id="place.16.1" type="settlement">
+            <placeName type="reg">Brüssel</placeName>
+            <location>
+              <geo>50.85045, 4.34878</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/2800866</idno>
+          </place>
+          <place xml:id="place.16.2" type="settlement">
+            <placeName type="reg">Antwerpen</placeName>
+            <location>
+              <geo>51.22047, 4.40026</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/2803138</idno>
+          </place>
+        </place>
+      </listPlace>
         </body>
     </text>
 </TEI>

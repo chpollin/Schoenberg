@@ -2437,6 +2437,1480 @@
                     <note><bibl><title/></bibl>
                     </note>
                 </bibl>
+                <bibl xml:id="schriften.1">
+                    <author role="text">
+                        <!-- ASUE: wir haben entsprechend dem Musik-Register auch hier ein role attribut eingefügt, auch wenn es fast ausschließlich text als rolle gibt. In Ordnung oder besser löschen? -->
+                        <!-- ASUE: ausserdem ist das note Element neu, ebenfalls in Übereinstimmung mit dem Musikregister -->
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Harmonielehre</title>
+                    <idno>ASSV 2.1.1.</idno>
+                    <note><date when="1911">1911</date>
+                        <bibl>VORABDRUCK des Kapitels "Über Oktaven- und Quintenparallelen" in: Die
+                            Musik 10, Nr. 2, zweites Oktoberheft 1910/1911), S. 96-105.</bibl>
+                        <bibl>VORABDRUCK einer Textauswahl aus dem Kapitel "Über Oktaven- und
+                            Quintparallelen" [übersetzt von Wassily Kandinsky] im Katalog zur
+                            Internationalen Kunstausstellung "Salon 2" in Odessa (1910/1911), S.
+                            16–18.</bibl>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Harmonielehre, Leipzig – Wien:
+                            Universal-Edition 1911.</bibl>
+                        <bibl>NACHDRUCK ["2. Auflage"]: Arnold Schönberg: Harmonielehre, Leipzig -
+                            Wien: Universal-Edition [1919].</bibl>
+                        <bibl>NEUAUFLAGE ["3. Auflage"]: Arnold Schönberg: Harmonielehre. 3.
+                            vermehrte und verbesserte Auflage, Wien: Universal-Edition 1922.</bibl>
+                        <bibl>NACHDRUCK ["4. Auflage"]: Arnold Schönberg: Harmonielehre, Wien:
+                            Universal-Edition 1949.</bibl>
+                        <bibl>ERSTDRUCK der ersten englischen Teilübersetzung: Arnold Schoenberg:
+                            Theory of Harmony: Translated by Robert D. W. Adam, New York:
+                            Philosophical Library 1948.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.3">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Versuch eines Nachrufs für Herzka</title>
+                    <idno>ASSV 5.3.9.49.</idno>
+                    <note><date when="1932">1932</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.5">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Dichtungen, Texte, Sprüche, Aphorismen</title>
+                    <idno>ASSV 0.21.</idno>
+                    <note>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.6">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Aphorismen im "Konzert-Taschenbuch"</title>
+                    <idno>ASSV 1.1.1.2.</idno>
+                    <note><date when="1911">1911</date>
+                        <bibl>ERSTDRUCK in: Konzert-Taschenbuch für die Saison 4 (1911/1912), hg.
+                            vom Konzert-Bureau Emil Gutmann, S. 104-106.</bibl>
+                        <bibl>TEILNACHDRUCK in: Arnold Schönberg zum 60. Geburtstag, 13. September
+                            1934, Wien: Universal-Edition 1934, S. 11.</bibl>
+                        <bibl>TEILNACHDRUCK in: Anbruch 16, Heft 7 (September 1934; Zur
+                            Schönbergfeier), S. 138.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.7">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Texte</title>
+                    <idno>ASSV 1.1.2.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl>DRUCK: Arnold Schönberg: Texte, Wien: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.8">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vorwort</title>
+                    <idno>ASSV 1.1.2.1</idno>
+                    <note><date when="1925">1925</date>
+                        <bibl>DRUCK: Arnold Schönberg: Texte, Wien: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.9">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Die glückliche Hand</title>
+                    <idno>ASSV 1.1.2.2.</idno>
+                    <note><date from="1910" to="1913">1910-1913</date>
+                        <bibl>ERSTDRUCK in: Der Merker 2, Heft 17 (Juni 1911), S. 718-721.</bibl>
+                        <bibl>ERSTDRUCK (Separatum): Die glückliche Hand. Drama mit Musik von Arnold
+                            Schönberg, Wien - Leipzig: Universal-Edition 1917.</bibl>
+                        <bibl>DRUCK: Arnold Schönberg: Texte, Wien: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.10">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Totentanz der Prinzipien</title>
+                    <idno>ASSV 1.1.2.3.</idno>
+                    <note><date when="1915">1915</date>
+                        <bibl>DRUCK: Arnold Schönberg: Texte, Wien: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.11">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Requiem</title>
+                    <idno>ASSV 1.1.2.4.</idno>
+                    <note><date from="1920" to="1923">~1920-1923</date>
+                        <bibl>DRUCK: Arnold Schönberg: Texte, Wien: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.12">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Die Jakobsleiter</title>
+                    <idno>ASSV 1.1.2.5.</idno>
+                    <note><date from="1915" to="1917">1915-1917</date>
+                        <bibl>(TEIL-)VORABDRUCK im Rahmen von: Elsa Bienenfeld: Die Jakobsleiter.
+                            Ein neues Oratorium von Arnold Schönberg. Mitgeteilt nach der
+                            unveröffentlichten Dichtung, in: Neues Wiener Journal (4. Oktober
+                            1917).</bibl>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Die Jakobsleiter. Oratorium, Wien:
+                            Universal-Edition 1917.</bibl>
+                        <bibl>DRUCK: Arnold Schönberg: Texte, Wien: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.13">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Moses und Aron</title>
+                    <idno>ASSV 1.2.1.1.</idno>
+                    <note><date from="1928" to="1934">1928-1934</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.14">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Der biblische Weg</title>
+                    <idno>ASSV 1.2.1.2.</idno>
+                    <note><date from="1926" to="1927">1926-1927</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.15">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Gemischte Chöre</title>
+                    <idno>ASSV 1.2.1.5.</idno>
+                    <note><date when="1925">1925</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Vier Stücke für gemischten Chor op. 27,
+                            Wien - New York: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.16">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Unentrinnbar</title>
+                    <idno>ASSV 1.2.1.5.1</idno>
+                    <note><date when="1925">1925</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Vier Stücke für gemischten Chor op. 27,
+                            Wien - New York: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.17">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Du sollst nicht, du musst</title>
+                    <idno>ASSV 1.2.1.5.2</idno>
+                    <note><date when="1925">1925</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Vier Stücke für gemischten Chor op. 27,
+                            Wien - New York: Universal-Edition 1926.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.18">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Drei Satiren</title>
+                    <idno>ASSV 1.2.1.6.</idno>
+                    <note><date from="1925" to="1926">1925-1926</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Drei Satiren für gemischten Chor op. 28,
+                            Wien: Universal Edition 1926</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.19">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Am Scheideweg</title>
+                    <idno>ASSV 1.2.1.6.1.</idno>
+                    <note><date from="1925" to="1926">1925-1926</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Drei Satiren für gemischten Chor op. 28,
+                            Wien: Universal Edition 1926</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.20">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vielseitigkeit</title>
+                    <idno>ASSV 1.2.1.6.2.</idno>
+                    <note><date from="1925" to="1926">1925-1926</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Drei Satiren für gemischten Chor op. 28,
+                            Wien: Universal Edition 1926</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.21">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Der neue Klassizismus. Eine kleine Kantate</title>
+                    <idno>ASSV 1.2.1.6.3.</idno>
+                    <note><date from="1925" to="1926">1925-1926</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Drei Satiren für gemischten Chor op. 28,
+                            Wien: Universal Edition 1926</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.22">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Ein Spruch und zwei Variationen über ihn</title>
+                    <idno>ASSV 1.2.1.6.4.</idno>
+                    <note><date from="1925" to="1926">1925-1926</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Drei Satiren für gemischten Chor op. 28,
+                            Wien: Universal Edition 1926</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.23">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Legitimation als Kanon</title>
+                    <idno>ASSV 1.2.1.6.5.</idno>
+                    <note><date from="1925" to="1926">1925-1926</date>
+                        <bibl>ERSTDRUCK: Arnold Schönberg: Drei Satiren für gemischten Chor op. 28,
+                            Wien: Universal Edition 1926</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.24">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Beiträge zu einem geplanten Abbruch</title>
+                    <idno>ASSV 1.3.3.2.</idno>
+                    <note><date when="1926">~1926</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.25">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Models for Beginners in Composition</title>
+                    <idno>ASSV 2.1.2.</idno>
+                    <note><date when="1942">1942</date>
+                        <bibl>ERSTDRUCK: Arnold Schoenberg: Models for Beginners in Composition, Los
+                            Angeles: University of California 1942.</bibl>
+                        <bibl>NACHDRUCK ["2. Auflage"]: Arnold Schoenberg: Models for Beginners in
+                            Composition. Music Examples, Syllabus, and Glossary, New York: Schirmer
+                            1943.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.26">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Fundamentals of Musical Composition</title>
+                    <idno>ASSV 2.2.1.</idno>
+                    <note><date from="1937" to="1948">1937-1948</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.27">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Structural Functions of Harmony</title>
+                    <idno>ASSV 2.2.2.</idno>
+                    <note><date from="1939" to="1948">1939-1948</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.28">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Preliminary Exercises in Counterpoint</title>
+                    <idno>ASSV 2.2.3.</idno>
+                    <note><date from="1942" to="1950">1942-1950</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.29">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Das Komponieren mit selbständigen Stimmen</title>
+                    <idno>ASSV 2.3.1.</idno>
+                    <note><date when="1911">1911</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.30">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Formenlehre</title>
+                    <idno>ASSV 2.3.2.</idno>
+                    <note><date from="1911" to="1923">1911-1923</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.31">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Zusammenhang, Kontrapunkt, Instrumentation, Formenlehre</title>
+                    <idno>ASSV 2.3.3.</idno>
+                    <note><date when="1917">1917</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.32">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Die Lehre vom Zusammenhang</title>
+                    <idno>ASSV 2.3.4.</idno>
+                    <note><date when="1921">~1921</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.33">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Der musikalische Gedanke</title>
+                    <idno>ASSV 2.3.5.</idno>
+                    <note><date from="1921" to="1936">1921-1936</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.34">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Parsifal und Urheberrecht</title>
+                    <idno>ASSV 3.1.1.5.</idno>
+                    <note><date when="1912">1912</date>
+                        <bibl>ERSTDRUCK in: Konzert-Taschenbuch für die Saison 5 (1912/1913), hg.
+                            vom Konzert-Bureau Emil Gutmann, München - Berlin 1912, S. 84-90.</bibl>
+                        <bibl>NACHDRUCK in: Neue Musik-Zeitung 33 (1912), Heft 15, S.
+                            315-317.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.35">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Warum neue Melodien schwer verständlich sind</title>
+                    <idno>ASSV 3.1.1.9.</idno>
+                    <note><date when="1913">1913</date>
+                        <bibl>ERSTDRUCK in: Die Konzertwoche [Beilage zu den Programmbüchern der
+                            Konzerte im Wiener Konzerthaus vom 19. bis 26. Oktober 1913] 1 (Oktober
+                            1913), S. 3-4.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.36">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Die vereinfachte Studier- und Dirigier-Partitur</title>
+                    <idno>ASSV 3.1.1.10.</idno>
+                    <note><date when="1917">1917</date>
+                        <bibl>ERSTDRUCK in: Arnold Schönberg: Vier Lieder op. 22 für Gesang und
+                            Orchester. Vereinfachte Studier- und Dirigierpartitur (hiezu ein
+                            Vorwort), Wien - Leipzig: Universal-Edition 1917.</bibl>
+                        <bibl>NACHDRUCK in: Der Merker 9 (1918), Heft 13/14, S. 470-473.</bibl>
+                        <bibl>NACHDRUCK in: Erwin Stein: Schönbergs „Vereinfachte Studier- und
+                            Dirigier-Partitur", in: Pult und Taktstock 2, Heft 2/3 (Februar-März
+                            1925), S. 38-40.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.37">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Gewissheit</title>
+                    <idno>ASSV 3.1.1.12.</idno>
+                    <note><date when="1920">1920</date>
+                        <bibl>ERSTDRUCK in: Schöpferische Konfession, hg. von Kasimir Edschmid,
+                            Berlin: Reiß 1920 (Tribüne der Kunst und Zeit 13), S. 73-76.</bibl>
+                        <bibl>NACHDRUCK in: Musikblätter des Anbruch 4, Heft 1/2 (Jänner 1922), S.
+                            2-3.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.38">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Die Zukunft der Orchesterinstrumente</title>
+                    <idno>ASSV 3.1.1.13.</idno>
+                    <note><date when="1924">1924</date>
+                        <bibl>ERSTDRUCK in: Pult und Taktstock 1, Heft 8 (Dezember 1924), S.
+                            131-134.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.39">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Eine neue Zwölfton-Schrift</title>
+                    <idno>ASSV 3.1.1.14.</idno>
+                    <note><date when="1925">1925</date>
+                        <bibl>ERSTDRUCK in: Musikblätter des Anbruch 7, Heft 1 (Jänner 1925), S.
+                            1-7.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.40">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Tonality and Form</title>
+                    <idno>ASSV 3.1.1.15.</idno>
+                    <note><date when="1925">1925</date>
+                        <bibl>ERSTDRUCK in: Christian Science Monitor (December 19, 1925),
+                            10.</bibl>
+                        <bibl>NACHDRUCK in: Pacific Coast Musician 24 (1935), Nr. 11, S. 3.</bibl>
+                        <bibl>NACHDRUCK in: Music and Dance in California, hg. von Jose Rodriguez,
+                            Hollywood: Bureau of Musical Research 1940, S. 50-52.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.41">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Gesinnung oder Erkenntnis?</title>
+                    <idno>ASSV 3.1.1.16.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl>ERSTDRUCK in: 25 Jahre Neue Musik. Jahrbuch 1926 der
+                            Universal-Edition, hg. von Hans Heinsheimer u. Paul Stefan, Wien:
+                            Universal-Edition 1926, S. 21-30.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.42">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Mechanische Musikinstrumente</title>
+                    <idno>ASSV 3.1.1.17.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl>ERSTDRUCK in: Pult und Taktstock 3, Heft 3/4 (März-April 1926), S.
+                            71-75.</bibl>
+                        <bibl>TEILNACHDRUCK in: Musikblätter des Anbruch 8, Heft 8/9
+                            (Oktober-November 1926; Sonderheft: Musik und Maschine), S. 401.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.43">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vorwort zu den drei Satiren</title>
+                    <idno>ASSV 3.1.1.18.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl>ERSTDRUCK in: Arnold Schönberg: Drei Satiren für gemischten Chor op.
+                            28, Wien: Universal Edition 1926, S. 3-4.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.44">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Eine sehr lehrreiche Rede Felix Mottls</title>
+                    <idno>ASSV 3.1.1.19.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl>ERSTDRUCK in: Pult und Taktstock 3, Heft 9/10 (November-Dezember
+                            1926), S. 159-160.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.45">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Interview mit mir selbst</title>
+                    <idno>ASSV 3.1.1.20.</idno>
+                    <note><date when="1928">1928</date>
+                        <bibl>FRZ. ERSTDRUCK unter dem Titel "ldées d'Arnold Schoenberg sur la
+                            musique" [übersetzt von J. Peyraube], in: La Revue Musicale 10/1 (1er
+                            novembre 1928), S. 1-6.</bibl>
+                        <bibl>DT. ERSTDRUCK in: Deutsche Allgemeine Zeitung (16. Dezember
+                            1928).</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.46">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Problems of Harmony</title>
+                    <idno>ASSV 3.1.1.25.</idno>
+                    <note><date when="1934">1934</date>
+                        <bibl>ERSTDRUCK in: Modem Music 11, Nr. 4 (May-June 1934), S.
+                            167-187.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.47">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vorwort zu op. 27 und 28 (unbenützt)</title>
+                    <idno>ASSV 3.2.7.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.48">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Jens Quer interpelliert Arnold Schönberg</title>
+                    <idno>ASSV 3.3.13.</idno>
+                    <note><date when="1925">1925</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.49">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Ästhetik und Kompositionslehre</title>
+                    <idno>ASSV 4.1.1.</idno>
+                    <note><date notBefore="1911" notAfter="1912">1911/1912</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.50">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Gustav Mahler</title>
+                    <idno>ASSV 4.1.2.</idno>
+                    <note><date when="1912">1912</date>
+                        <bibl>(TEIL-)ERSTDRUCK unter dem Titel: "Aus einer Rede Schönbergs über
+                            Gustav Mahler (1913)", in: Arnold Schönberg zum 60. Geburtstag, 13.
+                            September 1934, Wien: Universal-Edition 1934, S. 66-70.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.51">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Conviction ou Connaissance</title>
+                    <idno>ASSV 4.1.6.</idno>
+                    <note><date when="1927">1927</date>
+                        <bibl>DRUCK unter dem Titel „Tonal ou atonal", in: Le Monde Musical 38
+                            (1927), Nr. 12 (31 Décembre), S. 427-429.</bibl>
+                        <bibl>DRUCK unter dem Titel „Conviction ou Connaissance" [übersetzt von
+                            Stefan Freund], in: Musique 1/4 (15 Janvier 1928), S. 156-164.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.52">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vortrag zur Einführung in die Glückliche Hand</title>
+                    <idno>ASSV 4.1.7.</idno>
+                    <note><date when="1928">1928</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.53">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Method of composing with 12 tones which are only related with one
+                        another</title>
+                    <idno>ASSV 4.1.16.</idno>
+                    <note><date when="1912">1912</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.54">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>How can a Music Student Earn a Living?</title>
+                    <idno>ASSV 4.1.27.</idno>
+                    <note><date when="1939">1939</date>
+                        <bibl>ERSTDRUCK in: Proceedings of the Music Teachers National Association
+                            34 (1940), S. 251-255.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.55">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Composition with Twelve Tones</title>
+                    <idno>ASSV 4.1.31.</idno>
+                    <note><date when="1941">1941/46</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.56">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Zu meinem 50. Geburtstag</title>
+                    <idno>ASSV 5.1.2.4.</idno>
+                    <note><date when="1924">1924</date>
+                        <bibl>ERSTDRUCK in: Musikblätter des Anbruch 6, Heft 7/8 (August-September
+                            1924; Arnold Schönberg zum fünfzigsten Geburtstage 13. September 1924),
+                            S. 269-270.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.57">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Fragen von Jens Quer</title>
+                    <idno>ASSV 5.1.2.5.</idno>
+                    <note><date when="1924">1924</date>
+                        <bibl>ERSTDRUCK in: Pult und Taktstock 1, Heft l (April 1924), S. 10.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.58">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Jens Quer meldet sich wieder</title>
+                    <idno>ASSV 5.1.2.6.</idno>
+                    <note><date when="1924">1924</date>
+                        <bibl>ERSTDRUCK in: Pult und Taktstock 1, Heft 8 (Dezember 1924), S.
+                            137-139.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.59">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Studierziffern</title>
+                    <idno>ASSV 5.1.2.7.</idno>
+                    <note><date when="1928">1928</date>
+                        <bibl>ERSTDRUCK im Rahmen von: "Studierziffern. Eine Abstimmung unter den
+                            Dirigenten", in: Pult und Taktstock 5, Heft 5/6 (Mai-Juni 1928), S.
+                            54.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.60">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Zu Casellas Aufsatz "Scarlattiana"</title>
+                    <idno>ASSV 5.1.2.8.</idno>
+                    <note><date when="1929">1929</date>
+                        <bibl>ERSTDRUCK in: Anbruch 11, Heft 2 (Februar 1929), S. 79.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.61">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>[Rundfrage: Gibt es eine Krise der Oper?]</title>
+                    <idno>ASSV 5.1.2.8.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl>ERSTDRUCK im Rahmen von: Gibt es eine Krise der Oper? Das Urteil der
+                            Intendanten. - Die Meinung der Komponisten, in: Berliner Tageblatt, Nr.
+                            110 (6. März 1926), 1. Beiblatt.</bibl>
+                        <bibl>NACHDRUCK im Rahmen von: Gibt es eine Krise der Oper?, in:
+                            Musikblätter des Anbruch 8, Heft 5 (Mai 1926), S. 209.</bibl>
+                        <bibl>NACHDRUCK unter dem Titel „Die Zukunft der Oper" in: Neues Wiener
+                            Tagblatt, Nr. 352 (25. Dezember 1927), S. 13.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.62">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Anerkennung</title>
+                    <idno>ASSV 5.1.4.2.</idno>
+                    <note><date when="1920">1920</date>
+                        <bibl>ERSTDRUCK in: Willem Mengelberg. Gedenkboek 1895-1920, s'Gravenhage:
+                            Martinus Nijhoff 1920, S. 63.</bibl>
+                        <bibl>NACHDRUCK im Rahmen von: Zu Willem Mengelbergs fünfzigstem Geburtstag,
+                            in: Musikblätter des Anbruch 3, Nr. 6 (2. März-Heft 1921), S. 112-115,
+                            Schönbergs Beitrag auf S. 113.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.63">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vorwort zu Weberns kleinen Quartettstücken</title>
+                    <idno>ASSV 5.1.4.2.</idno>
+                    <note><date when="1924">1924</date>
+                        <bibl>ERSTDRUCK in: Anton Webern: Sechs Bagatellen für Streichquartett, op.
+                            9, Wien: Universal Edition 1924, S. 2.</bibl>
+                        <bibl>NACHDRUCK mit dem Titel „Meister und Jünger" in: 23 - Eine Wiener
+                            Musikzeitschrift, Nr. 14: Sonderheft „Anton Webern zum 50. Geburtstag"
+                            [1934], hg. von Willi Reich, S. 8.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.64">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Für Franz Schreker</title>
+                    <idno>ASSV 5.1.4.7.</idno>
+                    <note><date when="1928">1928</date>
+                        <bibl>ERSTDRUCK im Rahmen von: Für Franz Schreker, in: Musikblätter des
+                            Anbruch 10, Heft 3/4 (März-April 1928; Franz Schreker. Zum 50.
+                            Geburtstag), S. 81-86, Schönbergs Beitrag auf S. 82.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.65">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Berichtigung</title>
+                    <idno>ASSV 5.2.2.2.</idno>
+                    <note><date when="1924">1924</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.66">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>[Erklärung]</title>
+                    <idno>ASSV 5.2.2.3.</idno>
+                    <note><date when="1924">1924</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.67">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Entwurf einer Musikzeitung</title>
+                    <idno>ASSV 5.2.5.3.</idno>
+                    <note><date when="1911">~1911</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.68">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Entwurf. Statuten des Mahlerbundes</title>
+                    <idno>ASSV 5.2.5.5.</idno>
+                    <note><date when="1920">1920</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.69">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Nachpfeifen</title>
+                    <idno>ASSV 5.3.1.1.</idno>
+                    <note><date from="1913" to="1914">1913-14</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.70">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Křenek für leichte Musik</title>
+                    <idno>ASSV 5.3.1.51.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.71">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Ueber Metronomisierung</title>
+                    <idno>ASSV 5.3.1.57.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.72">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>zu Metronomisierung</title>
+                    <idno>ASSV 5.3.1.58.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.73">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Metronomisierung</title>
+                    <idno>ASSV 5.3.1.59.</idno>
+                    <note><date when="1926">1926</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.74">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Glossen zu den Theorien anderer</title>
+                    <idno>ASSV 5.3.1.77.</idno>
+                    <note><date when="1929">1929</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.75">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Glossen zu Redlich</title>
+                    <idno>ASSV 5.3.1.82.</idno>
+                    <note><date when="1930">1930</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.76">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Krenek: Fortschritt und Reaktion</title>
+                    <idno>ASSV 5.3.1.83.</idno>
+                    <note><date when="1930">1930</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.77">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Tiefe</title>
+                    <idno>ASSV 5.3.2.11.</idno>
+                    <note><date when="1927">1927</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.78">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Gegen die Räuberplage</title>
+                    <idno>ASSV 5.3.5.4.</idno>
+                    <note><date when="1922">1922</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.79">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vereinigung der Autoren der Universal Edition</title>
+                    <idno>ASSV 5.3.5.12.</idno>
+                    <note><date when="1928">1928</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.80">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Brief an die U. E.</title>
+                    <idno>ASSV 5.3.8.2.</idno>
+                    <note><date when="1923">1923</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.81">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Vorwort zum Führer durch die Harmonielehre von Erwin Stein</title>
+                    <idno>ASSV 5.3.8.4.</idno>
+                    <note><date when="1923">1923</date>
+                        <bibl>ERSTDRUCK in: Erwin Stein, Praktischer Leitfaden zu Schönbergs
+                            Harmonielehre. Ein Hilfsbuch für Lehrer und Schüler, Wien:
+                            Universal-Edition 1923, S. 1.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.82">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Herr Prof. Lach (an der Wiener Universität für Musikgeschichte</title>
+                    <idno>ASSV 5.3.9.10.</idno>
+                    <note><date when="1925">~1925</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.83">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Kreneks "gehaltener" Vortrag</title>
+                    <idno>ASSV 5.3.9.12.</idno>
+                    <note><date when="1926">~1926</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.84">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Die Universal Edition | Ergänzungen zu meinem Briefwechsel</title>
+                    <idno>ASSV 5.3.9.13.</idno>
+                    <note><date when="1927">1927</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.85">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Agenda Moderne</title>
+                    <idno>ASSV 8.12.</idno>
+                    <note><date when="1929">1929</date><bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.86">
+                    <author role="text">
+                        <persName key="p_d1e70491">
+                            <surname>Schönberg</surname>
+                            <forename>Arnold</forename>
+                        </persName>
+                    </author>
+                    <title>Meine Notenschreibmaschine</title>
+                    <idno>ASSV Anh. 1</idno>
+                    <note><date when="1909">1909</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.87">
+                    <author role="text">
+                        <persName>
+                            <surname>Balzac</surname>
+                            <forename>Honoré de</forename>
+                        </persName>
+                    </author>
+                    <title>Séraphita</title>
+                    <idno/>
+                    <note><date when="1834">1834</date>
+                        <bibl>DRUCK: H. de Balzac: Séraphita. Paris: Ernest Flammarion [ca. 1902].
+                            [Auteurs célèbres, no. 456]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.88">
+                    <author role="text">
+                        <persName>
+                            <surname>Bellermann</surname>
+                            <forename>Heinrich</forename>
+                        </persName>
+                    </author>
+                    <title>Der Contrapunkt</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Heinrich Bellermann: Der Contrapunkt. Mit zahlreichen in den
+                            Text gedruckten Notenbeispielen und fünf lithographierten Tafeln in
+                            Farbendruck. Dritte Auflage. Berlin: Verlag von Julius Springer
+                            1887.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.89">
+                    <author role="text">
+                        <persName key="p_d1e8310">
+                            <surname>Berg</surname>
+                            <forename>Alban</forename>
+                        </persName>
+                    </author>
+                    <title>Arnold Schönberg. Gurrelieder. Führer</title>
+                    <idno/>
+                    <note><date when="1913">1913</date>
+                        <bibl>DRUCK: Arnold Schönberg. Gurrelieder. Führer von Alban Berg. Leipzig –
+                            Wien: Universal-Edition A. G. 1913. (Universal-Edition, No. 3695)</bibl>
+                        <bibl>DRUCK: Arnold Schönberg. Gurrelieder. Führer von Alban Berg. (Kleine
+                            Ausgabe*). Leipzig - Wien: Universal-Edition A. G. 1914.
+                            [Universal-Edition, Nr. 5275]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.90">
+                    <author role="text">
+                        <persName key="p_d1e26503">
+                            <surname>Giraud</surname>
+                            <forename>Albert</forename>
+                        </persName>
+                    </author>
+                    <author role="translation">
+                        <persName key="p_d1e31636">
+                            <surname>Hartleben</surname>
+                            <forename>Otto Erich</forename>
+                        </persName>
+                    </author>
+                    <title>Pierrot Lunaire</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Pierrot Lunaire. Deutsch von Otto Erich Hartleben. Berlin: Der
+                            Verlag deutscher Phantasten 1893.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.91">
+                    <author role="text">
+                        <persName>
+                            <surname>Jacobsen</surname>
+                            <forename>Jens Peter</forename>
+                        </persName>
+                    </author>
+                    <author role="translation">
+                        <persName key="p_d1e4020">
+                            <surname>Arnold</surname>
+                            <forename>Robert Franz</forename>
+                        </persName>
+                    </author>
+                    <title>Gurre-Lieder</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Gedichte von Jens Peter Jacobsen. Aus dem Dänischen übersetzt
+                            von Robert F. Arnold. Leipzig: Georg Heinrich Meyer, 1897, S.
+                            3-25.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.92">
+                    <author role="text">
+                        <persName key="p_d1e43840">
+                            <surname>Kraus</surname>
+                            <forename>Karl</forename>
+                        </persName>
+                    </author>
+                    <title>Die Unüberwindlichen</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Die Unüberwindlichen. Nachkriegsdrama in vier Akten von Karl
+                            Kraus. Wien - Leipzig: Die Fackel, 1928</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.93">
+                    <author role="text">
+                        <persName key="p_d1e46410">
+                            <surname>Levetzow, von</surname>
+                            <forename>Karl Michael</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName>
+                            <surname>Feld</surname>
+                            <forename>Leo</forename>
+                        </persName>
+                    </author>
+                    <title>Die heilige Ente</title>
+                    <idno/>
+                    <note><date notAfter="1915">vor 1915</date>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.94">
+                    <author role="text">
+                        <persName key="p_d1e58222">
+                            <surname>Pappenheim</surname>
+                            <forename>Marie</forename>
+                        </persName>
+                    </author>
+                    <title>Erwartung</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>ERSTDRUCK: Erwartung ‹Monodram›. Dichtung von Marie Pappenheim. Musik
+                            von Arnold Schönberg Op. 17. Wien - Leipzig: Universal-Edition 1917
+                            [Universal-Edition, Nr. 5360].</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.95">
+                    <author role="text">
+                        <persName key="p_d1e67557">
+                            <surname>Schenker</surname>
+                            <forename>Heinrich</forename>
+                        </persName>
+                    </author>
+                    <title>Von der Sendung des deutschen Genies</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Der Tonwille. Flugblätter zum Zeugnis unwandelbarer Gesetze der
+                            Tonkunst einer neuen Jugend dargebracht von Heinrich Schenker, Heft 1
+                            (1921), Wien: Tonwille-Flugblätterverlag [= Universal-Edition], S.
+                            3-21.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.96">
+                    <author role="text">
+                        <persName key="p_d1e77139">
+                            <surname>Specht</surname>
+                            <forename>Richard</forename>
+                        </persName>
+                    </author>
+                    <title>Gustav Mahlers VIII. Symphonie.</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Gustav Mahlers VIII. Symphonie. Thematische Analyse von Richard
+                            Specht. Mit einer Einleitung, biographischen Daten und dem Porträt
+                            Mahlers. Leipzig - Wien: Universal-Edition 1912. [Universal-Edition, Nr.
+                            3399]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.97">
+                    <author role="text">
+                        <persName key="p_d1e78087">
+                            <surname>Stein</surname>
+                            <forename>Erwin</forename>
+                        </persName>
+                    </author>
+                    <title>Praktischer Leitfaden zu Schönbergs Harmonielehre</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Praktischer Leitfaden zu Schönbergs Harmonielehre. Ein
+                            Hilfsbuch für Lehrer und Schüler von Erwin Stein. Wien:
+                            Universal-Edition [1923]. [Universal-Edition, Nr. 7248]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.98">
+                    <author role="text">
+                        <persName key="p_d1e80190">
+                            <surname>Stöhr</surname>
+                            <forename>Richard</forename>
+                        </persName>
+                    </author>
+                    <title>Praktischer Leitfaden der Harmonielehre.</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Richard Stöhr: Praktischer Leitfaden der Harmonielehre. Wien:
+                            Universal-Edition 1909. [Universal-Edition, Nr. 2013]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.99">
+                    <author role="text">
+                        <persName key="p_d1e83333">
+                            <surname>Thuille</surname>
+                            <forename>Richard</forename>
+                        </persName>
+                    </author>
+                    <author role="text">
+                        <persName key="p_d1e47685">
+                            <surname>Louis</surname>
+                            <forename>Rudolf</forename>
+                        </persName>
+                    </author>
+                    <title>Harmonielehre.</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Harmonielehre von Rudolf Louis und Ludwig Thuille. 4.,
+                            durchges. Ausgabe. Stuttgart: Grüninger 1913.</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.100">
+                    <author role="text">
+                        <persName key="p_d1e84860">
+                            <surname>Violin</surname>
+                            <forename>Moritz</forename>
+                        </persName>
+                    </author>
+                    <title>Über das sogenannte Continuo.</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Moritz Violin: Über das sogenannte Continuo. Ein Beitrag zur
+                            Lösung des Problems. Wien: Universal-Edition 1911. [Universal-Edition,
+                            Nr. 3089]</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.101">
+                    <author role="text">
+                        <persName key="p_d1e26095">
+                            <surname>George</surname>
+                            <forename>Stefan</forename>
+                        </persName>
+                    </author>
+                    <title>Die Bücher der Hirten- und Preisgedichte der Sagen und Sänge und der
+                        hängenden Gärten</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK: Stefan George: Die Bücher der Hirten- und Preisgedichte der
+                            Sagen und Sänge und der hängenden Gärten. Dritte Auflage. Berlin: Georg
+                            Bondi 1907. (Blätter für die Kunst)</bibl>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.102">
+                    <author role="text">
+                        <persName key="p_d1e26095">
+                            <surname>Kiesewetter</surname>
+                            <forename>Raphael Georg</forename>
+                        </persName>
+                    </author>
+                    <title>Geschichte der europäisch-abendländischen oder unserer heutigen Musik</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl/>
+                    </note>
+                </bibl>
+                <bibl xml:id="schriften.103">
+                    <author role="text">
+                        <persName key="p_4001">
+                            <surname>Webern</surname>
+                            <forename>Anton</forename>
+                        </persName>
+                    </author>
+                    <title>Ueber Arnold Schönberg</title>
+                    <idno/>
+                    <note><date/>
+                        <bibl>DRUCK in: Rheinische Musik- und Theater-Zeitung 13 (1912), Heft 8, S.
+                            118.</bibl>
+                        <bibl/>
+                    </note>
+                </bibl>
             </listBibl>
         </body>
     </text>
