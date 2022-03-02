@@ -88,8 +88,8 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc>
-                <!--  -->
+            <correspDesc><correspAction type="sent"><!--  --></correspAction>
+                <correspAction type="received"><!--  --></correspAction>
             </correspDesc>
             <textClass>
                 <keywords>
