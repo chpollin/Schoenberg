@@ -20,7 +20,7 @@
                 <!-- was hier jetzt in der Korrektur noch passieren muss:
                 a) entscheiden, welche occupations und affiliations noch stehen bleiben und welche gestrichen werden können
                 b) BIOs schreiben
-                c) es gibt einige grösser/kleiner Zeichen bei den occupations (escaped als &lt; bzw &gt;) die unschön aussehen.
+                c) es gibt einige grösser/kleiner Zeichen bei den occupations (escaped als &lt; bzw &gt;) die unschön aussehen. ERLEDIGT
                 d) was die alt-names angeht: als Bsp. haben wir B. Rothe und Louis Goldsteen, Kodierung so ok? was ist mit "Gräner/Graener"?
                 e) der letzte Check ob die reconcileden Personen WIRKLICH die richtigen sind, sollte sinnvollerweise bei der Briefkodierung stattfinden,
                 verbunden mit der zugehörigen Recherche
@@ -374,7 +374,7 @@
                             >Literaturkritiker</term></occupation>
                     <affiliation>Akademie der Künste</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q2516852">Lektor
-                            &lt;Verlag&gt;</term></occupation>
+                            Verlag</term></occupation>
                     <affiliation>Deutsches Theater Berlin</affiliation>
                     <occupation><term>Schriftsteller</term></occupation>
                     <affiliation>Salzburger Festspiele</affiliation>
@@ -420,6 +420,11 @@
                     <note>Notar/Anwalt</note>
                 </person>
                 <person xml:id="p_299">
+                    <idno></idno>
+                    <persName type="reg"><surname>Bauer</surname><forename>Maria</forename></persName>
+                    <note>UE</note>
+                </person>
+                <person xml:id="p_300">
                     <idno type="uri">http://d-nb.info/gnd/1108331297</idno>
                     <persName type="reg"
                         ><surname>Bechert</surname><forename>Paul</forename></persName>
@@ -539,7 +544,7 @@
                     <death><date when="1915-02-27">1915-02-27</date>
                         <placeName>New York, NY</placeName></death>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834032">Bariton
-                            &lt;Sänger&gt;</term></occupation>
+                            Sänger</term></occupation>
                     <affiliation>Königliche Oper Berlin</affiliation>
                     <note>Sänger</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q33999"
@@ -549,7 +554,7 @@
                             >Opernsänger</term></occupation>
                     <affiliation>Metropolitan Opera</affiliation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834046">Tenor
-                            &lt;Sänger&gt;</term></occupation>
+                            Sänger</term></occupation>
                 </person>
                 <person xml:id="p_416">
                     <persName type="reg"
@@ -1059,6 +1064,9 @@
                         >Arrangeur</term></occupation>
                     <occupation><term>Komponist</term></occupation>
                 </person>
+                <person xml:id="p_840">
+                    <persName type="reg"><surname>Decsey</surname><forename>Ernst</forename></persName><note>UE</note>
+                </person>
                 <person xml:id="p_842">
                     <persName type="reg"
                         ><surname>Dehmel</surname><forename>Richard</forename></persName>
@@ -1119,6 +1127,10 @@
                     <note>Lesart unsicher, womöglich Scherzname 1926</note>
                 </person>
                 <person xml:id="p_874">
+                    <persName type="reg"><surname>Dieterle</surname><forename>Johann</forename></persName>
+                    <note>UE</note>
+                </person>
+                <person xml:id="p_876">
                     <idno type="uri">http://d-nb.info/gnd/1157512003</idno>
                     <persName type="reg"><surname>Draber</surname><forename>Hermann
                             Wilhelm</forename></persName>
@@ -1344,7 +1356,7 @@
                         >Sänger</term></occupation>
                     <note>Sänger</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834032">Bariton
-                            &lt;Sänger&gt;</term></occupation>
+                            Sänger</term></occupation>
                 </person>
                 <person xml:id="p_1037">
                     <idno type="uri">http://d-nb.info/gnd/131476955</idno>
@@ -1522,7 +1534,7 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q33999"
                             >Schauspieler</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834046">Tenor
-                            &lt;Sänger&gt;</term></occupation>
+                            Sänger</term></occupation>
                 </person>
                 <person xml:id="p_1151">
                     <persName type="reg"
@@ -1532,6 +1544,11 @@
                     <note>Dirigent, 1913, 23.05.1882-11.09.1915</note>
                 </person>
                 <person xml:id="p_1152">
+                    <persName type="reg"><surname>Frölich</surname><forename>Anna Marie</forename></persName>
+                    <persName type="alt><surname>Fric</surname></persName>
+                    <note>UE</note>
+                </person>
+                <person xml:id="p_1153">
                     <idno type="uri">http://d-nb.info/gnd/118536524</idno>
                     <persName type="reg"><surname>Frundsberg</surname><forename>Georg
                         v.</forename></persName>
@@ -1903,6 +1920,10 @@
                             >Theaterintendant</term></occupation>
                     <affiliation key="org.2">Nationaltheater Mannheim</affiliation>
                 </person>
+                <person xml:id="p_1425">
+                    <persName type="reg"><surname>Halbhuber</surname><forename>Alfred</forename></persName>
+                    <note>UE</note>
+                </person>
                 <person xml:id="p_1432">
                     <idno type="uri">http://d-nb.info/gnd/118832433</idno>
                     <persName type="reg"><surname>Hálevy</surname><forename>Jacques
@@ -1994,6 +2015,10 @@
                         >Dirigent</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q1643514"
                         >Arrangeur</term></occupation>
+                </person>
+                <person xml:id="p_1495">
+                    <persName type="reg"><surname>Hauer</surname><forename>Franz Josef</forename></persName>
+                    <note>UE</note>
                 </person>
                 <person xml:id="p_1498">
                     <idno type="uri">http://d-nb.info/gnd/118546937</idno>
@@ -4352,9 +4377,11 @@
                             >Schauspieler</term></occupation>
                 </person>
                 <person xml:id="p_3084">
-                    <idno type="uri">http://d-nb.info/gnd/104293748</idno>
                     <persName type="reg"><surname>Ruppert</surname></persName>
                     <note>Sekretärin 1910, UE? Womöglich "Rupert"</note>
+                </person>
+                <person xml:id="p_3085">
+                    <persName type="reg"><surname>Ruppert</surname><forename>Johann</forename></persName><note>UE</note>
                 </person>
                 <person xml:id="p_3086">
                     <persName type="reg"><surname>Rynar,
@@ -4545,6 +4572,14 @@
                         <placeName>Paris</placeName></death>
                     <note>Kritiker</note>
                 </person>
+                <person xml:id="p_3204">
+                    <idno type="uri">https://d-nb.info/gnd/11728307X</idno>
+                    <persName type="reg"><surname>Schlee</surname>
+                    <forename>Alfred</forename></persName>
+                    <birth><date when="1901-11-19">1901-11-19</date><placeName>Dresden</placeName></birth>
+                    <death><date when="1999-02-16">1999-02-16</date><placeName>Wien</placeName></death>
+                    <note>UE</note>
+                </person>
                 <person xml:id="p_3206">
                     <persName type="reg"
                         ><surname>Schmi(e)d(t)</surname><forename>Josef</forename></persName>
@@ -4564,7 +4599,7 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q39020112"
                             >Theaterintendant</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834056">Bassbariton
-                            &lt;Sänger&gt;</term></occupation>
+                            Sänger</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q3455803"
                         >Regisseur</term></occupation>
                 </person>
@@ -5081,7 +5116,7 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q33999"
                             >Schauspieler</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834046">Tenor
-                            &lt;Sänger&gt;</term></occupation>
+                            Sänger</term></occupation>
                 </person>
                 <person xml:id="p_3568">
                     <idno type="uri">http://d-nb.info/gnd/117481947</idno>
@@ -5410,6 +5445,10 @@
                         >Musiker</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q333634"
                         >Übersetzer</term></occupation>
+                </person>
+                <person xml:id="p_3795">
+                    <persName type="reg"><surname>Swencha</surname><forename>Helene</forename></persName>
+                    <note>UE</note>
                 </person>
                 <person xml:id="p_3802">
                     <idno type="uri">http://d-nb.info/gnd/134535383</idno>
@@ -6006,7 +6045,7 @@
                         >Sänger</term></occupation>
                     <note>Sänger 1914?</note>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834046">Tenor
-                            &lt;Sänger&gt;</term></occupation>
+                            Sänger</term></occupation>
                 </person>
                 <person xml:id="p_4187">
                     <idno type="uri">http://d-nb.info/gnd/1076488226</idno>
@@ -6181,7 +6220,7 @@
                     <occupation><term ref="http://www.wikidata.org/entity/Q1402736"
                             >Privatdozent</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q98834046">Tenor
-                            &lt;Sänger&gt;</term></occupation>
+                            Sänger</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q33999"
                             >Schauspieler</term></occupation>
                     <occupation><term ref="http://www.wikidata.org/entity/Q639669"
