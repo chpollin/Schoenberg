@@ -27,15 +27,12 @@
                 f) einheitliche schreibung von doktor/adelstiteln. erstere würde ich gerne ganz streichen
                 g) Anordnung der elemente: affil/occup/note sind durcheinander (wegen der früheren tabellenstruktur)
                 h) welche werte sind für @cert erlaubt? laut ediarum base nur high und low. -->
-                <person xml:id="p_2">
-                    <persName type="reg"><surname>(Ariann)</surname></persName>
-                    <note>Kiesewetter, 1912 (vermutlich Arianna), ID 7011, Aufschrift von fremder
-                        Hand ??</note>
-                </person>
+                
                 <person xml:id="p_3">
                     <idno type="uri">http://d-nb.info/gnd/118646370</idno>
                     <persName type="reg"
-                            ><surname>(Bahr-)Mildenburg</surname><forename>Anna</forename></persName>
+                            ><surname>Bahr-Mildenburg</surname><forename>Anna</forename></persName>
+                    <persName type="alt" subtype="birthname"><surname>Bellschan von Mildenburg</surname></persName>
                     <birth><date when="1872-11-29">1872-11-29</date>
                         <placeName>Wien</placeName></birth>
                     <death><date when="1947-01-27">1947-01-27</date>
@@ -1545,7 +1542,7 @@
                 </person>
                 <person xml:id="p_1152">
                     <persName type="reg"><surname>Frölich</surname><forename>Anna Marie</forename></persName>
-                    <persName type="alt><surname>Fric</surname></persName>
+                    <persName type="alt" subtype="birthname"><surname>Fric</surname></persName>
                     <note>UE</note>
                 </person>
                 <person xml:id="p_1153">
@@ -2925,10 +2922,10 @@
                 </person>
                 <person xml:id="p_2120">
                     <idno type="uri">http://d-nb.info/gnd/116007958</idno>
-                    <persName type="alt" subtype="birthname"
-                            ><surname>Adler</surname><forename>Ellen</forename></persName>
                     <persName type="reg"
                         ><surname>Leibowitz</surname><forename>Ellen</forename></persName>
+                    <persName type="alt" subtype="birthname"
+                            ><surname>Adler</surname><forename>Ellen</forename></persName>
                     <note>Renés Gattin, Sängerin…</note>
                 </person>
                 <person xml:id="p_2121">
