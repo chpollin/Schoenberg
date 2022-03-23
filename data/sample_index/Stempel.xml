@@ -426,7 +426,7 @@
             </item>
             <item>
                <stamp xml:id="stamp.44"> "<orgName key="org.1">Universal Edition
-                     Actiengesellschaft"</orgName>
+                  Actiengesellschaft</orgName>"
                </stamp>
             </item>
             <item>
@@ -472,20 +472,6 @@
                   am <!-- Lücke -->191<!-- Lücke --><lb/>I. <location>
                      <placeName key="place.9.11.6.17">Reichratsstraße 9</placeName>
                   </location>.</stamp>
-            </item>
-            <item>
-               <stamp xml:id="stamp.61">I. <location>
-                     <!-- der Stempel ist ein korrekturstelmpel zum grossen, weil sich 1914 die Adresse ändert. -->
-                     <placeName key="place.9.11.6.12">Karlsplatz Nr. 6</placeName>
-                  </location><lb/>(Musikvereinsgebäude.) </stamp>
-            </item>
-            <item>
-               <stamp xml:id="stamp.63">Musikedition,
-                  Wien<!-- auch ein Korrekturstempel, zu stamp.62 --></stamp>
-            </item>
-            <item>
-               <stamp xml:id="stamp.66">Ab 5. Mai 1926 neue Telefonnummer:<lb/>Serie
-                  57-5-85<!-- auch ein Korrekturstempel, zu stamp.65 --></stamp>
             </item>
             <item>
                <!-- postkartenvordruck -->
@@ -550,6 +536,9 @@
                   A.-G.</orgName><lb/>WIEN, I., <location>
                      <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
                   </location><lb/>(MUSIKVEREINSGEBÄUDE).</stamp>
+            </item>
+            <item>
+               <stamp xml:id="stamp.81"><orgName key="org.1">"Universal-Edition" Actiengesellschaft.</orgName></stamp>
             </item>
             <!-- Dreililien -->
             <item>
