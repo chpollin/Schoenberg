@@ -155,11 +155,6 @@
             <placeName key="place.9.11.6.17">Wien, Innere Stadt (I.), Reichsratsstr. 7</placeName>
           </location>
         </org>
-        <org xml:id="org.12" type="collectingsociety">
-          <idno type="uri">https://d-nb.info/gnd/1213842549</idno>
-          <orgName type="reg">Gesellschaft der Autoren, Komponisten und Musikverleger</orgName>
-          <orgName type="acronym">AKM</orgName>
-        </org>
         <org xml:id="org.13" type="business">
           <orgName type="reg">Albert Stahl Musikalienhandlung</orgName>
           <location>
@@ -732,7 +727,11 @@
           </location>
         </org>
         <org xml:id="org.102" type="agency">
+<<<<<<< Updated upstream
           <orgName type="reg">Kozertdirektion Leonard</orgName>
+=======
+          <orgName>Konzertdirektion Leonard</orgName>
+>>>>>>> Stashed changes
           <location>
             <placeName key="place.2.3.4.7">Berlin, Mitte, Schellingstr. 9</placeName>
           </location>
