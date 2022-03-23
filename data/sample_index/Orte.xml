@@ -2,23 +2,24 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="places" telota:doctype="register">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Ortsindex</title>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc>
-                <p/>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <listPlace>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="places"
+  telota:doctype="register">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ortsindex</title>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
         <place xml:id="place.1" type="country">
           <placeName type="reg">Dänemark</placeName>
           <location>
@@ -228,6 +229,13 @@
                   <geo>52.50540964504886, 13.368047875239506</geo>
                 </location>
               </place>
+              <place xml:id="place.2.3.4.11" type="building">
+                <placeName type="reg">Unter den Linden 26</placeName>
+                <location>
+                  <geo>52.51728656661856, 13.388528588889892</geo>
+                </location>
+              </place>
+
             </place>
             <place xml:id="place.2.3.5" type="district">
               <placeName type="reg">Prenzlauer Tor</placeName>
@@ -296,6 +304,12 @@
                 <placeName type="reg">Nussbaum-Allee 17</placeName>
                 <location>
                   <geo>52.51800738090323, 13.272727161714771</geo>
+                </location>
+              </place>
+              <place xml:id="place.2.3.8.2" type="building">
+                <placeName type="reg">Nussbaum-Allee 27</placeName>
+                <location>
+                  <geo>52.51843117021343, 13.269829124586947</geo>
                 </location>
               </place>
             </place>
@@ -1329,6 +1343,13 @@
             </location>
             <idno type="uri">http://sws.geonames.org/3173578</idno>
           </place>
+          <place xml:id="place.5.3" type="settlement">
+            <placeName type="reg">Florenz</placeName>
+            <location>
+              <geo>43.78645, 11.24892</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/6542285</idno>
+          </place>
           <place xml:id="place.5.4" type="settlement">
             <placeName type="reg">Perugia</placeName>
             <location>
@@ -1399,6 +1420,13 @@
                 <geo>45.4673694441667, 9.189610763200559</geo>
               </location>
             </place>
+          </place>
+          <place xml:id="place.5.8" type="settlement">
+            <placeName type="reg">Calenzano</placeName>
+            <location>
+              <geo>43.85595, 11.16272</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/6541087</idno>
           </place>
         </place>
         <place xml:id="place.6" type="country">
@@ -2612,6 +2640,12 @@
                   <geo>34.02262338667536, -118.2851854586175</geo>
                 </location>
               </place>
+              <place xml:id="place.15.7.2.2" type="building">
+                <placeName type="reg">University of California at Los Angeles</placeName>
+                <location>
+                  <geo>34.06931821689098, -118.44522128266965</geo>
+                </location>
+              </place>
             </place>
             <place xml:id="place.15.7.3" type="district">
               <placeName type="reg">Brentwood Park</placeName>
@@ -2802,6 +2836,19 @@
               </place>
             </place>
           </place>
+          <place xml:id="place.15.13" type="settlement">
+            <placeName type="reg">Monrovia</placeName>
+            <location>
+              <geo>34.14806, -117.99895</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/5374175</idno>
+            <place xml:id="place.15.13.1" type="building">
+              <placeName type="reg">341 W. Hillcrest Boulevard</placeName>
+              <location>
+                <geo>34.15779243907517, -118.00728153670217</geo>
+              </location>
+            </place>
+          </place>
         </place>
         <place xml:id="place.16" type="country">
           <placeName type="reg">Belgien</placeName>
@@ -2824,7 +2871,22 @@
             <idno type="uri">https://sws.geonames.org/2803138</idno>
           </place>
         </place>
+        <place xml:id="place.17" type="country">
+          <placeName type="reg">Slowakei</placeName>
+          <location>
+            <geo>48.66667, 19.5</geo>
+          </location>
+          <idno type="uri">https://sws.geonames.org/3057568</idno>
+          <place xml:id="place.17.1" type="settlement">
+            <placeName type="reg">Bratislava</placeName>
+            <placeName type="alt">Pressburg</placeName>
+            <location>
+              <geo>48.14816, 17.10674</geo>
+            </location>
+            <idno type="uri">https://sws.geonames.org/3060972</idno>
+          </place>
+        </place>
       </listPlace>
-        </body>
-    </text>
+    </body>
+  </text>
 </TEI>
