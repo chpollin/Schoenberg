@@ -727,11 +727,7 @@
           </location>
         </org>
         <org xml:id="org.102" type="agency">
-<<<<<<< Updated upstream
-          <orgName type="reg">Kozertdirektion Leonard</orgName>
-=======
           <orgName>Konzertdirektion Leonard</orgName>
->>>>>>> Stashed changes
           <location>
             <placeName key="place.2.3.4.7">Berlin, Mitte, Schellingstr. 9</placeName>
           </location>
