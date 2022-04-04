@@ -155,11 +155,6 @@
             <placeName key="place.9.11.6.17">Wien, Innere Stadt (I.), Reichsratsstr. 7</placeName>
           </location>
         </org>
-        <org xml:id="org.12" type="collectingsociety">
-          <idno type="uri">https://d-nb.info/gnd/1213842549</idno>
-          <orgName type="reg">Gesellschaft der Autoren, Komponisten und Musikverleger</orgName>
-          <orgName type="acronym">AKM</orgName>
-        </org>
         <org xml:id="org.13" type="business">
           <orgName type="reg">Albert Stahl Musikalienhandlung</orgName>
           <location>
@@ -732,7 +727,7 @@
           </location>
         </org>
         <org xml:id="org.102" type="agency">
-          <orgName type="reg">Kozertdirektion Leonard</orgName>
+          <orgName>Konzertdirektion Leonard</orgName>
           <location>
             <placeName key="place.2.3.4.7">Berlin, Mitte, Schellingstr. 9</placeName>
           </location>
@@ -1234,7 +1229,7 @@
         </org>
         <org xml:id="org.180" type="publisher">
           <idno type="URI">https://d-nb.info/gnd/1044029129</idno>
-          <orgName type="reg">Dreililien-Verlag</orgName>
+          <orgName type="reg">Verlag Dreililien</orgName>
           <location>
             <placeName key="place.2.3.3.1">Berlin, Halensee, Georg Wilhelm-Str. 22</placeName>
           </location>
@@ -1305,6 +1300,13 @@
         <org xml:id="org.192" type="journal">
           <idno/>
           <orgName type="reg">Neue Blätter</orgName>
+        </org>
+        <org xml:id="org.193" type="business">
+          <idno/>
+          <orgName type="reg">Café Bauer</orgName>
+          <location>
+            <placeName key="place.2.3.4.11">Unter den Linden 26</placeName>
+          </location>
         </org>
       </listOrg>
     </body>

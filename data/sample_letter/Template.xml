@@ -33,19 +33,22 @@
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName><forename>Philipp</forename><surname>Kehrer</surname></persName>
+                    <persName><forename>Philipp</forename>
+                        <surname>Kehrer</surname></persName>
                     <resp>
                         <term>Wissenschaftliche Mitarbeit</term>
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName><forename>Jannik</forename><surname>Franz</surname></persName>
+                    <persName><forename>Jannik</forename>
+                        <surname>Franz</surname></persName>
                     <resp>
                         <term>Wissenschaftliche Mitarbeit</term>
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <persName><forename>N.</forename><surname>N.</surname></persName>
+                    <persName><forename>N.</forename>
+                        <surname>N.</surname></persName>
                     <resp>
                         <term>Studentische Mitarbeit</term>
                     </resp>
@@ -88,8 +91,8 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc>
-                <!--  -->
+            <correspDesc><correspAction type="sent"><!--  --></correspAction>
+                <correspAction type="received"><!--  --></correspAction>
             </correspDesc>
             <textClass>
                 <keywords>
